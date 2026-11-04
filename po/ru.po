@@ -949,3 +949,26 @@ msgstr "файл подкачки %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "На носителе с отметкой %s уже есть файл подкачки; при выборе меняется его размер."
+
+msgid "Check for updates now"
+msgstr "Проверить обновления сейчас"
+
+msgid "Check now"
+msgstr "Проверить"
+
+msgid "Checking..."
+msgstr "Проверка..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Сразу спрашивает GitHub, есть ли новая версия, даже если автоматическая проверка выключена. Передаётся только IP-адрес; ничего не устанавливается автоматически."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "GitHub недоступен. Проверьте подключение к интернету и повторите попытку позже."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Доступен Simple Swap Manager %(new)s (установлен: %(old)s).\nЗагрузка: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager актуален (v%s)."

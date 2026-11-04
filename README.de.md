@@ -59,7 +59,7 @@ Ein moderner, einfach zu bedienender Swap-Manager für Enigma2-Receiver
   (mit derselben Prüfung auf freien RAM), und bietet danach einen GUI-Neustart an
 - Update-Hinweis (nur mit Zustimmung, wird einmal gefragt): Beim Öffnen fragt das Plugin
   höchstens einmal am Tag bei GitHub nach der neuesten Version und zeigt oben
-  *Update verfügbar* an (Details unten)
+  *Update verfügbar* an; manuelle Prüfung in den Einstellungen (Details unten)
 
 ## Wohin mit dem Swap?
 
@@ -139,7 +139,8 @@ fragt das Plugin deshalb, ob es nach Updates suchen darf. Nur nach einem *Ja* fr
 `api.github.com`, übertragen werden nur die IP-Adresse und der User-Agent
 `SimpleSwapManager/<Version>`) und zeigt oben *Update verfügbar* an. Heruntergeladen oder
 installiert wird nichts automatisch. Die Entscheidung lässt sich jederzeit in den Einstellungen
-ändern (*Nach Updates suchen*).
+ändern (*Nach Updates suchen*). Mit *Jetzt nach Updates suchen* in den Einstellungen wird sofort
+nachgefragt – auch bei ausgeschalteter automatischer Suche, die Anfrage geht dann nur nach OK raus.
 
 Deinstallation: in den Plugin-Einstellungen (*Plugin deinstallieren...*) oder mit `opkg remove
 enigma2-plugin-systemplugins-simpleswapmanager` (DreamOS: `dpkg -r ...`). Beim Entfernen im

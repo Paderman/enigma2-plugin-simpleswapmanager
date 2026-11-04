@@ -956,3 +956,26 @@ msgstr "αρχείο swap %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "Ένας δίσκος με την ένδειξη %s έχει ήδη αρχείο swap· η επιλογή του αλλάζει το μέγεθος."
+
+msgid "Check for updates now"
+msgstr "Έλεγχος για ενημερώσεις τώρα"
+
+msgid "Check now"
+msgstr "Έλεγχος τώρα"
+
+msgid "Checking..."
+msgstr "Έλεγχος..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Ρωτά αμέσως το GitHub αν υπάρχει νέα έκδοση, ακόμη και όταν ο αυτόματος έλεγχος είναι απενεργοποιημένος. Μεταδίδεται μόνο η διεύθυνση IP· τίποτα δεν εγκαθίσταται αυτόματα."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "Το GitHub δεν είναι προσβάσιμο. Ελέγξτε τη σύνδεση στο διαδίκτυο και δοκιμάστε ξανά αργότερα."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Το Simple Swap Manager %(new)s είναι διαθέσιμο (εγκατεστημένο: %(old)s).\nΛήψη: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Το Simple Swap Manager είναι ενημερωμένο (v%s)."

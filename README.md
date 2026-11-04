@@ -54,7 +54,8 @@ A modern, easy to use swap file manager for Enigma2 receivers
   (stays active until the next restart) or deleted right away (with the same free-RAM check),
   then offers to restart the GUI
 - Update hint (only if you agree, asked once): when the plugin is opened, it asks GitHub at most
-  once a day for the latest release and shows *Update available* at the top (details below)
+  once a day for the latest release and shows *Update available* at the top; manual check in the
+  settings (details below)
 
 ## Where should the swap go?
 
@@ -132,7 +133,8 @@ it asks whether it may look for updates. Only after a *yes*, it asks GitHub at m
 when the plugin is opened (one HTTPS request to `api.github.com`; only the IP address and the
 User-Agent `SimpleSwapManager/<version>` are transmitted) and shows *Update available* at the
 top. Nothing is downloaded or installed automatically. The choice can be changed at any time in
-the settings (*Check for updates*).
+the settings (*Check for updates*). *Check for updates now* in the settings asks right away – also
+when the automatic check is off, the request is then only sent on OK.
 
 Uninstall: in the plugin settings (*Uninstall plugin...*), or with `opkg remove
 enigma2-plugin-systemplugins-simpleswapmanager` (DreamOS: `dpkg -r ...`). Removing the package

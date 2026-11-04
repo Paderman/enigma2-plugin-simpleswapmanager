@@ -724,9 +724,13 @@ class SwapSettingsScreen(Screen):
 		""" + footerSkin(696, 1220, ("red", "green")) + """
 	</screen>""")
 
-	def __init__(self, session):
+	def __init__(self, session, version=""):
 		Screen.__init__(self, session)
 		self.skinName = "SimpleSwapSettings"
+		self.version = version
+		self.checking = False
+		self.closed = False
+		self.onClose.append(self.setClosed)
 		cfg = config.plugins.simpleswapmanager
 		self["title"] = Label(_("Simple Swap Manager settings"))
 		self["help"] = Label("")
@@ -798,6 +802,14 @@ class SwapSettingsScreen(Screen):
 				"config": cfg.update_check,
 			},
 			{
+				"title": _("Check for updates now"),
+				"help": _("Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."),
+				"choices": [("go", _("Check now")), ("busy", _("Checking..."))],
+				"value": "go",
+				"config": None,
+				"action": self.checkNow,
+			},
+			{
 				"title": _("Show plugin in"),
 				"help": _("Where Simple Swap Manager can be opened. A change takes effect after restarting the GUI."),
 				"choices": [("both", _("Plugins and storage menu")), ("plugins", _("Plugin browser only"))],
@@ -862,6 +874,52 @@ class SwapSettingsScreen(Screen):
 
 	def openInfo(self):
 		self.session.open(SwapInfoScreen)
+
+	def setClosed(self):
+		self.closed = True
+
+	# -- manual update check ------------------------------------------
+
+	def checkNow(self):
+		"""Ask GitHub right away; only on a key press, so it also works with the automatic check off."""
+		if self.checking:
+			return
+		try:
+			from twisted.internet import threads
+		except ImportError:
+			return
+		self.checking = True
+		self.setCheckLabel("busy")
+		threads.deferToThread(swaputil.fetch_latest_version, self.version).addCallback(self.checkedNow)
+
+	def setCheckLabel(self, value):
+		for o in self.options:
+			if o.get("action") == self.checkNow:
+				o["value"] = value
+		self.build()
+
+	def checkedNow(self, latest):
+		self.checking = False
+		if self.closed:
+			return
+		self.setCheckLabel("go")
+		title = _("Check for updates")
+		if not latest:
+			openMessage(self.session, title, _("GitHub could not be reached. Please check the internet connection and try again later."))
+			return
+		# the main screen shows the hint from this result (if the automatic check is on)
+		cfg = config.plugins.simpleswapmanager
+		cfg.update_latest.value = latest
+		cfg.update_latest.save()
+		cfg.update_last.value = "%d" % time.time()
+		cfg.update_last.save()
+		configfile.save()
+		if swaputil.is_newer(latest, self.version):
+			openMessage(self.session, _("Update available: v%s") % latest,
+				_("Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s") % {
+					"new": latest, "old": self.version, "url": swaputil.RELEASES_URL.replace("https://", "")})
+		else:
+			openMessage(self.session, title, _("Simple Swap Manager is up to date (v%s).") % self.version)
 
 	# -- uninstall ----------------------------------------------------
 
@@ -1522,7 +1580,7 @@ class SwapManagerScreen(Screen):
 			_("Delete"), default="no")
 
 	def openSettings(self):
-		self.session.openWithCallback(self.settingsClosed, SwapSettingsScreen)
+		self.session.openWithCallback(self.settingsClosed, SwapSettingsScreen, self.version)
 
 	def settingsClosed(self, result=None):
 		if result != "uninstalled":

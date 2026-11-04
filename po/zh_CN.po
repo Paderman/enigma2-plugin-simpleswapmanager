@@ -898,3 +898,26 @@ msgstr "交换文件 %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "标有 %s 的驱动器已有交换文件；选择它将更改其大小。"
+
+msgid "Check for updates now"
+msgstr "立即检查更新"
+
+msgid "Check now"
+msgstr "立即检查"
+
+msgid "Checking..."
+msgstr "正在检查..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "立即向 GitHub 查询是否有新版本，即使已关闭自动检查也可使用。仅传输 IP 地址；不会自动安装任何内容。"
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "无法连接 GitHub。请检查网络连接，稍后再试。"
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Simple Swap Manager %(new)s 已发布（已安装：%(old)s）。\n下载：%(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager 已是最新版本（v%s）。"

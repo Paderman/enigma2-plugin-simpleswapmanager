@@ -952,3 +952,26 @@ msgstr "swap fájl %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "A(z) %s jelölésű meghajtón már van swap fájl; kiválasztásával a méret módosul."
+
+msgid "Check for updates now"
+msgstr "Frissítések keresése most"
+
+msgid "Check now"
+msgstr "Keresés most"
+
+msgid "Checking..."
+msgstr "Keresés..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Azonnal megkérdezi a GitHubot, hogy van-e új verzió, akkor is, ha az automatikus keresés ki van kapcsolva. Csak az IP-cím kerül továbbításra; semmi sem települ automatikusan."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "A GitHub nem érhető el. Ellenőrizze az internetkapcsolatot, és próbálja újra később."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Elérhető a Simple Swap Manager %(new)s (telepítve: %(old)s).\nLetöltés: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "A Simple Swap Manager naprakész (v%s)."

@@ -942,3 +942,26 @@ msgstr "swap soubor %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "Disk označený %s už má swap soubor; jeho výběrem se změní velikost."
+
+msgid "Check for updates now"
+msgstr "Zkontrolovat aktualizace nyní"
+
+msgid "Check now"
+msgstr "Zkontrolovat"
+
+msgid "Checking..."
+msgstr "Probíhá kontrola..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Ihned se zeptá GitHubu, zda je k dispozici nová verze, i když je automatická kontrola vypnutá. Přenáší se pouze IP adresa; nic se neinstaluje automaticky."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "GitHub není dostupný. Zkontrolujte připojení k internetu a zkuste to později znovu."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "K dispozici je Simple Swap Manager %(new)s (nainstalováno: %(old)s).\nKe stažení: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager je aktuální (v%s)."

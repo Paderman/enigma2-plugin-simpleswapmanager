@@ -15,7 +15,7 @@ from Plugins.Plugin import PluginDescriptor
 from . import _
 from . import swaputil
 
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 
 config.plugins.simpleswapmanager = ConfigSubsection()
 config.plugins.simpleswapmanager.bootfile = ConfigText(default="")

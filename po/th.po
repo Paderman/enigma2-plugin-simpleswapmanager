@@ -938,3 +938,26 @@ msgstr "ไฟล์สว็อป %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "ไดรฟ์ที่มีป้าย %s มีไฟล์สว็อปอยู่แล้ว การเลือกจะเปลี่ยนขนาด"
+
+msgid "Check for updates now"
+msgstr "ตรวจหาอัปเดตตอนนี้"
+
+msgid "Check now"
+msgstr "ตรวจตอนนี้"
+
+msgid "Checking..."
+msgstr "กำลังตรวจ..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "ถาม GitHub ทันทีว่ามีเวอร์ชันใหม่หรือไม่ แม้ปิดการตรวจอัตโนมัติไว้ ส่งเฉพาะที่อยู่ IP เท่านั้น ไม่มีการติดตั้งใดๆ โดยอัตโนมัติ"
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "ไม่สามารถเชื่อมต่อ GitHub ได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองใหม่ภายหลัง"
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "มี Simple Swap Manager %(new)s แล้ว (ที่ติดตั้ง: %(old)s)\nดาวน์โหลด: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager เป็นเวอร์ชันล่าสุดแล้ว (v%s)"

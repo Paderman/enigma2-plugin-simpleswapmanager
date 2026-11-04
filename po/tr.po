@@ -951,3 +951,26 @@ msgstr "takas dosyası %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "%s olarak işaretli sürücüde zaten bir takas dosyası var; seçilirse boyutu değiştirilir."
+
+msgid "Check for updates now"
+msgstr "Güncellemeleri şimdi denetle"
+
+msgid "Check now"
+msgstr "Şimdi denetle"
+
+msgid "Checking..."
+msgstr "Denetleniyor..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Otomatik denetim kapalı olsa bile yeni bir sürüm olup olmadığını hemen GitHub'a sorar. Yalnızca IP adresi iletilir; hiçbir şey otomatik olarak kurulmaz."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "GitHub'a ulaşılamıyor. İnternet bağlantısını kontrol edin ve daha sonra yeniden deneyin."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Simple Swap Manager %(new)s kullanılabilir (yüklü: %(old)s).\nİndirme: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager güncel (v%s)."

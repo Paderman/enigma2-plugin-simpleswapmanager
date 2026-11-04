@@ -953,3 +953,26 @@ msgstr "swap fails %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "Diskā ar atzīmi %s jau ir swap fails; to izvēloties, tiek mainīts izmērs."
+
+msgid "Check for updates now"
+msgstr "Meklēt atjauninājumus tagad"
+
+msgid "Check now"
+msgstr "Meklēt tagad"
+
+msgid "Checking..."
+msgstr "Meklē..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Uzreiz jautā GitHub, vai ir pieejama jauna versija, arī tad, ja automātiskā meklēšana ir izslēgta. Tiek pārsūtīta tikai IP adrese; nekas netiek instalēts automātiski."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "GitHub nav sasniedzams. Pārbaudiet interneta savienojumu un mēģiniet vēlāk vēlreiz."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Pieejams Simple Swap Manager %(new)s (instalēts: %(old)s).\nLejupielāde: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager ir aktuāls (v%s)."

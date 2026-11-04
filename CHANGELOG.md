@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 – 2026-11-04
+
+- Manual update check: "Check for updates now" in the settings asks GitHub right away and shows
+  whether a new version is available, Simple Swap Manager is up to date, or GitHub could not be
+  reached. Works also when the automatic check is off (the request is only sent on OK)
+
 ## 1.1.0 – 2026-11-04
 
 - Update hint, only with consent: the first time the plugin is opened, it asks whether it may

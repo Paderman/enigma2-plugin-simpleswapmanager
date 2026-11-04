@@ -948,3 +948,26 @@ msgstr "swap datoteka %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "Disk označen sa %s već ima swap datoteku; izborom se menja veličina."
+
+msgid "Check for updates now"
+msgstr "Proveri ažuriranja sada"
+
+msgid "Check now"
+msgstr "Proveri sada"
+
+msgid "Checking..."
+msgstr "Provera..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Odmah pita GitHub da li postoji nova verzija, i kada je automatska provera isključena. Prenosi se samo IP adresa; ništa se ne instalira automatski."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "GitHub nije dostupan. Proverite internet vezu i pokušajte ponovo kasnije."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Dostupan je Simple Swap Manager %(new)s (instalirano: %(old)s).\nPreuzimanje: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager je ažuran (v%s)."

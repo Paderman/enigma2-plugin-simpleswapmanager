@@ -948,3 +948,26 @@ msgstr "swap-fil %s"
 #, python-format
 msgid "A drive marked %s already has a swap file; choosing it changes the size."
 msgstr "Et drev markeret %s har allerede en swap-fil; vælges det, ændres størrelsen."
+
+msgid "Check for updates now"
+msgstr "Søg efter opdateringer nu"
+
+msgid "Check now"
+msgstr "Søg nu"
+
+msgid "Checking..."
+msgstr "Søger..."
+
+msgid "Asks GitHub right away whether a new version is available, also when the automatic check is off. Only your IP address is transmitted; nothing is installed automatically."
+msgstr "Spørger straks GitHub, om der findes en ny version, også når den automatiske søgning er slået fra. Kun IP-adressen overføres; intet installeres automatisk."
+
+msgid "GitHub could not be reached. Please check the internet connection and try again later."
+msgstr "GitHub kunne ikke nås. Kontrollér internetforbindelsen, og prøv igen senere."
+
+#, python-format
+msgid "Simple Swap Manager %(new)s is available (installed: %(old)s).\nDownload: %(url)s"
+msgstr "Simple Swap Manager %(new)s er tilgængelig (installeret: %(old)s).\nDownload: %(url)s"
+
+#, python-format
+msgid "Simple Swap Manager is up to date (v%s)."
+msgstr "Simple Swap Manager er opdateret (v%s)."
