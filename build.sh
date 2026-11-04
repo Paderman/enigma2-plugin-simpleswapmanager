@@ -50,3 +50,7 @@ rm -f "$BUILD/control/md5sums"
 if command -v dpkg-deb >/dev/null 2>&1; then
 	dpkg-deb --info "dist/${PKG}_${VERSION}_all_experimental.deb" >/dev/null && echo "  dpkg-deb: package structure ok"
 fi
+
+# Checksums for the release page: verify with "sha256sum -c SHA256SUMS"
+( cd dist && sha256sum "${PKG}_${VERSION}_all.ipk" "${PKG}_${VERSION}_all_experimental.deb" > SHA256SUMS )
+echo "Built dist/SHA256SUMS"

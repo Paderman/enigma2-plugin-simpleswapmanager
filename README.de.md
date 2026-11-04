@@ -96,6 +96,7 @@ Voraussetzungen: `msgfmt` (gettext), `ar`, `tar`.
 ./build.sh
 # -> dist/enigma2-plugin-systemplugins-simpleswapmanager_<version>_all.ipk  (opkg-Images)
 # -> dist/enigma2-plugin-systemplugins-simpleswapmanager_<version>_all_experimental.deb  (DreamOS, experimentell)
+# -> dist/SHA256SUMS  (Prüfsummen für die Release-Seite)
 ```
 
 Die `.deb` ist für DreamOS (Dreambox DM900/DM920/One/Two). Sie wird aus denselben Dateien gebaut
@@ -116,6 +117,10 @@ ssh root@<box> 'opkg install /tmp/enigma2-plugin-systemplugins-simpleswapmanager
 # DreamOS: dpkg -i /tmp/...deb; apt-get -f install
 # danach die GUI neu starten
 ```
+
+Download prüfen (optional): Zu jedem Release gibt es eine Datei `SHA256SUMS`. Lege sie neben
+das Paket und führe `sha256sum -c --ignore-missing SHA256SUMS` aus – es muss `OK` erscheinen.
+GitHub zeigt die SHA-256 jeder Datei außerdem auf der Release-Seite an.
 
 Deinstallation: in den Plugin-Einstellungen (*Plugin deinstallieren...*) oder mit `opkg remove
 enigma2-plugin-systemplugins-simpleswapmanager` (DreamOS: `dpkg -r ...`). Beim Entfernen im
