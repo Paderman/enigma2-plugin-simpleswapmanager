@@ -908,3 +908,14 @@ msgid ""
 "startup."
 msgstr ""
 "A tömörített RAM-swap kikapcsol, és indításkor többé nem lesz beállítva."
+
+msgid "Check for updates"
+msgstr "Frissítések keresése"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "A bővítmény megnyitásakor legfeljebb naponta egyszer megkérdezi a GitHubot, van-e új verzió, és felül értesítést jelenít meg. Csak az IP-cím kerül továbbításra; semmi sem települ automatikusan. Letöltések: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Frissítés érhető el: v%s"

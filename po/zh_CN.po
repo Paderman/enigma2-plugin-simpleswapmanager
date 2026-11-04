@@ -854,3 +854,14 @@ msgid ""
 "The compressed RAM swap will be deactivated and will no longer be set up at "
 "startup."
 msgstr "压缩内存交换将被停用，启动时也不再设置。"
+
+msgid "Check for updates"
+msgstr "检查更新"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "打开插件时，每天最多向 GitHub 查询一次是否有新版本，并在顶部显示提示。仅传输 IP 地址；不会自动安装任何内容。下载：%s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "有可用更新：v%s"

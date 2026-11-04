@@ -252,5 +252,43 @@ class Zram(unittest.TestCase):
 		self.assertEqual(swaputil.zram_ratio(None), 0.0)
 
 
+class UpdateCheckTest(unittest.TestCase):
+	def test_parse_version(self):
+		self.assertEqual(swaputil.parse_version("v1.2.3"), (1, 2, 3))
+		self.assertEqual(swaputil.parse_version("1.10"), (1, 10))
+		self.assertIsNone(swaputil.parse_version("v1.2.0-beta"))
+		self.assertIsNone(swaputil.parse_version(""))
+		self.assertIsNone(swaputil.parse_version(None))
+
+	def test_is_newer(self):
+		self.assertTrue(swaputil.is_newer("1.1.0", "1.0.0"))
+		self.assertTrue(swaputil.is_newer("1.10.0", "1.9.0"))
+		self.assertTrue(swaputil.is_newer("1.0.1", "1.0"))
+		self.assertFalse(swaputil.is_newer("1.0", "1.0.0"))
+		self.assertFalse(swaputil.is_newer("1.0.0", "1.1.0"))
+		self.assertFalse(swaputil.is_newer("garbage", "1.0.0"))
+		self.assertFalse(swaputil.is_newer("", "1.0.0"))
+
+	def test_parse_latest_release(self):
+		self.assertEqual(swaputil.parse_latest_release(b'{"tag_name": "v1.2.0"}'), "1.2.0")
+		self.assertEqual(swaputil.parse_latest_release('{"tag_name": "1.2.0", "draft": false}'), "1.2.0")
+		self.assertIsNone(swaputil.parse_latest_release(b'{"tag_name": "v1.2.0", "prerelease": true}'))
+		self.assertIsNone(swaputil.parse_latest_release(b'{"tag_name": "nightly"}'))
+		self.assertIsNone(swaputil.parse_latest_release(b'{"tag_name": 5}'))
+		self.assertIsNone(swaputil.parse_latest_release(b'{"message": "API rate limit exceeded"}'))
+		self.assertIsNone(swaputil.parse_latest_release(b'<html>'))
+		self.assertIsNone(swaputil.parse_latest_release(b'[]'))
+
+	def test_update_check_due(self):
+		day = swaputil.UPDATE_INTERVAL
+		self.assertTrue(swaputil.update_check_due(0, now=1000))
+		self.assertFalse(swaputil.update_check_due(1000, now=1000 + day - 1))
+		self.assertTrue(swaputil.update_check_due(1000, now=1000 + day))
+		self.assertTrue(swaputil.update_check_due(5000, now=1000))  # clock went backwards
+
+	def test_fetch_failure_returns_none(self):
+		self.assertIsNone(swaputil.fetch_latest_version("1.0.0", timeout=1, url="http://127.0.0.1:9/"))
+
+
 if __name__ == "__main__":
 	unittest.main()

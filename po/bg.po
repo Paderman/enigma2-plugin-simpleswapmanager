@@ -911,3 +911,14 @@ msgid ""
 msgstr ""
 "Компресираният суап в RAM ще бъде деактивиран и вече няма да се настройва "
 "при стартиране."
+
+msgid "Check for updates"
+msgstr "Проверка за обновления"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "При отваряне на добавката тя пита GitHub най-много веднъж дневно дали има нова версия и показва известие горе. Предава се само IP адресът; нищо не се инсталира автоматично. Изтегляне: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Налично обновление: v%s"

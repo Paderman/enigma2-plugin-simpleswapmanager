@@ -905,3 +905,14 @@ msgid ""
 msgstr ""
 "Сжатая подкачка в ОЗУ будет отключена и больше не будет настраиваться при "
 "запуске."
+
+msgid "Check for updates"
+msgstr "Проверять обновления"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "При открытии плагин не чаще одного раза в день спрашивает GitHub, есть ли новая версия, и показывает уведомление вверху. Передаётся только IP-адрес; ничего не устанавливается автоматически. Загрузки: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Доступно обновление: v%s"

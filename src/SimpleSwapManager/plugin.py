@@ -15,7 +15,7 @@ from Plugins.Plugin import PluginDescriptor
 from . import _
 from . import swaputil
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 config.plugins.simpleswapmanager = ConfigSubsection()
 config.plugins.simpleswapmanager.bootfile = ConfigText(default="")
@@ -29,6 +29,10 @@ config.plugins.simpleswapmanager.zram_algo = ConfigText(default="auto")
 config.plugins.simpleswapmanager.menu = ConfigSelection(
 	default="both",
 	choices=[("both", _("Plugins and storage menu")), ("plugins", _("Plugin browser only"))])
+# update check: asks GitHub at most once a day when the plugin is opened
+config.plugins.simpleswapmanager.update_check = ConfigYesNo(default=True)
+config.plugins.simpleswapmanager.update_last = ConfigText(default="")    # time of the last check
+config.plugins.simpleswapmanager.update_latest = ConfigText(default="")  # latest version found
 
 
 def zramAlgorithm():

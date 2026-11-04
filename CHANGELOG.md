@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 – 2026-11-04
+
+- Update hint: when the plugin is opened, it asks GitHub at most once a day for the latest
+  release and shows "Update available" at the top. Only the IP address is transmitted, nothing
+  is installed automatically; can be switched off in the settings ("Check for updates")
+- Better contrast: darker badge colours (green, orange, yellow) so the white label is readable,
+  brighter red for "Uninstall" on the selection bar
+- Settings: larger, brighter help texts (30 instead of 26 px) with more room, also for long
+  translations
+
 ## 1.0.0 – 2026-11-03
 
 First public release.

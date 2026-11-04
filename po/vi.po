@@ -897,3 +897,14 @@ msgid ""
 "The compressed RAM swap will be deactivated and will no longer be set up at "
 "startup."
 msgstr "Hoán đổi RAM nén sẽ bị tắt và không còn được thiết lập khi khởi động."
+
+msgid "Check for updates"
+msgstr "Kiểm tra cập nhật"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Khi mở plugin, plugin hỏi GitHub tối đa mỗi ngày một lần xem có phiên bản mới không và hiển thị thông báo ở phía trên. Chỉ địa chỉ IP được gửi đi; không có gì được cài đặt tự động. Tải về: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Có bản cập nhật: v%s"

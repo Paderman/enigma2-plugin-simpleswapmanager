@@ -898,3 +898,14 @@ msgid ""
 "startup."
 msgstr ""
 "Komprimovaný swap v RAM bude vypnutý a pri štarte sa už nebude nastavovať."
+
+msgid "Check for updates"
+msgstr "Kontrolovať aktualizácie"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Pri otvorení doplnku sa najviac raz denne opýta GitHubu, či existuje nová verzia, a hore zobrazí upozornenie. Prenáša sa iba IP adresa; nič sa neinštaluje automaticky. Na stiahnutie: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "K dispozícii aktualizácia: v%s"

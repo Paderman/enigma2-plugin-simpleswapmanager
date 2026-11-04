@@ -909,3 +909,14 @@ msgid ""
 msgstr ""
 "Стиснену підкачку в ОЗП буде вимкнено, і вона більше не налаштовуватиметься "
 "під час запуску."
+
+msgid "Check for updates"
+msgstr "Перевіряти оновлення"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Під час відкриття плагін не частіше ніж раз на день запитує GitHub, чи є нова версія, і показує сповіщення вгорі. Передається лише IP-адреса; нічого не встановлюється автоматично. Завантаження: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Доступне оновлення: v%s"

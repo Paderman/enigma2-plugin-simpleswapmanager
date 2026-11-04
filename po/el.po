@@ -912,3 +912,14 @@ msgid ""
 msgstr ""
 "Το συμπιεσμένο swap στη RAM θα απενεργοποιηθεί και δεν θα ρυθμίζεται πλέον "
 "στην εκκίνηση."
+
+msgid "Check for updates"
+msgstr "Έλεγχος για ενημερώσεις"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Όταν ανοίγει το πρόσθετο, ρωτά το GitHub το πολύ μία φορά την ημέρα αν υπάρχει νέα έκδοση και εμφανίζει μια ειδοποίηση επάνω. Μεταδίδεται μόνο η διεύθυνση IP· τίποτα δεν εγκαθίσταται αυτόματα. Λήψεις: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Διαθέσιμη ενημέρωση: v%s"

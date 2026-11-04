@@ -43,6 +43,10 @@ C_YELLOW = 0xD29922
 C_BLUE = 0x1F6FEB
 C_TRACK = 0x303A4A
 C_ORANGE = 0xDB6D28
+C_HELP = 0xB4BFCA        # explanation texts: brighter than muted, calmer than text
+C_RED_TEXT = 0xF85149    # red as text color, readable on the selection bar too
+# darker badge backgrounds so the white label reaches a contrast of 4.5:1
+PILL_COLORS = {C_GREEN: 0x238636, C_ORANGE: 0xBD561D, C_YELLOW: 0x9E6A03}
 
 
 def _hex(c):
@@ -75,7 +79,7 @@ def scaleSkin(xml):
 COLORS = {
 	"bg": C_BG, "card": C_CARD, "sel": C_SEL, "line": C_LINE, "text": C_TEXT, "muted": C_MUTED,
 	"accent": C_ACCENT, "purple": C_PURPLE, "green": C_GREEN, "red": C_RED, "yellow": C_YELLOW,
-	"blue": C_BLUE, "track": C_TRACK,
+	"blue": C_BLUE, "track": C_TRACK, "help": C_HELP,
 }
 
 
@@ -150,7 +154,7 @@ def _text(x, y, w, h, font, text, color=C_TEXT, flags=RT_HALIGN_LEFT | RT_VALIGN
 
 
 def _pill(x, y, w, text, color):
-	return _text(x, y, w, 40, 2, text, color=0xFFFFFF, flags=RT_HALIGN_CENTER | RT_VALIGN_CENTER, back=color)
+	return _text(x, y, w, 40, 2, text, color=0xFFFFFF, flags=RT_HALIGN_CENTER | RT_VALIGN_CENTER, back=PILL_COLORS.get(color, color))
 
 
 class Bar(object):
@@ -713,8 +717,8 @@ class SwapSettingsScreen(Screen):
 		<eLabel position="0,0" size="1300,760" backgroundColor="$bg$" zPosition="-1" />
 		<eLabel position="0,0" size="1300,6" backgroundColor="$accent$" zPosition="1" />
 		<widget name="title" position="40,28" size="1220,56" font="Regular;40" foregroundColor="$text$" backgroundColor="$bg$" transparent="1" />
-		<widget name="list" position="40,110" size="1220,400" scrollbarMode="showOnDemand" backgroundColor="$bg$" backgroundColorSelected="$sel$" foregroundColor="$text$" foregroundColorSelected="$text$" />
-		<widget name="help" position="40,530" size="1220,145" font="Regular;26" foregroundColor="$muted$" backgroundColor="$bg$" transparent="1" valign="top" />
+		<widget name="list" position="40,110" size="1220,340" scrollbarMode="showOnDemand" backgroundColor="$bg$" backgroundColorSelected="$sel$" foregroundColor="$text$" foregroundColorSelected="$text$" />
+		<widget name="help" position="40,464" size="1220,210" font="Regular;30" foregroundColor="$help$" backgroundColor="$bg$" transparent="1" valign="top" />
 		<eLabel position="40,680" size="1220,2" backgroundColor="$line$" />
 		""" + footerSkin(696, 1220, ("red", "green")) + """
 	</screen>""")
@@ -727,7 +731,7 @@ class SwapSettingsScreen(Screen):
 		self["help"] = Label("")
 		KeyLabel(self, "red", _("Cancel"))
 		KeyLabel(self, "green", _("Save"))
-		self["list"] = ModernList(itemHeight=100)
+		self["list"] = ModernList(itemHeight=85)
 
 		files = [s["path"] for s in swaputil.list_swaps((cfg.bootfile.value,)) if s["type"] == "file"]
 		if cfg.bootfile.value and cfg.bootfile.value not in files:
@@ -786,6 +790,13 @@ class SwapSettingsScreen(Screen):
 				})
 		self.options += [
 			{
+				"title": _("Check for updates"),
+				"help": _("When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s") % swaputil.RELEASES_URL.replace("https://", ""),
+				"choices": [(True, _("On")), (False, _("Off"))],
+				"value": cfg.update_check.value,
+				"config": cfg.update_check,
+			},
+			{
 				"title": _("Show plugin in"),
 				"help": _("Where Simple Swap Manager can be opened. A change takes effect after restarting the GUI."),
 				"choices": [("both", _("Plugins and storage menu")), ("plugins", _("Plugin browser only"))],
@@ -807,7 +818,7 @@ class SwapSettingsScreen(Screen):
 				"value": "go",
 				"config": None,
 				"action": self.uninstall,
-				"color": C_RED,
+				"color": C_RED_TEXT,
 			},
 		]
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions"], {
@@ -829,8 +840,8 @@ class SwapSettingsScreen(Screen):
 		for i, o in enumerate(self.options):
 			label = dict(o["choices"]).get(o["value"], o["value"])
 			rows.append([i,
-				_text(24, 0, 600, 100, 0, o["title"]),
-				_text(620, 0, 520, 100, 1, label if o["config"] is None else u"\u2039  %s  \u203A" % label,
+				_text(24, 0, 600, 85, 0, o["title"]),
+				_text(620, 0, 520, 85, 1, label if o["config"] is None else u"\u2039  %s  \u203A" % label,
 					color=o.get("color", C_ACCENT), flags=RT_HALIGN_RIGHT | RT_VALIGN_CENTER),
 			])
 		self["list"].setList(rows)
@@ -903,7 +914,8 @@ class SwapSettingsScreen(Screen):
 					steps.append({"label": _("Moving data back to RAM..."), "cmd": "swapoff %s" % q})
 				steps.append({"label": _("Deleting swap file..."), "cmd": "rm -f %s" % q})
 			# a clean removal: back to the defaults, enigma2 then drops the entries from its settings
-			for item in (cfg.bootfile, cfg.swappiness, cfg.zram_size, cfg.zram_autostart, cfg.zram_algo, cfg.menu):
+			for item in (cfg.bootfile, cfg.swappiness, cfg.zram_size, cfg.zram_autostart, cfg.zram_algo, cfg.menu,
+					cfg.update_check, cfg.update_last, cfg.update_latest):
 				item.value = item.default
 				item.save()
 			configfile.save()
@@ -959,6 +971,7 @@ class SwapManagerScreen(Screen):
 		<eLabel position="0,0" size="1300,6" backgroundColor="$accent$" zPosition="1" />
 		<widget name="title" position="40,26" size="900,60" font="Regular;44" foregroundColor="$text$" backgroundColor="$bg$" transparent="1" />
 		<widget name="version" position="940,40" size="320,40" font="Regular;24" halign="right" foregroundColor="$muted$" backgroundColor="$bg$" transparent="1" />
+		<widget name="update" position="440,40" size="720,40" font="Regular;24" halign="right" foregroundColor="$accent$" backgroundColor="$bg$" transparent="1" />
 
 		<eLabel position="40,110" size="1220,330" backgroundColor="$card$" zPosition="0" />
 		<widget name="ram_label" position="70,130" size="155,50" font="Regular;30" foregroundColor="$text$" backgroundColor="$card$" transparent="1" valign="center" zPosition="1" />
@@ -992,7 +1005,10 @@ class SwapManagerScreen(Screen):
 		self.cfg = config.plugins.simpleswapmanager
 		self.swaps = []
 		self["title"] = Label(_("Simple Swap Manager"))
+		self.version = version
+		self.closed = False
 		self["version"] = Label("v%s" % version)
+		self["update"] = Label("")
 		self["ram_label"] = Label(_("RAM"))
 		self["swap_label"] = Label(_("Swap"))
 		self["ram_value"] = Label("")
@@ -1058,8 +1074,44 @@ class SwapManagerScreen(Screen):
 		recent = swaputil.oom_this_boot(swaputil.update_oom_history())
 		if recent:
 			self.setStatus(_("Out of memory %d times since start - INFO for details") % len(recent), error=True)
+		self.checkUpdate()
+
+	def checkUpdate(self):
+		"""Show a hint when GitHub has a newer release (at most one request a day)."""
+		if not self.cfg.update_check.value:
+			return
+		self.showUpdate(self.cfg.update_latest.value)
+		try:
+			last = float(self.cfg.update_last.value or 0)
+		except ValueError:
+			last = 0
+		if not swaputil.update_check_due(last):
+			return
+		try:
+			from twisted.internet import threads
+		except ImportError:
+			return
+		# remember the attempt right away: no new request on every open while GitHub is unreachable
+		self.cfg.update_last.value = "%d" % time.time()
+		self.cfg.update_last.save()
+		configfile.save()
+		threads.deferToThread(swaputil.fetch_latest_version, self.version).addCallback(self.updateChecked)
+
+	def updateChecked(self, latest):
+		if not latest:
+			return
+		if latest != self.cfg.update_latest.value:
+			self.cfg.update_latest.value = latest
+			self.cfg.update_latest.save()
+			configfile.save()
+		if not self.closed:  # the screen may have been closed meanwhile
+			self.showUpdate(latest)
+
+	def showUpdate(self, latest):
+		self["update"].setText(_("Update available: v%s") % latest if swaputil.is_newer(latest, self.version) else "")
 
 	def stopTimers(self):
+		self.closed = True
 		self.refreshTimer.stop()
 		self.statusTimer.stop()
 
@@ -1433,6 +1485,10 @@ class SwapManagerScreen(Screen):
 	def settingsClosed(self, result=None):
 		if result != "uninstalled":
 			self.refresh()
+			if self.cfg.update_check.value:
+				self.checkUpdate()
+			else:
+				self["update"].setText("")
 			return
 		self.stopTimers()
 

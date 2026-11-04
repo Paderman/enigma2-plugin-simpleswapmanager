@@ -906,3 +906,14 @@ msgid ""
 msgstr ""
 "Pakattu RAM-swap poistetaan käytöstä, eikä sitä enää oteta käyttöön "
 "käynnistyksessä."
+
+msgid "Check for updates"
+msgstr "Tarkista päivitykset"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Kun laajennus avataan, se kysyy GitHubilta enintään kerran päivässä, onko uutta versiota, ja näyttää ilmoituksen ylhäällä. Vain IP-osoite välitetään; mitään ei asenneta automaattisesti. Lataukset: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Päivitys saatavilla: v%s"

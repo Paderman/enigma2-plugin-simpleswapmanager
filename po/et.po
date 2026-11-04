@@ -902,3 +902,14 @@ msgid ""
 "startup."
 msgstr ""
 "Pakitud RAM-saale lülitatakse välja ja seda ei seadistata enam käivitamisel."
+
+msgid "Check for updates"
+msgstr "Otsi uuendusi"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Plugina avamisel küsib see GitHubilt kõige rohkem kord päevas, kas on uus versioon, ja näitab üleval teadet. Edastatakse ainult IP-aadress; midagi ei paigaldata automaatselt. Allalaadimine: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Uuendus saadaval: v%s"

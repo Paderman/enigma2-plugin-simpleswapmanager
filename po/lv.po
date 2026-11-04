@@ -909,3 +909,14 @@ msgid ""
 msgstr ""
 "Saspiestā RAM mijmaiņa tiks deaktivizēta un startējot vairs netiks "
 "iestatīta."
+
+msgid "Check for updates"
+msgstr "Meklēt atjauninājumus"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Atverot spraudni, tas ne biežāk kā reizi dienā jautā GitHub, vai ir jauna versija, un augšpusē parāda paziņojumu. Tiek pārsūtīta tikai IP adrese; nekas netiek instalēts automātiski. Lejupielādes: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Pieejams atjauninājums: v%s"

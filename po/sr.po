@@ -904,3 +904,14 @@ msgid ""
 msgstr ""
 "Sažeti swap u RAM-u biće deaktiviran i više se neće podešavati pri "
 "pokretanju."
+
+msgid "Check for updates"
+msgstr "Proveri ažuriranja"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Pri otvaranju dodatka najviše jednom dnevno pita GitHub da li postoji nova verzija i prikazuje obaveštenje na vrhu. Prenosi se samo IP adresa; ništa se ne instalira automatski. Preuzimanja: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Dostupno ažuriranje: v%s"

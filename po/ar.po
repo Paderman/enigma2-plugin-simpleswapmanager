@@ -889,3 +889,14 @@ msgid ""
 "startup."
 msgstr ""
 "سيتم إيقاف التبديل المضغوط في RAM ولن يُعَدّ بعد الآن عند بدء التشغيل."
+
+msgid "Check for updates"
+msgstr "البحث عن تحديثات"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "عند فتح الإضافة، تسأل GitHub مرة واحدة يوميًا على الأكثر عن وجود إصدار جديد، وتعرض تنبيهًا في الأعلى. يتم إرسال عنوان IP فقط، ولا يُثبَّت أي شيء تلقائيًا. التنزيلات: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "تحديث متاح: v%s"

@@ -907,3 +907,14 @@ msgid ""
 msgstr ""
 "Stisnjena izmenjava v RAM-u bo izklopljena in se ob zagonu ne bo več "
 "nastavljala."
+
+msgid "Check for updates"
+msgstr "Preveri posodobitve"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Ob odprtju vtičnika ta največ enkrat na dan vpraša GitHub, ali obstaja nova različica, in na vrhu prikaže obvestilo. Prenese se samo naslov IP; nič se ne namesti samodejno. Prenosi: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Na voljo je posodobitev: v%s"

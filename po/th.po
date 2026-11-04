@@ -894,3 +894,14 @@ msgid ""
 "startup."
 msgstr ""
 "สว็อปใน RAM แบบบีบอัดจะถูกปิดใช้งาน และจะไม่ถูกตั้งค่าเมื่อเริ่มระบบอีก"
+
+msgid "Check for updates"
+msgstr "ตรวจหาอัปเดต"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "เมื่อเปิดปลั๊กอิน จะถาม GitHub ไม่เกินวันละครั้งว่ามีเวอร์ชันใหม่หรือไม่ และแสดงข้อความแจ้งด้านบน ส่งเพียงที่อยู่ IP เท่านั้น ไม่มีการติดตั้งสิ่งใดโดยอัตโนมัติ ดาวน์โหลด: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "มีอัปเดต: v%s"

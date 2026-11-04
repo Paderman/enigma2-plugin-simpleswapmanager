@@ -907,3 +907,14 @@ msgid ""
 msgstr ""
 "Sıkıştırılmış RAM takası devre dışı bırakılacak ve açılışta artık "
 "kurulmayacak."
+
+msgid "Check for updates"
+msgstr "Güncellemeleri denetle"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Eklenti açıldığında GitHub'a günde en fazla bir kez yeni sürüm olup olmadığını sorar ve üstte bir bildirim gösterir. Yalnızca IP adresi iletilir; hiçbir şey otomatik olarak kurulmaz. İndirmeler: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Güncelleme mevcut: v%s"

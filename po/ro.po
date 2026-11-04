@@ -909,3 +909,14 @@ msgid ""
 msgstr ""
 "Swap-ul comprimat în RAM va fi dezactivat și nu va mai fi configurat la "
 "pornire."
+
+msgid "Check for updates"
+msgstr "Caută actualizări"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "La deschiderea pluginului, acesta întreabă GitHub cel mult o dată pe zi dacă există o versiune nouă și afișează un mesaj sus. Se transmite doar adresa IP; nimic nu se instalează automat. Descărcări: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Actualizare disponibilă: v%s"

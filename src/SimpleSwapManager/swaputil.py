@@ -850,3 +850,71 @@ def uninstall_cmd(plugin_dir, package=PACKAGE):
 	return ("if command -v opkg >/dev/null 2>&1; then opkg remove %(p)s; "
 		"elif command -v dpkg >/dev/null 2>&1; then dpkg -r %(p)s; fi; "
 		"rm -rf %(d)s; [ ! -e %(d)s ]") % {"p": package, "d": q}
+
+
+# ---------------------------------------------------------------- update check
+
+RELEASES_URL = "https://github.com/Paderman/enigma2-plugin-simpleswapmanager/releases"
+LATEST_RELEASE_API = "https://api.github.com/repos/Paderman/enigma2-plugin-simpleswapmanager/releases/latest"
+UPDATE_INTERVAL = 24 * 3600
+
+
+def parse_version(text):
+	"""'v1.2.3' -> (1, 2, 3); None if it is not a plain release version."""
+	m = re.match(r"^\s*v?(\d+(?:\.\d+){0,3})\s*$", text or "")
+	if not m:
+		return None
+	return tuple(int(x) for x in m.group(1).split("."))
+
+
+def is_newer(latest, current):
+	"""True if version string latest is newer than current (missing parts count as 0)."""
+	a, b = parse_version(latest), parse_version(current)
+	if a is None or b is None:
+		return False
+	n = max(len(a), len(b))
+	return a + (0,) * (n - len(a)) > b + (0,) * (n - len(b))
+
+
+def parse_latest_release(data):
+	"""Version from a GitHub 'latest release' JSON answer, or None."""
+	try:
+		info = json.loads(data.decode("utf-8") if isinstance(data, bytes) else data)
+	except (ValueError, UnicodeDecodeError):
+		return None
+	if not isinstance(info, dict) or info.get("draft") or info.get("prerelease"):
+		return None
+	tag = info.get("tag_name")
+	# json returns text as unicode on Python 2 and str on Python 3
+	if not isinstance(tag, type(u"")) or parse_version(tag) is None:
+		return None
+	return str(tag.strip().lstrip("v"))
+
+
+def update_check_due(last_check, now=None, interval=UPDATE_INTERVAL):
+	"""Check again once the interval has passed (or the clock jumped backwards)."""
+	now = time.time() if now is None else now
+	return not last_check or now - last_check >= interval or now < last_check
+
+
+def fetch_latest_version(current, timeout=5, url=LATEST_RELEASE_API):
+	"""Ask GitHub for the latest release (blocking, run it in a thread).
+
+	Only a plain HTTPS GET with a generic User-Agent; returns the version or None.
+	"""
+	try:
+		from urllib.request import Request, urlopen
+	except ImportError:  # Python 2
+		from urllib2 import Request, urlopen
+	req = Request(url, headers={
+		"User-Agent": "SimpleSwapManager/%s" % current,
+		"Accept": "application/vnd.github+json",
+	})
+	try:
+		resp = urlopen(req, timeout=timeout)
+		try:
+			return parse_latest_release(resp.read(65536))
+		finally:
+			resp.close()
+	except Exception:
+		return None

@@ -57,6 +57,8 @@ Ein moderner, einfach zu bedienender Swap-Manager für Enigma2-Receiver
 - Deinstallation aus den Einstellungen (MENU > *Plugin deinstallieren...*): fragt, ob der
   Swap-Speicher behalten (bleibt bis zum nächsten Neustart aktiv) oder sofort gelöscht wird
   (mit derselben Prüfung auf freien RAM), und bietet danach einen GUI-Neustart an
+- Update-Hinweis: Beim Öffnen fragt das Plugin höchstens einmal am Tag bei GitHub nach der
+  neuesten Version und zeigt oben *Update verfügbar* an (Details unten)
 
 ## Wohin mit dem Swap?
 
@@ -121,6 +123,14 @@ ssh root@<box> 'opkg install /tmp/enigma2-plugin-systemplugins-simpleswapmanager
 Download prüfen (optional): Zu jedem Release gibt es eine Datei `SHA256SUMS`. Lege sie neben
 das Paket und führe `sha256sum -c --ignore-missing SHA256SUMS` aus – es muss `OK` erscheinen.
 GitHub zeigt die SHA-256 jeder Datei außerdem auf der Release-Seite an.
+
+Updates: das neue Paket genauso installieren, die Einstellungen bleiben erhalten. Das Plugin ist
+nicht im Feed des Images, das normale Software-Update sieht es also nicht. Stattdessen fragt das
+Plugin beim Öffnen höchstens einmal am Tag bei GitHub nach der neuesten Version (eine
+HTTPS-Anfrage an `api.github.com`, übertragen werden nur die IP-Adresse und der User-Agent
+`SimpleSwapManager/<Version>`) und zeigt oben *Update verfügbar* an. Heruntergeladen oder
+installiert wird nichts automatisch. Abschalten lässt es sich in den Einstellungen
+(*Nach Updates suchen*).
 
 Deinstallation: in den Plugin-Einstellungen (*Plugin deinstallieren...*) oder mit `opkg remove
 enigma2-plugin-systemplugins-simpleswapmanager` (DreamOS: `dpkg -r ...`). Beim Entfernen im

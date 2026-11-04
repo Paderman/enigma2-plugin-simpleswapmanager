@@ -915,3 +915,14 @@ msgid ""
 msgstr ""
 "Der komprimierte RAM-Swap wird deaktiviert und beim Start nicht mehr "
 "eingerichtet."
+
+msgid "Check for updates"
+msgstr "Nach Updates suchen"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Beim Öffnen des Plugins wird höchstens einmal am Tag bei GitHub nachgefragt, ob es eine neue Version gibt, und oben ein Hinweis angezeigt. Dabei wird nur die IP-Adresse übertragen; installiert wird nichts automatisch. Downloads: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Update verfügbar: v%s"

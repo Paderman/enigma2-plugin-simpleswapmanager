@@ -911,3 +911,14 @@ msgid ""
 msgstr ""
 "O swap comprimido na RAM será desativado e deixará de ser configurado no "
 "arranque."
+
+msgid "Check for updates"
+msgstr "Procurar atualizações"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Ao abrir o plugin, ele pergunta ao GitHub no máximo uma vez por dia se existe uma nova versão e mostra um aviso no topo. Apenas o endereço IP é transmitido; nada é instalado automaticamente. Transferências: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Atualização disponível: v%s"

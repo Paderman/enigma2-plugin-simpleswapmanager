@@ -904,3 +904,14 @@ msgid ""
 "startup."
 msgstr ""
 "Den komprimerede RAM-swap slås fra og sættes ikke længere op ved opstart."
+
+msgid "Check for updates"
+msgstr "Søg efter opdateringer"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "Når pluginet åbnes, spørger det højst én gang om dagen GitHub, om der findes en ny version, og viser en besked øverst. Kun IP-adressen overføres; intet installeres automatisk. Download: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "Opdatering tilgængelig: v%s"

@@ -879,3 +879,14 @@ msgid ""
 "The compressed RAM swap will be deactivated and will no longer be set up at "
 "startup."
 msgstr "ההחלפה הדחוסה ב-RAM תכובה ולא תוגדר עוד בהפעלה."
+
+msgid "Check for updates"
+msgstr "בדיקת עדכונים"
+
+#, python-format
+msgid "When the plugin is opened, it asks GitHub at most once a day whether a new version exists, and shows a hint at the top. Only your IP address is transmitted; nothing is installed automatically. Downloads: %s"
+msgstr "בעת פתיחת התוסף הוא שואל את GitHub לכל היותר פעם ביום אם קיימת גרסה חדשה, ומציג הודעה למעלה. נשלחת רק כתובת ה-IP; שום דבר אינו מותקן אוטומטית. הורדות: %s"
+
+#, python-format
+msgid "Update available: v%s"
+msgstr "עדכון זמין: v%s"
