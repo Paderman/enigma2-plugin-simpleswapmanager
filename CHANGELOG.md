@@ -2,9 +2,12 @@
 
 ## 1.1.0 – 2026-11-04
 
-- Update hint: when the plugin is opened, it asks GitHub at most once a day for the latest
-  release and shows "Update available" at the top. Only the IP address is transmitted, nothing
-  is installed automatically; can be switched off in the settings ("Check for updates")
+- Update hint, only with consent: the first time the plugin is opened, it asks whether it may
+  look for updates (also after updating from 1.0.0). If yes, it asks GitHub at most once a day
+  when the plugin is opened and shows "Update available" at the top. Only the IP address is
+  transmitted, nothing is installed automatically; can be changed in the settings
+  ("Check for updates")
+- New plugin icon: "SWM" instead of "SW"
 - Better contrast: darker badge colours (green, orange, yellow) so the white label is readable,
   brighter red for "Uninstall" on the selection bar
 - Settings: larger, brighter help texts (30 instead of 26 px) with more room, also for long

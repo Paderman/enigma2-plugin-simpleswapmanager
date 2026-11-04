@@ -915,7 +915,7 @@ class SwapSettingsScreen(Screen):
 				steps.append({"label": _("Deleting swap file..."), "cmd": "rm -f %s" % q})
 			# a clean removal: back to the defaults, enigma2 then drops the entries from its settings
 			for item in (cfg.bootfile, cfg.swappiness, cfg.zram_size, cfg.zram_autostart, cfg.zram_algo, cfg.menu,
-					cfg.update_check, cfg.update_last, cfg.update_latest):
+					cfg.update_check, cfg.update_asked, cfg.update_last, cfg.update_latest):
 				item.value = item.default
 				item.save()
 			configfile.save()
@@ -956,6 +956,9 @@ class SwapSettingsScreen(Screen):
 			o["config"].value = o["value"]
 			o["config"].save()
 		cfg = config.plugins.simpleswapmanager
+		if not cfg.update_asked.value and cfg.update_check.value:
+			cfg.update_asked.value = True  # switched on in the settings: no need to ask any more
+			cfg.update_asked.save()
 		if cfg.swappiness.value != "system":
 			swaputil.set_swappiness(cfg.swappiness.value)
 		configfile.save()
@@ -1055,12 +1058,15 @@ class SwapManagerScreen(Screen):
 
 		self.refreshTimer = eTimer()
 		self.statusTimer = eTimer()
+		self.askTimer = eTimer()
 		try:
 			self.refreshTimer.callback.append(self.refresh)
 			self.statusTimer.callback.append(self.clearStatus)
+			self.askTimer.callback.append(self.askUpdateCheck)
 		except AttributeError:
 			self._c1 = self.refreshTimer.timeout.connect(self.refresh)
 			self._c2 = self.statusTimer.timeout.connect(self.clearStatus)
+			self._c3 = self.askTimer.timeout.connect(self.askUpdateCheck)
 		self.onLayoutFinish.append(self.firstShow)
 		self.onClose.append(self.stopTimers)
 
@@ -1076,8 +1082,34 @@ class SwapManagerScreen(Screen):
 			self.setStatus(_("Out of memory %d times since start - INFO for details") % len(recent), error=True)
 		self.checkUpdate()
 
+	def askUpdateCheck(self):
+		"""Ask once whether the plugin may look for updates; nothing is sent before a yes."""
+		self.askTimer.stop()
+		if self.closed or self.cfg.update_asked.value:
+			return
+		items = [
+			("yes", _("Yes, check for updates"), _("At most once a day, when the plugin is opened")),
+			("no", _("No"), _("Can be switched on later in the settings")),
+		]
+		self.session.openWithCallback(self.updateCheckAnswered, SwapSelectScreen, _("Check for updates?"),
+			_("Simple Swap Manager can ask GitHub whether a new version is available. Only the IP address of this receiver is transmitted; nothing is installed automatically.\nThis can be changed at any time in the settings."),
+			items, "yes")
+
+	def updateCheckAnswered(self, key):
+		if key not in ("yes", "no"):
+			return  # EXIT: no decision yet, ask again next time
+		self.cfg.update_check.value = key == "yes"
+		self.cfg.update_check.save()
+		self.cfg.update_asked.value = True
+		self.cfg.update_asked.save()
+		configfile.save()
+		self.checkUpdate()
+
 	def checkUpdate(self):
 		"""Show a hint when GitHub has a newer release (at most one request a day)."""
+		if not self.cfg.update_asked.value:
+			self.askTimer.start(200, True)  # open the question once this screen is shown
+			return
 		if not self.cfg.update_check.value:
 			return
 		self.showUpdate(self.cfg.update_latest.value)
@@ -1112,6 +1144,7 @@ class SwapManagerScreen(Screen):
 
 	def stopTimers(self):
 		self.closed = True
+		self.askTimer.stop()
 		self.refreshTimer.stop()
 		self.statusTimer.stop()
 

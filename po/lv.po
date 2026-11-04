@@ -920,3 +920,25 @@ msgstr "Atverot spraudni, tas ne biežāk kā reizi dienā jautā GitHub, vai ir
 #, python-format
 msgid "Update available: v%s"
 msgstr "Pieejams atjauninājums: v%s"
+
+msgid "Check for updates?"
+msgstr "Meklēt atjauninājumus?"
+
+msgid ""
+"Simple Swap Manager can ask GitHub whether a new version is available. Only the IP address of this receiver is transmitted; nothing is installed automatically.\n"
+"This can be changed at any time in the settings."
+msgstr ""
+"Simple Swap Manager var jautāt GitHub, vai ir pieejama jauna versija. Tiek pārsūtīta tikai šī uztvērēja IP adrese; nekas netiek instalēts automātiski.\n"
+"To jebkurā laikā var mainīt iestatījumos."
+
+msgid "Yes, check for updates"
+msgstr "Jā, meklēt atjauninājumus"
+
+msgid "At most once a day, when the plugin is opened"
+msgstr "Ne biežāk kā reizi dienā, atverot spraudni"
+
+msgid "No"
+msgstr "Nē"
+
+msgid "Can be switched on later in the settings"
+msgstr "Var ieslēgt vēlāk iestatījumos"

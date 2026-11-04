@@ -922,3 +922,25 @@ msgstr "Al abrir el plugin, consulta a GitHub como máximo una vez al día si ha
 #, python-format
 msgid "Update available: v%s"
 msgstr "Actualización disponible: v%s"
+
+msgid "Check for updates?"
+msgstr "¿Buscar actualizaciones?"
+
+msgid ""
+"Simple Swap Manager can ask GitHub whether a new version is available. Only the IP address of this receiver is transmitted; nothing is installed automatically.\n"
+"This can be changed at any time in the settings."
+msgstr ""
+"Simple Swap Manager puede preguntar a GitHub si hay una versión nueva. Solo se transmite la dirección IP de este receptor; no se instala nada automáticamente.\n"
+"Se puede cambiar en cualquier momento en los ajustes."
+
+msgid "Yes, check for updates"
+msgstr "Sí, buscar actualizaciones"
+
+msgid "At most once a day, when the plugin is opened"
+msgstr "Como máximo una vez al día, al abrir el plugin"
+
+msgid "No"
+msgstr "No"
+
+msgid "Can be switched on later in the settings"
+msgstr "Se puede activar más tarde en los ajustes"

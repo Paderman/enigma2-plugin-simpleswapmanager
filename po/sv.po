@@ -913,3 +913,25 @@ msgstr "När insticksprogrammet öppnas frågar det GitHub högst en gång om da
 #, python-format
 msgid "Update available: v%s"
 msgstr "Uppdatering tillgänglig: v%s"
+
+msgid "Check for updates?"
+msgstr "Sök efter uppdateringar?"
+
+msgid ""
+"Simple Swap Manager can ask GitHub whether a new version is available. Only the IP address of this receiver is transmitted; nothing is installed automatically.\n"
+"This can be changed at any time in the settings."
+msgstr ""
+"Simple Swap Manager kan fråga GitHub om en ny version finns. Endast den här mottagarens IP-adress överförs; inget installeras automatiskt.\n"
+"Detta kan ändras när som helst i inställningarna."
+
+msgid "Yes, check for updates"
+msgstr "Ja, sök efter uppdateringar"
+
+msgid "At most once a day, when the plugin is opened"
+msgstr "Högst en gång om dagen, när insticksprogrammet öppnas"
+
+msgid "No"
+msgstr "Nej"
+
+msgid "Can be switched on later in the settings"
+msgstr "Kan slås på senare i inställningarna"

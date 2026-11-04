@@ -913,3 +913,25 @@ msgstr "Plugina avamisel küsib see GitHubilt kõige rohkem kord päevas, kas on
 #, python-format
 msgid "Update available: v%s"
 msgstr "Uuendus saadaval: v%s"
+
+msgid "Check for updates?"
+msgstr "Kas otsida uuendusi?"
+
+msgid ""
+"Simple Swap Manager can ask GitHub whether a new version is available. Only the IP address of this receiver is transmitted; nothing is installed automatically.\n"
+"This can be changed at any time in the settings."
+msgstr ""
+"Simple Swap Manager saab GitHubilt küsida, kas uus versioon on saadaval. Edastatakse ainult selle vastuvõtja IP-aadress; midagi ei paigaldata automaatselt.\n"
+"Seda saab igal ajal seadetes muuta."
+
+msgid "Yes, check for updates"
+msgstr "Jah, otsi uuendusi"
+
+msgid "At most once a day, when the plugin is opened"
+msgstr "Kõige rohkem kord päevas, kui pluginat avatakse"
+
+msgid "No"
+msgstr "Ei"
+
+msgid "Can be switched on later in the settings"
+msgstr "Saab hiljem seadetes sisse lülitada"

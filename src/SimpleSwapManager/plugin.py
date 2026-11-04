@@ -29,8 +29,10 @@ config.plugins.simpleswapmanager.zram_algo = ConfigText(default="auto")
 config.plugins.simpleswapmanager.menu = ConfigSelection(
 	default="both",
 	choices=[("both", _("Plugins and storage menu")), ("plugins", _("Plugin browser only"))])
-# update check: asks GitHub at most once a day when the plugin is opened
-config.plugins.simpleswapmanager.update_check = ConfigYesNo(default=True)
+# update check: asks GitHub at most once a day when the plugin is opened,
+# only after the user agreed (asked once when the plugin is opened for the first time)
+config.plugins.simpleswapmanager.update_check = ConfigYesNo(default=False)
+config.plugins.simpleswapmanager.update_asked = ConfigYesNo(default=False)
 config.plugins.simpleswapmanager.update_last = ConfigText(default="")    # time of the last check
 config.plugins.simpleswapmanager.update_latest = ConfigText(default="")  # latest version found
 

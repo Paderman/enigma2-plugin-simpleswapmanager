@@ -53,8 +53,8 @@ A modern, easy to use swap file manager for Enigma2 receivers
 - Uninstall from the settings (MENU > *Uninstall plugin...*): asks whether the swap space is kept
   (stays active until the next restart) or deleted right away (with the same free-RAM check),
   then offers to restart the GUI
-- Update hint: when the plugin is opened, it asks GitHub at most once a day for the latest
-  release and shows *Update available* at the top (details below)
+- Update hint (only if you agree, asked once): when the plugin is opened, it asks GitHub at most
+  once a day for the latest release and shows *Update available* at the top (details below)
 
 ## Where should the swap go?
 
@@ -121,11 +121,12 @@ package and run `sha256sum -c --ignore-missing SHA256SUMS` – it must say `OK`.
 shows the SHA-256 of each file on the release page.
 
 Updates: install the new package the same way, the settings are kept. The plugin is not in the
-image's feed, so the normal software update does not see it. Instead, when the plugin is opened,
-it asks GitHub at most once a day for the latest release (one HTTPS request to
-`api.github.com`, only the IP address and the User-Agent `SimpleSwapManager/<version>` are
-transmitted) and shows *Update available* at the top. Nothing is downloaded or installed
-automatically. It can be switched off in the settings (*Check for updates*).
+image's feed, so the normal software update does not see it. The first time the plugin is opened,
+it asks whether it may look for updates. Only after a *yes*, it asks GitHub at most once a day
+when the plugin is opened (one HTTPS request to `api.github.com`; only the IP address and the
+User-Agent `SimpleSwapManager/<version>` are transmitted) and shows *Update available* at the
+top. Nothing is downloaded or installed automatically. The choice can be changed at any time in
+the settings (*Check for updates*).
 
 Uninstall: in the plugin settings (*Uninstall plugin...*), or with `opkg remove
 enigma2-plugin-systemplugins-simpleswapmanager` (DreamOS: `dpkg -r ...`). Removing the package
