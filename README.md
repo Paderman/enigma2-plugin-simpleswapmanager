@@ -71,6 +71,12 @@ From best to worst:
 With a low swappiness (10-20) a receiver hardly swaps at all in normal use. The dashboard shows how much
 was written to swap since boot, so you can see whether wear is an issue at all.
 
+Hard disk standby does not need to be switched off: when swapped-out data is needed, the disk
+wakes up by itself (the GUI may pause for a few seconds while it spins up). With a low swappiness
+this rarely happens. Exception: some cheap USB enclosures switch off completely when idle and come
+back as a new device – the swap is then gone and programs with swapped-out data can crash. If that
+happens after longer pauses, use another enclosure or a USB stick / SSD.
+
 ## Keys
 
 | Key    | Function                         |

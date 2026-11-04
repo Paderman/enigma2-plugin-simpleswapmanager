@@ -252,6 +252,50 @@ class Zram(unittest.TestCase):
 		self.assertEqual(swaputil.zram_ratio(None), 0.0)
 
 
+class SwapFileSearch(unittest.TestCase):
+	SWAPS_EMPTY = "Filename\tType\tSize\tUsed\tPriority\n"
+
+	def make_swap_file(self, directory, name="swapfile"):
+		path = os.path.join(directory, name)
+		ps = swaputil.page_size()
+		with open(path, "wb") as f:
+			f.write(b"\0" * (ps - 10) + b"SWAPSPACE2" + b"\0" * (ps * 10))
+		return path
+
+	def test_find_inactive_swap_file(self):
+		import tempfile
+		d = tempfile.mkdtemp()
+		try:
+			path = self.make_swap_file(d)
+			other = os.path.join(d, "swap.txt")
+			open(other, "w").close()  # named *swap*, but no signature
+			with FakeSys({"/proc/swaps": self.SWAPS_EMPTY, "/proc/mounts": ""}):
+				found = swaputil.find_swap_files((path, other))
+			self.assertEqual(list(found), [path])
+			self.assertEqual(found[path], os.path.getsize(path) // 1024)
+		finally:
+			import shutil
+			shutil.rmtree(d)
+
+	def test_list_swaps_reuses_search_result(self):
+		def no_search(*a, **k):
+			raise AssertionError("the drives must not be searched")
+		orig = swaputil.find_swap_files
+		swaputil.find_swap_files = no_search
+		try:
+			swaps = self.SWAPS_EMPTY + "/media/usb/swapfile file 1048572 2048 -2\n"
+			with FakeSys({"/proc/swaps": swaps}):
+				entries = swaputil.list_swaps(files={"/media/hdd/swapfile": 524288, "/media/usb/swapfile": 1})
+		finally:
+			swaputil.find_swap_files = orig
+		by_path = dict((e["path"], e) for e in entries)
+		self.assertFalse(by_path["/media/hdd/swapfile"]["active"])
+		self.assertEqual(by_path["/media/hdd/swapfile"]["size_kb"], 524288)
+		# active in /proc/swaps wins over the (outdated) search result
+		self.assertTrue(by_path["/media/usb/swapfile"]["active"])
+		self.assertEqual(by_path["/media/usb/swapfile"]["used_kb"], 2048)
+
+
 class UpdateCheckTest(unittest.TestCase):
 	def test_parse_version(self):
 		self.assertEqual(swaputil.parse_version("v1.2.3"), (1, 2, 3))

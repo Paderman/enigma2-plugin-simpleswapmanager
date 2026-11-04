@@ -473,12 +473,36 @@ def _candidate_files(directory):
 	return [os.path.join(directory, n) for n in names if "swap" in n.lower()]
 
 
-def list_swaps(extra_paths=(), zram_size_mb=0):
+def find_swap_files(extra_paths=()):
+	"""Inactive swap files on the drives: {path: size_kb}.
+
+	Lists the top directory of every drive and reads the header of files named
+	*swap*; this touches the drives, so callers that refresh often keep the result.
+	"""
+	active = active_paths()
+	dirs = set()
+	for m in read_mounts():
+		if m["device"].startswith("/dev/") and (m["mount"] == "/" or m["mount"].startswith("/media/") or m["mount"].startswith("/mnt/")):
+			dirs.add(m["mount"])
+	candidates = set(p for p in extra_paths if p)
+	for d in dirs:
+		candidates.update(_candidate_files(d))
+	found = {}
+	for path in candidates:
+		if path not in active and is_swap_file(path):
+			found[path] = os.path.getsize(path) // 1024
+	return found
+
+
+def list_swaps(extra_paths=(), zram_size_mb=0, files=None):
 	"""Return all known swap spaces: active ones and swap files found on disk.
 
 	zram_size_mb: size of the configured (maybe inactive) zram swap, 0 = none.
+	files: result of find_swap_files() to reuse; None = search the drives now.
 	Each entry: dict(path, type, size_kb, used_kb, active, prio); type is file, partition or zram
 	"""
+	if files is None:
+		files = find_swap_files(extra_paths)
 	entries = {}
 	for s in read_swaps():
 		if is_zram(s["path"]):
@@ -495,21 +519,12 @@ def list_swaps(extra_paths=(), zram_size_mb=0):
 			"prio": s["prio"],
 			"active": True,
 		}
-	dirs = set()
-	for m in read_mounts():
-		if m["device"].startswith("/dev/") and (m["mount"] == "/" or m["mount"].startswith("/media/") or m["mount"].startswith("/mnt/")):
-			dirs.add(m["mount"])
-	candidates = set(extra_paths)
-	for d in dirs:
-		candidates.update(_candidate_files(d))
-	for path in candidates:
-		if path in entries or not path:
-			continue
-		if is_swap_file(path):
+	for path, size_kb in files.items():
+		if path not in entries:
 			entries[path] = {
 				"path": path,
 				"type": "file",
-				"size_kb": os.path.getsize(path) // 1024,
+				"size_kb": size_kb,
 				"used_kb": 0,
 				"prio": 0,
 				"active": False,

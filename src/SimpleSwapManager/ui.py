@@ -1008,6 +1008,7 @@ class SwapManagerScreen(Screen):
 		self.skinName = "SimpleSwapManager"
 		self.cfg = config.plugins.simpleswapmanager
 		self.swaps = []
+		self.swapFiles = None  # inactive swap files on the drives, searched on open and after actions
 		self["title"] = Label(_("Simple Swap Manager"))
 		self.version = version
 		self.closed = False
@@ -1061,11 +1062,11 @@ class SwapManagerScreen(Screen):
 		self.statusTimer = eTimer()
 		self.askTimer = eTimer()
 		try:
-			self.refreshTimer.callback.append(self.refresh)
+			self.refreshTimer.callback.append(self.tick)
 			self.statusTimer.callback.append(self.clearStatus)
 			self.askTimer.callback.append(self.askUpdateCheck)
 		except AttributeError:
-			self._c1 = self.refreshTimer.timeout.connect(self.refresh)
+			self._c1 = self.refreshTimer.timeout.connect(self.tick)
 			self._c2 = self.statusTimer.timeout.connect(self.clearStatus)
 			self._c3 = self.askTimer.timeout.connect(self.askUpdateCheck)
 		self.onLayoutFinish.append(self.firstShow)
@@ -1189,7 +1190,11 @@ class SwapManagerScreen(Screen):
 
 	# -- display ------------------------------------------------------
 
-	def refresh(self):
+	def tick(self):
+		"""Every 3 s: values from /proc only, the drives are not touched (a sleeping disk stays asleep)."""
+		self.refresh(scan=False)
+
+	def refresh(self, scan=True):
 		mi = swaputil.read_meminfo()
 		total = mi.get("MemTotal", 0)
 		avail = mi.get("MemAvailable", 0)
@@ -1199,7 +1204,10 @@ class SwapManagerScreen(Screen):
 
 		bootfile = self.cfg.bootfile.value
 		zsize = self.cfg.zram_size.value if swaputil.zram_supported() else 0
-		self.swaps = swaputil.list_swaps((bootfile,) if bootfile else (), zsize)
+		extra = (bootfile,) if bootfile else ()
+		if scan or self.swapFiles is None:
+			self.swapFiles = swaputil.find_swap_files(extra)
+		self.swaps = swaputil.list_swaps(extra, zsize, files=self.swapFiles)
 		stotal = sum(s["size_kb"] for s in self.swaps if s["active"])
 		sused = sum(s["used_kb"] for s in self.swaps if s["active"])
 		self.swapBar.set(float(sused) / stotal if stotal else 0)

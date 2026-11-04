@@ -76,6 +76,13 @@ Vom besten zum ungünstigsten Ort:
 Mit niedriger Swappiness (10-20) lagert ein Receiver im Alltag kaum aus. Die Übersicht zeigt, wie viel seit
 dem Start in den Swap geschrieben wurde – so sieht man, ob Verschleiß überhaupt ein Thema ist.
 
+Den Standby der Festplatte muss man nicht abschalten: Werden ausgelagerte Daten gebraucht, wacht
+die Platte von selbst auf (die Oberfläche kann dabei ein paar Sekunden hängen, bis sie angelaufen
+ist). Mit niedriger Swappiness kommt das selten vor. Ausnahme: Manche billigen USB-Gehäuse schalten
+sich bei Inaktivität ganz ab und melden sich danach als neues Gerät – dann ist der Swap weg und
+Programme mit ausgelagerten Daten können abstürzen. Passiert das nach längeren Pausen, hilft ein
+anderes Gehäuse oder ein USB-Stick / eine SSD.
+
 ## Tasten
 
 | Taste  | Funktion                              |

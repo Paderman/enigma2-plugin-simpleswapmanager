@@ -8,6 +8,9 @@
   transmitted, nothing is installed automatically; can be changed in the settings
   ("Check for updates")
 - New plugin icon: "SWM" instead of "SW"
+- While the plugin is open, the values are still updated every 3 seconds, but the drives are
+  only searched for swap files when the plugin is opened and after an action, so a hard disk in
+  standby is not woken up
 - Better contrast: darker badge colours (green, orange, yellow) so the white label is readable,
   brighter red for "Uninstall" on the selection bar
 - Larger, brighter explanation texts: settings help, wizard / dialog texts and system info help
