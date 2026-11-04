@@ -1,0 +1,70 @@
+#!/bin/sh
+# @COMMON@
+
+mode=install; old=""
+if [ -r "$STATE_FILE" ]; then
+	read -r mode old < "$STATE_FILE"
+	rm -f "$STATE_FILE"
+fi
+
+if [ "$mode" = "upgrade" ] && [ -n "$old" ] && [ "$old" != "$PKG_VERSION" ]; then
+	ui_header "$(T title_update "$old" "$PKG_VERSION")"
+elif [ "$mode" = "upgrade" ]; then
+	ui_header "$(T title_reinst)"
+else
+	ui_header "$(T title_install)"
+fi
+
+if [ -f "$PLUGIN_DIR/plugin.py" ] && [ -f "$PLUGIN_DIR/ui.py" ] && [ -f "$PLUGIN_DIR/swaputil.py" ]; then
+	ui_ok "$(T files_ok)"
+else
+	ui_err "$(T files_bad)"
+fi
+
+count=1
+names="$(lang_name en)"
+for d in "$PLUGIN_DIR"/locale/*/; do
+	[ -d "$d" ] || continue
+	count=$((count + 1))
+	names="$names, $(lang_name "$(basename "$d")")"
+done
+ui_ok "$(T langs "$count")"
+# language names, wrapped to lines of about 50 characters
+echo "$names" | tr ',' '\n' | sed 's/^ *//' | awk '
+	{ if (length(line) + length($0) > 48 && line != "") { print line ","; line = $0 } else line = (line == "" ? $0 : line ", " $0) }
+	END { if (line != "") print line }' | while IFS= read -r l; do ui_dim "$l"; done
+[ "$mode" = "upgrade" ] && ui_ok "$(T kept)"
+
+ui_sep
+mb=$(ram_mb)
+[ -n "$mb" ] && ui_info "$(T ram "$mb")"
+swaps=$(active_swaps)
+if [ -n "$swaps" ]; then
+	echo "$swaps" | while read -r path size type; do
+		ui_info "$(T swap_active "$path" "$size")"
+	done
+else
+	ui_info "$(T swap_none)"
+fi
+if zram_supported; then
+	ui_info "$(T zram_yes)"
+else
+	ui_info "$(T zram_no)"
+fi
+
+# dpkg (DreamOS) sets DPKG_MAINTSCRIPT_NAME - the .deb build is experimental
+if [ -n "$DPKG_MAINTSCRIPT_NAME" ]; then
+	ui_sep
+	ui_warn "$(T experimental)"
+fi
+if [ "$mode" = "upgrade" ]; then
+	ui_restart_hint restart_upd
+else
+	ui_restart_hint restart
+fi
+if [ "$mode" != "upgrade" ]; then
+	ui_dim "$(T find_it)"
+	ui_text "$(T find_path)"
+fi
+ui_end
+exit 0

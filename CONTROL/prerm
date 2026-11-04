@@ -1,0 +1,39 @@
+#!/bin/sh
+# @COMMON@
+
+# Nothing to show on an update - postinst of the new version reports.
+[ "$1" = "remove" ] || [ "$1" = "purge" ] || exit 0
+
+ui_header "$(T title_remove)"
+
+# Active swap is never switched off here: with little free RAM that could
+# take the box down. It simply is no longer activated at the next start.
+boot=$(boot_swapfile)
+found=""
+swaps=$(active_swaps)
+if [ -n "$swaps" ]; then
+	echo "$swaps" > /tmp/.simpleswapmanager-swaps
+	while read -r path size type; do
+		case "$type" in
+		file)
+			ui_info "$(T rm_swap_on "$path" "$size")"
+			ui_text "$(T rm_no_boot)"
+			ui_dim "$(T rm_delete)"
+			ui_cmd "swapoff $path && rm $path"
+			;;
+		*)
+			case "$path" in
+			*zram*) ui_info "$(T rm_zram)" ;;
+			esac
+			;;
+		esac
+	done < /tmp/.simpleswapmanager-swaps
+	rm -f /tmp/.simpleswapmanager-swaps
+	found=$(echo "$swaps" | awk '{ print $1 }')
+fi
+if [ -n "$boot" ] && [ -f "$boot" ] && ! echo "$found" | grep -qxF "$boot"; then
+	ui_info "$(T rm_swap_kept "$boot")"
+	ui_dim "$(T rm_delete)"
+	ui_cmd "rm $boot"
+fi
+exit 0

@@ -1,0 +1,904 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: sv\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Systemstandard"
+
+msgid "Plugins and storage menu"
+msgstr "Tillägg och lagringsmeny"
+
+msgid "Plugin browser only"
+msgstr "Endast tilläggsbläddraren"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Skapa och hantera växlingsfiler"
+
+msgid "Hard disk"
+msgstr "Hårddisk"
+
+msgid "USB storage"
+msgstr "USB-lagring"
+
+msgid "SD card"
+msgstr "SD-kort"
+
+msgid "Internal flash"
+msgstr "Internt flashminne"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Välj     EXIT  Tillbaka"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"zram-enheten kunde inte skapas. Den här kärnan stöder troligen inte zram."
+
+msgid "Please wait..."
+msgstr "Vänta..."
+
+msgid "Could not start command."
+msgstr "Kommandot kunde inte startas."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "%s av %s skrivet"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Felkod %d"
+
+msgid "Error"
+msgstr "Fel"
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Done"
+msgstr "Klart"
+
+msgid "Cancelled."
+msgstr "Avbrutet."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram är laddat och klart att använda."
+
+msgid "zram is built into the kernel."
+msgstr "zram är inbyggt i kärnan."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram finns som kärnmodul och laddas vid behov."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Kärnan i den här mottagaren (%s) byggdes utan zram. En växlingsfil på en "
+"enhet är den bästa lösningen här."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Kärnan stöder zram som modul, men modulen är inte installerad (kärna %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Inget zram-stöd hittades i kärnan (%s)."
+
+msgid "available"
+msgstr "tillgängligt"
+
+msgid "module missing"
+msgstr "modul saknas"
+
+msgid "not supported"
+msgstr "stöds inte"
+
+msgid "System information"
+msgstr "Systeminformation"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "UPP/NER  Detaljer     EXIT  Tillbaka"
+
+msgid "Receiver"
+msgstr "Mottagare"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Kernel"
+msgstr "Kärna"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Kärnan avgör vilka minnesfunktioner som finns. Den är en del av imagen och "
+"kan inte ändras av ett tillägg."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d gånger"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "senast: %s, %s"
+
+msgid "never"
+msgstr "aldrig"
+
+msgid "Out of memory"
+msgstr "Slut på minne"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Hur ofta RAM och växlingsutrymme var fulla och kärnan fick avsluta ett "
+"program (sedan pluginet installerades). Händer det hjälper en växlingsfil – "
+"eller en större."
+
+msgid "Swap support"
+msgstr "Swap-stöd"
+
+msgid "yes"
+msgstr "ja"
+
+msgid "no"
+msgstr "nej"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Krävs för växlingsfiler, växlingspartitioner och zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram komprimerar utväxlat minne direkt i RAM (ungefär 2-3:1) - ingen enhet "
+"behövs."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (komprimerat RAM)"
+
+msgid "zram algorithms"
+msgstr "zram-algoritmer"
+
+msgid "known after loading"
+msgstr "kända efter laddning"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Komprimeringsalgoritmer som kärnan erbjuder. lz4 är snabbast, zstd "
+"komprimerar bäst."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktiv (%s)"
+
+msgid "available, inactive"
+msgstr "tillgängligt, inaktivt"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap är en komprimerad cache framför en växlingsfil. Den visas här endast "
+"som information."
+
+msgid "none (only internal flash)"
+msgstr "inga (bara internt flashminne)"
+
+msgid "none"
+msgstr "inga"
+
+msgid "Drives for swap files"
+msgstr "Enheter för växlingsfiler"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Enheter med ett Linux-filsystem (ext2/3/4, xfs, ...) som kan rymma en "
+"växlingsfil."
+
+msgid "Kernel configuration"
+msgstr "Kärnkonfiguration"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"Med /proc/config.gz ser tillägget exakt vilka funktioner kärnan byggdes med."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Sidstorlek"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d byte"
+
+msgid "Simple Swap Manager settings"
+msgstr "Inställningar för Simple Swap Manager"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Off"
+msgstr "Av"
+
+msgid "Swap file at startup"
+msgstr "Växlingsfil vid start"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Den här växlingsfilen aktiveras automatiskt varje gång mottagaren startar. "
+"Tillägget väntar upp till tre minuter på att enheten monteras."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Hur gärna kärnan flyttar minne till swap (0-100). Lägre värden håller data "
+"längre i RAM; 10-30 är ett bra val för mottagare. Aktuellt värde: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Låga värden innebär också färre skrivningar, vilket skonar SD-kort och USB-"
+"minnen."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automatisk (%s)"
+
+msgid "zram compression"
+msgstr "zram-komprimering"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Komprimeringsalgoritm för den komprimerade RAM-swappen. lz4 är snabbast, "
+"zstd komprimerar bäst men kräver mer CPU. Ändringen gäller nästa gång zram "
+"sätts upp."
+
+msgid "zram at startup"
+msgstr "zram vid start"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr ""
+"Sätt upp den komprimerade RAM-swappen (%s) varje gång mottagaren startar."
+
+msgid "On"
+msgstr "På"
+
+msgid "Show plugin in"
+msgstr "Visa tillägget i"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Var Simple Swap Manager kan öppnas. Ändringen gäller efter omstart av GUI."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Visar vad den här mottagaren stöder: kärna, zram, zswap och enheter. Tryck "
+"OK för att öppna."
+
+msgid "Open"
+msgstr "Öppna"
+
+msgid "Uninstall plugin..."
+msgstr "Avinstallera tillägget..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Tar bort Simple Swap Manager från den här mottagaren. Du kan välja om "
+"växlingsutrymmet ska behållas eller raderas."
+
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Avinstallera Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager tas bort från den här mottagaren."
+
+msgid "Compressed RAM (zram)"
+msgstr "Komprimerat RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Behåll växlingsutrymmet"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Förblir aktivt till nästa omstart och används sedan inte längre"
+
+msgid "Delete swap space"
+msgstr "Radera växlingsutrymmet"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Inaktivera nu och frigör diskutrymme"
+
+msgid "What should happen to the swap space?"
+msgstr "Vad ska hända med växlingsutrymmet?"
+
+msgid "Not enough free memory"
+msgstr "Inte tillräckligt med ledigt minne"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"%s är just nu lagrat i det här växlingsutrymmet, men det finns inte "
+"tillräckligt med ledigt RAM för att ta tillbaka det. Stäng några tillägg "
+"eller starta om GUI först."
+
+msgid "Moving data back to RAM..."
+msgstr "Flyttar tillbaka data till RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Raderar växlingsfil..."
+
+msgid "Removing plugin..."
+msgstr "Tar bort tillägget..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager har tagits bort."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Totalt"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Växlingsutrymmen"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Inget växlingsutrymme hittades.\n"
+"Tryck GUL för att skapa en växlingsfil."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Alternativ     MENU  Inställningar     INFO  Systeminfo     EXIT  Stäng"
+
+msgid "Create"
+msgstr "Skapa"
+
+msgid "Settings"
+msgstr "Inställningar"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Slut på minne %d gånger sedan start – detaljer med INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "%s av %s används"
+
+msgid "not active"
+msgstr "inte aktiv"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Start: %s"
+
+msgid "Startup: off"
+msgstr "Start: av"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: in %s/s, ut %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Skrivet sedan start: %s"
+
+msgid "Swap partition"
+msgstr "Växlingspartition"
+
+msgid "Swap file"
+msgstr "Växlingsfil"
+
+#, python-format
+msgid "%s used"
+msgstr "%s används"
+
+msgid "ACTIVE"
+msgstr "AKTIV"
+
+msgid "INACTIVE"
+msgstr "INAKTIV"
+
+msgid "STARTUP"
+msgstr "VID START"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Inget växlingsutrymme hittades.\n"
+"Ingen extern enhet med Linux-filsystem (ext4, ...) är monterad – tryck GUL för komprimerat RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Inget växlingsutrymme hittades.\n"
+"Ingen extern enhet med Linux-filsystem (ext4, ...) är monterad. Anslut en USB-enhet eller hårddisk och montera den i imagens diskinställningar."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "förhållande %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "komprimerad swap i RAM"
+
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+msgid "Activate"
+msgstr "Aktivera"
+
+msgid "Delete"
+msgstr "Radera"
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Stop using this swap space now"
+msgstr "Sluta använda det här växlingsutrymmet nu"
+
+msgid "Start using this swap space now"
+msgstr "Börja använda det här växlingsutrymmet nu"
+
+msgid "Don't activate at startup"
+msgstr "Aktivera inte vid start"
+
+msgid "Remove automatic activation"
+msgstr "Ta bort automatisk aktivering"
+
+msgid "Activate at startup"
+msgstr "Aktivera vid start"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Sätt upp den komprimerade RAM-swappen varje gång mottagaren startar"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Stäng av zram och lämna tillbaka minnet"
+
+msgid "Change size"
+msgstr "Ändra storlek"
+
+msgid "Set up zram again with a different size"
+msgstr "Sätt upp zram igen med en annan storlek"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Använd den här växlingsfilen varje gång mottagaren startar"
+
+msgid "Create the swap file again with a different size"
+msgstr "Skapa växlingsfilen igen med en annan storlek"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Radera växlingsfilen och frigör diskutrymme"
+
+msgid "Create new swap file"
+msgstr "Skapa ny växlingsfil"
+
+msgid "What this receiver supports"
+msgstr "Vad den här mottagaren stöder"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Storlek: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Lagrat: %s, komprimerat till %s (%s RAM används)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritm: %s, prioritet %d"
+
+msgid "Status: inactive"
+msgstr "Status: inaktiv"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Använt: %s, prioritet %d"
+
+msgid "Startup activation disabled"
+msgstr "Aktivering vid start avstängd"
+
+msgid "Activated at every startup"
+msgstr "Aktiveras vid varje start"
+
+msgid "Activate swap"
+msgstr "Aktivera swap"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Sätter upp komprimerad RAM-swap..."
+
+msgid "Swap activated"
+msgstr "Swap aktiverad"
+
+msgid "Deactivate swap"
+msgstr "Inaktivera swap"
+
+msgid "Swap deactivated"
+msgstr "Swap inaktiverad"
+
+msgid "The file is not a valid swap file."
+msgstr "Filen är inte en giltig växlingsfil."
+
+msgid "Activating swap..."
+msgstr "Aktiverar swap..."
+
+msgid "Delete swap file"
+msgstr "Radera växlingsfil"
+
+msgid "Swap file deleted"
+msgstr "Växlingsfil raderad"
+
+msgid "Delete swap file?"
+msgstr "Radera växlingsfilen?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) inaktiveras och raderas."
+
+msgid "Restart GUI?"
+msgstr "Starta om GUI?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr "Tillägget avlastas helt först efter omstart av GUI. Starta om nu?"
+
+msgid "Restart now"
+msgstr "Starta om nu"
+
+msgid "Later"
+msgstr "Senare"
+
+msgid "No suitable storage"
+msgstr "Ingen lämplig lagring"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Ingen lagringsenhet med ett Linux-filsystem (ext2/3/4, xfs, ...) hittades.\n"
+"Växlingsfiler kan inte skapas på FAT, exFAT, NTFS eller nätverksenheter."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Ingen enhet behövs  ·  snabbast  ·  använder lite CPU"
+
+msgid "FASTEST"
+msgstr "SNABBAST"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Inte tillgängligt på den här mottagaren - tryck OK för detaljer"
+
+msgid "NOT SUPPORTED"
+msgstr "STÖDS INTE"
+
+#, python-format
+msgid "%s free"
+msgstr "%s ledigt"
+
+msgid "NOT RECOMMENDED"
+msgstr "AVRÅDS"
+
+msgid "NOT IDEAL"
+msgstr "INTE IDEALISK"
+
+msgid "RECOMMENDED"
+msgstr "REKOMMENDERAS"
+
+msgid "FULL"
+msgstr "FULL"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Var ska växlingsfilen sparas?\n"
+"En hårddisk eller USB-enhet är bäst; internt flashminne slits fortare."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Var ska växlingsutrymmet skapas?\n"
+"zram komprimerar minnet i RAM; det kan kombineras med en växlingsfil på en enhet."
+
+msgid "Create swap file  1/2"
+msgstr "Skapa växlingsfil  1/2"
+
+msgid "zram not supported"
+msgstr "zram stöds inte"
+
+msgid "Not enough space"
+msgstr "Inte tillräckligt med utrymme"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Det finns inte tillräckligt med ledigt utrymme på %s."
+
+msgid "Use internal flash?"
+msgstr "Använda internt flashminne?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Växling till det interna flashminnet orsakar många skrivcykler och kan "
+"förkorta dess livslängd. En USB-enhet eller hårddisk rekommenderas."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Det interna flashminnet är fastlött och kan inte bytas som ett SD-kort eller"
+" en USB-enhet – slits det ut drabbas själva mottagaren."
+
+msgid "Use internal flash anyway"
+msgstr "Använd internt flashminne ändå"
+
+msgid "Use SD card?"
+msgstr "Använda SD-kort?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Växling skriver till kortet om och om igen, så SD-kort slits snabbare. En USB-enhet eller hårddisk rekommenderas.\n"
+"Om du använder kortet: en låg swappiness (10-20) håller skrivningarna till ett minimum."
+
+msgid "Use SD card anyway"
+msgstr "Använd SD-kort ändå"
+
+msgid "Custom size..."
+msgstr "Egen storlek..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Ange en storlek mellan %d och %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Ny storlek för %s (nu %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  tillgängligt: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Skapa växlingsfil  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Välj storlek på växlingsfilen på %s.\n"
+"RAM: %s  ·  ledigt utrymme: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Växlingsfilens storlek i MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Ogiltig storlek"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Ange en storlek mellan %d och %d MB."
+
+msgid "File exists"
+msgstr "Filen finns"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s finns redan och är ingen växlingsfil. Ta bort den först."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Den befintliga växlingsfilen används och det finns inte tillräckligt med "
+"ledigt RAM för att ersätta den."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s skapas om med %s i stället för %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"En växlingsfil på %s skapas i\n"
+"%s\n"
+"och aktiveras vid varje start."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Den befintliga växlingsfilen (%s) ersätts."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Det tar ungefär %d sekunder."
+
+msgid "Create swap file?"
+msgstr "Skapa växlingsfil?"
+
+msgid "Create swap file"
+msgstr "Skapa växlingsfil"
+
+msgid "Deactivating old swap file..."
+msgstr "Inaktiverar gammal växlingsfil..."
+
+msgid "Removing old swap file..."
+msgstr "Tar bort gammal växlingsfil..."
+
+msgid "Writing swap file..."
+msgstr "Skriver växlingsfil..."
+
+msgid "Formatting swap file..."
+msgstr "Formaterar växlingsfil..."
+
+msgid "Size changed"
+msgstr "Storlek ändrad"
+
+msgid "Swap file created and activated"
+msgstr "Växlingsfil skapad och aktiverad"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness satt till %d"
+
+msgid "Protect the SD card?"
+msgstr "Skona SD-kortet?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness är %d. Med 10 växlar mottagaren mer sällan och skriver mindre "
+"till kortet."
+
+msgid "Set swappiness to 10"
+msgstr "Sätt swappiness till 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Behåll %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "använder högst cirka %s RAM när den är full"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Komprimerat RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Välj storlek på den komprimerade swappen (RAM: %s).\n"
+"Minnet används bara när data faktiskt växlas ut; ungefär halva RAM är ett bra värde."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"En komprimerad RAM-swap på %s sätts upp (algoritm: %s) och aktiveras vid "
+"varje start."
+
+msgid "kernel default"
+msgstr "kärnans standard"
+
+msgid "It is used before swap files on drives."
+msgstr "Den används före växlingsfiler på enheter."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Den nuvarande zram-swappen (%s) ersätts."
+
+msgid "Set up zram?"
+msgstr "Sätta upp zram?"
+
+msgid "Set up zram"
+msgstr "Sätt upp zram"
+
+msgid "zram activated"
+msgstr "zram aktiverat"
+
+msgid "Remove zram"
+msgstr "Ta bort zram"
+
+msgid "zram removed"
+msgstr "zram borttaget"
+
+msgid "Remove zram?"
+msgstr "Ta bort zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Den komprimerade RAM-swappen stängs av och sätts inte längre upp vid start."

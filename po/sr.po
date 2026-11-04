@@ -1,0 +1,906 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: sr\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Podrazumevana vrednost sistema"
+
+msgid "Plugins and storage menu"
+msgstr "Dodaci i meni uređaja za skladištenje"
+
+msgid "Plugin browser only"
+msgstr "Samo pregledač dodataka"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Pravljenje i upravljanje swap datotekama"
+
+msgid "Hard disk"
+msgstr "Hard disk"
+
+msgid "USB storage"
+msgstr "USB skladište"
+
+msgid "SD card"
+msgstr "SD kartica"
+
+msgid "Internal flash"
+msgstr "Interni fleš"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Izbor     EXIT  Nazad"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Otkaži"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Uređaj zram nije mogao da se napravi. Ovo jezgro verovatno ne podržava zram."
+
+msgid "Please wait..."
+msgstr "Sačekajte..."
+
+msgid "Could not start command."
+msgstr "Komanda nije mogla da se pokrene."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Upisano %s od %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Kôd greške %d"
+
+msgid "Error"
+msgstr "Greška"
+
+msgid "Close"
+msgstr "Zatvori"
+
+msgid "Done"
+msgstr "Gotovo"
+
+msgid "Cancelled."
+msgstr "Otkazano."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram je učitan i spreman za upotrebu."
+
+msgid "zram is built into the kernel."
+msgstr "zram je ugrađen u jezgro."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram je dostupan kao modul jezgra i učitava se po potrebi."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Jezgro ovog prijemnika (%s) napravljeno je bez zrama. Swap datoteka na disku"
+" je ovde najbolje rešenje."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Jezgro podržava zram kao modul, ali modul nije instaliran (jezgro %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "U jezgru nije pronađena podrška za zram (%s)."
+
+msgid "available"
+msgstr "dostupno"
+
+msgid "module missing"
+msgstr "nedostaje modul"
+
+msgid "not supported"
+msgstr "nije podržano"
+
+msgid "System information"
+msgstr "Informacije o sistemu"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "GORE/DOLE  Detalji     EXIT  Nazad"
+
+msgid "Receiver"
+msgstr "Prijemnik"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Kernel"
+msgstr "Jezgro"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Jezgro određuje koje su memorijske funkcije dostupne. Deo je imagea i "
+"dodatak ne može da ga promeni."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d puta"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "poslednji put: %s, %s"
+
+msgid "never"
+msgstr "nikad"
+
+msgid "Out of memory"
+msgstr "Nedostatak memorije"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Koliko su puta RAM i swap bili puni pa je kernel morao da zaustavi program "
+"(od instalacije dodatka). Ako se to dešava, pomaže swap datoteka – ili veća."
+
+msgid "Swap support"
+msgstr "Podrška za swap"
+
+msgid "yes"
+msgstr "da"
+
+msgid "no"
+msgstr "ne"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Potrebno za swap datoteke, swap particije i zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram sažima izbačenu memoriju direktno u RAM-u (oko 2-3:1) - bez diska."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (sažeti RAM)"
+
+msgid "zram algorithms"
+msgstr "zram algoritmi"
+
+msgid "known after loading"
+msgstr "poznato nakon učitavanja"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Algoritmi sažimanja koje nudi jezgro. lz4 je najbrži, zstd najbolje sažima."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktivno (%s)"
+
+msgid "available, inactive"
+msgstr "dostupno, neaktivno"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap je sažeti keš ispred swap datoteke. Ovde je prikazan samo "
+"informativno."
+
+msgid "none (only internal flash)"
+msgstr "nema (samo interna fleš memorija)"
+
+msgid "none"
+msgstr "nema"
+
+msgid "Drives for swap files"
+msgstr "Diskovi za swap datoteke"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Diskovi sa Linux sistemom datoteka (ext2/3/4, xfs, ...) na kojima može da "
+"bude swap datoteka."
+
+msgid "Kernel configuration"
+msgstr "Konfiguracija jezgra"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz omogućava dodatku da tačno vidi sa kojim je funkcijama "
+"jezgro napravljeno."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Veličina stranice"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d bajtova"
+
+msgid "Simple Swap Manager settings"
+msgstr "Podešavanja Simple Swap Managera"
+
+msgid "Save"
+msgstr "Sačuvaj"
+
+msgid "Off"
+msgstr "Isključeno"
+
+msgid "Swap file at startup"
+msgstr "Swap datoteka pri pokretanju"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Ova swap datoteka se automatski aktivira pri svakom pokretanju prijemnika. "
+"Dodatak čeka do tri minuta da se uređaj za skladištenje montira."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Koliko rado jezgro premešta memoriju u swap (0-100). Niže vrednosti duže "
+"drže podatke u RAM-u; 10-30 je dobar izbor za prijemnike. Trenutna vrednost:"
+" %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Niže vrednosti znače i manje pisanja, što štedi SD kartice i USB flešove."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automatski (%s)"
+
+msgid "zram compression"
+msgstr "zram sažimanje"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Algoritam sažimanja za sažeti swap u RAM-u. lz4 je najbrži, zstd najbolje "
+"sažima, ali troši više procesora. Promena važi pri sledećem podešavanju "
+"zrama."
+
+msgid "zram at startup"
+msgstr "zram pri pokretanju"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "Podesi sažeti swap u RAM-u (%s) pri svakom pokretanju prijemnika."
+
+msgid "On"
+msgstr "Uključeno"
+
+msgid "Show plugin in"
+msgstr "Prikaži dodatak u"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Odakle Simple Swap Manager može da se otvori. Promena važi nakon ponovnog "
+"pokretanja interfejsa."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Prikazuje šta ovaj prijemnik podržava: jezgro, zram, zswap i diskove. "
+"Pritisnite OK za otvaranje."
+
+msgid "Open"
+msgstr "Otvori"
+
+msgid "Uninstall plugin..."
+msgstr "Deinstaliraj dodatak..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Uklanja Simple Swap Manager sa ovog prijemnika. Možete da izaberete da li će"
+" swap prostor biti zadržan ili obrisan."
+
+msgid "Uninstall"
+msgstr "Deinstaliraj"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Deinstaliraj Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager će biti uklonjen sa ovog prijemnika."
+
+msgid "Compressed RAM (zram)"
+msgstr "Sažeti RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Zadrži swap prostor"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr ""
+"Ostaje aktivan do sledećeg ponovnog pokretanja, a zatim se više ne koristi"
+
+msgid "Delete swap space"
+msgstr "Obriši swap prostor"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Deaktiviraj sada i oslobodi prostor na disku"
+
+msgid "What should happen to the swap space?"
+msgstr "Šta da se uradi sa swap prostorom?"
+
+msgid "Not enough free memory"
+msgstr "Nema dovoljno slobodne memorije"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"U ovom swap prostoru trenutno je smešteno %s, ali nema dovoljno slobodnog "
+"RAM-a da se to vrati. Prvo zatvorite neke dodatke ili ponovo pokrenite "
+"interfejs."
+
+msgid "Moving data back to RAM..."
+msgstr "Vraćanje podataka u RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Brisanje swap datoteke..."
+
+msgid "Removing plugin..."
+msgstr "Uklanjanje dodatka..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager je uklonjen."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Ukupno"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Swap prostori"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Nije pronađen swap prostor.\n"
+"Pritisnite ŽUTO dugme da napravite swap datoteku."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Opcije     MENU  Podešavanja     INFO  Info o sistemu     EXIT  Zatvori"
+
+msgid "Create"
+msgstr "Napravi"
+
+msgid "Settings"
+msgstr "Podešavanja"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Nedostatak memorije %d puta od pokretanja – detalji sa INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Zauzeto %s od %s"
+
+msgid "not active"
+msgstr "nije aktivno"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Pokretanje: %s"
+
+msgid "Startup: off"
+msgstr "Pokretanje: isključeno"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: ulaz %s/s, izlaz %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Zapisano od pokretanja: %s"
+
+msgid "Swap partition"
+msgstr "Swap particija"
+
+msgid "Swap file"
+msgstr "Swap datoteka"
+
+#, python-format
+msgid "%s used"
+msgstr "zauzeto %s"
+
+msgid "ACTIVE"
+msgstr "AKTIVNO"
+
+msgid "INACTIVE"
+msgstr "NEAKTIVNO"
+
+msgid "STARTUP"
+msgstr "POKRETANJE"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Nije pronađen swap prostor.\n"
+"Nije montiran spoljni disk sa Linux sistemom datoteka (ext4, ...) – ŽUTO za kompresovani RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Nije pronađen swap prostor.\n"
+"Nije montiran spoljni disk sa Linux sistemom datoteka (ext4, ...). Povežite USB disk ili hard disk i montirajte ga u podešavanjima diskova imidža."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "odnos %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "sažeti swap u RAM-u"
+
+msgid "Deactivate"
+msgstr "Deaktiviraj"
+
+msgid "Activate"
+msgstr "Aktiviraj"
+
+msgid "Delete"
+msgstr "Obriši"
+
+msgid "Remove"
+msgstr "Ukloni"
+
+msgid "Stop using this swap space now"
+msgstr "Prestani da koristiš ovaj swap prostor"
+
+msgid "Start using this swap space now"
+msgstr "Počni da koristiš ovaj swap prostor"
+
+msgid "Don't activate at startup"
+msgstr "Ne aktiviraj pri pokretanju"
+
+msgid "Remove automatic activation"
+msgstr "Ukloni automatsku aktivaciju"
+
+msgid "Activate at startup"
+msgstr "Aktiviraj pri pokretanju"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Podesi sažeti swap u RAM-u pri svakom pokretanju prijemnika"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Deaktiviraj zram i vrati memoriju"
+
+msgid "Change size"
+msgstr "Promeni veličinu"
+
+msgid "Set up zram again with a different size"
+msgstr "Ponovo podesi zram sa drugom veličinom"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Koristi ovu swap datoteku pri svakom pokretanju prijemnika"
+
+msgid "Create the swap file again with a different size"
+msgstr "Ponovo napravi swap datoteku sa drugom veličinom"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Ukloni swap datoteku i oslobodi prostor na disku"
+
+msgid "Create new swap file"
+msgstr "Napravi novu swap datoteku"
+
+msgid "What this receiver supports"
+msgstr "Šta ovaj prijemnik podržava"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Veličina: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Smešteno: %s, sažeto na %s (%s RAM-a u upotrebi)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritam: %s, prioritet %d"
+
+msgid "Status: inactive"
+msgstr "Stanje: neaktivno"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Zauzeto: %s, prioritet %d"
+
+msgid "Startup activation disabled"
+msgstr "Aktivacija pri pokretanju isključena"
+
+msgid "Activated at every startup"
+msgstr "Aktivira se pri svakom pokretanju"
+
+msgid "Activate swap"
+msgstr "Aktiviraj swap"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Podešavanje sažetog swapa u RAM-u..."
+
+msgid "Swap activated"
+msgstr "Swap aktiviran"
+
+msgid "Deactivate swap"
+msgstr "Deaktiviraj swap"
+
+msgid "Swap deactivated"
+msgstr "Swap deaktiviran"
+
+msgid "The file is not a valid swap file."
+msgstr "Datoteka nije ispravna swap datoteka."
+
+msgid "Activating swap..."
+msgstr "Aktiviranje swapa..."
+
+msgid "Delete swap file"
+msgstr "Obriši swap datoteku"
+
+msgid "Swap file deleted"
+msgstr "Swap datoteka obrisana"
+
+msgid "Delete swap file?"
+msgstr "Obrisati swap datoteku?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) biće deaktivirana i obrisana."
+
+msgid "Restart GUI?"
+msgstr "Ponovo pokrenuti interfejs?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Dodatak se potpuno uklanja iz memorije tek nakon ponovnog pokretanja "
+"interfejsa. Pokrenuti ponovo sada?"
+
+msgid "Restart now"
+msgstr "Ponovo pokreni sada"
+
+msgid "Later"
+msgstr "Kasnije"
+
+msgid "No suitable storage"
+msgstr "Nema odgovarajućeg skladišta"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Nije pronađen uređaj za skladištenje sa Linux sistemom datoteka (ext2/3/4, xfs, ...).\n"
+"Swap datoteke ne mogu da se prave na FAT, exFAT, NTFS ili mrežnim diskovima."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Bez diska  ·  najbrže  ·  malo opterećuje procesor"
+
+msgid "FASTEST"
+msgstr "NAJBRŽE"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Nije dostupno na ovom prijemniku - OK za detalje"
+
+msgid "NOT SUPPORTED"
+msgstr "NIJE PODRŽANO"
+
+#, python-format
+msgid "%s free"
+msgstr "%s slobodno"
+
+msgid "NOT RECOMMENDED"
+msgstr "NE PREPORUČUJE SE"
+
+msgid "NOT IDEAL"
+msgstr "NIJE IDEALNO"
+
+msgid "RECOMMENDED"
+msgstr "PREPORUČENO"
+
+msgid "FULL"
+msgstr "PUNO"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Gde da se sačuva swap datoteka?\n"
+"Najbolji su hard disk ili USB disk; interna fleš memorija se brže troši."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Gde da se napravi swap prostor?\n"
+"zram sažima memoriju unutar RAM-a; može da se kombinuje sa swap datotekom na disku."
+
+msgid "Create swap file  1/2"
+msgstr "Pravljenje swap datoteke  1/2"
+
+msgid "zram not supported"
+msgstr "zram nije podržan"
+
+msgid "Not enough space"
+msgstr "Nema dovoljno prostora"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Na %s nema dovoljno slobodnog prostora."
+
+msgid "Use internal flash?"
+msgstr "Koristiti internu fleš memoriju?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Swap na internoj fleš memoriji izaziva mnogo ciklusa pisanja i može da joj "
+"skrati vek trajanja. Preporučuje se USB disk ili hard disk."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Interni fleš je zalemljen i ne može se zameniti kao SD kartica ili USB disk "
+"– ako se istroši, pogođen je sam prijemnik."
+
+msgid "Use internal flash anyway"
+msgstr "Ipak koristi fleš memoriju"
+
+msgid "Use SD card?"
+msgstr "Koristiti SD karticu?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Swap stalno iznova piše na karticu, pa se SD kartice brže troše. Preporučuje se USB disk ili hard disk.\n"
+"Ako koristite karticu: niska swappiness (10-20) svodi pisanje na minimum."
+
+msgid "Use SD card anyway"
+msgstr "Ipak koristi SD karticu"
+
+msgid "Custom size..."
+msgstr "Sopstvena veličina..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Unesite veličinu između %d i %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Nova veličina za %s (trenutno %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  dostupno: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Pravljenje swap datoteke  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Izaberite veličinu swap datoteke na %s.\n"
+"RAM: %s  ·  slobodno: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Veličina swap datoteke u MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Neispravna veličina"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Unesite veličinu između %d i %d MB."
+
+msgid "File exists"
+msgstr "Datoteka postoji"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s već postoji i nije swap datoteka. Prvo je uklonite."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Postojeća swap datoteka je u upotrebi i nema dovoljno slobodnog RAM-a da se "
+"zameni."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s će biti ponovo napravljena sa %s umesto %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Swap datoteka od %s biće napravljena u\n"
+"%s\n"
+"i aktiviraće se pri svakom pokretanju."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Postojeća swap datoteka (%s) biće zamenjena."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "To traje oko %d sekundi."
+
+msgid "Create swap file?"
+msgstr "Napraviti swap datoteku?"
+
+msgid "Create swap file"
+msgstr "Napravi swap datoteku"
+
+msgid "Deactivating old swap file..."
+msgstr "Deaktiviranje stare swap datoteke..."
+
+msgid "Removing old swap file..."
+msgstr "Uklanjanje stare swap datoteke..."
+
+msgid "Writing swap file..."
+msgstr "Upisivanje swap datoteke..."
+
+msgid "Formatting swap file..."
+msgstr "Formatiranje swap datoteke..."
+
+msgid "Size changed"
+msgstr "Veličina promenjena"
+
+msgid "Swap file created and activated"
+msgstr "Swap datoteka napravljena i aktivirana"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness postavljen na %d"
+
+msgid "Protect the SD card?"
+msgstr "Štedeti SD karticu?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness je %d. Sa vrednošću 10 prijemnik ređe koristi swap i manje piše "
+"na karticu."
+
+msgid "Set swappiness to 10"
+msgstr "Postavi swappiness na 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Zadrži %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "kada je puna, troši najviše oko %s RAM-a"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Sažeti RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Izaberite veličinu sažetog swapa (RAM: %s).\n"
+"Memorija se koristi samo kada se podaci zaista izbacuju; oko polovine RAM-a je dobra vrednost."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Biće podešen sažeti swap u RAM-u od %s (algoritam: %s) koji se aktivira pri "
+"svakom pokretanju."
+
+msgid "kernel default"
+msgstr "podrazumevano u jezgru"
+
+msgid "It is used before swap files on drives."
+msgstr "Koristi se pre swap datoteka na diskovima."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Trenutni zram swap (%s) biće zamenjen."
+
+msgid "Set up zram?"
+msgstr "Podesiti zram?"
+
+msgid "Set up zram"
+msgstr "Podesi zram"
+
+msgid "zram activated"
+msgstr "zram aktiviran"
+
+msgid "Remove zram"
+msgstr "Ukloni zram"
+
+msgid "zram removed"
+msgstr "zram uklonjen"
+
+msgid "Remove zram?"
+msgstr "Ukloniti zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Sažeti swap u RAM-u biće deaktiviran i više se neće podešavati pri "
+"pokretanju."

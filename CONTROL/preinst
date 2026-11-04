@@ -1,0 +1,9 @@
+#!/bin/sh
+# @COMMON@
+
+# Remember whether this is a new installation or an update, postinst shows it.
+case "$1" in
+	upgrade) echo "upgrade $2" > "$STATE_FILE" ;;
+	*)       echo "install" > "$STATE_FILE" ;;
+esac
+exit 0

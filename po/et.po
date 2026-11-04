@@ -1,0 +1,904 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: et\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Süsteemi vaikeväärtus"
+
+msgid "Plugins and storage menu"
+msgstr "Pluginad ja andmekandjate menüü"
+
+msgid "Plugin browser only"
+msgstr "Ainult pluginate brauser"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Saalefailide loomine ja haldamine"
+
+msgid "Hard disk"
+msgstr "Kõvaketas"
+
+msgid "USB storage"
+msgstr "USB-andmekandja"
+
+msgid "SD card"
+msgstr "SD-kaart"
+
+msgid "Internal flash"
+msgstr "Sisemine välkmälu"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Vali     EXIT  Tagasi"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Tühista"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr "zram-seadet ei õnnestunud luua. See tuum ilmselt ei toeta zrami."
+
+msgid "Please wait..."
+msgstr "Palun oota..."
+
+msgid "Could not start command."
+msgstr "Käsku ei õnnestunud käivitada."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Kirjutatud %s / %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Veakood %d"
+
+msgid "Error"
+msgstr "Viga"
+
+msgid "Close"
+msgstr "Sulge"
+
+msgid "Done"
+msgstr "Valmis"
+
+msgid "Cancelled."
+msgstr "Tühistatud."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram on laaditud ja kasutusvalmis."
+
+msgid "zram is built into the kernel."
+msgstr "zram on tuuma sisse ehitatud."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram on saadaval tuumamoodulina ja laaditakse vajadusel."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Selle vastuvõtja tuum (%s) on ehitatud ilma zramita. Parim lahendus on siin "
+"saalefail andmekandjal."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr "Tuum toetab zrami moodulina, kuid moodul pole paigaldatud (tuum %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Tuumast ei leitud zrami tuge (%s)."
+
+msgid "available"
+msgstr "saadaval"
+
+msgid "module missing"
+msgstr "moodul puudub"
+
+msgid "not supported"
+msgstr "pole toetatud"
+
+msgid "System information"
+msgstr "Süsteemi teave"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "ÜLES/ALLA  Üksikasjad     EXIT  Tagasi"
+
+msgid "Receiver"
+msgstr "Vastuvõtja"
+
+msgid "Image"
+msgstr "Tarkvarapilt"
+
+msgid "Kernel"
+msgstr "Tuum"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Tuum määrab, millised mälufunktsioonid on saadaval. See on tarkvarapildi osa"
+" ja plugin ei saa seda muuta."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d korda"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "viimati: %s, %s"
+
+msgid "never"
+msgstr "mitte kunagi"
+
+msgid "Out of memory"
+msgstr "Mälu otsas"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Kui tihti olid RAM ja saale täis ning kernel pidi programmi lõpetama (alates"
+" plugina paigaldamisest). Kui see juhtub, aitab saalefail – või suurem."
+
+msgid "Swap support"
+msgstr "Saale tugi"
+
+msgid "yes"
+msgstr "jah"
+
+msgid "no"
+msgstr "ei"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Vajalik saalefailide, saalepartitsioonide ja zrami jaoks."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram pakib väljasaalitud mälu otse RAM-is (umbes 2-3:1) - andmekandjat pole "
+"vaja."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (pakitud RAM)"
+
+msgid "zram algorithms"
+msgstr "zrami algoritmid"
+
+msgid "known after loading"
+msgstr "teada pärast laadimist"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Tuuma pakutavad pakkimisalgoritmid. lz4 on kiireim, zstd pakib kõige "
+"paremini."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktiivne (%s)"
+
+msgid "available, inactive"
+msgstr "saadaval, mitteaktiivne"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap on pakitud vahemälu saalefaili ees. Siin on see näidatud ainult "
+"teavitamiseks."
+
+msgid "none (only internal flash)"
+msgstr "puudub (ainult sisemine välkmälu)"
+
+msgid "none"
+msgstr "puudub"
+
+msgid "Drives for swap files"
+msgstr "Andmekandjad saalefailide jaoks"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Linuxi failisüsteemiga (ext2/3/4, xfs, ...) andmekandjad, millele saab "
+"saalefaili paigutada."
+
+msgid "Kernel configuration"
+msgstr "Tuuma konfiguratsioon"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz võimaldab pluginal täpselt näha, milliste funktsioonidega "
+"tuum on ehitatud."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Lehekülje suurus"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d baiti"
+
+msgid "Simple Swap Manager settings"
+msgstr "Simple Swap Manageri seaded"
+
+msgid "Save"
+msgstr "Salvesta"
+
+msgid "Off"
+msgstr "Väljas"
+
+msgid "Swap file at startup"
+msgstr "Saalefail käivitamisel"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"See saalefail aktiveeritakse automaatselt igal vastuvõtja käivitamisel. "
+"Plugin ootab kuni kolm minutit, et andmekandja haagitaks."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Kui meelsasti tuum mälu saalesse viib (0-100). Madalamad väärtused hoiavad "
+"andmeid kauem RAM-is; vastuvõtjatele sobib hästi 10-30. Praegune väärtus: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Madalamad väärtused tähendavad ka vähem kirjutamist, mis säästab SD-kaarte "
+"ja USB-pulki."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automaatne (%s)"
+
+msgid "zram compression"
+msgstr "zrami pakkimine"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Pakkimisalgoritm pakitud RAM-saale jaoks. lz4 on kiireim, zstd pakib kõige "
+"paremini, kuid vajab rohkem protsessorit. Muudatus kehtib zrami järgmisel "
+"seadistamisel."
+
+msgid "zram at startup"
+msgstr "zram käivitamisel"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "Seadista pakitud RAM-saale (%s) igal vastuvõtja käivitamisel."
+
+msgid "On"
+msgstr "Sees"
+
+msgid "Show plugin in"
+msgstr "Näita pluginat"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Kust saab Simple Swap Manageri avada. Muudatus kehtib pärast kasutajaliidese"
+" taaskäivitust."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Näitab, mida see vastuvõtja toetab: tuum, zram, zswap ja andmekandjad. "
+"Avamiseks vajuta OK."
+
+msgid "Open"
+msgstr "Ava"
+
+msgid "Uninstall plugin..."
+msgstr "Eemalda plugin..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Eemaldab Simple Swap Manageri sellest vastuvõtjast. Saad valida, kas "
+"saaleala jäetakse alles või kustutatakse."
+
+msgid "Uninstall"
+msgstr "Eemalda"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Eemalda Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager eemaldatakse sellest vastuvõtjast."
+
+msgid "Compressed RAM (zram)"
+msgstr "Pakitud RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Jäta saaleala alles"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr ""
+"Jääb aktiivseks järgmise taaskäivituseni, seejärel seda enam ei kasutata"
+
+msgid "Delete swap space"
+msgstr "Kustuta saaleala"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Lülita kohe välja ja vabasta kettaruum"
+
+msgid "What should happen to the swap space?"
+msgstr "Mida saalealaga teha?"
+
+msgid "Not enough free memory"
+msgstr "Pole piisavalt vaba mälu"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Selles saalealas on praegu %s andmeid, kuid nende tagasi võtmiseks pole "
+"piisavalt vaba RAM-i. Sulge esmalt mõni plugin või taaskäivita "
+"kasutajaliides."
+
+msgid "Moving data back to RAM..."
+msgstr "Andmete tagasi viimine RAM-i..."
+
+msgid "Deleting swap file..."
+msgstr "Saalefaili kustutamine..."
+
+msgid "Removing plugin..."
+msgstr "Plugina eemaldamine..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager on eemaldatud."
+
+msgid "Swap"
+msgstr "Saale"
+
+msgid "Total"
+msgstr "Kokku"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Saalealad"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Saaleala ei leitud.\n"
+"Saalefaili loomiseks vajuta KOLLAST nuppu."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr "OK  Valikud     MENU  Seaded     INFO  Süsteemi teave     EXIT  Sulge"
+
+msgid "Create"
+msgstr "Loo"
+
+msgid "Settings"
+msgstr "Seaded"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Mälu sai otsa %d korda alates käivitusest – üksikasjad INFO-ga"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Kasutusel %s / %s"
+
+msgid "not active"
+msgstr "pole aktiivne"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Käivitamine: %s"
+
+msgid "Startup: off"
+msgstr "Käivitamine: väljas"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Saale: sisse %s/s, välja %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Kirjutatud käivitusest: %s"
+
+msgid "Swap partition"
+msgstr "Saalepartitsioon"
+
+msgid "Swap file"
+msgstr "Saalefail"
+
+#, python-format
+msgid "%s used"
+msgstr "kasutusel %s"
+
+msgid "ACTIVE"
+msgstr "AKTIIVNE"
+
+msgid "INACTIVE"
+msgstr "MITTEAKTIIVNE"
+
+msgid "STARTUP"
+msgstr "KÄIVITUS"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Saaleala ei leitud.\n"
+"Ühtegi Linuxi failisüsteemiga (ext4, ...) välist ketast pole ühendatud – vajuta KOLLAST pakitud RAM-i (zram) jaoks."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Saaleala ei leitud.\n"
+"Ühtegi Linuxi failisüsteemiga (ext4, ...) välist ketast pole ühendatud. Ühenda USB-ketas või kõvaketas ja haagi see tarkvara kettaseadetes."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "suhe %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "pakitud saale RAM-is"
+
+msgid "Deactivate"
+msgstr "Lülita välja"
+
+msgid "Activate"
+msgstr "Lülita sisse"
+
+msgid "Delete"
+msgstr "Kustuta"
+
+msgid "Remove"
+msgstr "Eemalda"
+
+msgid "Stop using this swap space now"
+msgstr "Lõpeta selle saaleala kasutamine"
+
+msgid "Start using this swap space now"
+msgstr "Alusta selle saaleala kasutamist"
+
+msgid "Don't activate at startup"
+msgstr "Ära aktiveeri käivitamisel"
+
+msgid "Remove automatic activation"
+msgstr "Eemalda automaatne aktiveerimine"
+
+msgid "Activate at startup"
+msgstr "Aktiveeri käivitamisel"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Seadista pakitud RAM-saale igal vastuvõtja käivitamisel"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Lülita zram välja ja anna mälu tagasi"
+
+msgid "Change size"
+msgstr "Muuda suurust"
+
+msgid "Set up zram again with a different size"
+msgstr "Seadista zram uuesti teise suurusega"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Kasuta seda saalefaili igal vastuvõtja käivitamisel"
+
+msgid "Create the swap file again with a different size"
+msgstr "Loo saalefail uuesti teise suurusega"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Eemalda saalefail ja vabasta kettaruum"
+
+msgid "Create new swap file"
+msgstr "Loo uus saalefail"
+
+msgid "What this receiver supports"
+msgstr "Mida see vastuvõtja toetab"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Suurus: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Salvestatud: %s, pakitud %s-ni (%s RAM-i kasutusel)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritm: %s, prioriteet %d"
+
+msgid "Status: inactive"
+msgstr "Olek: mitteaktiivne"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Kasutusel: %s, prioriteet %d"
+
+msgid "Startup activation disabled"
+msgstr "Aktiveerimine käivitamisel väljas"
+
+msgid "Activated at every startup"
+msgstr "Aktiveeritakse igal käivitamisel"
+
+msgid "Activate swap"
+msgstr "Lülita saale sisse"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Pakitud RAM-saale seadistamine..."
+
+msgid "Swap activated"
+msgstr "Saale sisse lülitatud"
+
+msgid "Deactivate swap"
+msgstr "Lülita saale välja"
+
+msgid "Swap deactivated"
+msgstr "Saale välja lülitatud"
+
+msgid "The file is not a valid swap file."
+msgstr "Fail pole kehtiv saalefail."
+
+msgid "Activating swap..."
+msgstr "Saale sisselülitamine..."
+
+msgid "Delete swap file"
+msgstr "Kustuta saalefail"
+
+msgid "Swap file deleted"
+msgstr "Saalefail kustutatud"
+
+msgid "Delete swap file?"
+msgstr "Kas kustutada saalefail?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) lülitatakse välja ja kustutatakse."
+
+msgid "Restart GUI?"
+msgstr "Kas taaskäivitada kasutajaliides?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Plugin eemaldatakse mälust täielikult alles pärast kasutajaliidese "
+"taaskäivitust. Kas taaskäivitada kohe?"
+
+msgid "Restart now"
+msgstr "Taaskäivita kohe"
+
+msgid "Later"
+msgstr "Hiljem"
+
+msgid "No suitable storage"
+msgstr "Sobivat andmekandjat pole"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Linuxi failisüsteemiga (ext2/3/4, xfs, ...) andmekandjat ei leitud.\n"
+"Saalefaile ei saa luua FAT-, exFAT-, NTFS- ega võrguketastele."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Andmekandjat pole vaja  ·  kiireim  ·  veidi protsessorikoormust"
+
+msgid "FASTEST"
+msgstr "KIIREIM"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Pole sellel vastuvõtjal saadaval - OK: üksikasjad"
+
+msgid "NOT SUPPORTED"
+msgstr "POLE TOETATUD"
+
+#, python-format
+msgid "%s free"
+msgstr "%s vaba"
+
+msgid "NOT RECOMMENDED"
+msgstr "POLE SOOVITATUD"
+
+msgid "NOT IDEAL"
+msgstr "POLE IDEAALNE"
+
+msgid "RECOMMENDED"
+msgstr "SOOVITATUD"
+
+msgid "FULL"
+msgstr "TÄIS"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Kuhu saalefail salvestada?\n"
+"Parim on kõvaketas või USB-ketas; sisemine välkmälu kulub kiiremini."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Kuhu saaleala luua?\n"
+"zram pakib mälu RAM-i sees; seda saab kombineerida saalefailiga andmekandjal."
+
+msgid "Create swap file  1/2"
+msgstr "Saalefaili loomine  1/2"
+
+msgid "zram not supported"
+msgstr "zram pole toetatud"
+
+msgid "Not enough space"
+msgstr "Pole piisavalt ruumi"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Asukohas %s pole piisavalt vaba ruumi."
+
+msgid "Use internal flash?"
+msgstr "Kas kasutada sisemist välkmälu?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Saalimine sisemisse välkmällu põhjustab palju kirjutustsükleid ja võib selle"
+" eluiga lühendada. Soovitatav on USB-ketas või kõvaketas."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Sisemine välkmälu on kinni joodetud ega ole vahetatav nagu SD-kaart või USB-"
+"ketas – kui see kulub, kannatab vastuvõtja ise."
+
+msgid "Use internal flash anyway"
+msgstr "Kasuta siiski välkmälu"
+
+msgid "Use SD card?"
+msgstr "Kas kasutada SD-kaarti?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Saalimisel kirjutatakse kaardile ikka ja jälle, seetõttu kuluvad SD-kaardid kiiremini. Soovitatav on USB-ketas või kõvaketas.\n"
+"Kui kasutad kaarti: madal swappiness (10-20) hoiab kirjutamise minimaalsena."
+
+msgid "Use SD card anyway"
+msgstr "Kasuta siiski SD-kaarti"
+
+msgid "Custom size..."
+msgstr "Kohandatud suurus..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Sisesta suurus vahemikus %d kuni %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Uus suurus failile %s (praegu %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  saadaval: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Saalefaili loomine  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Vali saalefaili suurus asukohas %s.\n"
+"RAM: %s  ·  vaba ruum: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Saalefaili suurus MB-des (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Vigane suurus"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Palun sisesta suurus vahemikus %d kuni %d MB."
+
+msgid "File exists"
+msgstr "Fail on olemas"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s on juba olemas ega ole saalefail. Palun eemalda see esmalt."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Olemasolev saalefail on kasutusel ja selle asendamiseks pole piisavalt vaba "
+"RAM-i."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s luuakse uuesti suurusega %s, mitte %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Luuakse %s suurune saalefail asukohta\n"
+"%s\n"
+"ja see aktiveeritakse igal käivitamisel."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Olemasolev saalefail (%s) asendatakse."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "See võtab umbes %d sekundit."
+
+msgid "Create swap file?"
+msgstr "Kas luua saalefail?"
+
+msgid "Create swap file"
+msgstr "Loo saalefail"
+
+msgid "Deactivating old swap file..."
+msgstr "Vana saalefaili väljalülitamine..."
+
+msgid "Removing old swap file..."
+msgstr "Vana saalefaili eemaldamine..."
+
+msgid "Writing swap file..."
+msgstr "Saalefaili kirjutamine..."
+
+msgid "Formatting swap file..."
+msgstr "Saalefaili vormindamine..."
+
+msgid "Size changed"
+msgstr "Suurus muudetud"
+
+msgid "Swap file created and activated"
+msgstr "Saalefail loodud ja sisse lülitatud"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness on nüüd %d"
+
+msgid "Protect the SD card?"
+msgstr "Kas säästa SD-kaarti?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness on %d. Väärtusega 10 saalib vastuvõtja harvemini ja kirjutab "
+"kaardile vähem."
+
+msgid "Set swappiness to 10"
+msgstr "Määra swappiness 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Jäta %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "täis olekus kasutab kõige rohkem umbes %s RAM-i"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Pakitud RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Vali pakitud saale suurus (RAM: %s).\n"
+"Mälu kasutatakse ainult siis, kui andmeid tegelikult välja saalitakse; umbes pool RAM-ist on hea väärtus."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Seadistatakse %s suurune pakitud RAM-saale (algoritm: %s), mis "
+"aktiveeritakse igal käivitamisel."
+
+msgid "kernel default"
+msgstr "tuuma vaikeväärtus"
+
+msgid "It is used before swap files on drives."
+msgstr "Seda kasutatakse enne andmekandjatel olevaid saalefaile."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Praegune zram-saale (%s) asendatakse."
+
+msgid "Set up zram?"
+msgstr "Kas seadistada zram?"
+
+msgid "Set up zram"
+msgstr "Seadista zram"
+
+msgid "zram activated"
+msgstr "zram sisse lülitatud"
+
+msgid "Remove zram"
+msgstr "Eemalda zram"
+
+msgid "zram removed"
+msgstr "zram eemaldatud"
+
+msgid "Remove zram?"
+msgstr "Kas eemaldada zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Pakitud RAM-saale lülitatakse välja ja seda ei seadistata enam käivitamisel."

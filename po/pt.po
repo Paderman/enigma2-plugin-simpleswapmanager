@@ -1,0 +1,913 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: pt\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Predefinição do sistema"
+
+msgid "Plugins and storage menu"
+msgstr "Plugins e menu de armazenamento"
+
+msgid "Plugin browser only"
+msgstr "Apenas navegador de plugins"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Criar e gerir ficheiros de swap"
+
+msgid "Hard disk"
+msgstr "Disco rígido"
+
+msgid "USB storage"
+msgstr "Memória USB"
+
+msgid "SD card"
+msgstr "Cartão SD"
+
+msgid "Internal flash"
+msgstr "Flash interna"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Escolher     EXIT  Voltar"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Não foi possível criar o dispositivo zram. Provavelmente este kernel não "
+"suporta zram."
+
+msgid "Please wait..."
+msgstr "Aguarde, por favor..."
+
+msgid "Could not start command."
+msgstr "Não foi possível iniciar o comando."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "%s de %s escritos"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Código de erro %d"
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Close"
+msgstr "Fechar"
+
+msgid "Done"
+msgstr "Concluído"
+
+msgid "Cancelled."
+msgstr "Cancelado."
+
+msgid "zram is loaded and ready to use."
+msgstr "O zram está carregado e pronto a usar."
+
+msgid "zram is built into the kernel."
+msgstr "O zram está integrado no kernel."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr ""
+"O zram está disponível como módulo do kernel e é carregado quando "
+"necessário."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"O kernel deste recetor (%s) foi compilado sem zram. Um ficheiro de swap numa"
+" unidade é aqui a melhor solução."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"O kernel suporta zram como módulo, mas o módulo não está instalado (kernel "
+"%s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Não foi encontrado suporte de zram no kernel (%s)."
+
+msgid "available"
+msgstr "disponível"
+
+msgid "module missing"
+msgstr "módulo em falta"
+
+msgid "not supported"
+msgstr "não suportado"
+
+msgid "System information"
+msgstr "Informação do sistema"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "CIMA/BAIXO  Detalhes     EXIT  Voltar"
+
+msgid "Receiver"
+msgstr "Recetor"
+
+msgid "Image"
+msgstr "Imagem"
+
+msgid "Kernel"
+msgstr "Kernel"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"O kernel decide que funções de memória estão disponíveis. Faz parte da "
+"imagem e não pode ser alterado por um plugin."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d vezes"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "última: %s, %s"
+
+msgid "never"
+msgstr "nunca"
+
+msgid "Out of memory"
+msgstr "Memória esgotada"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Quantas vezes a RAM e o swap ficaram cheios e o kernel teve de terminar um "
+"programa (desde a instalação do plugin). Se acontecer, ajuda um ficheiro de "
+"swap – ou um maior."
+
+msgid "Swap support"
+msgstr "Suporte de swap"
+
+msgid "yes"
+msgstr "sim"
+
+msgid "no"
+msgstr "não"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Necessário para ficheiros de swap, partições de swap e zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"O zram comprime a memória trocada dentro da RAM (cerca de 2-3:1) - sem "
+"unidade."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (RAM comprimida)"
+
+msgid "zram algorithms"
+msgstr "Algoritmos zram"
+
+msgid "known after loading"
+msgstr "conhecidos após carregar"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Algoritmos de compressão oferecidos pelo kernel. lz4 é o mais rápido, zstd "
+"comprime melhor."
+
+#, python-format
+msgid "active (%s)"
+msgstr "ativo (%s)"
+
+msgid "available, inactive"
+msgstr "disponível, inativo"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"O zswap é uma cache comprimida à frente de um ficheiro de swap. É mostrado "
+"aqui apenas para informação."
+
+msgid "none (only internal flash)"
+msgstr "nenhuma (só flash interna)"
+
+msgid "none"
+msgstr "nenhuma"
+
+msgid "Drives for swap files"
+msgstr "Unidades para ficheiros de swap"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Unidades com sistema de ficheiros Linux (ext2/3/4, xfs, ...) que podem "
+"guardar um ficheiro de swap."
+
+msgid "Kernel configuration"
+msgstr "Configuração do kernel"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"O /proc/config.gz permite ao plugin ver exatamente com que funções o kernel "
+"foi compilado."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Tamanho de página"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d bytes"
+
+msgid "Simple Swap Manager settings"
+msgstr "Definições do Simple Swap Manager"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Off"
+msgstr "Desligado"
+
+msgid "Swap file at startup"
+msgstr "Ficheiro de swap no arranque"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Este ficheiro de swap é ativado automaticamente sempre que o recetor "
+"arranca. O plugin espera até três minutos que a unidade seja montada."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Com que intensidade o kernel move memória para o swap (0-100). Valores "
+"baixos mantêm os dados mais tempo na RAM; 10-30 é uma boa escolha para "
+"recetores. Valor atual: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Valores baixos também significam menos escritas, o que poupa cartões SD e "
+"pens USB."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automático (%s)"
+
+msgid "zram compression"
+msgstr "Compressão zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Algoritmo de compressão para o swap comprimido na RAM. lz4 é o mais rápido, "
+"zstd comprime melhor mas precisa de mais CPU. A alteração aplica-se na "
+"próxima configuração do zram."
+
+msgid "zram at startup"
+msgstr "zram no arranque"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr ""
+"Configurar o swap comprimido na RAM (%s) sempre que o recetor arranca."
+
+msgid "On"
+msgstr "Ligado"
+
+msgid "Show plugin in"
+msgstr "Mostrar plugin em"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Onde o Simple Swap Manager pode ser aberto. A alteração aplica-se após "
+"reiniciar a GUI."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Mostra o que este recetor suporta: kernel, zram, zswap e unidades. Prima OK "
+"para abrir."
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Uninstall plugin..."
+msgstr "Desinstalar plugin..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Remove o Simple Swap Manager deste recetor. Pode escolher se o espaço de "
+"swap é mantido ou apagado."
+
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Desinstalar o Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "O Simple Swap Manager será removido deste recetor."
+
+msgid "Compressed RAM (zram)"
+msgstr "RAM comprimida (zram)"
+
+msgid "Keep swap space"
+msgstr "Manter o espaço de swap"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Fica ativo até ao próximo reinício e depois deixa de ser usado"
+
+msgid "Delete swap space"
+msgstr "Apagar o espaço de swap"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Desativar agora e libertar espaço em disco"
+
+msgid "What should happen to the swap space?"
+msgstr "O que fazer com o espaço de swap?"
+
+msgid "Not enough free memory"
+msgstr "Memória livre insuficiente"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Estão guardados %s neste espaço de swap, mas não há RAM livre suficiente "
+"para os recuperar. Feche primeiro alguns plugins ou reinicie a GUI."
+
+msgid "Moving data back to RAM..."
+msgstr "A devolver os dados à RAM..."
+
+msgid "Deleting swap file..."
+msgstr "A apagar o ficheiro de swap..."
+
+msgid "Removing plugin..."
+msgstr "A remover o plugin..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "O Simple Swap Manager foi removido."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Espaços de swap"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Nenhum espaço de swap encontrado.\n"
+"Prima AMARELO para criar um ficheiro de swap."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Opções     MENU  Definições     INFO  Info do sistema     EXIT  Fechar"
+
+msgid "Create"
+msgstr "Criar"
+
+msgid "Settings"
+msgstr "Definições"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Memória esgotada %d vezes desde o arranque – detalhes com INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "%s de %s em uso"
+
+msgid "not active"
+msgstr "inativo"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Arranque: %s"
+
+msgid "Startup: off"
+msgstr "Arranque: desligado"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: entrada %s/s, saída %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Escrito desde o arranque: %s"
+
+msgid "Swap partition"
+msgstr "Partição de swap"
+
+msgid "Swap file"
+msgstr "Ficheiro de swap"
+
+#, python-format
+msgid "%s used"
+msgstr "%s em uso"
+
+msgid "ACTIVE"
+msgstr "ATIVO"
+
+msgid "INACTIVE"
+msgstr "INATIVO"
+
+msgid "STARTUP"
+msgstr "ARRANQUE"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Nenhum espaço de swap encontrado.\n"
+"Nenhuma unidade externa com sistema de ficheiros Linux (ext4, ...) montada – prima AMARELO para RAM comprimida (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Nenhum espaço de swap encontrado.\n"
+"Nenhuma unidade externa com sistema de ficheiros Linux (ext4, ...) montada. Ligue uma unidade USB ou um disco rígido e monte-o nas definições de discos da imagem."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s de RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "rácio %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "swap comprimido na RAM"
+
+msgid "Deactivate"
+msgstr "Desativar"
+
+msgid "Activate"
+msgstr "Ativar"
+
+msgid "Delete"
+msgstr "Apagar"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Stop using this swap space now"
+msgstr "Deixar de usar este espaço de swap agora"
+
+msgid "Start using this swap space now"
+msgstr "Começar a usar este espaço de swap agora"
+
+msgid "Don't activate at startup"
+msgstr "Não ativar no arranque"
+
+msgid "Remove automatic activation"
+msgstr "Remover a ativação automática"
+
+msgid "Activate at startup"
+msgstr "Ativar no arranque"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Configurar o swap comprimido na RAM sempre que o recetor arranca"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Desativar o zram e devolver a memória"
+
+msgid "Change size"
+msgstr "Alterar tamanho"
+
+msgid "Set up zram again with a different size"
+msgstr "Configurar o zram novamente com outro tamanho"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Usar este ficheiro de swap sempre que o recetor arranca"
+
+msgid "Create the swap file again with a different size"
+msgstr "Criar novamente o ficheiro de swap com outro tamanho"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Apagar o ficheiro de swap e libertar espaço em disco"
+
+msgid "Create new swap file"
+msgstr "Criar novo ficheiro de swap"
+
+msgid "What this receiver supports"
+msgstr "O que este recetor suporta"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Tamanho: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Guardado: %s, comprimido para %s (%s de RAM em uso)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritmo: %s, prioridade %d"
+
+msgid "Status: inactive"
+msgstr "Estado: inativo"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Em uso: %s, prioridade %d"
+
+msgid "Startup activation disabled"
+msgstr "Ativação no arranque desligada"
+
+msgid "Activated at every startup"
+msgstr "Ativado em cada arranque"
+
+msgid "Activate swap"
+msgstr "Ativar swap"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "A configurar o swap comprimido na RAM..."
+
+msgid "Swap activated"
+msgstr "Swap ativado"
+
+msgid "Deactivate swap"
+msgstr "Desativar swap"
+
+msgid "Swap deactivated"
+msgstr "Swap desativado"
+
+msgid "The file is not a valid swap file."
+msgstr "O ficheiro não é um ficheiro de swap válido."
+
+msgid "Activating swap..."
+msgstr "A ativar o swap..."
+
+msgid "Delete swap file"
+msgstr "Apagar ficheiro de swap"
+
+msgid "Swap file deleted"
+msgstr "Ficheiro de swap apagado"
+
+msgid "Delete swap file?"
+msgstr "Apagar o ficheiro de swap?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) será desativado e apagado."
+
+msgid "Restart GUI?"
+msgstr "Reiniciar a GUI?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"O plugin só é descarregado por completo depois de reiniciar a GUI. Reiniciar"
+" agora?"
+
+msgid "Restart now"
+msgstr "Reiniciar agora"
+
+msgid "Later"
+msgstr "Mais tarde"
+
+msgid "No suitable storage"
+msgstr "Sem armazenamento adequado"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Não foi encontrado nenhum armazenamento com sistema de ficheiros Linux (ext2/3/4, xfs, ...).\n"
+"Não é possível criar ficheiros de swap em FAT, exFAT, NTFS ou unidades de rede."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Sem unidade  ·  o mais rápido  ·  usa um pouco de CPU"
+
+msgid "FASTEST"
+msgstr "MAIS RÁPIDO"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Indisponível neste recetor - prima OK para detalhes"
+
+msgid "NOT SUPPORTED"
+msgstr "NÃO SUPORTADO"
+
+#, python-format
+msgid "%s free"
+msgstr "%s livres"
+
+msgid "NOT RECOMMENDED"
+msgstr "NÃO RECOMENDADO"
+
+msgid "NOT IDEAL"
+msgstr "NÃO IDEAL"
+
+msgid "RECOMMENDED"
+msgstr "RECOMENDADO"
+
+msgid "FULL"
+msgstr "CHEIO"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Onde deve ser guardado o ficheiro de swap?\n"
+"Um disco rígido ou unidade USB é o ideal; a flash interna desgasta-se mais depressa."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Onde deve ser criado o espaço de swap?\n"
+"O zram comprime a memória dentro da RAM; pode ser combinado com um ficheiro de swap numa unidade."
+
+msgid "Create swap file  1/2"
+msgstr "Criar ficheiro de swap  1/2"
+
+msgid "zram not supported"
+msgstr "zram não suportado"
+
+msgid "Not enough space"
+msgstr "Espaço insuficiente"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Não há espaço livre suficiente em %s."
+
+msgid "Use internal flash?"
+msgstr "Usar a flash interna?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Usar swap na memória flash interna provoca muitos ciclos de escrita e pode "
+"encurtar a sua vida útil. Recomenda-se uma unidade USB ou um disco rígido."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"A flash interna está soldada e não pode ser trocada como um cartão SD ou uma"
+" unidade USB – se se desgastar, é o próprio recetor que fica afetado."
+
+msgid "Use internal flash anyway"
+msgstr "Usar a flash interna mesmo assim"
+
+msgid "Use SD card?"
+msgstr "Usar o cartão SD?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"O swap escreve no cartão vezes sem conta, por isso os cartões SD desgastam-se mais depressa. Recomenda-se uma unidade USB ou um disco rígido.\n"
+"Se usar o cartão: um swappiness baixo (10-20) reduz as escritas ao mínimo."
+
+msgid "Use SD card anyway"
+msgstr "Usar o cartão SD mesmo assim"
+
+msgid "Custom size..."
+msgstr "Tamanho personalizado..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Introduza um tamanho entre %d e %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Novo tamanho para %s (atual %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  disponível: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Criar ficheiro de swap  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Escolha o tamanho do ficheiro de swap em %s.\n"
+"RAM: %s  ·  espaço livre: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Tamanho do ficheiro de swap em MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Tamanho inválido"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Introduza um tamanho entre %d e %d MB."
+
+msgid "File exists"
+msgstr "O ficheiro existe"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s já existe e não é um ficheiro de swap. Remova-o primeiro."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"O ficheiro de swap existente está em uso e não há RAM livre suficiente para "
+"o substituir."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s será recriado com %s em vez de %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Será criado um ficheiro de swap de %s em\n"
+"%s\n"
+"e ativado em cada arranque."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "O ficheiro de swap existente (%s) será substituído."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Demora cerca de %d segundos."
+
+msgid "Create swap file?"
+msgstr "Criar o ficheiro de swap?"
+
+msgid "Create swap file"
+msgstr "Criar ficheiro de swap"
+
+msgid "Deactivating old swap file..."
+msgstr "A desativar o ficheiro de swap antigo..."
+
+msgid "Removing old swap file..."
+msgstr "A remover o ficheiro de swap antigo..."
+
+msgid "Writing swap file..."
+msgstr "A escrever o ficheiro de swap..."
+
+msgid "Formatting swap file..."
+msgstr "A formatar o ficheiro de swap..."
+
+msgid "Size changed"
+msgstr "Tamanho alterado"
+
+msgid "Swap file created and activated"
+msgstr "Ficheiro de swap criado e ativado"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness definido para %d"
+
+msgid "Protect the SD card?"
+msgstr "Poupar o cartão SD?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"O swappiness é %d. Com 10, o recetor usa o swap menos vezes e escreve menos "
+"no cartão."
+
+msgid "Set swappiness to 10"
+msgstr "Definir swappiness para 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Manter %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "usa no máximo cerca de %s de RAM quando cheio"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "RAM comprimida (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Escolha o tamanho do swap comprimido (RAM: %s).\n"
+"A memória só é usada quando os dados são realmente trocados; cerca de metade da RAM é um bom valor."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Será configurado um swap comprimido na RAM de %s (algoritmo: %s) e ativado "
+"em cada arranque."
+
+msgid "kernel default"
+msgstr "predefinição do kernel"
+
+msgid "It is used before swap files on drives."
+msgstr "É usado antes dos ficheiros de swap em unidades."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "O swap zram atual (%s) será substituído."
+
+msgid "Set up zram?"
+msgstr "Configurar o zram?"
+
+msgid "Set up zram"
+msgstr "Configurar zram"
+
+msgid "zram activated"
+msgstr "zram ativado"
+
+msgid "Remove zram"
+msgstr "Remover zram"
+
+msgid "zram removed"
+msgstr "zram removido"
+
+msgid "Remove zram?"
+msgstr "Remover o zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"O swap comprimido na RAM será desativado e deixará de ser configurado no "
+"arranque."

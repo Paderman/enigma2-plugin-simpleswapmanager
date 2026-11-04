@@ -1,0 +1,896 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: th\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "ค่าเริ่มต้นของระบบ"
+
+msgid "Plugins and storage menu"
+msgstr "ปลั๊กอินและเมนูอุปกรณ์จัดเก็บ"
+
+msgid "Plugin browser only"
+msgstr "เฉพาะเบราว์เซอร์ปลั๊กอิน"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "สร้างและจัดการไฟล์สว็อป"
+
+msgid "Hard disk"
+msgstr "ฮาร์ดดิสก์"
+
+msgid "USB storage"
+msgstr "อุปกรณ์ USB"
+
+msgid "SD card"
+msgstr "การ์ด SD"
+
+msgid "Internal flash"
+msgstr "แฟลชภายใน"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  เลือก     EXIT  กลับ"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr "ไม่สามารถสร้างอุปกรณ์ zram ได้ เคอร์เนลนี้อาจไม่รองรับ zram"
+
+msgid "Please wait..."
+msgstr "โปรดรอสักครู่..."
+
+msgid "Could not start command."
+msgstr "ไม่สามารถเริ่มคำสั่งได้"
+
+#, python-format
+msgid "%s of %s written"
+msgstr "เขียนแล้ว %s จาก %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "รหัสข้อผิดพลาด %d"
+
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Done"
+msgstr "เสร็จสิ้น"
+
+msgid "Cancelled."
+msgstr "ยกเลิกแล้ว"
+
+msgid "zram is loaded and ready to use."
+msgstr "โหลด zram แล้ว พร้อมใช้งาน"
+
+msgid "zram is built into the kernel."
+msgstr "zram อยู่ในเคอร์เนลแล้ว"
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram มีให้ใช้เป็นโมดูลเคอร์เนลและจะโหลดเมื่อจำเป็น"
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"เคอร์เนลของเครื่องรับนี้ (%s) ถูกสร้างโดยไม่มี zram "
+"ไฟล์สว็อปบนไดรฟ์จึงเป็นทางเลือกที่ดีที่สุด"
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr "เคอร์เนลรองรับ zram เป็นโมดูล แต่ไม่ได้ติดตั้งโมดูลไว้ (เคอร์เนล %s)"
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "ไม่พบการรองรับ zram ในเคอร์เนล (%s)"
+
+msgid "available"
+msgstr "พร้อมใช้งาน"
+
+msgid "module missing"
+msgstr "ไม่มีโมดูล"
+
+msgid "not supported"
+msgstr "ไม่รองรับ"
+
+msgid "System information"
+msgstr "ข้อมูลระบบ"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "ขึ้น/ลง  รายละเอียด     EXIT  กลับ"
+
+msgid "Receiver"
+msgstr "เครื่องรับ"
+
+msgid "Image"
+msgstr "อิมเมจ"
+
+msgid "Kernel"
+msgstr "เคอร์เนล"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"เคอร์เนลเป็นตัวกำหนดว่าฟังก์ชันหน่วยความจำใดใช้ได้ "
+"เป็นส่วนหนึ่งของอิมเมจและปลั๊กอินเปลี่ยนแปลงไม่ได้"
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d ครั้ง"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "ล่าสุด: %s, %s"
+
+msgid "never"
+msgstr "ไม่เคย"
+
+msgid "Out of memory"
+msgstr "หน่วยความจำไม่พอ"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"จำนวนครั้งที่ RAM และสว็อปเต็มจนเคอร์เนลต้องปิดโปรแกรม "
+"(นับตั้งแต่ติดตั้งปลั๊กอิน) หากเกิดขึ้น ไฟล์สว็อป - หรือไฟล์ที่ใหญ่ขึ้น - "
+"จะช่วยได้"
+
+msgid "Swap support"
+msgstr "การรองรับสว็อป"
+
+msgid "yes"
+msgstr "ใช่"
+
+msgid "no"
+msgstr "ไม่"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "จำเป็นสำหรับไฟล์สว็อป พาร์ทิชันสว็อป และ zram"
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram บีบอัดหน่วยความจำที่ถูกสว็อปออกไว้ใน RAM โดยตรง (ประมาณ 2-3:1) - "
+"ไม่ต้องใช้ไดรฟ์"
+
+msgid "zram (compressed RAM)"
+msgstr "zram (RAM แบบบีบอัด)"
+
+msgid "zram algorithms"
+msgstr "อัลกอริทึม zram"
+
+msgid "known after loading"
+msgstr "ทราบหลังจากโหลด"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"อัลกอริทึมการบีบอัดที่เคอร์เนลมีให้ lz4 เร็วที่สุด zstd บีบอัดได้ดีที่สุด"
+
+#, python-format
+msgid "active (%s)"
+msgstr "ทำงานอยู่ (%s)"
+
+msgid "available, inactive"
+msgstr "พร้อมใช้งาน ไม่ได้ทำงาน"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap คือแคชแบบบีบอัดที่อยู่หน้าไฟล์สว็อป "
+"แสดงไว้ที่นี่เพื่อเป็นข้อมูลเท่านั้น"
+
+msgid "none (only internal flash)"
+msgstr "ไม่มี (มีเฉพาะแฟลชภายใน)"
+
+msgid "none"
+msgstr "ไม่มี"
+
+msgid "Drives for swap files"
+msgstr "ไดรฟ์สำหรับไฟล์สว็อป"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr "ไดรฟ์ที่ใช้ระบบไฟล์ Linux (ext2/3/4, xfs, ...) ซึ่งเก็บไฟล์สว็อปได้"
+
+msgid "Kernel configuration"
+msgstr "การกำหนดค่าเคอร์เนล"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz "
+"ทำให้ปลั๊กอินรู้ได้แน่ชัดว่าเคอร์เนลถูกสร้างพร้อมฟังก์ชันใดบ้าง"
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "ขนาดหน้า"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d ไบต์"
+
+msgid "Simple Swap Manager settings"
+msgstr "การตั้งค่า Simple Swap Manager"
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Off"
+msgstr "ปิด"
+
+msgid "Swap file at startup"
+msgstr "ไฟล์สว็อปเมื่อเริ่มระบบ"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"ไฟล์สว็อปนี้จะเปิดใช้งานอัตโนมัติทุกครั้งที่เครื่องรับเริ่มทำงาน "
+"ปลั๊กอินจะรอสูงสุดสามนาทีให้อุปกรณ์จัดเก็บถูกเมานต์"
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"ระดับที่เคอร์เนลย้ายหน่วยความจำไปยังสว็อป (0-100) ค่าต่ำจะเก็บข้อมูลไว้ใน "
+"RAM นานกว่า สำหรับเครื่องรับ 10-30 เป็นค่าที่ดี ค่าปัจจุบัน: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"ค่าที่ต่ำลงยังหมายถึงการเขียนที่น้อยลง ช่วยถนอมการ์ด SD และแฟลชไดรฟ์ USB"
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "อัตโนมัติ (%s)"
+
+msgid "zram compression"
+msgstr "การบีบอัด zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"อัลกอริทึมการบีบอัดสำหรับสว็อปใน RAM แบบบีบอัด lz4 เร็วที่สุด zstd "
+"บีบอัดได้ดีที่สุดแต่ใช้ CPU มากกว่า การเปลี่ยนแปลงมีผลเมื่อตั้งค่า zram "
+"ครั้งถัดไป"
+
+msgid "zram at startup"
+msgstr "zram เมื่อเริ่มระบบ"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "ตั้งค่าสว็อปใน RAM แบบบีบอัด (%s) ทุกครั้งที่เครื่องรับเริ่มทำงาน"
+
+msgid "On"
+msgstr "เปิด"
+
+msgid "Show plugin in"
+msgstr "แสดงปลั๊กอินใน"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"ตำแหน่งที่เปิด Simple Swap Manager ได้ การเปลี่ยนแปลงมีผลหลังรีสตาร์ท GUI"
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"แสดงสิ่งที่เครื่องรับนี้รองรับ: เคอร์เนล, zram, zswap และไดรฟ์ กด OK "
+"เพื่อเปิด"
+
+msgid "Open"
+msgstr "เปิด"
+
+msgid "Uninstall plugin..."
+msgstr "ถอนการติดตั้งปลั๊กอิน..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"ลบ Simple Swap Manager ออกจากเครื่องรับนี้ "
+"คุณเลือกได้ว่าจะเก็บหรือลบพื้นที่สว็อป"
+
+msgid "Uninstall"
+msgstr "ถอนการติดตั้ง"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "ถอนการติดตั้ง Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager จะถูกลบออกจากเครื่องรับนี้"
+
+msgid "Compressed RAM (zram)"
+msgstr "RAM แบบบีบอัด (zram)"
+
+msgid "Keep swap space"
+msgstr "เก็บพื้นที่สว็อปไว้"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "ยังทำงานจนกว่าจะรีสตาร์ทครั้งถัดไป จากนั้นจะไม่ถูกใช้อีก"
+
+msgid "Delete swap space"
+msgstr "ลบพื้นที่สว็อป"
+
+msgid "Deactivate now and free the disk space"
+msgstr "ปิดใช้งานทันทีและคืนพื้นที่ดิสก์"
+
+msgid "What should happen to the swap space?"
+msgstr "ต้องการทำอะไรกับพื้นที่สว็อป?"
+
+msgid "Not enough free memory"
+msgstr "หน่วยความจำว่างไม่เพียงพอ"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"ขณะนี้พื้นที่สว็อปนี้เก็บข้อมูลอยู่ %s แต่ RAM ว่างไม่พอที่จะดึงกลับมา "
+"โปรดปิดปลั๊กอินบางตัวหรือรีสตาร์ท GUI ก่อน"
+
+msgid "Moving data back to RAM..."
+msgstr "กำลังย้ายข้อมูลกลับไปยัง RAM..."
+
+msgid "Deleting swap file..."
+msgstr "กำลังลบไฟล์สว็อป..."
+
+msgid "Removing plugin..."
+msgstr "กำลังลบปลั๊กอิน..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "ลบ Simple Swap Manager แล้ว"
+
+msgid "Swap"
+msgstr "สว็อป"
+
+msgid "Total"
+msgstr "รวม"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "พื้นที่สว็อป"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"ไม่พบพื้นที่สว็อป\n"
+"กดปุ่มเหลืองเพื่อสร้างไฟล์สว็อป"
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr "OK  ตัวเลือก     MENU  ตั้งค่า     INFO  ข้อมูลระบบ     EXIT  ปิด"
+
+msgid "Create"
+msgstr "สร้าง"
+
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "หน่วยความจำไม่พอ %d ครั้งตั้งแต่เปิดเครื่อง - ดูรายละเอียดด้วย INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "ใช้ไป %s จาก %s"
+
+msgid "not active"
+msgstr "ไม่ได้ทำงาน"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "เริ่มระบบ: %s"
+
+msgid "Startup: off"
+msgstr "เริ่มระบบ: ปิด"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "สว็อป: เข้า %s/s, ออก %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "เขียนตั้งแต่เปิดเครื่อง: %s"
+
+msgid "Swap partition"
+msgstr "พาร์ทิชันสว็อป"
+
+msgid "Swap file"
+msgstr "ไฟล์สว็อป"
+
+#, python-format
+msgid "%s used"
+msgstr "ใช้ไป %s"
+
+msgid "ACTIVE"
+msgstr "ทำงาน"
+
+msgid "INACTIVE"
+msgstr "ไม่ทำงาน"
+
+msgid "STARTUP"
+msgstr "เริ่มอัตโนมัติ"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"ไม่พบพื้นที่สว็อป\n"
+"ไม่มีไดรฟ์ภายนอกที่ใช้ระบบไฟล์ Linux (ext4, ...) - กดปุ่มเหลืองเพื่อใช้ RAM แบบบีบอัด (zram)"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"ไม่พบพื้นที่สว็อป\n"
+"ไม่มีไดรฟ์ภายนอกที่ใช้ระบบไฟล์ Linux (ext4, ...) เชื่อมต่อไดรฟ์ USB หรือฮาร์ดดิสก์ แล้วเมานต์ในการตั้งค่าดิสก์ของอิมเมจ"
+
+#, python-format
+msgid "%s RAM"
+msgstr "RAM %s"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "อัตรา %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "สว็อปแบบบีบอัดใน RAM"
+
+msgid "Deactivate"
+msgstr "ปิดใช้งาน"
+
+msgid "Activate"
+msgstr "เปิดใช้งาน"
+
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "Remove"
+msgstr "เอาออก"
+
+msgid "Stop using this swap space now"
+msgstr "หยุดใช้พื้นที่สว็อปนี้ทันที"
+
+msgid "Start using this swap space now"
+msgstr "เริ่มใช้พื้นที่สว็อปนี้ทันที"
+
+msgid "Don't activate at startup"
+msgstr "ไม่เปิดใช้งานเมื่อเริ่มระบบ"
+
+msgid "Remove automatic activation"
+msgstr "ยกเลิกการเปิดใช้งานอัตโนมัติ"
+
+msgid "Activate at startup"
+msgstr "เปิดใช้งานเมื่อเริ่มระบบ"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "ตั้งค่าสว็อปใน RAM แบบบีบอัดทุกครั้งที่เครื่องรับเริ่มทำงาน"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "ปิด zram และคืนหน่วยความจำ"
+
+msgid "Change size"
+msgstr "เปลี่ยนขนาด"
+
+msgid "Set up zram again with a different size"
+msgstr "ตั้งค่า zram ใหม่ด้วยขนาดอื่น"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "ใช้ไฟล์สว็อปนี้ทุกครั้งที่เครื่องรับเริ่มทำงาน"
+
+msgid "Create the swap file again with a different size"
+msgstr "สร้างไฟล์สว็อปใหม่ด้วยขนาดอื่น"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "ลบไฟล์สว็อปและคืนพื้นที่ดิสก์"
+
+msgid "Create new swap file"
+msgstr "สร้างไฟล์สว็อปใหม่"
+
+msgid "What this receiver supports"
+msgstr "สิ่งที่เครื่องรับนี้รองรับ"
+
+#, python-format
+msgid "Size: %s"
+msgstr "ขนาด: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "เก็บไว้: %s บีบอัดเหลือ %s (ใช้ RAM %s)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "อัลกอริทึม: %s, ลำดับความสำคัญ %d"
+
+msgid "Status: inactive"
+msgstr "สถานะ: ไม่ได้ทำงาน"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "ใช้ไป: %s, ลำดับความสำคัญ %d"
+
+msgid "Startup activation disabled"
+msgstr "ปิดการเปิดใช้งานเมื่อเริ่มระบบแล้ว"
+
+msgid "Activated at every startup"
+msgstr "เปิดใช้งานทุกครั้งที่เริ่มระบบ"
+
+msgid "Activate swap"
+msgstr "เปิดใช้งานสว็อป"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "กำลังตั้งค่าสว็อปใน RAM แบบบีบอัด..."
+
+msgid "Swap activated"
+msgstr "เปิดใช้งานสว็อปแล้ว"
+
+msgid "Deactivate swap"
+msgstr "ปิดใช้งานสว็อป"
+
+msgid "Swap deactivated"
+msgstr "ปิดใช้งานสว็อปแล้ว"
+
+msgid "The file is not a valid swap file."
+msgstr "ไฟล์นี้ไม่ใช่ไฟล์สว็อปที่ถูกต้อง"
+
+msgid "Activating swap..."
+msgstr "กำลังเปิดใช้งานสว็อป..."
+
+msgid "Delete swap file"
+msgstr "ลบไฟล์สว็อป"
+
+msgid "Swap file deleted"
+msgstr "ลบไฟล์สว็อปแล้ว"
+
+msgid "Delete swap file?"
+msgstr "ลบไฟล์สว็อปหรือไม่?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) จะถูกปิดใช้งานและลบ"
+
+msgid "Restart GUI?"
+msgstr "รีสตาร์ท GUI หรือไม่?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"ปลั๊กอินจะถูกนำออกจากหน่วยความจำทั้งหมดหลังรีสตาร์ท GUI เท่านั้น "
+"รีสตาร์ทตอนนี้หรือไม่?"
+
+msgid "Restart now"
+msgstr "รีสตาร์ทตอนนี้"
+
+msgid "Later"
+msgstr "ภายหลัง"
+
+msgid "No suitable storage"
+msgstr "ไม่มีอุปกรณ์จัดเก็บที่เหมาะสม"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"ไม่พบอุปกรณ์จัดเก็บที่ใช้ระบบไฟล์ Linux (ext2/3/4, xfs, ...)\n"
+"ไม่สามารถสร้างไฟล์สว็อปบน FAT, exFAT, NTFS หรือไดรฟ์เครือข่ายได้"
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "ไม่ต้องใช้ไดรฟ์  ·  เร็วที่สุด  ·  ใช้ CPU เล็กน้อย"
+
+msgid "FASTEST"
+msgstr "เร็วที่สุด"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "ใช้ไม่ได้บนเครื่องรับนี้ - กด OK ดูรายละเอียด"
+
+msgid "NOT SUPPORTED"
+msgstr "ไม่รองรับ"
+
+#, python-format
+msgid "%s free"
+msgstr "ว่าง %s"
+
+msgid "NOT RECOMMENDED"
+msgstr "ไม่แนะนำ"
+
+msgid "NOT IDEAL"
+msgstr "ไม่เหมาะ"
+
+msgid "RECOMMENDED"
+msgstr "แนะนำ"
+
+msgid "FULL"
+msgstr "เต็ม"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"จะเก็บไฟล์สว็อปไว้ที่ไหน?\n"
+"ฮาร์ดดิสก์หรือไดรฟ์ USB ดีที่สุด แฟลชภายในจะเสื่อมเร็วกว่า"
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"จะสร้างพื้นที่สว็อปที่ไหน?\n"
+"zram บีบอัดหน่วยความจำภายใน RAM และใช้ร่วมกับไฟล์สว็อปบนไดรฟ์ได้"
+
+msgid "Create swap file  1/2"
+msgstr "สร้างไฟล์สว็อป  1/2"
+
+msgid "zram not supported"
+msgstr "ไม่รองรับ zram"
+
+msgid "Not enough space"
+msgstr "พื้นที่ไม่พอ"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "พื้นที่ว่างบน %s ไม่เพียงพอ"
+
+msgid "Use internal flash?"
+msgstr "ใช้แฟลชภายในหรือไม่?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"การสว็อปบนหน่วยความจำแฟลชภายในทำให้เกิดการเขียนจำนวนมากและอาจทำให้อายุการใช้งานสั้นลง"
+" แนะนำให้ใช้ไดรฟ์ USB หรือฮาร์ดดิสก์"
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"แฟลชภายในถูกบัดกรีติดไว้ เปลี่ยนแบบการ์ด SD หรือไดรฟ์ USB ไม่ได้ - หากสึกหรอ"
+" ตัวเครื่องรับเองจะได้รับผลกระทบ"
+
+msgid "Use internal flash anyway"
+msgstr "ใช้แฟลชภายในต่อไป"
+
+msgid "Use SD card?"
+msgstr "ใช้การ์ด SD หรือไม่?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"การสว็อปจะเขียนลงการ์ดซ้ำแล้วซ้ำเล่า การ์ด SD จึงสึกหรอเร็วขึ้น แนะนำให้ใช้ไดรฟ์ USB หรือฮาร์ดดิสก์\n"
+"หากใช้การ์ด: ค่า swappiness ต่ำ (10-20) ช่วยลดการเขียนให้น้อยที่สุด"
+
+msgid "Use SD card anyway"
+msgstr "ใช้การ์ด SD ต่อไป"
+
+msgid "Custom size..."
+msgstr "กำหนดขนาดเอง..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "ป้อนขนาดระหว่าง %d ถึง %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "ขนาดใหม่สำหรับ %s (ปัจจุบัน %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  ใช้ได้: %s"
+
+msgid "Create swap file  2/2"
+msgstr "สร้างไฟล์สว็อป  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"เลือกขนาดของไฟล์สว็อปบน %s\n"
+"RAM: %s  ·  พื้นที่ว่าง: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "ขนาดไฟล์สว็อปเป็น MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "ขนาดไม่ถูกต้อง"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "โปรดป้อนขนาดระหว่าง %d ถึง %d MB"
+
+msgid "File exists"
+msgstr "มีไฟล์อยู่แล้ว"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s มีอยู่แล้วและไม่ใช่ไฟล์สว็อป โปรดลบออกก่อน"
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr "ไฟล์สว็อปที่มีอยู่กำลังใช้งาน และ RAM ว่างไม่พอที่จะแทนที่"
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s จะถูกสร้างใหม่เป็น %s แทน %s"
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"จะสร้างไฟล์สว็อปขนาด %s ที่\n"
+"%s\n"
+"และเปิดใช้งานทุกครั้งที่เริ่มระบบ"
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "ไฟล์สว็อปที่มีอยู่ (%s) จะถูกแทนที่"
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "ใช้เวลาประมาณ %d วินาที"
+
+msgid "Create swap file?"
+msgstr "สร้างไฟล์สว็อปหรือไม่?"
+
+msgid "Create swap file"
+msgstr "สร้างไฟล์สว็อป"
+
+msgid "Deactivating old swap file..."
+msgstr "กำลังปิดใช้งานไฟล์สว็อปเก่า..."
+
+msgid "Removing old swap file..."
+msgstr "กำลังลบไฟล์สว็อปเก่า..."
+
+msgid "Writing swap file..."
+msgstr "กำลังเขียนไฟล์สว็อป..."
+
+msgid "Formatting swap file..."
+msgstr "กำลังฟอร์แมตไฟล์สว็อป..."
+
+msgid "Size changed"
+msgstr "เปลี่ยนขนาดแล้ว"
+
+msgid "Swap file created and activated"
+msgstr "สร้างและเปิดใช้งานไฟล์สว็อปแล้ว"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "ตั้ง swappiness เป็น %d แล้ว"
+
+msgid "Protect the SD card?"
+msgstr "ถนอมการ์ด SD หรือไม่?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"ค่า swappiness คือ %d หากตั้งเป็น 10 "
+"เครื่องรับจะสว็อปน้อยลงและเขียนลงการ์ดน้อยลง"
+
+msgid "Set swappiness to 10"
+msgstr "ตั้ง swappiness เป็น 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "คงไว้ที่ %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "เมื่อเต็มจะใช้ RAM ไม่เกินประมาณ %s"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "RAM แบบบีบอัด (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"เลือกขนาดของสว็อปแบบบีบอัด (RAM: %s)\n"
+"หน่วยความจำจะถูกใช้เมื่อมีการสว็อปข้อมูลจริงเท่านั้น ประมาณครึ่งหนึ่งของ RAM เป็นค่าที่ดี"
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"จะตั้งค่าสว็อปใน RAM แบบบีบอัดขนาด %s (อัลกอริทึม: %s) "
+"และเปิดใช้งานทุกครั้งที่เริ่มระบบ"
+
+msgid "kernel default"
+msgstr "ค่าเริ่มต้นของเคอร์เนล"
+
+msgid "It is used before swap files on drives."
+msgstr "จะถูกใช้ก่อนไฟล์สว็อปบนไดรฟ์"
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "สว็อป zram ปัจจุบัน (%s) จะถูกแทนที่"
+
+msgid "Set up zram?"
+msgstr "ตั้งค่า zram หรือไม่?"
+
+msgid "Set up zram"
+msgstr "ตั้งค่า zram"
+
+msgid "zram activated"
+msgstr "เปิดใช้งาน zram แล้ว"
+
+msgid "Remove zram"
+msgstr "เอา zram ออก"
+
+msgid "zram removed"
+msgstr "เอา zram ออกแล้ว"
+
+msgid "Remove zram?"
+msgstr "เอา zram ออกหรือไม่?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"สว็อปใน RAM แบบบีบอัดจะถูกปิดใช้งาน และจะไม่ถูกตั้งค่าเมื่อเริ่มระบบอีก"

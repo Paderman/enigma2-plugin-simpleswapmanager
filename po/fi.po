@@ -1,0 +1,908 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: fi\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Järjestelmän oletus"
+
+msgid "Plugins and storage menu"
+msgstr "Laajennukset ja tallennusvalikko"
+
+msgid "Plugin browser only"
+msgstr "Vain laajennusselain"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Luo ja hallitse sivutustiedostoja"
+
+msgid "Hard disk"
+msgstr "Kiintolevy"
+
+msgid "USB storage"
+msgstr "USB-tallennin"
+
+msgid "SD card"
+msgstr "SD-kortti"
+
+msgid "Internal flash"
+msgstr "Sisäinen flash"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Valitse     EXIT  Takaisin"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr "zram-laitetta ei voitu luoda. Tämä ydin ei luultavasti tue zramia."
+
+msgid "Please wait..."
+msgstr "Odota..."
+
+msgid "Could not start command."
+msgstr "Komentoa ei voitu käynnistää."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "%s / %s kirjoitettu"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Virhekoodi %d"
+
+msgid "Error"
+msgstr "Virhe"
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Done"
+msgstr "Valmis"
+
+msgid "Cancelled."
+msgstr "Peruttu."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram on ladattu ja käyttövalmis."
+
+msgid "zram is built into the kernel."
+msgstr "zram on sisäänrakennettu ytimeen."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram on saatavilla ydinmoduulina, ja se ladataan tarvittaessa."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Tämän vastaanottimen ydin (%s) on käännetty ilman zramia. Asemalla oleva "
+"sivutustiedosto on tässä paras ratkaisu."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Ydin tukee zramia moduulina, mutta moduulia ei ole asennettu (ydin %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Ytimestä ei löytynyt zram-tukea (%s)."
+
+msgid "available"
+msgstr "saatavilla"
+
+msgid "module missing"
+msgstr "moduuli puuttuu"
+
+msgid "not supported"
+msgstr "ei tuettu"
+
+msgid "System information"
+msgstr "Järjestelmätiedot"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "YLÖS/ALAS  Tiedot     EXIT  Takaisin"
+
+msgid "Receiver"
+msgstr "Vastaanotin"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Kernel"
+msgstr "Ydin"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Ydin määrää, mitkä muistitoiminnot ovat käytettävissä. Se on osa imagea, "
+"eikä laajennus voi muuttaa sitä."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d kertaa"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "viimeksi: %s, %s"
+
+msgid "never"
+msgstr "ei koskaan"
+
+msgid "Out of memory"
+msgstr "Muisti loppui"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Kuinka usein RAM ja swap olivat täynnä ja ytimen piti lopettaa ohjelma "
+"(laajennuksen asennuksesta lähtien). Jos näin käy, sivutustiedosto – tai "
+"suurempi – auttaa."
+
+msgid "Swap support"
+msgstr "Swap-tuki"
+
+msgid "yes"
+msgstr "kyllä"
+
+msgid "no"
+msgstr "ei"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Tarvitaan sivutustiedostoihin, sivutusosioihin ja zramiin."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram pakkaa sivutetun muistin suoraan RAM-muistiin (noin 2-3:1) - asemaa ei "
+"tarvita."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (pakattu RAM)"
+
+msgid "zram algorithms"
+msgstr "zram-algoritmit"
+
+msgid "known after loading"
+msgstr "tiedossa latauksen jälkeen"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Ytimen tarjoamat pakkausalgoritmit. lz4 on nopein, zstd pakkaa parhaiten."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktiivinen (%s)"
+
+msgid "available, inactive"
+msgstr "saatavilla, ei aktiivinen"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap on pakattu välimuisti sivutustiedoston edessä. Se näytetään tässä vain"
+" tiedoksi."
+
+msgid "none (only internal flash)"
+msgstr "ei yhtään (vain sisäinen flash)"
+
+msgid "none"
+msgstr "ei yhtään"
+
+msgid "Drives for swap files"
+msgstr "Asemat sivutustiedostoille"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Linux-tiedostojärjestelmän (ext2/3/4, xfs, ...) asemat, joille voi tallentaa"
+" sivutustiedoston."
+
+msgid "Kernel configuration"
+msgstr "Ytimen asetukset"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz kertoo laajennukselle tarkasti, millä toiminnoilla ydin on "
+"käännetty."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Sivukoko"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d tavua"
+
+msgid "Simple Swap Manager settings"
+msgstr "Simple Swap Manager -asetukset"
+
+msgid "Save"
+msgstr "Tallenna"
+
+msgid "Off"
+msgstr "Pois"
+
+msgid "Swap file at startup"
+msgstr "Sivutustiedosto käynnistyksessä"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Tämä sivutustiedosto otetaan automaattisesti käyttöön joka kerta, kun "
+"vastaanotin käynnistyy. Laajennus odottaa enintään kolme minuuttia aseman "
+"liittämistä."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Kuinka herkästi ydin siirtää muistia swapiin (0-100). Pienet arvot pitävät "
+"tiedot pidempään RAM-muistissa; 10-30 on hyvä valinta vastaanottimille. "
+"Nykyinen arvo: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Pienemmät arvot tarkoittavat myös vähemmän kirjoituksia, mikä säästää SD-"
+"kortteja ja USB-tikkuja."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automaattinen (%s)"
+
+msgid "zram compression"
+msgstr "zram-pakkaus"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Pakkausalgoritmi RAM-muistin pakatulle swapille. lz4 on nopein, zstd pakkaa "
+"parhaiten mutta vaatii enemmän suoritinta. Muutos tulee voimaan, kun zram "
+"seuraavan kerran otetaan käyttöön."
+
+msgid "zram at startup"
+msgstr "zram käynnistyksessä"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr ""
+"Ota pakattu RAM-swap (%s) käyttöön joka kerta, kun vastaanotin käynnistyy."
+
+msgid "On"
+msgstr "Päällä"
+
+msgid "Show plugin in"
+msgstr "Näytä laajennus kohteessa"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Mistä Simple Swap Manager voidaan avata. Muutos tulee voimaan GUI:n "
+"uudelleenkäynnistyksen jälkeen."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Näyttää, mitä tämä vastaanotin tukee: ydin, zram, zswap ja asemat. Avaa "
+"painamalla OK."
+
+msgid "Open"
+msgstr "Avaa"
+
+msgid "Uninstall plugin..."
+msgstr "Poista laajennus..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Poistaa Simple Swap Managerin tästä vastaanottimesta. Voit valita, "
+"säilytetäänkö sivutusalue vai poistetaanko se."
+
+msgid "Uninstall"
+msgstr "Poista asennus"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Poista Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager poistetaan tästä vastaanottimesta."
+
+msgid "Compressed RAM (zram)"
+msgstr "Pakattu RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Säilytä sivutusalue"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Käytössä seuraavaan uudelleenkäynnistykseen, sen jälkeen ei enää"
+
+msgid "Delete swap space"
+msgstr "Poista sivutusalue"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Poista käytöstä nyt ja vapauta levytila"
+
+msgid "What should happen to the swap space?"
+msgstr "Mitä sivutusalueelle tehdään?"
+
+msgid "Not enough free memory"
+msgstr "Vapaata muistia ei ole tarpeeksi"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Tässä sivutusalueessa on tällä hetkellä %s, mutta vapaata RAM-muistia ei ole"
+" tarpeeksi sen palauttamiseen. Sulje ensin joitakin laajennuksia tai "
+"käynnistä GUI uudelleen."
+
+msgid "Moving data back to RAM..."
+msgstr "Siirretään tietoja takaisin RAM-muistiin..."
+
+msgid "Deleting swap file..."
+msgstr "Poistetaan sivutustiedostoa..."
+
+msgid "Removing plugin..."
+msgstr "Poistetaan laajennusta..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager on poistettu."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Yhteensä"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Sivutusalueet"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Sivutusaluetta ei löytynyt.\n"
+"Luo sivutustiedosto painamalla KELTAISTA."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Valinnat     MENU  Asetukset     INFO  Järjestelmätiedot     EXIT  Sulje"
+
+msgid "Create"
+msgstr "Luo"
+
+msgid "Settings"
+msgstr "Asetukset"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Muisti loppui %d kertaa käynnistyksen jälkeen – lisätietoja INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "%s / %s käytössä"
+
+msgid "not active"
+msgstr "ei aktiivinen"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Käynnistys: %s"
+
+msgid "Startup: off"
+msgstr "Käynnistys: pois"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: sisään %s/s, ulos %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Kirjoitettu käynnistyksestä: %s"
+
+msgid "Swap partition"
+msgstr "Sivutusosio"
+
+msgid "Swap file"
+msgstr "Sivutustiedosto"
+
+#, python-format
+msgid "%s used"
+msgstr "%s käytössä"
+
+msgid "ACTIVE"
+msgstr "AKTIIVINEN"
+
+msgid "INACTIVE"
+msgstr "EI AKTIIVINEN"
+
+msgid "STARTUP"
+msgstr "KÄYNNISTYS"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Sivutusaluetta ei löytynyt.\n"
+"Linux-tiedostojärjestelmällä (ext4, ...) olevaa ulkoista asemaa ei ole liitetty – KELTAINEN: pakattu RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Sivutusaluetta ei löytynyt.\n"
+"Linux-tiedostojärjestelmällä (ext4, ...) olevaa ulkoista asemaa ei ole liitetty. Kytke USB-asema tai kiintolevy ja liitä se imagen levyasetuksissa."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "suhde %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "pakattu swap RAM-muistissa"
+
+msgid "Deactivate"
+msgstr "Poista käytöstä"
+
+msgid "Activate"
+msgstr "Ota käyttöön"
+
+msgid "Delete"
+msgstr "Poista"
+
+msgid "Remove"
+msgstr "Poista"
+
+msgid "Stop using this swap space now"
+msgstr "Lopeta tämän sivutusalueen käyttö nyt"
+
+msgid "Start using this swap space now"
+msgstr "Aloita tämän sivutusalueen käyttö nyt"
+
+msgid "Don't activate at startup"
+msgstr "Älä ota käyttöön käynnistyksessä"
+
+msgid "Remove automatic activation"
+msgstr "Poista automaattinen käyttöönotto"
+
+msgid "Activate at startup"
+msgstr "Ota käyttöön käynnistyksessä"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Ota pakattu RAM-swap käyttöön joka kerta, kun vastaanotin käynnistyy"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Poista zram käytöstä ja vapauta muisti"
+
+msgid "Change size"
+msgstr "Muuta kokoa"
+
+msgid "Set up zram again with a different size"
+msgstr "Ota zram uudelleen käyttöön eri koolla"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Käytä tätä sivutustiedostoa joka kerta, kun vastaanotin käynnistyy"
+
+msgid "Create the swap file again with a different size"
+msgstr "Luo sivutustiedosto uudelleen eri koolla"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Poista sivutustiedosto ja vapauta levytilaa"
+
+msgid "Create new swap file"
+msgstr "Luo uusi sivutustiedosto"
+
+msgid "What this receiver supports"
+msgstr "Mitä tämä vastaanotin tukee"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Koko: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Tallennettu: %s, pakattu kokoon %s (%s RAM käytössä)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritmi: %s, prioriteetti %d"
+
+msgid "Status: inactive"
+msgstr "Tila: ei aktiivinen"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Käytössä: %s, prioriteetti %d"
+
+msgid "Startup activation disabled"
+msgstr "Käyttöönotto käynnistyksessä poistettu"
+
+msgid "Activated at every startup"
+msgstr "Otetaan käyttöön joka käynnistyksessä"
+
+msgid "Activate swap"
+msgstr "Ota swap käyttöön"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Otetaan pakattu RAM-swap käyttöön..."
+
+msgid "Swap activated"
+msgstr "Swap otettu käyttöön"
+
+msgid "Deactivate swap"
+msgstr "Poista swap käytöstä"
+
+msgid "Swap deactivated"
+msgstr "Swap poistettu käytöstä"
+
+msgid "The file is not a valid swap file."
+msgstr "Tiedosto ei ole kelvollinen sivutustiedosto."
+
+msgid "Activating swap..."
+msgstr "Otetaan swap käyttöön..."
+
+msgid "Delete swap file"
+msgstr "Poista sivutustiedosto"
+
+msgid "Swap file deleted"
+msgstr "Sivutustiedosto poistettu"
+
+msgid "Delete swap file?"
+msgstr "Poistetaanko sivutustiedosto?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) poistetaan käytöstä ja poistetaan."
+
+msgid "Restart GUI?"
+msgstr "Käynnistetäänkö GUI uudelleen?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Laajennus poistuu muistista kokonaan vasta, kun GUI käynnistetään uudelleen."
+" Käynnistetäänkö nyt?"
+
+msgid "Restart now"
+msgstr "Käynnistä nyt uudelleen"
+
+msgid "Later"
+msgstr "Myöhemmin"
+
+msgid "No suitable storage"
+msgstr "Ei sopivaa tallennuslaitetta"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Linux-tiedostojärjestelmän (ext2/3/4, xfs, ...) tallennuslaitetta ei löytynyt.\n"
+"Sivutustiedostoja ei voi luoda FAT-, exFAT-, NTFS- tai verkkoasemille."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Ei asemaa  ·  nopein  ·  käyttää hieman suoritinta"
+
+msgid "FASTEST"
+msgstr "NOPEIN"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Ei saatavilla tässä vastaanottimessa - lisätietoja OK"
+
+msgid "NOT SUPPORTED"
+msgstr "EI TUETTU"
+
+#, python-format
+msgid "%s free"
+msgstr "%s vapaana"
+
+msgid "NOT RECOMMENDED"
+msgstr "EI SUOSITELLA"
+
+msgid "NOT IDEAL"
+msgstr "EI IHANTEELLINEN"
+
+msgid "RECOMMENDED"
+msgstr "SUOSITELTU"
+
+msgid "FULL"
+msgstr "TÄYNNÄ"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Minne sivutustiedosto tallennetaan?\n"
+"Kiintolevy tai USB-asema on paras; sisäinen flash kuluu nopeammin."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Minne sivutusalue luodaan?\n"
+"zram pakkaa muistin RAM-muistin sisällä; sen voi yhdistää aseman sivutustiedostoon."
+
+msgid "Create swap file  1/2"
+msgstr "Luo sivutustiedosto  1/2"
+
+msgid "zram not supported"
+msgstr "zram ei ole tuettu"
+
+msgid "Not enough space"
+msgstr "Tila ei riitä"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Kohteessa %s ei ole tarpeeksi vapaata tilaa."
+
+msgid "Use internal flash?"
+msgstr "Käytetäänkö sisäistä flashia?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Sivutus sisäiseen flash-muistiin aiheuttaa paljon kirjoituskertoja ja voi "
+"lyhentää sen käyttöikää. USB-asemaa tai kiintolevyä suositellaan."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Sisäinen flash on juotettu kiinni, eikä sitä voi vaihtaa kuten SD-korttia "
+"tai USB-asemaa – jos se kuluu, vika on itse vastaanottimessa."
+
+msgid "Use internal flash anyway"
+msgstr "Käytä silti sisäistä flashia"
+
+msgid "Use SD card?"
+msgstr "Käytetäänkö SD-korttia?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Sivutus kirjoittaa korttiin yhä uudelleen, joten SD-kortit kuluvat nopeammin. Suositus on USB-asema tai kiintolevy.\n"
+"Jos käytät korttia: matala swappiness (10-20) pitää kirjoitukset vähäisinä."
+
+msgid "Use SD card anyway"
+msgstr "Käytä silti SD-korttia"
+
+msgid "Custom size..."
+msgstr "Oma koko..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Anna koko väliltä %d-%d Mt"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Uusi koko tiedostolle %s (nyt %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  käytettävissä: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Luo sivutustiedosto  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Valitse sivutustiedoston koko kohteessa %s.\n"
+"RAM: %s  ·  vapaata tilaa: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Sivutustiedoston koko megatavuina (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Virheellinen koko"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Anna koko väliltä %d-%d Mt."
+
+msgid "File exists"
+msgstr "Tiedosto on olemassa"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s on jo olemassa eikä se ole sivutustiedosto. Poista se ensin."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Nykyinen sivutustiedosto on käytössä, eikä vapaata RAM-muistia ole tarpeeksi"
+" sen korvaamiseen."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s luodaan uudelleen kooltaan %s (ennen %s)."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"%s:n sivutustiedosto luodaan kohteeseen\n"
+"%s\n"
+"ja otetaan käyttöön joka käynnistyksessä."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Nykyinen sivutustiedosto (%s) korvataan."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Tämä kestää noin %d sekuntia."
+
+msgid "Create swap file?"
+msgstr "Luodaanko sivutustiedosto?"
+
+msgid "Create swap file"
+msgstr "Luo sivutustiedosto"
+
+msgid "Deactivating old swap file..."
+msgstr "Poistetaan vanha sivutustiedosto käytöstä..."
+
+msgid "Removing old swap file..."
+msgstr "Poistetaan vanhaa sivutustiedostoa..."
+
+msgid "Writing swap file..."
+msgstr "Kirjoitetaan sivutustiedostoa..."
+
+msgid "Formatting swap file..."
+msgstr "Alustetaan sivutustiedostoa..."
+
+msgid "Size changed"
+msgstr "Koko muutettu"
+
+msgid "Swap file created and activated"
+msgstr "Sivutustiedosto luotu ja otettu käyttöön"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness asetettu: %d"
+
+msgid "Protect the SD card?"
+msgstr "Säästetäänkö SD-korttia?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness on %d. Arvolla 10 vastaanotin sivuttaa harvemmin ja kirjoittaa "
+"korttiin vähemmän."
+
+msgid "Set swappiness to 10"
+msgstr "Aseta swappiness 10:ksi"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Pidä %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "täynnä enintään noin %s RAM-muistia"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Pakattu RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Valitse pakatun swapin koko (RAM: %s).\n"
+"Muistia käytetään vain, kun tietoja todella sivutetaan; noin puolet RAM-muistista on hyvä arvo."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"%s:n pakattu RAM-swap otetaan käyttöön (algoritmi: %s) joka käynnistyksessä."
+
+msgid "kernel default"
+msgstr "ytimen oletus"
+
+msgid "It is used before swap files on drives."
+msgstr "Sitä käytetään ennen asemien sivutustiedostoja."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Nykyinen zram-swap (%s) korvataan."
+
+msgid "Set up zram?"
+msgstr "Otetaanko zram käyttöön?"
+
+msgid "Set up zram"
+msgstr "Ota zram käyttöön"
+
+msgid "zram activated"
+msgstr "zram otettu käyttöön"
+
+msgid "Remove zram"
+msgstr "Poista zram"
+
+msgid "zram removed"
+msgstr "zram poistettu"
+
+msgid "Remove zram?"
+msgstr "Poistetaanko zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Pakattu RAM-swap poistetaan käytöstä, eikä sitä enää oteta käyttöön "
+"käynnistyksessä."

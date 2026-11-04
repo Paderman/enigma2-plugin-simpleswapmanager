@@ -1,0 +1,910 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: hu\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Rendszer alapértéke"
+
+msgid "Plugins and storage menu"
+msgstr "Bővítmények és tárolók menü"
+
+msgid "Plugin browser only"
+msgstr "Csak bővítményböngésző"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Lapozófájlok létrehozása és kezelése"
+
+msgid "Hard disk"
+msgstr "Merevlemez"
+
+msgid "USB storage"
+msgstr "USB-tároló"
+
+msgid "SD card"
+msgstr "SD-kártya"
+
+msgid "Internal flash"
+msgstr "Belső flash"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Kiválasztás     EXIT  Vissza"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"A zram-eszközt nem sikerült létrehozni. Ez a kernel valószínűleg nem "
+"támogatja a zramot."
+
+msgid "Please wait..."
+msgstr "Kérem, várjon..."
+
+msgid "Could not start command."
+msgstr "A parancsot nem sikerült elindítani."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "%s / %s kiírva"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Hibakód: %d"
+
+msgid "Error"
+msgstr "Hiba"
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Done"
+msgstr "Kész"
+
+msgid "Cancelled."
+msgstr "Megszakítva."
+
+msgid "zram is loaded and ready to use."
+msgstr "A zram betöltve és használatra kész."
+
+msgid "zram is built into the kernel."
+msgstr "A zram be van építve a kernelbe."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "A zram kernelmodulként érhető el, és szükség esetén betöltődik."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"A vevő kernele (%s) zram nélkül készült. Itt egy meghajtón lévő lapozófájl a"
+" legjobb megoldás."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"A kernel modulként támogatja a zramot, de a modul nincs telepítve (kernel: "
+"%s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "A kernelben nem található zram-támogatás (%s)."
+
+msgid "available"
+msgstr "elérhető"
+
+msgid "module missing"
+msgstr "hiányzó modul"
+
+msgid "not supported"
+msgstr "nem támogatott"
+
+msgid "System information"
+msgstr "Rendszerinformáció"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "FEL/LE  Részletek     EXIT  Vissza"
+
+msgid "Receiver"
+msgstr "Vevő"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Kernel"
+msgstr "Kernel"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"A kernel dönti el, mely memóriafunkciók érhetők el. Az image része, "
+"bővítmény nem módosíthatja."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d alkalommal"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "utoljára: %s, %s"
+
+msgid "never"
+msgstr "soha"
+
+msgid "Out of memory"
+msgstr "Memóriahiány"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Hányszor telt meg a RAM és a swap, és kellett a kernelnek leállítania egy "
+"programot (a bővítmény telepítése óta). Ha előfordul, egy lapozófájl – vagy "
+"nagyobb – segít."
+
+msgid "Swap support"
+msgstr "Swap-támogatás"
+
+msgid "yes"
+msgstr "igen"
+
+msgid "no"
+msgstr "nem"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Lapozófájlokhoz, swap-partíciókhoz és zramhoz szükséges."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"A zram a kilapozott memóriát közvetlenül a RAM-ban tömöríti (kb. 2-3:1) - "
+"meghajtó nélkül."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (tömörített RAM)"
+
+msgid "zram algorithms"
+msgstr "zram-algoritmusok"
+
+msgid "known after loading"
+msgstr "betöltés után ismert"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"A kernel által kínált tömörítési algoritmusok. Az lz4 a leggyorsabb, a zstd "
+"tömörít a legjobban."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktív (%s)"
+
+msgid "available, inactive"
+msgstr "elérhető, inaktív"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"A zswap egy tömörített gyorsítótár a lapozófájl előtt. Itt csak "
+"tájékoztatásként jelenik meg."
+
+msgid "none (only internal flash)"
+msgstr "nincs (csak belső flash)"
+
+msgid "none"
+msgstr "nincs"
+
+msgid "Drives for swap files"
+msgstr "Meghajtók lapozófájlhoz"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Linux-fájlrendszerű (ext2/3/4, xfs, ...) meghajtók, amelyeken lapozófájl "
+"helyezhető el."
+
+msgid "Kernel configuration"
+msgstr "Kernelkonfiguráció"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"A /proc/config.gz alapján a bővítmény pontosan látja, milyen funkciókkal "
+"készült a kernel."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Lapméret"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d bájt"
+
+msgid "Simple Swap Manager settings"
+msgstr "Simple Swap Manager beállítások"
+
+msgid "Save"
+msgstr "Mentés"
+
+msgid "Off"
+msgstr "Ki"
+
+msgid "Swap file at startup"
+msgstr "Lapozófájl indításkor"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Ez a lapozófájl a vevő minden indításakor automatikusan aktiválódik. A "
+"bővítmény legfeljebb három percet vár a tároló csatolására."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Milyen készségesen helyezi át a kernel a memóriát a swapba (0-100). Az "
+"alacsony értékek tovább tartják az adatokat a RAM-ban; vevőkhöz a 10-30 jó "
+"választás. Jelenlegi érték: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Az alacsonyabb értékek kevesebb írást is jelentenek, ami kíméli az SD-"
+"kártyákat és a pendrive-okat."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automatikus (%s)"
+
+msgid "zram compression"
+msgstr "zram-tömörítés"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Tömörítési algoritmus a RAM-ban lévő tömörített swaphoz. Az lz4 a "
+"leggyorsabb, a zstd tömörít a legjobban, de több CPU-t igényel. A változás a"
+" zram következő beállításakor lép életbe."
+
+msgid "zram at startup"
+msgstr "zram indításkor"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "A tömörített RAM-swap (%s) beállítása a vevő minden indításakor."
+
+msgid "On"
+msgstr "Be"
+
+msgid "Show plugin in"
+msgstr "Bővítmény megjelenítése itt"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Honnan nyitható meg a Simple Swap Manager. A változás a GUI újraindítása "
+"után lép életbe."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Megmutatja, mit támogat ez a vevő: kernel, zram, zswap és meghajtók. "
+"Megnyitás: OK."
+
+msgid "Open"
+msgstr "Megnyitás"
+
+msgid "Uninstall plugin..."
+msgstr "Bővítmény eltávolítása..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Eltávolítja a Simple Swap Managert erről a vevőről. Választhat, hogy a "
+"lapozóterület megmaradjon vagy törlődjön."
+
+msgid "Uninstall"
+msgstr "Eltávolítás"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Simple Swap Manager eltávolítása"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "A Simple Swap Manager el lesz távolítva erről a vevőről."
+
+msgid "Compressed RAM (zram)"
+msgstr "Tömörített RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Lapozóterület megtartása"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "A következő újraindításig aktív marad, utána már nem használatos"
+
+msgid "Delete swap space"
+msgstr "Lapozóterület törlése"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Kikapcsolás most és a lemezterület felszabadítása"
+
+msgid "What should happen to the swap space?"
+msgstr "Mi történjen a lapozóterülettel?"
+
+msgid "Not enough free memory"
+msgstr "Nincs elég szabad memória"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Ezen a lapozóterületen jelenleg %s van tárolva, de nincs elég szabad RAM a "
+"visszavételhez. Előbb zárjon be néhány bővítményt, vagy indítsa újra a "
+"GUI-t."
+
+msgid "Moving data back to RAM..."
+msgstr "Adatok visszahelyezése a RAM-ba..."
+
+msgid "Deleting swap file..."
+msgstr "Lapozófájl törlése..."
+
+msgid "Removing plugin..."
+msgstr "Bővítmény eltávolítása..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "A Simple Swap Manager eltávolítva."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Összesen"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Lapozóterületek"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Nem található lapozóterület.\n"
+"Lapozófájl létrehozásához nyomja meg a SÁRGA gombot."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Opciók     MENU  Beállítások     INFO  Rendszerinfó     EXIT  Bezárás"
+
+msgid "Create"
+msgstr "Létrehozás"
+
+msgid "Settings"
+msgstr "Beállítások"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Memóriahiány %d alkalommal indulás óta – részletek: INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "%s / %s foglalt"
+
+msgid "not active"
+msgstr "nem aktív"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Indítás: %s"
+
+msgid "Startup: off"
+msgstr "Indítás: ki"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: be %s/s, ki %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Írva indulás óta: %s"
+
+msgid "Swap partition"
+msgstr "Swap-partíció"
+
+msgid "Swap file"
+msgstr "Lapozófájl"
+
+#, python-format
+msgid "%s used"
+msgstr "%s foglalt"
+
+msgid "ACTIVE"
+msgstr "AKTÍV"
+
+msgid "INACTIVE"
+msgstr "INAKTÍV"
+
+msgid "STARTUP"
+msgstr "INDÍTÁSKOR"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Nem található lapozóterület.\n"
+"Nincs csatolva Linux fájlrendszerű (ext4, ...) külső meghajtó – SÁRGA: tömörített RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Nem található lapozóterület.\n"
+"Nincs csatolva Linux fájlrendszerű (ext4, ...) külső meghajtó. Csatlakoztasson USB-meghajtót vagy merevlemezt, és csatolja az image lemezbeállításaiban."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "arány %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "tömörített swap a RAM-ban"
+
+msgid "Deactivate"
+msgstr "Kikapcsolás"
+
+msgid "Activate"
+msgstr "Bekapcsolás"
+
+msgid "Delete"
+msgstr "Törlés"
+
+msgid "Remove"
+msgstr "Eltávolítás"
+
+msgid "Stop using this swap space now"
+msgstr "A lapozóterület használatának leállítása most"
+
+msgid "Start using this swap space now"
+msgstr "A lapozóterület használatának indítása most"
+
+msgid "Don't activate at startup"
+msgstr "Ne aktiválódjon indításkor"
+
+msgid "Remove automatic activation"
+msgstr "Automatikus aktiválás megszüntetése"
+
+msgid "Activate at startup"
+msgstr "Aktiválás indításkor"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "A tömörített RAM-swap beállítása a vevő minden indításakor"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "A zram kikapcsolása és a memória visszaadása"
+
+msgid "Change size"
+msgstr "Méret módosítása"
+
+msgid "Set up zram again with a different size"
+msgstr "A zram újbóli beállítása más mérettel"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Ennek a lapozófájlnak a használata a vevő minden indításakor"
+
+msgid "Create the swap file again with a different size"
+msgstr "A lapozófájl újbóli létrehozása más mérettel"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "A lapozófájl törlése és a lemezterület felszabadítása"
+
+msgid "Create new swap file"
+msgstr "Új lapozófájl létrehozása"
+
+msgid "What this receiver supports"
+msgstr "Mit támogat ez a vevő"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Méret: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Tárolva: %s, tömörítve: %s (%s RAM használatban)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritmus: %s, prioritás: %d"
+
+msgid "Status: inactive"
+msgstr "Állapot: inaktív"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Foglalt: %s, prioritás: %d"
+
+msgid "Startup activation disabled"
+msgstr "Aktiválás indításkor kikapcsolva"
+
+msgid "Activated at every startup"
+msgstr "Minden indításkor aktiválódik"
+
+msgid "Activate swap"
+msgstr "Swap bekapcsolása"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Tömörített RAM-swap beállítása..."
+
+msgid "Swap activated"
+msgstr "Swap bekapcsolva"
+
+msgid "Deactivate swap"
+msgstr "Swap kikapcsolása"
+
+msgid "Swap deactivated"
+msgstr "Swap kikapcsolva"
+
+msgid "The file is not a valid swap file."
+msgstr "A fájl nem érvényes lapozófájl."
+
+msgid "Activating swap..."
+msgstr "Swap bekapcsolása..."
+
+msgid "Delete swap file"
+msgstr "Lapozófájl törlése"
+
+msgid "Swap file deleted"
+msgstr "Lapozófájl törölve"
+
+msgid "Delete swap file?"
+msgstr "Törli a lapozófájlt?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) kikapcsolásra és törlésre kerül."
+
+msgid "Restart GUI?"
+msgstr "Újraindítja a GUI-t?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"A bővítmény csak a GUI újraindítása után távozik teljesen a memóriából. "
+"Újraindítja most?"
+
+msgid "Restart now"
+msgstr "Újraindítás most"
+
+msgid "Later"
+msgstr "Később"
+
+msgid "No suitable storage"
+msgstr "Nincs megfelelő tároló"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Nem található Linux-fájlrendszerű (ext2/3/4, xfs, ...) tároló.\n"
+"Lapozófájl nem hozható létre FAT, exFAT, NTFS vagy hálózati meghajtón."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Nem kell meghajtó  ·  leggyorsabb  ·  kevés CPU-t használ"
+
+msgid "FASTEST"
+msgstr "LEGGYORSABB"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Ezen a vevőn nem érhető el - részletek: OK"
+
+msgid "NOT SUPPORTED"
+msgstr "NEM TÁMOGATOTT"
+
+#, python-format
+msgid "%s free"
+msgstr "%s szabad"
+
+msgid "NOT RECOMMENDED"
+msgstr "NEM AJÁNLOTT"
+
+msgid "NOT IDEAL"
+msgstr "NEM IDEÁLIS"
+
+msgid "RECOMMENDED"
+msgstr "AJÁNLOTT"
+
+msgid "FULL"
+msgstr "TELE"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Hová kerüljön a lapozófájl?\n"
+"Merevlemez vagy USB-meghajtó a legjobb; a belső flash gyorsabban elhasználódik."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Hol jöjjön létre a lapozóterület?\n"
+"A zram a RAM-on belül tömöríti a memóriát; meghajtón lévő lapozófájllal kombinálható."
+
+msgid "Create swap file  1/2"
+msgstr "Lapozófájl létrehozása  1/2"
+
+msgid "zram not supported"
+msgstr "A zram nem támogatott"
+
+msgid "Not enough space"
+msgstr "Nincs elég hely"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Nincs elég szabad hely itt: %s."
+
+msgid "Use internal flash?"
+msgstr "Belső flash használata?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"A belső flash-memóriára történő lapozás sok írási ciklust okoz, és "
+"csökkentheti az élettartamát. USB-meghajtó vagy merevlemez ajánlott."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"A belső flash be van forrasztva, és nem cserélhető, mint egy SD-kártya vagy "
+"USB-meghajtó – ha elhasználódik, maga a vevő sérül."
+
+msgid "Use internal flash anyway"
+msgstr "Belső flash használata mégis"
+
+msgid "Use SD card?"
+msgstr "SD-kártya használata?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"A lapozás újra és újra a kártyára ír, ezért az SD-kártyák gyorsabban elhasználódnak. USB-meghajtó vagy merevlemez ajánlott.\n"
+"Ha a kártyát használja: alacsony swappiness (10-20) minimálisra csökkenti az írást."
+
+msgid "Use SD card anyway"
+msgstr "SD-kártya használata mégis"
+
+msgid "Custom size..."
+msgstr "Egyéni méret..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Adjon meg egy méretet %d és %d MB között"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Új méret: %s (jelenleg %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  elérhető: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Lapozófájl létrehozása  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Válassza ki a lapozófájl méretét itt: %s.\n"
+"RAM: %s  ·  szabad hely: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Lapozófájl mérete MB-ban (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Érvénytelen méret"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Adjon meg egy méretet %d és %d MB között."
+
+msgid "File exists"
+msgstr "A fájl létezik"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s már létezik, és nem lapozófájl. Előbb távolítsa el."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"A meglévő lapozófájl használatban van, és nincs elég szabad RAM a "
+"cseréjéhez."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "A(z) %s újra létrejön %s mérettel %s helyett."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Egy %s méretű lapozófájl jön létre itt:\n"
+"%s\n"
+"és minden indításkor aktiválódik."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "A meglévő lapozófájl (%s) lecserélésre kerül."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Ez kb. %d másodpercig tart."
+
+msgid "Create swap file?"
+msgstr "Létrehozza a lapozófájlt?"
+
+msgid "Create swap file"
+msgstr "Lapozófájl létrehozása"
+
+msgid "Deactivating old swap file..."
+msgstr "A régi lapozófájl kikapcsolása..."
+
+msgid "Removing old swap file..."
+msgstr "A régi lapozófájl eltávolítása..."
+
+msgid "Writing swap file..."
+msgstr "Lapozófájl írása..."
+
+msgid "Formatting swap file..."
+msgstr "Lapozófájl formázása..."
+
+msgid "Size changed"
+msgstr "Méret módosítva"
+
+msgid "Swap file created and activated"
+msgstr "Lapozófájl létrehozva és bekapcsolva"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness beállítva: %d"
+
+msgid "Protect the SD card?"
+msgstr "Kímélje az SD-kártyát?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"A swappiness értéke %d. 10-es értékkel a vevő ritkábban lapoz, és kevesebbet"
+" ír a kártyára."
+
+msgid "Set swappiness to 10"
+msgstr "Swappiness beállítása 10-re"
+
+#, python-format
+msgid "Keep %d"
+msgstr "%d megtartása"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "teli állapotban legfeljebb kb. %s RAM-ot használ"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Tömörített RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Válassza ki a tömörített swap méretét (RAM: %s).\n"
+"A memória csak akkor használódik, ha ténylegesen lapozás történik; a RAM kb. fele jó érték."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Egy %s méretű tömörített RAM-swap kerül beállításra (algoritmus: %s), és "
+"minden indításkor aktiválódik."
+
+msgid "kernel default"
+msgstr "kernel alapértéke"
+
+msgid "It is used before swap files on drives."
+msgstr "A meghajtókon lévő lapozófájlok előtt használatos."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "A jelenlegi zram-swap (%s) lecserélésre kerül."
+
+msgid "Set up zram?"
+msgstr "Beállítja a zramot?"
+
+msgid "Set up zram"
+msgstr "zram beállítása"
+
+msgid "zram activated"
+msgstr "zram bekapcsolva"
+
+msgid "Remove zram"
+msgstr "zram eltávolítása"
+
+msgid "zram removed"
+msgstr "zram eltávolítva"
+
+msgid "Remove zram?"
+msgstr "Eltávolítja a zramot?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"A tömörített RAM-swap kikapcsol, és indításkor többé nem lesz beállítva."

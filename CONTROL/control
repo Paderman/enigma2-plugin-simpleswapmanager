@@ -1,0 +1,10 @@
+Package: enigma2-plugin-systemplugins-simpleswapmanager
+Version: @VERSION@
+Description: Simple Swap Manager - create, activate and manage swap files with a modern, easy UI
+Section: extra
+Priority: optional
+Maintainer: pader-man <pader-man@tuta.io>
+License: GPL-2.0-or-later
+Architecture: all
+Depends: enigma2
+Source: local

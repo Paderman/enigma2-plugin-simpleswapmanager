@@ -1,0 +1,900 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: cs\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Výchozí systému"
+
+msgid "Plugins and storage menu"
+msgstr "Pluginy a nabídka úložišť"
+
+msgid "Plugin browser only"
+msgstr "Pouze prohlížeč pluginů"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Vytváření a správa odkládacích souborů"
+
+msgid "Hard disk"
+msgstr "Pevný disk"
+
+msgid "USB storage"
+msgstr "USB úložiště"
+
+msgid "SD card"
+msgstr "SD karta"
+
+msgid "Internal flash"
+msgstr "Interní flash"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Vybrat     EXIT  Zpět"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Zařízení zram nelze vytvořit. Toto jádro pravděpodobně zram nepodporuje."
+
+msgid "Please wait..."
+msgstr "Čekejte prosím..."
+
+msgid "Could not start command."
+msgstr "Příkaz nelze spustit."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Zapsáno %s z %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Kód chyby %d"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Done"
+msgstr "Hotovo"
+
+msgid "Cancelled."
+msgstr "Zrušeno."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram je načten a připraven k použití."
+
+msgid "zram is built into the kernel."
+msgstr "zram je zabudován v jádře."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram je k dispozici jako modul jádra a načte se v případě potřeby."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Jádro tohoto přijímače (%s) bylo sestaveno bez zram. Nejlepším řešením je "
+"zde odkládací soubor na disku."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Jádro podporuje zram jako modul, ale modul není nainstalován (jádro %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "V jádře nebyla nalezena podpora zram (%s)."
+
+msgid "available"
+msgstr "dostupné"
+
+msgid "module missing"
+msgstr "chybí modul"
+
+msgid "not supported"
+msgstr "nepodporováno"
+
+msgid "System information"
+msgstr "Informace o systému"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "NAHORU/DOLŮ  Podrobnosti     EXIT  Zpět"
+
+msgid "Receiver"
+msgstr "Přijímač"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Kernel"
+msgstr "Jádro"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Jádro rozhoduje, které paměťové funkce jsou k dispozici. Je součástí image a"
+" plugin ho nemůže změnit."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d×"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "naposledy: %s, %s"
+
+msgid "never"
+msgstr "nikdy"
+
+msgid "Out of memory"
+msgstr "Nedostatek paměti"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Kolikrát byla RAM i swap plné a jádro muselo ukončit program (počítáno od "
+"instalace pluginu). Pokud se to stává, pomůže odkládací soubor – nebo větší."
+
+msgid "Swap support"
+msgstr "Podpora swapu"
+
+msgid "yes"
+msgstr "ano"
+
+msgid "no"
+msgstr "ne"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Nutná pro odkládací soubory, odkládací oddíly a zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr "zram komprimuje odloženou paměť přímo v RAM (asi 2-3:1) - bez disku."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (komprimovaná RAM)"
+
+msgid "zram algorithms"
+msgstr "Algoritmy zram"
+
+msgid "known after loading"
+msgstr "známé po načtení"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Kompresní algoritmy nabízené jádrem. lz4 je nejrychlejší, zstd komprimuje "
+"nejlépe."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktivní (%s)"
+
+msgid "available, inactive"
+msgstr "dostupné, neaktivní"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap je komprimovaná mezipaměť před odkládacím souborem. Je zde zobrazen "
+"jen pro informaci."
+
+msgid "none (only internal flash)"
+msgstr "žádné (jen interní flash)"
+
+msgid "none"
+msgstr "žádné"
+
+msgid "Drives for swap files"
+msgstr "Disky pro odkládací soubory"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Disky se souborovým systémem Linux (ext2/3/4, xfs, ...), na které lze uložit"
+" odkládací soubor."
+
+msgid "Kernel configuration"
+msgstr "Konfigurace jádra"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz umožňuje pluginu přesně zjistit, s jakými funkcemi bylo "
+"jádro sestaveno."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Velikost stránky"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d bajtů"
+
+msgid "Simple Swap Manager settings"
+msgstr "Nastavení Simple Swap Manager"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Off"
+msgstr "Vyp."
+
+msgid "Swap file at startup"
+msgstr "Odkládací soubor při startu"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Tento odkládací soubor se automaticky aktivuje při každém startu přijímače. "
+"Plugin čeká až tři minuty, než se úložiště připojí."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Jak ochotně jádro přesouvá paměť do swapu (0-100). Nižší hodnoty drží data "
+"déle v RAM; 10-30 je dobrá volba pro přijímače. Aktuální hodnota: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Nižší hodnoty znamenají také méně zápisů, což šetří SD karty a USB flash "
+"disky."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automaticky (%s)"
+
+msgid "zram compression"
+msgstr "Komprese zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Kompresní algoritmus pro komprimovaný swap v RAM. lz4 je nejrychlejší, zstd "
+"komprimuje nejlépe, ale potřebuje více CPU. Změna se projeví při příštím "
+"nastavení zram."
+
+msgid "zram at startup"
+msgstr "zram při startu"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "Nastavit komprimovaný swap v RAM (%s) při každém startu přijímače."
+
+msgid "On"
+msgstr "Zap."
+
+msgid "Show plugin in"
+msgstr "Zobrazit plugin v"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Kde lze Simple Swap Manager otevřít. Změna se projeví po restartu GUI."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Ukazuje, co tento přijímač podporuje: jádro, zram, zswap a disky. Otevřete "
+"tlačítkem OK."
+
+msgid "Open"
+msgstr "Otevřít"
+
+msgid "Uninstall plugin..."
+msgstr "Odinstalovat plugin..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Odebere Simple Swap Manager z tohoto přijímače. Můžete zvolit, zda odkládací"
+" prostor ponechat, nebo smazat."
+
+msgid "Uninstall"
+msgstr "Odinstalovat"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Odinstalovat Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager bude z tohoto přijímače odebrán."
+
+msgid "Compressed RAM (zram)"
+msgstr "Komprimovaná RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Ponechat odkládací prostor"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Zůstane aktivní do příštího restartu, pak se už nepoužívá"
+
+msgid "Delete swap space"
+msgstr "Smazat odkládací prostor"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Nyní deaktivovat a uvolnit místo na disku"
+
+msgid "What should happen to the swap space?"
+msgstr "Co se má stát s odkládacím prostorem?"
+
+msgid "Not enough free memory"
+msgstr "Nedostatek volné paměti"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"V tomto odkládacím prostoru je nyní uloženo %s, ale není dost volné RAM, aby"
+" se data vrátila. Nejprve zavřete některé pluginy nebo restartujte GUI."
+
+msgid "Moving data back to RAM..."
+msgstr "Přesouvání dat zpět do RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Mazání odkládacího souboru..."
+
+msgid "Removing plugin..."
+msgstr "Odebírání pluginu..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager byl odebrán."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Celkem"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Odkládací prostory"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Nebyl nalezen žádný odkládací prostor.\n"
+"Stiskněte ŽLUTÉ pro vytvoření odkládacího souboru."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Možnosti     MENU  Nastavení     INFO  Info o systému     EXIT  Zavřít"
+
+msgid "Create"
+msgstr "Vytvořit"
+
+msgid "Settings"
+msgstr "Nastavení"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Nedostatek paměti %d× od startu – podrobnosti přes INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Využito %s z %s"
+
+msgid "not active"
+msgstr "neaktivní"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Start: %s"
+
+msgid "Startup: off"
+msgstr "Start: vyp."
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: dovnitř %s/s, ven %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Zapsáno od startu: %s"
+
+msgid "Swap partition"
+msgstr "Odkládací oddíl"
+
+msgid "Swap file"
+msgstr "Odkládací soubor"
+
+#, python-format
+msgid "%s used"
+msgstr "využito %s"
+
+msgid "ACTIVE"
+msgstr "AKTIVNÍ"
+
+msgid "INACTIVE"
+msgstr "NEAKTIVNÍ"
+
+msgid "STARTUP"
+msgstr "PŘI STARTU"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Nebyl nalezen žádný odkládací prostor.\n"
+"Není připojen žádný externí disk se systémem souborů Linux (ext4, ...) – ŽLUTÉ pro komprimovanou RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Nebyl nalezen žádný odkládací prostor.\n"
+"Není připojen žádný externí disk se systémem souborů Linux (ext4, ...). Připojte USB disk nebo pevný disk a připojte jej v nastavení disků image."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "poměr %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "komprimovaný swap v RAM"
+
+msgid "Deactivate"
+msgstr "Deaktivovat"
+
+msgid "Activate"
+msgstr "Aktivovat"
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "Remove"
+msgstr "Odebrat"
+
+msgid "Stop using this swap space now"
+msgstr "Přestat nyní používat tento odkládací prostor"
+
+msgid "Start using this swap space now"
+msgstr "Začít nyní používat tento odkládací prostor"
+
+msgid "Don't activate at startup"
+msgstr "Neaktivovat při startu"
+
+msgid "Remove automatic activation"
+msgstr "Zrušit automatickou aktivaci"
+
+msgid "Activate at startup"
+msgstr "Aktivovat při startu"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Nastavit komprimovaný swap v RAM při každém startu přijímače"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Vypnout zram a vrátit paměť"
+
+msgid "Change size"
+msgstr "Změnit velikost"
+
+msgid "Set up zram again with a different size"
+msgstr "Nastavit zram znovu s jinou velikostí"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Používat tento odkládací soubor při každém startu přijímače"
+
+msgid "Create the swap file again with a different size"
+msgstr "Znovu vytvořit odkládací soubor s jinou velikostí"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Smazat odkládací soubor a uvolnit místo na disku"
+
+msgid "Create new swap file"
+msgstr "Vytvořit nový odkládací soubor"
+
+msgid "What this receiver supports"
+msgstr "Co tento přijímač podporuje"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Velikost: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Uloženo: %s, komprimováno na %s (%s RAM využito)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritmus: %s, priorita %d"
+
+msgid "Status: inactive"
+msgstr "Stav: neaktivní"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Využito: %s, priorita %d"
+
+msgid "Startup activation disabled"
+msgstr "Aktivace při startu vypnuta"
+
+msgid "Activated at every startup"
+msgstr "Aktivuje se při každém startu"
+
+msgid "Activate swap"
+msgstr "Aktivovat swap"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Nastavování komprimovaného swapu v RAM..."
+
+msgid "Swap activated"
+msgstr "Swap aktivován"
+
+msgid "Deactivate swap"
+msgstr "Deaktivovat swap"
+
+msgid "Swap deactivated"
+msgstr "Swap deaktivován"
+
+msgid "The file is not a valid swap file."
+msgstr "Soubor není platný odkládací soubor."
+
+msgid "Activating swap..."
+msgstr "Aktivace swapu..."
+
+msgid "Delete swap file"
+msgstr "Smazat odkládací soubor"
+
+msgid "Swap file deleted"
+msgstr "Odkládací soubor smazán"
+
+msgid "Delete swap file?"
+msgstr "Smazat odkládací soubor?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) bude deaktivován a smazán."
+
+msgid "Restart GUI?"
+msgstr "Restartovat GUI?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr "Plugin se zcela uvolní až po restartu GUI. Restartovat nyní?"
+
+msgid "Restart now"
+msgstr "Restartovat nyní"
+
+msgid "Later"
+msgstr "Později"
+
+msgid "No suitable storage"
+msgstr "Žádné vhodné úložiště"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Nebylo nalezeno žádné úložiště se souborovým systémem Linux (ext2/3/4, xfs, ...).\n"
+"Odkládací soubory nelze vytvořit na FAT, exFAT, NTFS ani síťových discích."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Bez disku  ·  nejrychlejší  ·  využívá trochu CPU"
+
+msgid "FASTEST"
+msgstr "NEJRYCHLEJŠÍ"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Na tomto přijímači nedostupné - OK pro podrobnosti"
+
+msgid "NOT SUPPORTED"
+msgstr "NEPODPOROVÁNO"
+
+#, python-format
+msgid "%s free"
+msgstr "volno %s"
+
+msgid "NOT RECOMMENDED"
+msgstr "NEDOPORUČENO"
+
+msgid "NOT IDEAL"
+msgstr "NENÍ IDEÁLNÍ"
+
+msgid "RECOMMENDED"
+msgstr "DOPORUČENO"
+
+msgid "FULL"
+msgstr "PLNÝ"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Kam uložit odkládací soubor?\n"
+"Nejlepší je pevný disk nebo USB disk; interní flash se opotřebí rychleji."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Kde vytvořit odkládací prostor?\n"
+"zram komprimuje paměť v RAM; lze ho kombinovat s odkládacím souborem na disku."
+
+msgid "Create swap file  1/2"
+msgstr "Vytvořit odkládací soubor  1/2"
+
+msgid "zram not supported"
+msgstr "zram není podporován"
+
+msgid "Not enough space"
+msgstr "Nedostatek místa"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Na %s není dost volného místa."
+
+msgid "Use internal flash?"
+msgstr "Použít interní flash?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Odkládání do interní paměti flash způsobuje mnoho zápisových cyklů a může "
+"zkrátit její životnost. Doporučuje se USB disk nebo pevný disk."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Interní flash je napevno připájený a nelze jej vyměnit jako SD kartu nebo "
+"USB disk – pokud se opotřebuje, postihne to samotný přijímač."
+
+msgid "Use internal flash anyway"
+msgstr "Přesto použít interní flash"
+
+msgid "Use SD card?"
+msgstr "Použít SD kartu?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Při odkládání se na kartu zapisuje stále znovu, proto se SD karty opotřebují rychleji. Doporučuje se USB disk nebo pevný disk.\n"
+"Pokud kartu použijete: nízká swappiness (10-20) omezí zápisy na minimum."
+
+msgid "Use SD card anyway"
+msgstr "Přesto použít SD kartu"
+
+msgid "Custom size..."
+msgstr "Vlastní velikost..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Zadejte velikost mezi %d a %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Nová velikost pro %s (nyní %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  k dispozici: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Vytvořit odkládací soubor  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Zvolte velikost odkládacího souboru na %s.\n"
+"RAM: %s  ·  volné místo: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Velikost odkládacího souboru v MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Neplatná velikost"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Zadejte velikost mezi %d a %d MB."
+
+msgid "File exists"
+msgstr "Soubor existuje"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s již existuje a není to odkládací soubor. Nejprve ho odstraňte."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Stávající odkládací soubor se používá a není dost volné RAM pro jeho "
+"nahrazení."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s bude znovu vytvořen s velikostí %s místo %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Odkládací soubor o velikosti %s bude vytvořen v\n"
+"%s\n"
+"a aktivován při každém startu."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Stávající odkládací soubor (%s) bude nahrazen."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Trvá to asi %d sekund."
+
+msgid "Create swap file?"
+msgstr "Vytvořit odkládací soubor?"
+
+msgid "Create swap file"
+msgstr "Vytvořit odkládací soubor"
+
+msgid "Deactivating old swap file..."
+msgstr "Deaktivace starého odkládacího souboru..."
+
+msgid "Removing old swap file..."
+msgstr "Odstraňování starého odkládacího souboru..."
+
+msgid "Writing swap file..."
+msgstr "Zápis odkládacího souboru..."
+
+msgid "Formatting swap file..."
+msgstr "Formátování odkládacího souboru..."
+
+msgid "Size changed"
+msgstr "Velikost změněna"
+
+msgid "Swap file created and activated"
+msgstr "Odkládací soubor vytvořen a aktivován"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness nastavena na %d"
+
+msgid "Protect the SD card?"
+msgstr "Šetřit SD kartu?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness je %d. S hodnotou 10 přijímač odkládá méně často a méně zapisuje "
+"na kartu."
+
+msgid "Set swappiness to 10"
+msgstr "Nastavit swappiness na 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Ponechat %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "po zaplnění využije nejvýše asi %s RAM"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Komprimovaná RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Zvolte velikost komprimovaného swapu (RAM: %s).\n"
+"Paměť se využívá jen tehdy, když se data skutečně odkládají; asi polovina RAM je dobrá hodnota."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Bude nastaven komprimovaný swap v RAM o velikosti %s (algoritmus: %s) a "
+"aktivován při každém startu."
+
+msgid "kernel default"
+msgstr "výchozí jádra"
+
+msgid "It is used before swap files on drives."
+msgstr "Používá se před odkládacími soubory na discích."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Stávající swap zram (%s) bude nahrazen."
+
+msgid "Set up zram?"
+msgstr "Nastavit zram?"
+
+msgid "Set up zram"
+msgstr "Nastavit zram"
+
+msgid "zram activated"
+msgstr "zram aktivován"
+
+msgid "Remove zram"
+msgstr "Odebrat zram"
+
+msgid "zram removed"
+msgstr "zram odebrán"
+
+msgid "Remove zram?"
+msgstr "Odebrat zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Komprimovaný swap v RAM bude vypnut a při startu se už nebude nastavovat."

@@ -1,0 +1,16 @@
+#!/bin/sh
+# @COMMON@
+
+# On an update the files of the new version are already in place.
+[ "$1" = "remove" ] || [ "$1" = "purge" ] || exit 0
+
+# compiled leftovers (*.pyc, __pycache__) are not part of the package
+rm -rf "$PLUGIN_DIR" 2>/dev/null
+rm -f "$LANG_FILE" "$OOM_FILE" "$OOM_FILE.tmp"
+# dpkg --purge calls postrm a second time with "purge": nothing more to say
+[ "$1" = "purge" ] && exit 0
+ui_sep
+ui_ok "$(T rm_done)"
+ui_restart_hint restart_rm
+ui_end
+exit 0

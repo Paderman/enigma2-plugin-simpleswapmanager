@@ -1,0 +1,914 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: el\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Προεπιλογή συστήματος"
+
+msgid "Plugins and storage menu"
+msgstr "Πρόσθετα και μενού αποθήκευσης"
+
+msgid "Plugin browser only"
+msgstr "Μόνο περιηγητής πρόσθετων"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Δημιουργία και διαχείριση αρχείων swap"
+
+msgid "Hard disk"
+msgstr "Σκληρός δίσκος"
+
+msgid "USB storage"
+msgstr "Αποθήκευση USB"
+
+msgid "SD card"
+msgstr "Κάρτα SD"
+
+msgid "Internal flash"
+msgstr "Εσωτερική flash"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Επιλογή     EXIT  Πίσω"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Δεν ήταν δυνατή η δημιουργία της συσκευής zram. Αυτός ο πυρήνας μάλλον δεν "
+"υποστηρίζει zram."
+
+msgid "Please wait..."
+msgstr "Παρακαλώ περιμένετε..."
+
+msgid "Could not start command."
+msgstr "Δεν ήταν δυνατή η εκκίνηση της εντολής."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Γράφτηκαν %s από %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Κωδικός σφάλματος %d"
+
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+msgid "Cancelled."
+msgstr "Ακυρώθηκε."
+
+msgid "zram is loaded and ready to use."
+msgstr "Το zram φορτώθηκε και είναι έτοιμο για χρήση."
+
+msgid "zram is built into the kernel."
+msgstr "Το zram είναι ενσωματωμένο στον πυρήνα."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "Το zram διατίθεται ως άρθρωμα πυρήνα και φορτώνεται όταν χρειάζεται."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Ο πυρήνας αυτού του δέκτη (%s) δημιουργήθηκε χωρίς zram. Εδώ η καλύτερη λύση"
+" είναι ένα αρχείο swap σε δίσκο."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Ο πυρήνας υποστηρίζει το zram ως άρθρωμα, αλλά το άρθρωμα δεν είναι "
+"εγκατεστημένο (πυρήνας %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Δεν βρέθηκε υποστήριξη zram στον πυρήνα (%s)."
+
+msgid "available"
+msgstr "διαθέσιμο"
+
+msgid "module missing"
+msgstr "λείπει το άρθρωμα"
+
+msgid "not supported"
+msgstr "δεν υποστηρίζεται"
+
+msgid "System information"
+msgstr "Πληροφορίες συστήματος"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "ΠΑΝΩ/ΚΑΤΩ  Λεπτομέρειες     EXIT  Πίσω"
+
+msgid "Receiver"
+msgstr "Δέκτης"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Kernel"
+msgstr "Πυρήνας"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Ο πυρήνας καθορίζει ποιες λειτουργίες μνήμης είναι διαθέσιμες. Είναι μέρος "
+"του image και δεν μπορεί να αλλάξει από πρόσθετο."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d φορές"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "τελευταία: %s, %s"
+
+msgid "never"
+msgstr "ποτέ"
+
+msgid "Out of memory"
+msgstr "Έλλειψη μνήμης"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Πόσες φορές γέμισαν η RAM και το swap και ο πυρήνας τερμάτισε ένα πρόγραμμα "
+"(από την εγκατάσταση του πρόσθετου). Αν συμβαίνει, βοηθά ένα αρχείο swap – ή"
+" ένα μεγαλύτερο."
+
+msgid "Swap support"
+msgstr "Υποστήριξη swap"
+
+msgid "yes"
+msgstr "ναι"
+
+msgid "no"
+msgstr "όχι"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Απαιτείται για αρχεία swap, διαμερίσματα swap και zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"Το zram συμπιέζει τη μνήμη που μεταφέρεται στο swap μέσα στη RAM (περίπου "
+"2-3:1) - χωρίς δίσκο."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (συμπιεσμένη RAM)"
+
+msgid "zram algorithms"
+msgstr "Αλγόριθμοι zram"
+
+msgid "known after loading"
+msgstr "γνωστοί μετά τη φόρτωση"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Αλγόριθμοι συμπίεσης που προσφέρει ο πυρήνας. Ο lz4 είναι ο ταχύτερος, ο "
+"zstd συμπιέζει καλύτερα."
+
+#, python-format
+msgid "active (%s)"
+msgstr "ενεργό (%s)"
+
+msgid "available, inactive"
+msgstr "διαθέσιμο, ανενεργό"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"Το zswap είναι μια συμπιεσμένη κρυφή μνήμη μπροστά από ένα αρχείο swap. "
+"Εμφανίζεται εδώ μόνο για ενημέρωση."
+
+msgid "none (only internal flash)"
+msgstr "κανένας (μόνο εσωτερική flash)"
+
+msgid "none"
+msgstr "κανένας"
+
+msgid "Drives for swap files"
+msgstr "Δίσκοι για αρχεία swap"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Δίσκοι με σύστημα αρχείων Linux (ext2/3/4, xfs, ...) που μπορούν να "
+"φιλοξενήσουν αρχείο swap."
+
+msgid "Kernel configuration"
+msgstr "Ρύθμιση πυρήνα"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"Το /proc/config.gz επιτρέπει στο πρόσθετο να δει ακριβώς με ποιες "
+"λειτουργίες δημιουργήθηκε ο πυρήνας."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Μέγεθος σελίδας"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d byte"
+
+msgid "Simple Swap Manager settings"
+msgstr "Ρυθμίσεις Simple Swap Manager"
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Off"
+msgstr "Ανενεργό"
+
+msgid "Swap file at startup"
+msgstr "Αρχείο swap κατά την εκκίνηση"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Αυτό το αρχείο swap ενεργοποιείται αυτόματα σε κάθε εκκίνηση του δέκτη. Το "
+"πρόσθετο περιμένει έως τρία λεπτά να προσαρτηθεί ο δίσκος."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Πόσο πρόθυμα ο πυρήνας μεταφέρει μνήμη στο swap (0-100). Χαμηλές τιμές "
+"κρατούν τα δεδομένα περισσότερο στη RAM· 10-30 είναι καλή επιλογή για "
+"δέκτες. Τρέχουσα τιμή: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Χαμηλές τιμές σημαίνουν επίσης λιγότερες εγγραφές, κάτι που προστατεύει "
+"κάρτες SD και USB sticks."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Αυτόματα (%s)"
+
+msgid "zram compression"
+msgstr "Συμπίεση zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Αλγόριθμος συμπίεσης για το συμπιεσμένο swap στη RAM. Ο lz4 είναι ο "
+"ταχύτερος, ο zstd συμπιέζει καλύτερα αλλά χρειάζεται περισσότερη CPU. Η "
+"αλλαγή ισχύει την επόμενη φορά που θα ρυθμιστεί το zram."
+
+msgid "zram at startup"
+msgstr "zram κατά την εκκίνηση"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr ""
+"Ρύθμιση του συμπιεσμένου swap στη RAM (%s) σε κάθε εκκίνηση του δέκτη."
+
+msgid "On"
+msgstr "Ενεργό"
+
+msgid "Show plugin in"
+msgstr "Εμφάνιση πρόσθετου σε"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Από πού μπορεί να ανοίξει το Simple Swap Manager. Η αλλαγή ισχύει μετά την "
+"επανεκκίνηση του GUI."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Δείχνει τι υποστηρίζει αυτός ο δέκτης: πυρήνα, zram, zswap και δίσκους. "
+"Πατήστε OK για άνοιγμα."
+
+msgid "Open"
+msgstr "Άνοιγμα"
+
+msgid "Uninstall plugin..."
+msgstr "Απεγκατάσταση πρόσθετου..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Αφαιρεί το Simple Swap Manager από αυτόν τον δέκτη. Μπορείτε να επιλέξετε αν"
+" ο χώρος swap θα διατηρηθεί ή θα διαγραφεί."
+
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Απεγκατάσταση Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Το Simple Swap Manager θα αφαιρεθεί από αυτόν τον δέκτη."
+
+msgid "Compressed RAM (zram)"
+msgstr "Συμπιεσμένη RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Διατήρηση χώρου swap"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr ""
+"Μένει ενεργός έως την επόμενη επανεκκίνηση και μετά δεν χρησιμοποιείται"
+
+msgid "Delete swap space"
+msgstr "Διαγραφή χώρου swap"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Απενεργοποίηση τώρα και απελευθέρωση χώρου"
+
+msgid "What should happen to the swap space?"
+msgstr "Τι να γίνει με τον χώρο swap;"
+
+msgid "Not enough free memory"
+msgstr "Ανεπαρκής ελεύθερη μνήμη"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Σε αυτόν τον χώρο swap είναι αποθηκευμένα %s, αλλά δεν υπάρχει αρκετή "
+"ελεύθερη RAM για να επιστρέψουν. Κλείστε πρώτα κάποια πρόσθετα ή "
+"επανεκκινήστε το GUI."
+
+msgid "Moving data back to RAM..."
+msgstr "Μεταφορά δεδομένων πίσω στη RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Διαγραφή αρχείου swap..."
+
+msgid "Removing plugin..."
+msgstr "Αφαίρεση πρόσθετου..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Το Simple Swap Manager αφαιρέθηκε."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Σύνολο"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Χώροι swap"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Δεν βρέθηκε χώρος swap.\n"
+"Πατήστε ΚΙΤΡΙΝΟ για δημιουργία αρχείου swap."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Επιλογές     MENU  Ρυθμίσεις     INFO  Πληρ. συστήματος     EXIT  "
+"Κλείσιμο"
+
+msgid "Create"
+msgstr "Δημιουργία"
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Έλλειψη μνήμης %d φορές από την εκκίνηση – λεπτομέρειες με INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "%s από %s σε χρήση"
+
+msgid "not active"
+msgstr "ανενεργό"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Εκκίνηση: %s"
+
+msgid "Startup: off"
+msgstr "Εκκίνηση: ανενεργή"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: εισ. %s/s, εξ. %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Εγγραφές από την εκκίνηση: %s"
+
+msgid "Swap partition"
+msgstr "Διαμέρισμα swap"
+
+msgid "Swap file"
+msgstr "Αρχείο swap"
+
+#, python-format
+msgid "%s used"
+msgstr "%s σε χρήση"
+
+msgid "ACTIVE"
+msgstr "ΕΝΕΡΓΟ"
+
+msgid "INACTIVE"
+msgstr "ΑΝΕΝΕΡΓΟ"
+
+msgid "STARTUP"
+msgstr "ΕΚΚΙΝΗΣΗ"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Δεν βρέθηκε χώρος swap.\n"
+"Δεν υπάρχει εξωτερική μονάδα με σύστημα αρχείων Linux (ext4, ...) – ΚΙΤΡΙΝΟ για συμπιεσμένη RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Δεν βρέθηκε χώρος swap.\n"
+"Δεν υπάρχει προσαρτημένη εξωτερική μονάδα με σύστημα αρχείων Linux (ext4, ...). Συνδέστε μονάδα USB ή σκληρό δίσκο και προσαρτήστε τη στις ρυθμίσεις δίσκων του image."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "αναλογία %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "συμπιεσμένο swap στη RAM"
+
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+msgid "Stop using this swap space now"
+msgstr "Διακοπή χρήσης αυτού του χώρου swap τώρα"
+
+msgid "Start using this swap space now"
+msgstr "Έναρξη χρήσης αυτού του χώρου swap τώρα"
+
+msgid "Don't activate at startup"
+msgstr "Χωρίς ενεργοποίηση στην εκκίνηση"
+
+msgid "Remove automatic activation"
+msgstr "Αφαίρεση αυτόματης ενεργοποίησης"
+
+msgid "Activate at startup"
+msgstr "Ενεργοποίηση στην εκκίνηση"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Ρύθμιση του συμπιεσμένου swap στη RAM σε κάθε εκκίνηση του δέκτη"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Απενεργοποίηση του zram και επιστροφή της μνήμης"
+
+msgid "Change size"
+msgstr "Αλλαγή μεγέθους"
+
+msgid "Set up zram again with a different size"
+msgstr "Νέα ρύθμιση του zram με άλλο μέγεθος"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Χρήση αυτού του αρχείου swap σε κάθε εκκίνηση του δέκτη"
+
+msgid "Create the swap file again with a different size"
+msgstr "Δημιουργία του αρχείου swap ξανά με άλλο μέγεθος"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Διαγραφή του αρχείου swap και απελευθέρωση χώρου"
+
+msgid "Create new swap file"
+msgstr "Δημιουργία νέου αρχείου swap"
+
+msgid "What this receiver supports"
+msgstr "Τι υποστηρίζει αυτός ο δέκτης"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Μέγεθος: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Αποθηκευμένα: %s, συμπιεσμένα σε %s (%s RAM σε χρήση)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Αλγόριθμος: %s, προτεραιότητα %d"
+
+msgid "Status: inactive"
+msgstr "Κατάσταση: ανενεργό"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Σε χρήση: %s, προτεραιότητα %d"
+
+msgid "Startup activation disabled"
+msgstr "Η ενεργοποίηση στην εκκίνηση απενεργοποιήθηκε"
+
+msgid "Activated at every startup"
+msgstr "Ενεργοποιείται σε κάθε εκκίνηση"
+
+msgid "Activate swap"
+msgstr "Ενεργοποίηση swap"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Ρύθμιση συμπιεσμένου swap στη RAM..."
+
+msgid "Swap activated"
+msgstr "Το swap ενεργοποιήθηκε"
+
+msgid "Deactivate swap"
+msgstr "Απενεργοποίηση swap"
+
+msgid "Swap deactivated"
+msgstr "Το swap απενεργοποιήθηκε"
+
+msgid "The file is not a valid swap file."
+msgstr "Το αρχείο δεν είναι έγκυρο αρχείο swap."
+
+msgid "Activating swap..."
+msgstr "Ενεργοποίηση swap..."
+
+msgid "Delete swap file"
+msgstr "Διαγραφή αρχείου swap"
+
+msgid "Swap file deleted"
+msgstr "Το αρχείο swap διαγράφηκε"
+
+msgid "Delete swap file?"
+msgstr "Διαγραφή του αρχείου swap;"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "Το %s (%s) θα απενεργοποιηθεί και θα διαγραφεί."
+
+msgid "Restart GUI?"
+msgstr "Επανεκκίνηση GUI;"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Το πρόσθετο αποφορτώνεται πλήρως μόνο μετά την επανεκκίνηση του GUI. "
+"Επανεκκίνηση τώρα;"
+
+msgid "Restart now"
+msgstr "Επανεκκίνηση τώρα"
+
+msgid "Later"
+msgstr "Αργότερα"
+
+msgid "No suitable storage"
+msgstr "Δεν υπάρχει κατάλληλος δίσκος"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Δεν βρέθηκε συσκευή αποθήκευσης με σύστημα αρχείων Linux (ext2/3/4, xfs, ...).\n"
+"Αρχεία swap δεν μπορούν να δημιουργηθούν σε FAT, exFAT, NTFS ή δίσκους δικτύου."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Χωρίς δίσκο  ·  ταχύτερο  ·  χρησιμοποιεί λίγη CPU"
+
+msgid "FASTEST"
+msgstr "ΤΑΧΥΤΕΡΟ"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Μη διαθέσιμο σε αυτόν τον δέκτη - OK για λεπτομέρειες"
+
+msgid "NOT SUPPORTED"
+msgstr "ΔΕΝ ΥΠΟΣΤΗΡ."
+
+#, python-format
+msgid "%s free"
+msgstr "%s ελεύθερα"
+
+msgid "NOT RECOMMENDED"
+msgstr "ΔΕΝ ΣΥΝΙΣΤΑΤΑΙ"
+
+msgid "NOT IDEAL"
+msgstr "ΟΧΙ ΙΔΑΝΙΚΟ"
+
+msgid "RECOMMENDED"
+msgstr "ΣΥΝΙΣΤΑΤΑΙ"
+
+msgid "FULL"
+msgstr "ΠΛΗΡΕΣ"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Πού να αποθηκευτεί το αρχείο swap;\n"
+"Καλύτερα σκληρός δίσκος ή USB· η εσωτερική flash φθείρεται γρηγορότερα."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Πού να δημιουργηθεί ο χώρος swap;\n"
+"Το zram συμπιέζει τη μνήμη μέσα στη RAM· μπορεί να συνδυαστεί με αρχείο swap σε δίσκο."
+
+msgid "Create swap file  1/2"
+msgstr "Δημιουργία αρχείου swap  1/2"
+
+msgid "zram not supported"
+msgstr "Το zram δεν υποστηρίζεται"
+
+msgid "Not enough space"
+msgstr "Ανεπαρκής χώρος"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Δεν υπάρχει αρκετός ελεύθερος χώρος στο %s."
+
+msgid "Use internal flash?"
+msgstr "Χρήση εσωτερικής flash;"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Το swap στην εσωτερική μνήμη flash προκαλεί πολλούς κύκλους εγγραφής και "
+"μπορεί να μειώσει τη διάρκεια ζωής της. Συνιστάται USB ή σκληρός δίσκος."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Η εσωτερική flash είναι κολλημένη στην πλακέτα και δεν αλλάζει όπως μια "
+"κάρτα SD ή μονάδα USB – αν φθαρεί, επηρεάζεται ο ίδιος ο δέκτης."
+
+msgid "Use internal flash anyway"
+msgstr "Χρήση εσωτερικής flash παρ' όλα αυτά"
+
+msgid "Use SD card?"
+msgstr "Χρήση κάρτας SD;"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Το swap γράφει ξανά και ξανά στην κάρτα, γι' αυτό οι κάρτες SD φθείρονται γρηγορότερα. Συνιστάται μονάδα USB ή σκληρός δίσκος.\n"
+"Αν χρησιμοποιήσετε την κάρτα: χαμηλό swappiness (10-20) κρατά τις εγγραφές στο ελάχιστο."
+
+msgid "Use SD card anyway"
+msgstr "Χρήση κάρτας SD παρ' όλα αυτά"
+
+msgid "Custom size..."
+msgstr "Προσαρμοσμένο μέγεθος..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Εισαγάγετε μέγεθος από %d έως %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Νέο μέγεθος για %s (τώρα %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  διαθέσιμα: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Δημιουργία αρχείου swap  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Επιλέξτε το μέγεθος του αρχείου swap στο %s.\n"
+"RAM: %s  ·  ελεύθερος χώρος: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Μέγεθος αρχείου swap σε MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Μη έγκυρο μέγεθος"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Εισαγάγετε μέγεθος από %d έως %d MB."
+
+msgid "File exists"
+msgstr "Το αρχείο υπάρχει"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "Το %s υπάρχει ήδη και δεν είναι αρχείο swap. Αφαιρέστε το πρώτα."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Το υπάρχον αρχείο swap είναι σε χρήση και δεν υπάρχει αρκετή ελεύθερη RAM "
+"για να αντικατασταθεί."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "Το %s θα δημιουργηθεί ξανά με %s αντί για %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Θα δημιουργηθεί αρχείο swap %s στο\n"
+"%s\n"
+"και θα ενεργοποιείται σε κάθε εκκίνηση."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Το υπάρχον αρχείο swap (%s) θα αντικατασταθεί."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Διαρκεί περίπου %d δευτερόλεπτα."
+
+msgid "Create swap file?"
+msgstr "Δημιουργία αρχείου swap;"
+
+msgid "Create swap file"
+msgstr "Δημιουργία αρχείου swap"
+
+msgid "Deactivating old swap file..."
+msgstr "Απενεργοποίηση παλιού αρχείου swap..."
+
+msgid "Removing old swap file..."
+msgstr "Αφαίρεση παλιού αρχείου swap..."
+
+msgid "Writing swap file..."
+msgstr "Εγγραφή αρχείου swap..."
+
+msgid "Formatting swap file..."
+msgstr "Μορφοποίηση αρχείου swap..."
+
+msgid "Size changed"
+msgstr "Το μέγεθος άλλαξε"
+
+msgid "Swap file created and activated"
+msgstr "Το αρχείο swap δημιουργήθηκε και ενεργοποιήθηκε"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Το swappiness ορίστηκε σε %d"
+
+msgid "Protect the SD card?"
+msgstr "Προστασία της κάρτας SD;"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Το swappiness είναι %d. Με 10 ο δέκτης κάνει swap σπανιότερα και γράφει "
+"λιγότερο στην κάρτα."
+
+msgid "Set swappiness to 10"
+msgstr "Ορισμός swappiness σε 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Διατήρηση %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "όταν γεμίσει χρειάζεται το πολύ περίπου %s RAM"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Συμπιεσμένη RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Επιλέξτε το μέγεθος του συμπιεσμένου swap (RAM: %s).\n"
+"Η μνήμη χρησιμοποιείται μόνο όταν όντως μεταφέρονται δεδομένα στο swap· περίπου η μισή RAM είναι καλή τιμή."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Θα ρυθμιστεί συμπιεσμένο swap στη RAM %s (αλγόριθμος: %s) και θα "
+"ενεργοποιείται σε κάθε εκκίνηση."
+
+msgid "kernel default"
+msgstr "προεπιλογή πυρήνα"
+
+msgid "It is used before swap files on drives."
+msgstr "Χρησιμοποιείται πριν από τα αρχεία swap σε δίσκους."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Το τρέχον swap zram (%s) θα αντικατασταθεί."
+
+msgid "Set up zram?"
+msgstr "Ρύθμιση zram;"
+
+msgid "Set up zram"
+msgstr "Ρύθμιση zram"
+
+msgid "zram activated"
+msgstr "Το zram ενεργοποιήθηκε"
+
+msgid "Remove zram"
+msgstr "Αφαίρεση zram"
+
+msgid "zram removed"
+msgstr "Το zram αφαιρέθηκε"
+
+msgid "Remove zram?"
+msgstr "Αφαίρεση zram;"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Το συμπιεσμένο swap στη RAM θα απενεργοποιηθεί και δεν θα ρυθμίζεται πλέον "
+"στην εκκίνηση."

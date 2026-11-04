@@ -1,0 +1,911 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: lv\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Sistēmas noklusējums"
+
+msgid "Plugins and storage menu"
+msgstr "Spraudņi un krātuvju izvēlne"
+
+msgid "Plugin browser only"
+msgstr "Tikai spraudņu pārlūks"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Mijmaiņas failu izveide un pārvaldība"
+
+msgid "Hard disk"
+msgstr "Cietais disks"
+
+msgid "USB storage"
+msgstr "USB krātuve"
+
+msgid "SD card"
+msgstr "SD karte"
+
+msgid "Internal flash"
+msgstr "Iekšējā zibatmiņa"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Izvēlēties     EXIT  Atpakaļ"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Atcelt"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Neizdevās izveidot zram ierīci. Šis kodols, visticamāk, neatbalsta zram."
+
+msgid "Please wait..."
+msgstr "Lūdzu, uzgaidiet..."
+
+msgid "Could not start command."
+msgstr "Neizdevās palaist komandu."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Ierakstīti %s no %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Kļūdas kods %d"
+
+msgid "Error"
+msgstr "Kļūda"
+
+msgid "Close"
+msgstr "Aizvērt"
+
+msgid "Done"
+msgstr "Gatavs"
+
+msgid "Cancelled."
+msgstr "Atcelts."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram ir ielādēts un gatavs lietošanai."
+
+msgid "zram is built into the kernel."
+msgstr "zram ir iebūvēts kodolā."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram ir pieejams kā kodola modulis un tiek ielādēts pēc vajadzības."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Šī uztvērēja kodols (%s) ir būvēts bez zram. Šeit labākais risinājums ir "
+"mijmaiņas fails diskā."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Kodols atbalsta zram kā moduli, bet modulis nav instalēts (kodols %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Kodolā netika atrasts zram atbalsts (%s)."
+
+msgid "available"
+msgstr "pieejams"
+
+msgid "module missing"
+msgstr "trūkst moduļa"
+
+msgid "not supported"
+msgstr "netiek atbalstīts"
+
+msgid "System information"
+msgstr "Sistēmas informācija"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "AUGŠUP/LEJUP  Sīkāk     EXIT  Atpakaļ"
+
+msgid "Receiver"
+msgstr "Uztvērējs"
+
+msgid "Image"
+msgstr "Attēls"
+
+msgid "Kernel"
+msgstr "Kodols"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Kodols nosaka, kuras atmiņas funkcijas ir pieejamas. Tas ir daļa no attēla, "
+"un spraudnis to nevar mainīt."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d reizes"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "pēdējo reizi: %s, %s"
+
+msgid "never"
+msgstr "nekad"
+
+msgid "Out of memory"
+msgstr "Atmiņas trūkums"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Cik reižu RAM un mijmaiņa bija pilnas un kodolam bija jāaptur programma "
+"(kopš spraudņa instalēšanas). Ja tā notiek, palīdz mijmaiņas fails – vai "
+"lielāks."
+
+msgid "Swap support"
+msgstr "Mijmaiņas atbalsts"
+
+msgid "yes"
+msgstr "jā"
+
+msgid "no"
+msgstr "nē"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Nepieciešams mijmaiņas failiem, mijmaiņas nodalījumiem un zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram saspiež izmainīto atmiņu tieši RAM (aptuveni 2-3:1) - disks nav "
+"vajadzīgs."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (saspiesta RAM)"
+
+msgid "zram algorithms"
+msgstr "zram algoritmi"
+
+msgid "known after loading"
+msgstr "zināmi pēc ielādes"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Kodola piedāvātie saspiešanas algoritmi. lz4 ir ātrākais, zstd saspiež "
+"vislabāk."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktīvs (%s)"
+
+msgid "available, inactive"
+msgstr "pieejams, neaktīvs"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap ir saspiesta kešatmiņa pirms mijmaiņas faila. Šeit tā parādīta tikai "
+"informācijai."
+
+msgid "none (only internal flash)"
+msgstr "nav (tikai iekšējā zibatmiņa)"
+
+msgid "none"
+msgstr "nav"
+
+msgid "Drives for swap files"
+msgstr "Diski mijmaiņas failiem"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Diski ar Linux failu sistēmu (ext2/3/4, xfs, ...), kuros var glabāt "
+"mijmaiņas failu."
+
+msgid "Kernel configuration"
+msgstr "Kodola konfigurācija"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz ļauj spraudnim precīzi redzēt, ar kādām funkcijām kodols ir "
+"būvēts."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Lapas izmērs"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d baiti"
+
+msgid "Simple Swap Manager settings"
+msgstr "Simple Swap Manager iestatījumi"
+
+msgid "Save"
+msgstr "Saglabāt"
+
+msgid "Off"
+msgstr "Izslēgts"
+
+msgid "Swap file at startup"
+msgstr "Mijmaiņas fails startējot"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Šis mijmaiņas fails tiek automātiski aktivizēts katru reizi, kad uztvērējs "
+"startē. Spraudnis gaida līdz trim minūtēm, līdz krātuve tiek piemontēta."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Cik labprāt kodols pārvieto atmiņu uz mijmaiņu (0-100). Zemākas vērtības "
+"ilgāk tur datus RAM; uztvērējiem laba izvēle ir 10-30. Pašreizējā vērtība: "
+"%d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Zemākas vērtības nozīmē arī mazāk rakstīšanas, kas saudzē SD kartes un USB "
+"zibatmiņas."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automātiski (%s)"
+
+msgid "zram compression"
+msgstr "zram saspiešana"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Saspiešanas algoritms saspiestajai RAM mijmaiņai. lz4 ir ātrākais, zstd "
+"saspiež vislabāk, bet prasa vairāk CPU. Izmaiņas stājas spēkā nākamajā zram "
+"iestatīšanas reizē."
+
+msgid "zram at startup"
+msgstr "zram startējot"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr ""
+"Iestatīt saspiesto RAM mijmaiņu (%s) katru reizi, kad uztvērējs startē."
+
+msgid "On"
+msgstr "Ieslēgts"
+
+msgid "Show plugin in"
+msgstr "Rādīt spraudni"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Kur var atvērt Simple Swap Manager. Izmaiņas stājas spēkā pēc saskarnes "
+"restartēšanas."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Parāda, ko šis uztvērējs atbalsta: kodolu, zram, zswap un diskus. Nospiediet"
+" OK, lai atvērtu."
+
+msgid "Open"
+msgstr "Atvērt"
+
+msgid "Uninstall plugin..."
+msgstr "Atinstalēt spraudni..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Noņem Simple Swap Manager no šī uztvērēja. Varat izvēlēties, vai mijmaiņas "
+"vieta tiek saglabāta vai dzēsta."
+
+msgid "Uninstall"
+msgstr "Atinstalēt"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Atinstalēt Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager tiks noņemts no šī uztvērēja."
+
+msgid "Compressed RAM (zram)"
+msgstr "Saspiesta RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Saglabāt mijmaiņas vietu"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr ""
+"Paliek aktīva līdz nākamajai restartēšanai, pēc tam vairs netiek izmantota"
+
+msgid "Delete swap space"
+msgstr "Dzēst mijmaiņas vietu"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Deaktivizēt tagad un atbrīvot vietu diskā"
+
+msgid "What should happen to the swap space?"
+msgstr "Ko darīt ar mijmaiņas vietu?"
+
+msgid "Not enough free memory"
+msgstr "Nepietiek brīvas atmiņas"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Šajā mijmaiņas vietā pašlaik glabājas %s, bet nepietiek brīvas RAM, lai to "
+"paņemtu atpakaļ. Vispirms aizveriet dažus spraudņus vai restartējiet "
+"saskarni."
+
+msgid "Moving data back to RAM..."
+msgstr "Datu pārvietošana atpakaļ uz RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Mijmaiņas faila dzēšana..."
+
+msgid "Removing plugin..."
+msgstr "Spraudņa noņemšana..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager ir noņemts."
+
+msgid "Swap"
+msgstr "Mijmaiņa"
+
+msgid "Total"
+msgstr "Kopā"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Mijmaiņas vietas"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Mijmaiņas vieta netika atrasta.\n"
+"Nospiediet DZELTENO, lai izveidotu mijmaiņas failu."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Opcijas     MENU  Iestatījumi     INFO  Sistēmas info     EXIT  Aizvērt"
+
+msgid "Create"
+msgstr "Izveidot"
+
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Atmiņas trūkums %d reizes kopš starta – sīkāk ar INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Izmantoti %s no %s"
+
+msgid "not active"
+msgstr "nav aktīva"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Startēšana: %s"
+
+msgid "Startup: off"
+msgstr "Startēšana: izslēgta"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Mijmaiņa: iekšā %s/s, ārā %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Ierakstīts kopš starta: %s"
+
+msgid "Swap partition"
+msgstr "Mijmaiņas nodalījums"
+
+msgid "Swap file"
+msgstr "Mijmaiņas fails"
+
+#, python-format
+msgid "%s used"
+msgstr "izmantoti %s"
+
+msgid "ACTIVE"
+msgstr "AKTĪVS"
+
+msgid "INACTIVE"
+msgstr "NEAKTĪVS"
+
+msgid "STARTUP"
+msgstr "STARTĒJOT"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Mijmaiņas vieta netika atrasta.\n"
+"Nav pievienots ārējs disks ar Linux failu sistēmu (ext4, ...) – DZELTENĀ: saspiesta RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Mijmaiņas vieta netika atrasta.\n"
+"Nav pievienots ārējs disks ar Linux failu sistēmu (ext4, ...). Pievienojiet USB disku vai cieto disku un piemontējiet to attēla disku iestatījumos."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "attiecība %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "saspiesta mijmaiņa RAM"
+
+msgid "Deactivate"
+msgstr "Deaktivizēt"
+
+msgid "Activate"
+msgstr "Aktivizēt"
+
+msgid "Delete"
+msgstr "Dzēst"
+
+msgid "Remove"
+msgstr "Noņemt"
+
+msgid "Stop using this swap space now"
+msgstr "Pārtraukt izmantot šo mijmaiņas vietu"
+
+msgid "Start using this swap space now"
+msgstr "Sākt izmantot šo mijmaiņas vietu"
+
+msgid "Don't activate at startup"
+msgstr "Neaktivizēt startējot"
+
+msgid "Remove automatic activation"
+msgstr "Noņemt automātisko aktivizēšanu"
+
+msgid "Activate at startup"
+msgstr "Aktivizēt startējot"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Iestatīt saspiesto RAM mijmaiņu katru reizi, kad uztvērējs startē"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Deaktivizēt zram un atdot atmiņu"
+
+msgid "Change size"
+msgstr "Mainīt izmēru"
+
+msgid "Set up zram again with a different size"
+msgstr "Iestatīt zram vēlreiz ar citu izmēru"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Izmantot šo mijmaiņas failu katru reizi, kad uztvērējs startē"
+
+msgid "Create the swap file again with a different size"
+msgstr "Izveidot mijmaiņas failu no jauna ar citu izmēru"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Noņemt mijmaiņas failu un atbrīvot vietu diskā"
+
+msgid "Create new swap file"
+msgstr "Izveidot jaunu mijmaiņas failu"
+
+msgid "What this receiver supports"
+msgstr "Ko atbalsta šis uztvērējs"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Izmērs: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Glabāti: %s, saspiesti līdz %s (%s RAM izmantoti)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritms: %s, prioritāte %d"
+
+msgid "Status: inactive"
+msgstr "Statuss: neaktīvs"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Izmantoti: %s, prioritāte %d"
+
+msgid "Startup activation disabled"
+msgstr "Aktivizēšana startējot izslēgta"
+
+msgid "Activated at every startup"
+msgstr "Tiek aktivizēts katrā startēšanas reizē"
+
+msgid "Activate swap"
+msgstr "Aktivizēt mijmaiņu"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Saspiestās RAM mijmaiņas iestatīšana..."
+
+msgid "Swap activated"
+msgstr "Mijmaiņa aktivizēta"
+
+msgid "Deactivate swap"
+msgstr "Deaktivizēt mijmaiņu"
+
+msgid "Swap deactivated"
+msgstr "Mijmaiņa deaktivizēta"
+
+msgid "The file is not a valid swap file."
+msgstr "Fails nav derīgs mijmaiņas fails."
+
+msgid "Activating swap..."
+msgstr "Mijmaiņas aktivizēšana..."
+
+msgid "Delete swap file"
+msgstr "Dzēst mijmaiņas failu"
+
+msgid "Swap file deleted"
+msgstr "Mijmaiņas fails dzēsts"
+
+msgid "Delete swap file?"
+msgstr "Dzēst mijmaiņas failu?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) tiks deaktivizēts un dzēsts."
+
+msgid "Restart GUI?"
+msgstr "Restartēt saskarni?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Spraudnis pilnībā tiek izlādēts tikai pēc saskarnes restartēšanas. Restartēt"
+" tagad?"
+
+msgid "Restart now"
+msgstr "Restartēt tagad"
+
+msgid "Later"
+msgstr "Vēlāk"
+
+msgid "No suitable storage"
+msgstr "Nav piemērotas krātuves"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Netika atrasta krātuve ar Linux failu sistēmu (ext2/3/4, xfs, ...).\n"
+"Mijmaiņas failus nevar izveidot FAT, exFAT, NTFS vai tīkla diskos."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Disks nav vajadzīgs  ·  ātrākais  ·  nedaudz noslogo CPU"
+
+msgid "FASTEST"
+msgstr "ĀTRĀKAIS"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Nav pieejams šajā uztvērējā - OK: sīkāk"
+
+msgid "NOT SUPPORTED"
+msgstr "NETIEK ATBALSTĪTS"
+
+#, python-format
+msgid "%s free"
+msgstr "%s brīvi"
+
+msgid "NOT RECOMMENDED"
+msgstr "NAV IETEICAMS"
+
+msgid "NOT IDEAL"
+msgstr "NAV IDEĀLI"
+
+msgid "RECOMMENDED"
+msgstr "IETEICAMS"
+
+msgid "FULL"
+msgstr "PILNS"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Kur glabāt mijmaiņas failu?\n"
+"Labākais ir cietais disks vai USB disks; iekšējā zibatmiņa nolietojas ātrāk."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Kur izveidot mijmaiņas vietu?\n"
+"zram saspiež atmiņu RAM iekšienē; to var apvienot ar mijmaiņas failu diskā."
+
+msgid "Create swap file  1/2"
+msgstr "Mijmaiņas faila izveide  1/2"
+
+msgid "zram not supported"
+msgstr "zram netiek atbalstīts"
+
+msgid "Not enough space"
+msgstr "Nepietiek vietas"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Diskā %s nepietiek brīvas vietas."
+
+msgid "Use internal flash?"
+msgstr "Izmantot iekšējo zibatmiņu?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Mijmaiņa iekšējā zibatmiņā rada daudz rakstīšanas ciklu un var saīsināt tās "
+"mūžu. Ieteicams USB disks vai cietais disks."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Iekšējā zibatmiņa ir pielodēta, un to nevar nomainīt kā SD karti vai USB "
+"disku – ja tā nolietojas, cieš pats uztvērējs."
+
+msgid "Use internal flash anyway"
+msgstr "Tomēr izmantot zibatmiņu"
+
+msgid "Use SD card?"
+msgstr "Izmantot SD karti?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Mijmaiņa atkal un atkal raksta uz karti, tāpēc SD kartes nolietojas ātrāk. Ieteicams USB disks vai cietais disks.\n"
+"Ja izmantojat karti: zema swappiness vērtība (10-20) samazina rakstīšanu līdz minimumam."
+
+msgid "Use SD card anyway"
+msgstr "Tomēr izmantot SD karti"
+
+msgid "Custom size..."
+msgstr "Pielāgots izmērs..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Ievadiet izmēru no %d līdz %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Jauns izmērs failam %s (pašlaik %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  pieejams: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Mijmaiņas faila izveide  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Izvēlieties mijmaiņas faila izmēru diskā %s.\n"
+"RAM: %s  ·  brīvā vieta: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Mijmaiņas faila izmērs MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Nederīgs izmērs"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Lūdzu, ievadiet izmēru no %d līdz %d MB."
+
+msgid "File exists"
+msgstr "Fails jau pastāv"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s jau pastāv un nav mijmaiņas fails. Lūdzu, vispirms to noņemiet."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Esošais mijmaiņas fails tiek izmantots, un nepietiek brīvas RAM, lai to "
+"aizstātu."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s tiks izveidots no jauna ar %s, nevis %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Mijmaiņas fails ar izmēru %s tiks izveidots\n"
+"%s\n"
+"un aktivizēts katrā startēšanas reizē."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Esošais mijmaiņas fails (%s) tiks aizstāts."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Tas aizņem aptuveni %d sekundes."
+
+msgid "Create swap file?"
+msgstr "Izveidot mijmaiņas failu?"
+
+msgid "Create swap file"
+msgstr "Izveidot mijmaiņas failu"
+
+msgid "Deactivating old swap file..."
+msgstr "Vecā mijmaiņas faila deaktivizēšana..."
+
+msgid "Removing old swap file..."
+msgstr "Vecā mijmaiņas faila noņemšana..."
+
+msgid "Writing swap file..."
+msgstr "Mijmaiņas faila rakstīšana..."
+
+msgid "Formatting swap file..."
+msgstr "Mijmaiņas faila formatēšana..."
+
+msgid "Size changed"
+msgstr "Izmērs mainīts"
+
+msgid "Swap file created and activated"
+msgstr "Mijmaiņas fails izveidots un aktivizēts"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness iestatīts uz %d"
+
+msgid "Protect the SD card?"
+msgstr "Saudzēt SD karti?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness ir %d. Ar 10 uztvērējs retāk izmanto mijmaiņu un mazāk raksta uz "
+"karti."
+
+msgid "Set swappiness to 10"
+msgstr "Iestatīt swappiness uz 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Paturēt %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "pilns aizņem ne vairāk kā aptuveni %s RAM"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Saspiesta RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Izvēlieties saspiestās mijmaiņas izmēru (RAM: %s).\n"
+"Atmiņa tiek izmantota tikai tad, kad dati patiešām tiek izmainīti; aptuveni puse no RAM ir laba vērtība."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Tiks iestatīta saspiesta RAM mijmaiņa ar izmēru %s (algoritms: %s), un tā "
+"tiks aktivizēta katrā startēšanas reizē."
+
+msgid "kernel default"
+msgstr "kodola noklusējums"
+
+msgid "It is used before swap files on drives."
+msgstr "Tā tiek izmantota pirms mijmaiņas failiem diskos."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Pašreizējā zram mijmaiņa (%s) tiks aizstāta."
+
+msgid "Set up zram?"
+msgstr "Iestatīt zram?"
+
+msgid "Set up zram"
+msgstr "Iestatīt zram"
+
+msgid "zram activated"
+msgstr "zram aktivizēts"
+
+msgid "Remove zram"
+msgstr "Noņemt zram"
+
+msgid "zram removed"
+msgstr "zram noņemts"
+
+msgid "Remove zram?"
+msgstr "Noņemt zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Saspiestā RAM mijmaiņa tiks deaktivizēta un startējot vairs netiks "
+"iestatīta."

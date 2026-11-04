@@ -1,0 +1,899 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: vi\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Mặc định hệ thống"
+
+msgid "Plugins and storage menu"
+msgstr "Plugin và menu thiết bị lưu trữ"
+
+msgid "Plugin browser only"
+msgstr "Chỉ trình duyệt plugin"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Tạo và quản lý tệp hoán đổi"
+
+msgid "Hard disk"
+msgstr "Ổ cứng"
+
+msgid "USB storage"
+msgstr "Bộ nhớ USB"
+
+msgid "SD card"
+msgstr "Thẻ SD"
+
+msgid "Internal flash"
+msgstr "Flash trong"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Chọn     EXIT  Quay lại"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Hủy"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr "Không thể tạo thiết bị zram. Kernel này có lẽ không hỗ trợ zram."
+
+msgid "Please wait..."
+msgstr "Vui lòng chờ..."
+
+msgid "Could not start command."
+msgstr "Không thể chạy lệnh."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Đã ghi %s / %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Mã lỗi %d"
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Close"
+msgstr "Đóng"
+
+msgid "Done"
+msgstr "Xong"
+
+msgid "Cancelled."
+msgstr "Đã hủy."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram đã được nạp và sẵn sàng sử dụng."
+
+msgid "zram is built into the kernel."
+msgstr "zram được tích hợp sẵn trong kernel."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram có sẵn dưới dạng mô-đun kernel và được nạp khi cần."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Kernel của đầu thu này (%s) được biên dịch không có zram. Tệp hoán đổi trên "
+"ổ đĩa là giải pháp tốt nhất ở đây."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Kernel hỗ trợ zram dưới dạng mô-đun, nhưng mô-đun chưa được cài đặt (kernel "
+"%s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Không tìm thấy hỗ trợ zram trong kernel (%s)."
+
+msgid "available"
+msgstr "có sẵn"
+
+msgid "module missing"
+msgstr "thiếu mô-đun"
+
+msgid "not supported"
+msgstr "không hỗ trợ"
+
+msgid "System information"
+msgstr "Thông tin hệ thống"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "LÊN/XUỐNG  Chi tiết     EXIT  Quay lại"
+
+msgid "Receiver"
+msgstr "Đầu thu"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Kernel"
+msgstr "Kernel"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Kernel quyết định các tính năng bộ nhớ nào khả dụng. Nó là một phần của "
+"image và plugin không thể thay đổi."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d lần"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "gần nhất: %s, %s"
+
+msgid "never"
+msgstr "chưa bao giờ"
+
+msgid "Out of memory"
+msgstr "Hết bộ nhớ"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Số lần RAM và vùng hoán đổi đầy khiến kernel phải tắt một chương trình (tính"
+" từ khi cài plugin). Nếu xảy ra, một tệp hoán đổi - hoặc tệp lớn hơn - sẽ "
+"giúp ích."
+
+msgid "Swap support"
+msgstr "Hỗ trợ hoán đổi"
+
+msgid "yes"
+msgstr "có"
+
+msgid "no"
+msgstr "không"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Cần cho tệp hoán đổi, phân vùng hoán đổi và zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram nén bộ nhớ bị hoán đổi ngay trong RAM (khoảng 2-3:1) - không cần ổ đĩa."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (RAM nén)"
+
+msgid "zram algorithms"
+msgstr "Thuật toán zram"
+
+msgid "known after loading"
+msgstr "biết sau khi nạp"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Các thuật toán nén mà kernel cung cấp. lz4 nhanh nhất, zstd nén tốt nhất."
+
+#, python-format
+msgid "active (%s)"
+msgstr "đang hoạt động (%s)"
+
+msgid "available, inactive"
+msgstr "có sẵn, không hoạt động"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap là bộ đệm nén đặt trước tệp hoán đổi. Ở đây nó chỉ được hiển thị để "
+"tham khảo."
+
+msgid "none (only internal flash)"
+msgstr "không có (chỉ flash trong)"
+
+msgid "none"
+msgstr "không có"
+
+msgid "Drives for swap files"
+msgstr "Ổ đĩa cho tệp hoán đổi"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Các ổ đĩa có hệ thống tệp Linux (ext2/3/4, xfs, ...) có thể chứa tệp hoán "
+"đổi."
+
+msgid "Kernel configuration"
+msgstr "Cấu hình kernel"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz giúp plugin biết chính xác kernel được biên dịch với những "
+"tính năng nào."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Kích thước trang"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d byte"
+
+msgid "Simple Swap Manager settings"
+msgstr "Cài đặt Simple Swap Manager"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Off"
+msgstr "Tắt"
+
+msgid "Swap file at startup"
+msgstr "Tệp hoán đổi khi khởi động"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Tệp hoán đổi này được tự động kích hoạt mỗi khi đầu thu khởi động. Plugin "
+"chờ tối đa ba phút để thiết bị lưu trữ được gắn kết."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Mức độ kernel chuyển bộ nhớ sang hoán đổi (0-100). Giá trị thấp giữ dữ liệu "
+"trong RAM lâu hơn; 10-30 là lựa chọn tốt cho đầu thu. Giá trị hiện tại: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr "Giá trị thấp cũng nghĩa là ít ghi hơn, giúp bảo vệ thẻ SD và USB."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Tự động (%s)"
+
+msgid "zram compression"
+msgstr "Nén zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Thuật toán nén cho hoán đổi RAM nén. lz4 nhanh nhất, zstd nén tốt nhất nhưng"
+" tốn CPU hơn. Thay đổi có hiệu lực ở lần thiết lập zram tiếp theo."
+
+msgid "zram at startup"
+msgstr "zram khi khởi động"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "Thiết lập hoán đổi RAM nén (%s) mỗi khi đầu thu khởi động."
+
+msgid "On"
+msgstr "Bật"
+
+msgid "Show plugin in"
+msgstr "Hiển thị plugin trong"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Nơi có thể mở Simple Swap Manager. Thay đổi có hiệu lực sau khi khởi động "
+"lại giao diện."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Hiển thị những gì đầu thu này hỗ trợ: kernel, zram, zswap và ổ đĩa. Nhấn OK "
+"để mở."
+
+msgid "Open"
+msgstr "Mở"
+
+msgid "Uninstall plugin..."
+msgstr "Gỡ cài đặt plugin..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Gỡ Simple Swap Manager khỏi đầu thu này. Bạn có thể chọn giữ lại hoặc xóa "
+"vùng hoán đổi."
+
+msgid "Uninstall"
+msgstr "Gỡ cài đặt"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Gỡ cài đặt Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager sẽ bị gỡ khỏi đầu thu này."
+
+msgid "Compressed RAM (zram)"
+msgstr "RAM nén (zram)"
+
+msgid "Keep swap space"
+msgstr "Giữ vùng hoán đổi"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr ""
+"Vẫn hoạt động đến lần khởi động lại tiếp theo, sau đó không còn được dùng"
+
+msgid "Delete swap space"
+msgstr "Xóa vùng hoán đổi"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Tắt ngay và giải phóng dung lượng đĩa"
+
+msgid "What should happen to the swap space?"
+msgstr "Vùng hoán đổi nên được xử lý thế nào?"
+
+msgid "Not enough free memory"
+msgstr "Không đủ bộ nhớ trống"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Vùng hoán đổi này hiện đang chứa %s, nhưng không đủ RAM trống để lấy lại. "
+"Hãy đóng bớt plugin hoặc khởi động lại giao diện trước."
+
+msgid "Moving data back to RAM..."
+msgstr "Đang chuyển dữ liệu về RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Đang xóa tệp hoán đổi..."
+
+msgid "Removing plugin..."
+msgstr "Đang gỡ plugin..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager đã được gỡ."
+
+msgid "Swap"
+msgstr "Hoán đổi"
+
+msgid "Total"
+msgstr "Tổng"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Vùng hoán đổi"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Không tìm thấy vùng hoán đổi.\n"
+"Nhấn VÀNG để tạo tệp hoán đổi."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr "OK  Tùy chọn     MENU  Cài đặt     INFO  Thông tin     EXIT  Đóng"
+
+msgid "Create"
+msgstr "Tạo"
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Hết bộ nhớ %d lần từ khi khởi động - xem chi tiết bằng INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Đã dùng %s / %s"
+
+msgid "not active"
+msgstr "không hoạt động"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Khởi động: %s"
+
+msgid "Startup: off"
+msgstr "Khởi động: tắt"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Hoán đổi: vào %s/s, ra %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Đã ghi từ khi khởi động: %s"
+
+msgid "Swap partition"
+msgstr "Phân vùng hoán đổi"
+
+msgid "Swap file"
+msgstr "Tệp hoán đổi"
+
+#, python-format
+msgid "%s used"
+msgstr "đã dùng %s"
+
+msgid "ACTIVE"
+msgstr "ĐANG BẬT"
+
+msgid "INACTIVE"
+msgstr "ĐANG TẮT"
+
+msgid "STARTUP"
+msgstr "KHỞI ĐỘNG"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Không tìm thấy vùng hoán đổi.\n"
+"Không có ổ ngoài dùng hệ thống tệp Linux (ext4, ...) - nhấn VÀNG để dùng RAM nén (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Không tìm thấy vùng hoán đổi.\n"
+"Không có ổ ngoài dùng hệ thống tệp Linux (ext4, ...) được gắn. Hãy cắm ổ USB hoặc ổ cứng và gắn nó trong cài đặt ổ đĩa của image."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "tỷ lệ %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "hoán đổi nén trong RAM"
+
+msgid "Deactivate"
+msgstr "Tắt"
+
+msgid "Activate"
+msgstr "Bật"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Remove"
+msgstr "Gỡ bỏ"
+
+msgid "Stop using this swap space now"
+msgstr "Ngừng dùng vùng hoán đổi này ngay"
+
+msgid "Start using this swap space now"
+msgstr "Bắt đầu dùng vùng hoán đổi này ngay"
+
+msgid "Don't activate at startup"
+msgstr "Không kích hoạt khi khởi động"
+
+msgid "Remove automatic activation"
+msgstr "Bỏ kích hoạt tự động"
+
+msgid "Activate at startup"
+msgstr "Kích hoạt khi khởi động"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Thiết lập hoán đổi RAM nén mỗi khi đầu thu khởi động"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Tắt zram và trả lại bộ nhớ"
+
+msgid "Change size"
+msgstr "Đổi kích thước"
+
+msgid "Set up zram again with a different size"
+msgstr "Thiết lập lại zram với kích thước khác"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Dùng tệp hoán đổi này mỗi khi đầu thu khởi động"
+
+msgid "Create the swap file again with a different size"
+msgstr "Tạo lại tệp hoán đổi với kích thước khác"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Xóa tệp hoán đổi và giải phóng dung lượng đĩa"
+
+msgid "Create new swap file"
+msgstr "Tạo tệp hoán đổi mới"
+
+msgid "What this receiver supports"
+msgstr "Đầu thu này hỗ trợ những gì"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Kích thước: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Lưu trữ: %s, nén còn %s (đang dùng %s RAM)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Thuật toán: %s, ưu tiên %d"
+
+msgid "Status: inactive"
+msgstr "Trạng thái: không hoạt động"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Đã dùng: %s, ưu tiên %d"
+
+msgid "Startup activation disabled"
+msgstr "Đã tắt kích hoạt khi khởi động"
+
+msgid "Activated at every startup"
+msgstr "Kích hoạt mỗi lần khởi động"
+
+msgid "Activate swap"
+msgstr "Bật hoán đổi"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Đang thiết lập hoán đổi RAM nén..."
+
+msgid "Swap activated"
+msgstr "Đã bật hoán đổi"
+
+msgid "Deactivate swap"
+msgstr "Tắt hoán đổi"
+
+msgid "Swap deactivated"
+msgstr "Đã tắt hoán đổi"
+
+msgid "The file is not a valid swap file."
+msgstr "Tệp không phải là tệp hoán đổi hợp lệ."
+
+msgid "Activating swap..."
+msgstr "Đang bật hoán đổi..."
+
+msgid "Delete swap file"
+msgstr "Xóa tệp hoán đổi"
+
+msgid "Swap file deleted"
+msgstr "Đã xóa tệp hoán đổi"
+
+msgid "Delete swap file?"
+msgstr "Xóa tệp hoán đổi?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) sẽ bị tắt và xóa."
+
+msgid "Restart GUI?"
+msgstr "Khởi động lại giao diện?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Plugin chỉ được dỡ hoàn toàn sau khi khởi động lại giao diện. Khởi động lại "
+"ngay?"
+
+msgid "Restart now"
+msgstr "Khởi động lại ngay"
+
+msgid "Later"
+msgstr "Để sau"
+
+msgid "No suitable storage"
+msgstr "Không có bộ nhớ phù hợp"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Không tìm thấy thiết bị lưu trữ có hệ thống tệp Linux (ext2/3/4, xfs, ...).\n"
+"Không thể tạo tệp hoán đổi trên FAT, exFAT, NTFS hoặc ổ mạng."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Không cần ổ đĩa  ·  nhanh nhất  ·  tốn chút CPU"
+
+msgid "FASTEST"
+msgstr "NHANH NHẤT"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Không khả dụng trên đầu thu này - OK để xem chi tiết"
+
+msgid "NOT SUPPORTED"
+msgstr "KHÔNG HỖ TRỢ"
+
+#, python-format
+msgid "%s free"
+msgstr "trống %s"
+
+msgid "NOT RECOMMENDED"
+msgstr "KHÔNG NÊN DÙNG"
+
+msgid "NOT IDEAL"
+msgstr "CHƯA TỐI ƯU"
+
+msgid "RECOMMENDED"
+msgstr "KHUYÊN DÙNG"
+
+msgid "FULL"
+msgstr "ĐẦY"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Lưu tệp hoán đổi ở đâu?\n"
+"Tốt nhất là ổ cứng hoặc USB; flash trong hao mòn nhanh hơn."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Tạo vùng hoán đổi ở đâu?\n"
+"zram nén bộ nhớ ngay trong RAM; có thể kết hợp với tệp hoán đổi trên ổ đĩa."
+
+msgid "Create swap file  1/2"
+msgstr "Tạo tệp hoán đổi  1/2"
+
+msgid "zram not supported"
+msgstr "zram không được hỗ trợ"
+
+msgid "Not enough space"
+msgstr "Không đủ dung lượng"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Không đủ dung lượng trống trên %s."
+
+msgid "Use internal flash?"
+msgstr "Dùng flash trong?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Hoán đổi trên bộ nhớ flash trong gây nhiều chu kỳ ghi và có thể làm giảm "
+"tuổi thọ. Nên dùng USB hoặc ổ cứng."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Flash trong được hàn cố định, không thay được như thẻ SD hay ổ USB - nếu bị "
+"hao mòn, chính đầu thu sẽ bị ảnh hưởng."
+
+msgid "Use internal flash anyway"
+msgstr "Vẫn dùng flash trong"
+
+msgid "Use SD card?"
+msgstr "Dùng thẻ SD?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Hoán đổi ghi lên thẻ liên tục, nên thẻ SD nhanh hao mòn hơn. Nên dùng ổ USB hoặc ổ cứng.\n"
+"Nếu dùng thẻ: swappiness thấp (10-20) giúp giảm ghi xuống mức tối thiểu."
+
+msgid "Use SD card anyway"
+msgstr "Vẫn dùng thẻ SD"
+
+msgid "Custom size..."
+msgstr "Kích thước tùy chọn..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Nhập kích thước từ %d đến %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Kích thước mới cho %s (hiện tại %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  khả dụng: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Tạo tệp hoán đổi  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Chọn kích thước tệp hoán đổi trên %s.\n"
+"RAM: %s  ·  dung lượng trống: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Kích thước tệp hoán đổi tính bằng MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Kích thước không hợp lệ"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Vui lòng nhập kích thước từ %d đến %d MB."
+
+msgid "File exists"
+msgstr "Tệp đã tồn tại"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s đã tồn tại và không phải là tệp hoán đổi. Vui lòng xóa nó trước."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Tệp hoán đổi hiện có đang được dùng và không đủ RAM trống để thay thế."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s sẽ được tạo lại với %s thay vì %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Tệp hoán đổi %s sẽ được tạo tại\n"
+"%s\n"
+"và được kích hoạt mỗi lần khởi động."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Tệp hoán đổi hiện có (%s) sẽ bị thay thế."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Việc này mất khoảng %d giây."
+
+msgid "Create swap file?"
+msgstr "Tạo tệp hoán đổi?"
+
+msgid "Create swap file"
+msgstr "Tạo tệp hoán đổi"
+
+msgid "Deactivating old swap file..."
+msgstr "Đang tắt tệp hoán đổi cũ..."
+
+msgid "Removing old swap file..."
+msgstr "Đang xóa tệp hoán đổi cũ..."
+
+msgid "Writing swap file..."
+msgstr "Đang ghi tệp hoán đổi..."
+
+msgid "Formatting swap file..."
+msgstr "Đang định dạng tệp hoán đổi..."
+
+msgid "Size changed"
+msgstr "Đã đổi kích thước"
+
+msgid "Swap file created and activated"
+msgstr "Đã tạo và bật tệp hoán đổi"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Đã đặt swappiness là %d"
+
+msgid "Protect the SD card?"
+msgstr "Bảo vệ thẻ SD?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness đang là %d. Với 10, đầu thu ít hoán đổi hơn và ghi ít hơn lên "
+"thẻ."
+
+msgid "Set swappiness to 10"
+msgstr "Đặt swappiness là 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Giữ %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "khi đầy dùng tối đa khoảng %s RAM"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "RAM nén (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Chọn kích thước hoán đổi nén (RAM: %s).\n"
+"Bộ nhớ chỉ được dùng khi dữ liệu thực sự bị hoán đổi; khoảng một nửa RAM là giá trị tốt."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Hoán đổi RAM nén %s sẽ được thiết lập (thuật toán: %s) và kích hoạt mỗi lần "
+"khởi động."
+
+msgid "kernel default"
+msgstr "mặc định của kernel"
+
+msgid "It is used before swap files on drives."
+msgstr "Được dùng trước các tệp hoán đổi trên ổ đĩa."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Hoán đổi zram hiện tại (%s) sẽ bị thay thế."
+
+msgid "Set up zram?"
+msgstr "Thiết lập zram?"
+
+msgid "Set up zram"
+msgstr "Thiết lập zram"
+
+msgid "zram activated"
+msgstr "Đã bật zram"
+
+msgid "Remove zram"
+msgstr "Gỡ zram"
+
+msgid "zram removed"
+msgstr "Đã gỡ zram"
+
+msgid "Remove zram?"
+msgstr "Gỡ zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr "Hoán đổi RAM nén sẽ bị tắt và không còn được thiết lập khi khởi động."

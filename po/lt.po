@@ -1,0 +1,905 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: lt\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Sistemos numatytoji reikšmė"
+
+msgid "Plugins and storage menu"
+msgstr "Įskiepiai ir saugojimo įrenginių meniu"
+
+msgid "Plugin browser only"
+msgstr "Tik įskiepių naršyklė"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Mainų failų kūrimas ir valdymas"
+
+msgid "Hard disk"
+msgstr "Kietasis diskas"
+
+msgid "USB storage"
+msgstr "USB laikmena"
+
+msgid "SD card"
+msgstr "SD kortelė"
+
+msgid "Internal flash"
+msgstr "Vidinė atmintis"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Pasirinkti     EXIT  Atgal"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Nepavyko sukurti zram įrenginio. Šis branduolys tikriausiai nepalaiko zram."
+
+msgid "Please wait..."
+msgstr "Palaukite..."
+
+msgid "Could not start command."
+msgstr "Nepavyko paleisti komandos."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Įrašyta %s iš %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Klaidos kodas %d"
+
+msgid "Error"
+msgstr "Klaida"
+
+msgid "Close"
+msgstr "Uždaryti"
+
+msgid "Done"
+msgstr "Atlikta"
+
+msgid "Cancelled."
+msgstr "Atšaukta."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram įkeltas ir paruoštas naudoti."
+
+msgid "zram is built into the kernel."
+msgstr "zram įtrauktas į branduolį."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram prieinamas kaip branduolio modulis ir įkeliamas prireikus."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Šio imtuvo branduolys (%s) sukompiliuotas be zram. Čia geriausia išeitis yra"
+" mainų failas diske."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Branduolys palaiko zram kaip modulį, bet modulis neįdiegtas (branduolys %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Branduolyje nerasta zram palaikymo (%s)."
+
+msgid "available"
+msgstr "prieinama"
+
+msgid "module missing"
+msgstr "trūksta modulio"
+
+msgid "not supported"
+msgstr "nepalaikoma"
+
+msgid "System information"
+msgstr "Sistemos informacija"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "AUKŠTYN/ŽEMYN  Išsamiau     EXIT  Atgal"
+
+msgid "Receiver"
+msgstr "Imtuvas"
+
+msgid "Image"
+msgstr "Atvaizdas"
+
+msgid "Kernel"
+msgstr "Branduolys"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Branduolys nustato, kurios atminties funkcijos prieinamos. Jis yra atvaizdo "
+"dalis, ir įskiepis jo pakeisti negali."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d k."
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "paskutinį kartą: %s, %s"
+
+msgid "never"
+msgstr "niekada"
+
+msgid "Out of memory"
+msgstr "Trūko atminties"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Kiek kartų RAM ir mainai buvo pilni ir branduolys turėjo sustabdyti programą"
+" (nuo papildinio įdiegimo). Jei taip nutinka, padeda mainų failas – arba "
+"didesnis."
+
+msgid "Swap support"
+msgstr "Mainų palaikymas"
+
+msgid "yes"
+msgstr "taip"
+
+msgid "no"
+msgstr "ne"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Reikalinga mainų failams, mainų skaidiniams ir zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram suspaudžia iškeltą atmintį tiesiog RAM (apie 2-3:1) - disko nereikia."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (suspausta RAM)"
+
+msgid "zram algorithms"
+msgstr "zram algoritmai"
+
+msgid "known after loading"
+msgstr "žinomi po įkėlimo"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Branduolio siūlomi glaudinimo algoritmai. lz4 greičiausias, zstd suspaudžia "
+"geriausiai."
+
+#, python-format
+msgid "active (%s)"
+msgstr "aktyvus (%s)"
+
+msgid "available, inactive"
+msgstr "prieinamas, neaktyvus"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap yra suspaustas podėlis prieš mainų failą. Čia jis rodomas tik "
+"informacijai."
+
+msgid "none (only internal flash)"
+msgstr "nėra (tik vidinė „flash“ atmintis)"
+
+msgid "none"
+msgstr "nėra"
+
+msgid "Drives for swap files"
+msgstr "Diskai mainų failams"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Diskai su Linux failų sistema (ext2/3/4, xfs, ...), kuriuose galima laikyti "
+"mainų failą."
+
+msgid "Kernel configuration"
+msgstr "Branduolio konfigūracija"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz leidžia įskiepiui tiksliai matyti, su kokiomis funkcijomis "
+"sukompiliuotas branduolys."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Puslapio dydis"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d baitai"
+
+msgid "Simple Swap Manager settings"
+msgstr "Simple Swap Manager nustatymai"
+
+msgid "Save"
+msgstr "Išsaugoti"
+
+msgid "Off"
+msgstr "Išjungta"
+
+msgid "Swap file at startup"
+msgstr "Mainų failas paleidžiant"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Šis mainų failas automatiškai įjungiamas kiekvieną kartą paleidus imtuvą. "
+"Įskiepis laukia iki trijų minučių, kol laikmena bus prijungta."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Kaip noriai branduolys perkelia atmintį į mainus (0-100). Mažesnės reikšmės "
+"ilgiau laiko duomenis RAM; imtuvams tinka 10-30. Dabartinė reikšmė: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Mažesnės reikšmės reiškia ir mažiau rašymo – tai tausoja SD korteles ir USB "
+"atmintukus."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automatiškai (%s)"
+
+msgid "zram compression"
+msgstr "zram glaudinimas"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Suspaustų mainų RAM glaudinimo algoritmas. lz4 greičiausias, zstd suspaudžia"
+" geriausiai, bet naudoja daugiau procesoriaus. Pakeitimas įsigalios kitą "
+"kartą nustatant zram."
+
+msgid "zram at startup"
+msgstr "zram paleidžiant"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "Nustatyti suspaustus mainus RAM (%s) kiekvieną kartą paleidus imtuvą."
+
+msgid "On"
+msgstr "Įjungta"
+
+msgid "Show plugin in"
+msgstr "Rodyti įskiepį"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Kur galima atidaryti Simple Swap Manager. Pakeitimas įsigalios iš naujo "
+"paleidus sąsają."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Rodo, ką palaiko šis imtuvas: branduolį, zram, zswap ir diskus. Paspauskite "
+"OK, kad atidarytumėte."
+
+msgid "Open"
+msgstr "Atidaryti"
+
+msgid "Uninstall plugin..."
+msgstr "Pašalinti įskiepį..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Pašalina Simple Swap Manager iš šio imtuvo. Galite pasirinkti, ar mainų "
+"sritis bus palikta, ar ištrinta."
+
+msgid "Uninstall"
+msgstr "Pašalinti"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Pašalinti Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager bus pašalintas iš šio imtuvo."
+
+msgid "Compressed RAM (zram)"
+msgstr "Suspausta RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Palikti mainų sritį"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Lieka aktyvi iki kito paleidimo iš naujo, paskui nebenaudojama"
+
+msgid "Delete swap space"
+msgstr "Ištrinti mainų sritį"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Išjungti dabar ir atlaisvinti vietą diske"
+
+msgid "What should happen to the swap space?"
+msgstr "Ką daryti su mainų sritimi?"
+
+msgid "Not enough free memory"
+msgstr "Nepakanka laisvos atminties"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Šioje mainų srityje dabar saugoma %s, bet nepakanka laisvos RAM, kad juos "
+"susigrąžintumėte. Pirmiausia uždarykite kelis įskiepius arba paleiskite "
+"sąsają iš naujo."
+
+msgid "Moving data back to RAM..."
+msgstr "Duomenys grąžinami į RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Mainų failas trinamas..."
+
+msgid "Removing plugin..."
+msgstr "Įskiepis šalinamas..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager pašalintas."
+
+msgid "Swap"
+msgstr "Mainai"
+
+msgid "Total"
+msgstr "Iš viso"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Mainų sritys"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Mainų sritis nerasta.\n"
+"Paspauskite GELTONĄ, kad sukurtumėte mainų failą."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Parinktys     MENU  Nustatymai     INFO  Sistemos info     EXIT  "
+"Uždaryti"
+
+msgid "Create"
+msgstr "Sukurti"
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Atminties trūko %d k. nuo paleidimo – išsamiau per INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Naudojama %s iš %s"
+
+msgid "not active"
+msgstr "neaktyvi"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Paleidimas: %s"
+
+msgid "Startup: off"
+msgstr "Paleidimas: išjungta"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Mainai: į %s/s, iš %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Įrašyta nuo paleidimo: %s"
+
+msgid "Swap partition"
+msgstr "Mainų skaidinys"
+
+msgid "Swap file"
+msgstr "Mainų failas"
+
+#, python-format
+msgid "%s used"
+msgstr "naudojama %s"
+
+msgid "ACTIVE"
+msgstr "AKTYVUS"
+
+msgid "INACTIVE"
+msgstr "NEAKTYVUS"
+
+msgid "STARTUP"
+msgstr "PALEIDŽIANT"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Mainų sritis nerasta.\n"
+"Neprijungtas joks išorinis diskas su Linux failų sistema (ext4, ...) – GELTONAS: suspausta RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Mainų sritis nerasta.\n"
+"Neprijungtas joks išorinis diskas su Linux failų sistema (ext4, ...). Prijunkite USB diską arba kietąjį diską ir prijunkite jį atvaizdo diskų nustatymuose."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "santykis %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "suspausti mainai RAM"
+
+msgid "Deactivate"
+msgstr "Išjungti"
+
+msgid "Activate"
+msgstr "Įjungti"
+
+msgid "Delete"
+msgstr "Ištrinti"
+
+msgid "Remove"
+msgstr "Pašalinti"
+
+msgid "Stop using this swap space now"
+msgstr "Nustoti naudoti šią mainų sritį"
+
+msgid "Start using this swap space now"
+msgstr "Pradėti naudoti šią mainų sritį"
+
+msgid "Don't activate at startup"
+msgstr "Neįjungti paleidžiant"
+
+msgid "Remove automatic activation"
+msgstr "Pašalinti automatinį įjungimą"
+
+msgid "Activate at startup"
+msgstr "Įjungti paleidžiant"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Nustatyti suspaustus mainus RAM kiekvieną kartą paleidus imtuvą"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Išjungti zram ir grąžinti atmintį"
+
+msgid "Change size"
+msgstr "Keisti dydį"
+
+msgid "Set up zram again with a different size"
+msgstr "Iš naujo nustatyti zram kitu dydžiu"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Naudoti šį mainų failą kiekvieną kartą paleidus imtuvą"
+
+msgid "Create the swap file again with a different size"
+msgstr "Sukurti mainų failą iš naujo kitu dydžiu"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Pašalinti mainų failą ir atlaisvinti vietą diske"
+
+msgid "Create new swap file"
+msgstr "Sukurti naują mainų failą"
+
+msgid "What this receiver supports"
+msgstr "Ką palaiko šis imtuvas"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Dydis: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Saugoma: %s, suspausta iki %s (naudojama %s RAM)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritmas: %s, prioritetas %d"
+
+msgid "Status: inactive"
+msgstr "Būsena: neaktyvus"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Naudojama: %s, prioritetas %d"
+
+msgid "Startup activation disabled"
+msgstr "Įjungimas paleidžiant išjungtas"
+
+msgid "Activated at every startup"
+msgstr "Įjungiamas kiekvieną kartą paleidus"
+
+msgid "Activate swap"
+msgstr "Įjungti mainus"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Nustatomi suspausti mainai RAM..."
+
+msgid "Swap activated"
+msgstr "Mainai įjungti"
+
+msgid "Deactivate swap"
+msgstr "Išjungti mainus"
+
+msgid "Swap deactivated"
+msgstr "Mainai išjungti"
+
+msgid "The file is not a valid swap file."
+msgstr "Failas nėra tinkamas mainų failas."
+
+msgid "Activating swap..."
+msgstr "Įjungiami mainai..."
+
+msgid "Delete swap file"
+msgstr "Ištrinti mainų failą"
+
+msgid "Swap file deleted"
+msgstr "Mainų failas ištrintas"
+
+msgid "Delete swap file?"
+msgstr "Ištrinti mainų failą?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) bus išjungtas ir ištrintas."
+
+msgid "Restart GUI?"
+msgstr "Paleisti sąsają iš naujo?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Įskiepis visiškai iškraunamas tik iš naujo paleidus sąsają. Paleisti iš "
+"naujo dabar?"
+
+msgid "Restart now"
+msgstr "Paleisti iš naujo dabar"
+
+msgid "Later"
+msgstr "Vėliau"
+
+msgid "No suitable storage"
+msgstr "Nėra tinkamos laikmenos"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Nerasta laikmena su Linux failų sistema (ext2/3/4, xfs, ...).\n"
+"Mainų failų negalima kurti FAT, exFAT, NTFS ar tinklo diskuose."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Disko nereikia  ·  greičiausia  ·  šiek tiek apkrauna procesorių"
+
+msgid "FASTEST"
+msgstr "GREIČIAUSIA"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Šiame imtuve neprieinama - OK: išsamiau"
+
+msgid "NOT SUPPORTED"
+msgstr "NEPALAIKOMA"
+
+#, python-format
+msgid "%s free"
+msgstr "%s laisva"
+
+msgid "NOT RECOMMENDED"
+msgstr "NEREKOMENDUOJAMA"
+
+msgid "NOT IDEAL"
+msgstr "NE IDEALU"
+
+msgid "RECOMMENDED"
+msgstr "REKOMENDUOJAMA"
+
+msgid "FULL"
+msgstr "PILNA"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Kur laikyti mainų failą?\n"
+"Geriausia kietasis diskas arba USB diskas; vidinė „flash“ atmintis dėvisi greičiau."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Kur sukurti mainų sritį?\n"
+"zram suspaudžia atmintį RAM viduje; jį galima derinti su mainų failu diske."
+
+msgid "Create swap file  1/2"
+msgstr "Mainų failo kūrimas  1/2"
+
+msgid "zram not supported"
+msgstr "zram nepalaikomas"
+
+msgid "Not enough space"
+msgstr "Nepakanka vietos"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "%s nepakanka laisvos vietos."
+
+msgid "Use internal flash?"
+msgstr "Naudoti vidinę „flash“ atmintį?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Mainai vidinėje „flash“ atmintyje sukelia daug rašymo ciklų ir gali "
+"sutrumpinti jos tarnavimo laiką. Rekomenduojamas USB diskas arba kietasis "
+"diskas."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Vidinė atmintis yra prilituota ir jos negalima pakeisti kaip SD kortelės ar "
+"USB disko – jei ji susidėvi, nukenčia pats imtuvas."
+
+msgid "Use internal flash anyway"
+msgstr "Vis tiek naudoti „flash“"
+
+msgid "Use SD card?"
+msgstr "Naudoti SD kortelę?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Mainai vis iš naujo rašo į kortelę, todėl SD kortelės dėvisi greičiau. Rekomenduojamas USB diskas arba kietasis diskas.\n"
+"Jei naudojate kortelę: maža swappiness reikšmė (10-20) sumažina rašymą iki minimumo."
+
+msgid "Use SD card anyway"
+msgstr "Vis tiek naudoti SD kortelę"
+
+msgid "Custom size..."
+msgstr "Savas dydis..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Įveskite dydį nuo %d iki %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Naujas %s dydis (dabar %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  prieinama: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Mainų failo kūrimas  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Pasirinkite mainų failo dydį diske %s.\n"
+"RAM: %s  ·  laisva vieta: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Mainų failo dydis MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Netinkamas dydis"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Įveskite dydį nuo %d iki %d MB."
+
+msgid "File exists"
+msgstr "Failas jau yra"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s jau yra ir nėra mainų failas. Pirmiausia jį pašalinkite."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr "Esamas mainų failas naudojamas, o laisvos RAM nepakanka jam pakeisti."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s bus sukurtas iš naujo: %s vietoj %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"%s dydžio mainų failas bus sukurtas\n"
+"%s\n"
+"ir įjungiamas kiekvieną kartą paleidus."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Esamas mainų failas (%s) bus pakeistas."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Tai užtruks apie %d sekundžių."
+
+msgid "Create swap file?"
+msgstr "Sukurti mainų failą?"
+
+msgid "Create swap file"
+msgstr "Sukurti mainų failą"
+
+msgid "Deactivating old swap file..."
+msgstr "Išjungiamas senas mainų failas..."
+
+msgid "Removing old swap file..."
+msgstr "Šalinamas senas mainų failas..."
+
+msgid "Writing swap file..."
+msgstr "Rašomas mainų failas..."
+
+msgid "Formatting swap file..."
+msgstr "Formatuojamas mainų failas..."
+
+msgid "Size changed"
+msgstr "Dydis pakeistas"
+
+msgid "Swap file created and activated"
+msgstr "Mainų failas sukurtas ir įjungtas"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness nustatytas į %d"
+
+msgid "Protect the SD card?"
+msgstr "Tausoti SD kortelę?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness yra %d. Su 10 imtuvas rečiau naudoja mainus ir mažiau rašo į "
+"kortelę."
+
+msgid "Set swappiness to 10"
+msgstr "Nustatyti swappiness 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Palikti %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "pilnas naudoja daugiausia apie %s RAM"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Suspausta RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Pasirinkite suspaustų mainų dydį (RAM: %s).\n"
+"Atmintis naudojama tik tada, kai duomenys tikrai iškeliami; maždaug pusė RAM yra gera reikšmė."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Bus nustatyti %s suspausti mainai RAM (algoritmas: %s), įjungiami kiekvieną "
+"kartą paleidus."
+
+msgid "kernel default"
+msgstr "branduolio numatytasis"
+
+msgid "It is used before swap files on drives."
+msgstr "Naudojama anksčiau nei mainų failai diskuose."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Dabartiniai zram mainai (%s) bus pakeisti."
+
+msgid "Set up zram?"
+msgstr "Nustatyti zram?"
+
+msgid "Set up zram"
+msgstr "Nustatyti zram"
+
+msgid "zram activated"
+msgstr "zram įjungtas"
+
+msgid "Remove zram"
+msgstr "Pašalinti zram"
+
+msgid "zram removed"
+msgstr "zram pašalintas"
+
+msgid "Remove zram?"
+msgstr "Pašalinti zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr "Suspausti mainai RAM bus išjungti ir paleidžiant nebebus nustatomi."

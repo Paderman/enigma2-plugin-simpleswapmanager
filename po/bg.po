@@ -1,0 +1,913 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: bg\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Системна стойност"
+
+msgid "Plugins and storage menu"
+msgstr "Плъгини и меню за устройства"
+
+msgid "Plugin browser only"
+msgstr "Само в браузъра за плъгини"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Създаване и управление на суап файлове"
+
+msgid "Hard disk"
+msgstr "Твърд диск"
+
+msgid "USB storage"
+msgstr "USB устройство"
+
+msgid "SD card"
+msgstr "SD карта"
+
+msgid "Internal flash"
+msgstr "Вътрешна флаш"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Избор     EXIT  Назад"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Отказ"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Устройството zram не можа да бъде създадено. Вероятно това ядро не поддържа "
+"zram."
+
+msgid "Please wait..."
+msgstr "Моля, изчакайте..."
+
+msgid "Could not start command."
+msgstr "Командата не можа да бъде стартирана."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Записани %s от %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Код на грешка %d"
+
+msgid "Error"
+msgstr "Грешка"
+
+msgid "Close"
+msgstr "Затвори"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "Cancelled."
+msgstr "Отменено."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram е зареден и готов за употреба."
+
+msgid "zram is built into the kernel."
+msgstr "zram е вграден в ядрото."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram е наличен като модул на ядрото и се зарежда при нужда."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Ядрото на този приемник (%s) е компилирано без zram. Суап файл на устройство"
+" е най-доброто решение тук."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Ядрото поддържа zram като модул, но модулът не е инсталиран (ядро %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Не е открита поддръжка на zram в ядрото (%s)."
+
+msgid "available"
+msgstr "налично"
+
+msgid "module missing"
+msgstr "липсва модул"
+
+msgid "not supported"
+msgstr "не се поддържа"
+
+msgid "System information"
+msgstr "Системна информация"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "НАГОРЕ/НАДОЛУ  Подробности     EXIT  Назад"
+
+msgid "Receiver"
+msgstr "Приемник"
+
+msgid "Image"
+msgstr "Имидж"
+
+msgid "Kernel"
+msgstr "Ядро"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Ядрото определя кои функции на паметта са налични. То е част от имиджа и не "
+"може да се промени от плъгин."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d пъти"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "последно: %s, %s"
+
+msgid "never"
+msgstr "никога"
+
+msgid "Out of memory"
+msgstr "Недостиг на памет"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Колко пъти RAM и суапът са били пълни и ядрото е трябвало да спре програма "
+"(от инсталирането на плъгина). Ако се случва, помага суап файл – или по-"
+"голям."
+
+msgid "Swap support"
+msgstr "Поддръжка на суап"
+
+msgid "yes"
+msgstr "да"
+
+msgid "no"
+msgstr "не"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Необходима за суап файлове, суап дялове и zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram компресира изнесената памет директно в RAM (около 2-3:1) - без "
+"устройство."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (компресирана RAM)"
+
+msgid "zram algorithms"
+msgstr "Алгоритми на zram"
+
+msgid "known after loading"
+msgstr "известни след зареждане"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Алгоритми за компресия, предлагани от ядрото. lz4 е най-бърз, zstd "
+"компресира най-добре."
+
+#, python-format
+msgid "active (%s)"
+msgstr "активно (%s)"
+
+msgid "available, inactive"
+msgstr "налично, неактивно"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap е компресиран кеш пред суап файла. Тук е показан само за информация."
+
+msgid "none (only internal flash)"
+msgstr "няма (само вътрешна флаш памет)"
+
+msgid "none"
+msgstr "няма"
+
+msgid "Drives for swap files"
+msgstr "Устройства за суап файлове"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Устройства с файлова система на Linux (ext2/3/4, xfs, ...), които могат да "
+"съдържат суап файл."
+
+msgid "Kernel configuration"
+msgstr "Конфигурация на ядрото"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz позволява на плъгина да види точно с кои функции е "
+"компилирано ядрото."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Размер на страница"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d байта"
+
+msgid "Simple Swap Manager settings"
+msgstr "Настройки на Simple Swap Manager"
+
+msgid "Save"
+msgstr "Запис"
+
+msgid "Off"
+msgstr "Изкл."
+
+msgid "Swap file at startup"
+msgstr "Суап файл при стартиране"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Този суап файл се активира автоматично при всяко стартиране на приемника. "
+"Плъгинът изчаква до три минути устройството да бъде монтирано."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Колко активно ядрото премества памет в суап (0-100). По-ниските стойности "
+"държат данните по-дълго в RAM; 10-30 е добър избор за приемници. Текуща "
+"стойност: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"По-ниските стойности означават и по-малко запис, което пести SD карти и USB "
+"флашки."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Автоматично (%s)"
+
+msgid "zram compression"
+msgstr "Компресия на zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Алгоритъм за компресия на компресирания суап в RAM. lz4 е най-бърз, zstd "
+"компресира най-добре, но натоварва повече процесора. Промяната важи при "
+"следващото настройване на zram."
+
+msgid "zram at startup"
+msgstr "zram при стартиране"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr ""
+"Настройване на компресиран суап в RAM (%s) при всяко стартиране на "
+"приемника."
+
+msgid "On"
+msgstr "Вкл."
+
+msgid "Show plugin in"
+msgstr "Показване на плъгина в"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Откъде може да се отвори Simple Swap Manager. Промяната важи след рестарт на"
+" графичния интерфейс."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Показва какво поддържа този приемник: ядро, zram, zswap и устройства. "
+"Натиснете OK за отваряне."
+
+msgid "Open"
+msgstr "Отвори"
+
+msgid "Uninstall plugin..."
+msgstr "Деинсталиране на плъгина..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Премахва Simple Swap Manager от този приемник. Можете да изберете дали суап "
+"паметта да се запази или изтрие."
+
+msgid "Uninstall"
+msgstr "Деинсталиране"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Деинсталиране на Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager ще бъде премахнат от този приемник."
+
+msgid "Compressed RAM (zram)"
+msgstr "Компресирана RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Запазване на суап паметта"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Остава активна до следващия рестарт, след това вече не се използва"
+
+msgid "Delete swap space"
+msgstr "Изтриване на суап паметта"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Деактивиране сега и освобождаване на дисковото място"
+
+msgid "What should happen to the swap space?"
+msgstr "Какво да стане със суап паметта?"
+
+msgid "Not enough free memory"
+msgstr "Няма достатъчно свободна памет"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"В тази суап област в момента се съхраняват %s, но няма достатъчно свободна "
+"RAM, за да се върнат. Първо затворете някои плъгини или рестартирайте "
+"графичния интерфейс."
+
+msgid "Moving data back to RAM..."
+msgstr "Връщане на данните в RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Изтриване на суап файла..."
+
+msgid "Removing plugin..."
+msgstr "Премахване на плъгина..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager беше премахнат."
+
+msgid "Swap"
+msgstr "Суап"
+
+msgid "Total"
+msgstr "Общо"
+
+msgid "CPU"
+msgstr "ЦП"
+
+msgid "Swap spaces"
+msgstr "Суап области"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Не е открита суап област.\n"
+"Натиснете ЖЪЛТИЯ бутон, за да създадете суап файл."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Опции     MENU  Настройки     INFO  Системна информация     EXIT  "
+"Затвори"
+
+msgid "Create"
+msgstr "Създай"
+
+msgid "Settings"
+msgstr "Настройки"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Недостиг на памет %d пъти от старта – подробности с INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Използвани %s от %s"
+
+msgid "not active"
+msgstr "неактивна"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Стартиране: %s"
+
+msgid "Startup: off"
+msgstr "Стартиране: изкл."
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Суап: вход %s/s, изход %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Записано от старта: %s"
+
+msgid "Swap partition"
+msgstr "Суап дял"
+
+msgid "Swap file"
+msgstr "Суап файл"
+
+#, python-format
+msgid "%s used"
+msgstr "използвани %s"
+
+msgid "ACTIVE"
+msgstr "АКТИВЕН"
+
+msgid "INACTIVE"
+msgstr "НЕАКТИВЕН"
+
+msgid "STARTUP"
+msgstr "СТАРТ"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Не е открита суап област.\n"
+"Няма външен носител с Linux файлова система (ext4, ...) – натиснете ЖЪЛТИЯ за компресирана RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Не е открита суап област.\n"
+"Няма монтиран външен носител с Linux файлова система (ext4, ...). Свържете USB устройство или твърд диск и го монтирайте в настройките за дискове на имиджа."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "съотношение %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "компресиран суап в RAM"
+
+msgid "Deactivate"
+msgstr "Деактивирай"
+
+msgid "Activate"
+msgstr "Активирай"
+
+msgid "Delete"
+msgstr "Изтрий"
+
+msgid "Remove"
+msgstr "Премахни"
+
+msgid "Stop using this swap space now"
+msgstr "Спиране на използването на тази суап област"
+
+msgid "Start using this swap space now"
+msgstr "Започване на използването на тази суап област"
+
+msgid "Don't activate at startup"
+msgstr "Без активиране при стартиране"
+
+msgid "Remove automatic activation"
+msgstr "Премахване на автоматичното активиране"
+
+msgid "Activate at startup"
+msgstr "Активиране при стартиране"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr ""
+"Настройване на компресиран суап в RAM при всяко стартиране на приемника"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Деактивиране на zram и освобождаване на паметта"
+
+msgid "Change size"
+msgstr "Промяна на размера"
+
+msgid "Set up zram again with a different size"
+msgstr "Ново настройване на zram с друг размер"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Използване на този суап файл при всяко стартиране на приемника"
+
+msgid "Create the swap file again with a different size"
+msgstr "Създаване на суап файла наново с друг размер"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Изтриване на суап файла и освобождаване на дисковото място"
+
+msgid "Create new swap file"
+msgstr "Създаване на нов суап файл"
+
+msgid "What this receiver supports"
+msgstr "Какво поддържа този приемник"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Размер: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Съхранени: %s, компресирани до %s (%s RAM в употреба)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Алгоритъм: %s, приоритет %d"
+
+msgid "Status: inactive"
+msgstr "Състояние: неактивен"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Използвани: %s, приоритет %d"
+
+msgid "Startup activation disabled"
+msgstr "Активирането при стартиране е изключено"
+
+msgid "Activated at every startup"
+msgstr "Активира се при всяко стартиране"
+
+msgid "Activate swap"
+msgstr "Активиране на суап"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Настройване на компресиран суап в RAM..."
+
+msgid "Swap activated"
+msgstr "Суап е активиран"
+
+msgid "Deactivate swap"
+msgstr "Деактивиране на суап"
+
+msgid "Swap deactivated"
+msgstr "Суап е деактивиран"
+
+msgid "The file is not a valid swap file."
+msgstr "Файлът не е валиден суап файл."
+
+msgid "Activating swap..."
+msgstr "Активиране на суап..."
+
+msgid "Delete swap file"
+msgstr "Изтриване на суап файл"
+
+msgid "Swap file deleted"
+msgstr "Суап файлът е изтрит"
+
+msgid "Delete swap file?"
+msgstr "Изтриване на суап файла?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) ще бъде деактивиран и изтрит."
+
+msgid "Restart GUI?"
+msgstr "Рестарт на графичния интерфейс?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Плъгинът се разтоварва напълно едва след рестарт на графичния интерфейс. "
+"Рестарт сега?"
+
+msgid "Restart now"
+msgstr "Рестарт сега"
+
+msgid "Later"
+msgstr "По-късно"
+
+msgid "No suitable storage"
+msgstr "Няма подходящо устройство"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Не е открито устройство с файлова система на Linux (ext2/3/4, xfs, ...).\n"
+"Суап файлове не могат да се създават на FAT, exFAT, NTFS или мрежови устройства."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Без устройство  ·  най-бърз  ·  малко натоварва процесора"
+
+msgid "FASTEST"
+msgstr "НАЙ-БЪРЗ"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Не е наличен на този приемник - OK за подробности"
+
+msgid "NOT SUPPORTED"
+msgstr "НЕ СЕ ПОДДЪРЖА"
+
+#, python-format
+msgid "%s free"
+msgstr "%s свободни"
+
+msgid "NOT RECOMMENDED"
+msgstr "НЕ СЕ ПРЕПОРЪЧВА"
+
+msgid "NOT IDEAL"
+msgstr "НЕ Е ИДЕАЛНО"
+
+msgid "RECOMMENDED"
+msgstr "ПРЕПОРЪЧАНО"
+
+msgid "FULL"
+msgstr "ПЪЛНО"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Къде да се съхрани суап файлът?\n"
+"Най-добре твърд диск или USB устройство; вътрешната флаш памет се износва по-бързо."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Къде да се създаде суап областта?\n"
+"zram компресира паметта в RAM; може да се комбинира със суап файл на устройство."
+
+msgid "Create swap file  1/2"
+msgstr "Създаване на суап файл  1/2"
+
+msgid "zram not supported"
+msgstr "zram не се поддържа"
+
+msgid "Not enough space"
+msgstr "Няма достатъчно място"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Няма достатъчно свободно място на %s."
+
+msgid "Use internal flash?"
+msgstr "Използване на вътрешната флаш памет?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Суапът във вътрешната флаш памет предизвиква много цикли на запис и може да "
+"скъси живота ѝ. Препоръчва се USB устройство или твърд диск."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Вътрешната флаш памет е запоена и не може да се смени като SD карта или USB "
+"устройство – ако се износи, засегнат е самият приемник."
+
+msgid "Use internal flash anyway"
+msgstr "Все пак използвай флаш паметта"
+
+msgid "Use SD card?"
+msgstr "Използване на SD карта?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"При суапване се записва отново и отново върху картата, затова SD картите се износват по-бързо. Препоръчва се USB устройство или твърд диск.\n"
+"Ако използвате картата: ниска стойност на swappiness (10-20) свежда записа до минимум."
+
+msgid "Use SD card anyway"
+msgstr "Все пак използвай SD картата"
+
+msgid "Custom size..."
+msgstr "Собствен размер..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Въведете размер между %d и %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Нов размер за %s (в момента %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  налично: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Създаване на суап файл  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Изберете размера на суап файла на %s.\n"
+"RAM: %s  ·  свободно място: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Размер на суап файла в MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Невалиден размер"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Моля, въведете размер между %d и %d MB."
+
+msgid "File exists"
+msgstr "Файлът съществува"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s вече съществува и не е суап файл. Моля, първо го премахнете."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Съществуващият суап файл се използва и няма достатъчно свободна RAM, за да "
+"бъде заменен."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s ще бъде създаден наново с %s вместо %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Суап файл от %s ще бъде създаден в\n"
+"%s\n"
+"и ще се активира при всяко стартиране."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Съществуващият суап файл (%s) ще бъде заменен."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Това отнема около %d секунди."
+
+msgid "Create swap file?"
+msgstr "Създаване на суап файл?"
+
+msgid "Create swap file"
+msgstr "Създай суап файл"
+
+msgid "Deactivating old swap file..."
+msgstr "Деактивиране на стария суап файл..."
+
+msgid "Removing old swap file..."
+msgstr "Премахване на стария суап файл..."
+
+msgid "Writing swap file..."
+msgstr "Записване на суап файла..."
+
+msgid "Formatting swap file..."
+msgstr "Форматиране на суап файла..."
+
+msgid "Size changed"
+msgstr "Размерът е променен"
+
+msgid "Swap file created and activated"
+msgstr "Суап файлът е създаден и активиран"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness е зададен на %d"
+
+msgid "Protect the SD card?"
+msgstr "Да се пести SD картата?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness е %d. При 10 приемникът суапва по-рядко и записва по-малко върху "
+"картата."
+
+msgid "Set swappiness to 10"
+msgstr "Задай swappiness на 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Запази %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "използва най-много около %s RAM, когато е пълен"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Компресирана RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Изберете размера на компресирания суап (RAM: %s).\n"
+"Паметта се използва само когато данни наистина се изнасят; около половината от RAM е добра стойност."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Ще бъде настроен компресиран суап в RAM от %s (алгоритъм: %s), който ще се "
+"активира при всяко стартиране."
+
+msgid "kernel default"
+msgstr "по подразбиране на ядрото"
+
+msgid "It is used before swap files on drives."
+msgstr "Използва се преди суап файловете на устройства."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Текущият zram суап (%s) ще бъде заменен."
+
+msgid "Set up zram?"
+msgstr "Настройване на zram?"
+
+msgid "Set up zram"
+msgstr "Настрой zram"
+
+msgid "zram activated"
+msgstr "zram е активиран"
+
+msgid "Remove zram"
+msgstr "Премахни zram"
+
+msgid "zram removed"
+msgstr "zram е премахнат"
+
+msgid "Remove zram?"
+msgstr "Премахване на zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Компресираният суап в RAM ще бъде деактивиран и вече няма да се настройва "
+"при стартиране."

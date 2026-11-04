@@ -1,0 +1,911 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: ro\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Implicit sistem"
+
+msgid "Plugins and storage menu"
+msgstr "Pluginuri și meniul de stocare"
+
+msgid "Plugin browser only"
+msgstr "Doar navigatorul de pluginuri"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Creați și gestionați fișiere swap"
+
+msgid "Hard disk"
+msgstr "Hard disk"
+
+msgid "USB storage"
+msgstr "Stocare USB"
+
+msgid "SD card"
+msgstr "Card SD"
+
+msgid "Internal flash"
+msgstr "Flash intern"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Alegeți     EXIT  Înapoi"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Anulare"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Dispozitivul zram nu a putut fi creat. Probabil acest kernel nu suportă "
+"zram."
+
+msgid "Please wait..."
+msgstr "Vă rugăm așteptați..."
+
+msgid "Could not start command."
+msgstr "Comanda nu a putut fi pornită."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "%s din %s scriși"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Cod de eroare %d"
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid "Close"
+msgstr "Închidere"
+
+msgid "Done"
+msgstr "Gata"
+
+msgid "Cancelled."
+msgstr "Anulat."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram este încărcat și gata de utilizare."
+
+msgid "zram is built into the kernel."
+msgstr "zram este integrat în kernel."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram este disponibil ca modul de kernel și se încarcă la nevoie."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Kernelul acestui receptor (%s) a fost compilat fără zram. Un fișier swap pe "
+"o unitate este aici cea mai bună soluție."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Kernelul suportă zram ca modul, dar modulul nu este instalat (kernel %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Nu s-a găsit suport zram în kernel (%s)."
+
+msgid "available"
+msgstr "disponibil"
+
+msgid "module missing"
+msgstr "modul lipsă"
+
+msgid "not supported"
+msgstr "nesuportat"
+
+msgid "System information"
+msgstr "Informații sistem"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "SUS/JOS  Detalii     EXIT  Înapoi"
+
+msgid "Receiver"
+msgstr "Receptor"
+
+msgid "Image"
+msgstr "Imagine"
+
+msgid "Kernel"
+msgstr "Kernel"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Kernelul decide ce funcții de memorie sunt disponibile. Face parte din "
+"imagine și nu poate fi modificat de un plugin."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "de %d ori"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "ultima: %s, %s"
+
+msgid "never"
+msgstr "niciodată"
+
+msgid "Out of memory"
+msgstr "Memorie epuizată"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"De câte ori RAM-ul și swap-ul au fost pline și kernelul a trebuit să "
+"oprească un program (de la instalarea pluginului). Dacă se întâmplă, ajută "
+"un fișier swap – sau unul mai mare."
+
+msgid "Swap support"
+msgstr "Suport swap"
+
+msgid "yes"
+msgstr "da"
+
+msgid "no"
+msgstr "nu"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Necesar pentru fișiere swap, partiții swap și zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram comprimă memoria mutată în swap direct în RAM (aprox. 2-3:1) - fără "
+"unitate."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (RAM comprimată)"
+
+msgid "zram algorithms"
+msgstr "Algoritmi zram"
+
+msgid "known after loading"
+msgstr "cunoscuți după încărcare"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Algoritmi de compresie oferiți de kernel. lz4 este cel mai rapid, zstd "
+"comprimă cel mai bine."
+
+#, python-format
+msgid "active (%s)"
+msgstr "activ (%s)"
+
+msgid "available, inactive"
+msgstr "disponibil, inactiv"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap este un cache comprimat în fața unui fișier swap. Este afișat aici "
+"doar informativ."
+
+msgid "none (only internal flash)"
+msgstr "niciuna (doar flash intern)"
+
+msgid "none"
+msgstr "niciuna"
+
+msgid "Drives for swap files"
+msgstr "Unități pentru fișiere swap"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Unități cu sistem de fișiere Linux (ext2/3/4, xfs, ...) care pot găzdui un "
+"fișier swap."
+
+msgid "Kernel configuration"
+msgstr "Configurația kernelului"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz permite pluginului să vadă exact cu ce funcții a fost "
+"compilat kernelul."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Dimensiune pagină"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d octeți"
+
+msgid "Simple Swap Manager settings"
+msgstr "Setări Simple Swap Manager"
+
+msgid "Save"
+msgstr "Salvare"
+
+msgid "Off"
+msgstr "Oprit"
+
+msgid "Swap file at startup"
+msgstr "Fișier swap la pornire"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Acest fișier swap este activat automat la fiecare pornire a receptorului. "
+"Pluginul așteaptă până la trei minute montarea unității."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Cât de repede mută kernelul memoria în swap (0-100). Valorile mici păstrează"
+" datele mai mult în RAM; 10-30 este o alegere bună pentru receptoare. "
+"Valoarea actuală: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Valorile mici înseamnă și mai puține scrieri, ceea ce cruță cardurile SD și "
+"stick-urile USB."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Automat (%s)"
+
+msgid "zram compression"
+msgstr "Compresie zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Algoritmul de compresie pentru swap-ul comprimat în RAM. lz4 este cel mai "
+"rapid, zstd comprimă cel mai bine, dar necesită mai mult CPU. Modificarea se"
+" aplică la următoarea configurare zram."
+
+msgid "zram at startup"
+msgstr "zram la pornire"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr ""
+"Configurează swap-ul comprimat în RAM (%s) la fiecare pornire a "
+"receptorului."
+
+msgid "On"
+msgstr "Pornit"
+
+msgid "Show plugin in"
+msgstr "Afișează pluginul în"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"De unde poate fi deschis Simple Swap Manager. Modificarea se aplică după "
+"repornirea GUI."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Arată ce suportă acest receptor: kernel, zram, zswap și unități. Apăsați OK "
+"pentru a deschide."
+
+msgid "Open"
+msgstr "Deschide"
+
+msgid "Uninstall plugin..."
+msgstr "Dezinstalare plugin..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Elimină Simple Swap Manager de pe acest receptor. Puteți alege dacă spațiul "
+"swap este păstrat sau șters."
+
+msgid "Uninstall"
+msgstr "Dezinstalare"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Dezinstalare Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager va fi eliminat de pe acest receptor."
+
+msgid "Compressed RAM (zram)"
+msgstr "RAM comprimată (zram)"
+
+msgid "Keep swap space"
+msgstr "Păstrați spațiul swap"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Rămâne activ până la următoarea repornire, apoi nu mai este folosit"
+
+msgid "Delete swap space"
+msgstr "Ștergeți spațiul swap"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Dezactivați acum și eliberați spațiul pe disc"
+
+msgid "What should happen to the swap space?"
+msgstr "Ce să se întâmple cu spațiul swap?"
+
+msgid "Not enough free memory"
+msgstr "Memorie liberă insuficientă"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"În acest spațiu swap sunt stocați acum %s, dar nu există suficientă RAM "
+"liberă pentru a-i prelua înapoi. Închideți mai întâi câteva pluginuri sau "
+"reporniți GUI."
+
+msgid "Moving data back to RAM..."
+msgstr "Se mută datele înapoi în RAM..."
+
+msgid "Deleting swap file..."
+msgstr "Se șterge fișierul swap..."
+
+msgid "Removing plugin..."
+msgstr "Se elimină pluginul..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager a fost eliminat."
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Spații swap"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Nu s-a găsit niciun spațiu swap.\n"
+"Apăsați GALBEN pentru a crea un fișier swap."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr "OK  Opțiuni     MENU  Setări     INFO  Info sistem     EXIT  Închide"
+
+msgid "Create"
+msgstr "Creare"
+
+msgid "Settings"
+msgstr "Setări"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Memorie epuizată de %d ori de la pornire – detalii cu INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "%s din %s folosiți"
+
+msgid "not active"
+msgstr "inactiv"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Pornire: %s"
+
+msgid "Startup: off"
+msgstr "Pornire: oprit"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Swap: intrare %s/s, ieșire %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Scris de la pornire: %s"
+
+msgid "Swap partition"
+msgstr "Partiție swap"
+
+msgid "Swap file"
+msgstr "Fișier swap"
+
+#, python-format
+msgid "%s used"
+msgstr "%s folosiți"
+
+msgid "ACTIVE"
+msgstr "ACTIV"
+
+msgid "INACTIVE"
+msgstr "INACTIV"
+
+msgid "STARTUP"
+msgstr "PORNIRE"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Nu s-a găsit niciun spațiu swap.\n"
+"Nicio unitate externă cu sistem de fișiere Linux (ext4, ...) montată – GALBEN pentru RAM comprimat (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Nu s-a găsit niciun spațiu swap.\n"
+"Nicio unitate externă cu sistem de fișiere Linux (ext4, ...) montată. Conectați o unitate USB sau un hard disk și montați-l în setările de discuri ale imaginii."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "raport %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "swap comprimat în RAM"
+
+msgid "Deactivate"
+msgstr "Dezactivare"
+
+msgid "Activate"
+msgstr "Activare"
+
+msgid "Delete"
+msgstr "Ștergere"
+
+msgid "Remove"
+msgstr "Eliminare"
+
+msgid "Stop using this swap space now"
+msgstr "Opriți acum folosirea acestui spațiu swap"
+
+msgid "Start using this swap space now"
+msgstr "Începeți acum folosirea acestui spațiu swap"
+
+msgid "Don't activate at startup"
+msgstr "Nu activa la pornire"
+
+msgid "Remove automatic activation"
+msgstr "Eliminați activarea automată"
+
+msgid "Activate at startup"
+msgstr "Activare la pornire"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr ""
+"Configurează swap-ul comprimat în RAM la fiecare pornire a receptorului"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Dezactivați zram și eliberați memoria"
+
+msgid "Change size"
+msgstr "Schimbare dimensiune"
+
+msgid "Set up zram again with a different size"
+msgstr "Configurați zram din nou cu altă dimensiune"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Folosește acest fișier swap la fiecare pornire a receptorului"
+
+msgid "Create the swap file again with a different size"
+msgstr "Recreează fișierul swap cu altă dimensiune"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Ștergeți fișierul swap și eliberați spațiul pe disc"
+
+msgid "Create new swap file"
+msgstr "Creare fișier swap nou"
+
+msgid "What this receiver supports"
+msgstr "Ce suportă acest receptor"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Dimensiune: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Stocat: %s, comprimat la %s (%s RAM folosiți)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritm: %s, prioritate %d"
+
+msgid "Status: inactive"
+msgstr "Stare: inactiv"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Folosit: %s, prioritate %d"
+
+msgid "Startup activation disabled"
+msgstr "Activarea la pornire dezactivată"
+
+msgid "Activated at every startup"
+msgstr "Activat la fiecare pornire"
+
+msgid "Activate swap"
+msgstr "Activare swap"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Se configurează swap-ul comprimat în RAM..."
+
+msgid "Swap activated"
+msgstr "Swap activat"
+
+msgid "Deactivate swap"
+msgstr "Dezactivare swap"
+
+msgid "Swap deactivated"
+msgstr "Swap dezactivat"
+
+msgid "The file is not a valid swap file."
+msgstr "Fișierul nu este un fișier swap valid."
+
+msgid "Activating swap..."
+msgstr "Se activează swap-ul..."
+
+msgid "Delete swap file"
+msgstr "Ștergere fișier swap"
+
+msgid "Swap file deleted"
+msgstr "Fișier swap șters"
+
+msgid "Delete swap file?"
+msgstr "Ștergeți fișierul swap?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) va fi dezactivat și șters."
+
+msgid "Restart GUI?"
+msgstr "Reporniți GUI?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Pluginul este descărcat complet doar după repornirea GUI. Reporniți acum?"
+
+msgid "Restart now"
+msgstr "Repornire acum"
+
+msgid "Later"
+msgstr "Mai târziu"
+
+msgid "No suitable storage"
+msgstr "Nicio stocare potrivită"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Nu s-a găsit niciun dispozitiv de stocare cu sistem de fișiere Linux (ext2/3/4, xfs, ...).\n"
+"Fișierele swap nu pot fi create pe FAT, exFAT, NTFS sau unități de rețea."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Fără unitate  ·  cel mai rapid  ·  folosește puțin CPU"
+
+msgid "FASTEST"
+msgstr "CEL MAI RAPID"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Indisponibil pe acest receptor - OK pentru detalii"
+
+msgid "NOT SUPPORTED"
+msgstr "NESUPORTAT"
+
+#, python-format
+msgid "%s free"
+msgstr "%s liberi"
+
+msgid "NOT RECOMMENDED"
+msgstr "NERECOMANDAT"
+
+msgid "NOT IDEAL"
+msgstr "NU E IDEAL"
+
+msgid "RECOMMENDED"
+msgstr "RECOMANDAT"
+
+msgid "FULL"
+msgstr "PLIN"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Unde să fie salvat fișierul swap?\n"
+"Un hard disk sau o unitate USB este cel mai bine; flash-ul intern se uzează mai repede."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Unde să fie creat spațiul swap?\n"
+"zram comprimă memoria în RAM; poate fi combinat cu un fișier swap pe o unitate."
+
+msgid "Create swap file  1/2"
+msgstr "Creare fișier swap  1/2"
+
+msgid "zram not supported"
+msgstr "zram nesuportat"
+
+msgid "Not enough space"
+msgstr "Spațiu insuficient"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "Nu există suficient spațiu liber pe %s."
+
+msgid "Use internal flash?"
+msgstr "Folosiți flash-ul intern?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Swap-ul pe memoria flash internă provoacă multe cicluri de scriere și îi "
+"poate scurta durata de viață. Se recomandă o unitate USB sau un hard disk."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Flash-ul intern este lipit și nu poate fi înlocuit ca un card SD sau o "
+"unitate USB – dacă se uzează, este afectat receptorul însuși."
+
+msgid "Use internal flash anyway"
+msgstr "Folosește totuși flash-ul intern"
+
+msgid "Use SD card?"
+msgstr "Folosiți cardul SD?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Swap-ul scrie pe card iar și iar, de aceea cardurile SD se uzează mai repede. Se recomandă o unitate USB sau un hard disk.\n"
+"Dacă folosiți cardul: un swappiness scăzut (10-20) reduce scrierile la minimum."
+
+msgid "Use SD card anyway"
+msgstr "Folosește totuși cardul SD"
+
+msgid "Custom size..."
+msgstr "Dimensiune personalizată..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Introduceți o dimensiune între %d și %d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Dimensiune nouă pentru %s (acum %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  disponibil: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Creare fișier swap  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Alegeți dimensiunea fișierului swap pe %s.\n"
+"RAM: %s  ·  spațiu liber: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Dimensiunea fișierului swap în MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Dimensiune invalidă"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Introduceți o dimensiune între %d și %d MB."
+
+msgid "File exists"
+msgstr "Fișierul există"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s există deja și nu este un fișier swap. Eliminați-l mai întâi."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Fișierul swap existent este folosit și nu există suficientă RAM liberă "
+"pentru a-l înlocui."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s va fi recreat cu %s în loc de %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Un fișier swap de %s va fi creat în\n"
+"%s\n"
+"și activat la fiecare pornire."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Fișierul swap existent (%s) va fi înlocuit."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Durează aproximativ %d secunde."
+
+msgid "Create swap file?"
+msgstr "Creați fișierul swap?"
+
+msgid "Create swap file"
+msgstr "Creare fișier swap"
+
+msgid "Deactivating old swap file..."
+msgstr "Se dezactivează vechiul fișier swap..."
+
+msgid "Removing old swap file..."
+msgstr "Se elimină vechiul fișier swap..."
+
+msgid "Writing swap file..."
+msgstr "Se scrie fișierul swap..."
+
+msgid "Formatting swap file..."
+msgstr "Se formatează fișierul swap..."
+
+msgid "Size changed"
+msgstr "Dimensiune schimbată"
+
+msgid "Swap file created and activated"
+msgstr "Fișier swap creat și activat"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness setat la %d"
+
+msgid "Protect the SD card?"
+msgstr "Protejați cardul SD?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness este %d. Cu 10, receptorul folosește swap-ul mai rar și scrie mai"
+" puțin pe card."
+
+msgid "Set swappiness to 10"
+msgstr "Setează swappiness la 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Păstrează %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "când e plin folosește cel mult aprox. %s RAM"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "RAM comprimată (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Alegeți dimensiunea swap-ului comprimat (RAM: %s).\n"
+"Memoria este folosită doar când datele chiar sunt mutate în swap; aproximativ jumătate din RAM este o valoare bună."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Va fi configurat un swap comprimat în RAM de %s (algoritm: %s) și activat la"
+" fiecare pornire."
+
+msgid "kernel default"
+msgstr "implicit kernel"
+
+msgid "It is used before swap files on drives."
+msgstr "Este folosit înaintea fișierelor swap de pe unități."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Swap-ul zram actual (%s) va fi înlocuit."
+
+msgid "Set up zram?"
+msgstr "Configurați zram?"
+
+msgid "Set up zram"
+msgstr "Configurare zram"
+
+msgid "zram activated"
+msgstr "zram activat"
+
+msgid "Remove zram"
+msgstr "Eliminare zram"
+
+msgid "zram removed"
+msgstr "zram eliminat"
+
+msgid "Remove zram?"
+msgstr "Eliminați zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Swap-ul comprimat în RAM va fi dezactivat și nu va mai fi configurat la "
+"pornire."

@@ -1,0 +1,907 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: ru\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Системное значение"
+
+msgid "Plugins and storage menu"
+msgstr "Плагины и меню накопителей"
+
+msgid "Plugin browser only"
+msgstr "Только браузер плагинов"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Создание и управление файлами подкачки"
+
+msgid "Hard disk"
+msgstr "Жёсткий диск"
+
+msgid "USB storage"
+msgstr "USB-накопитель"
+
+msgid "SD card"
+msgstr "SD-карта"
+
+msgid "Internal flash"
+msgstr "Флеш-память"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Выбрать     EXIT  Назад"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"Не удалось создать устройство zram. Вероятно, это ядро не поддерживает zram."
+
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+msgid "Could not start command."
+msgstr "Не удалось запустить команду."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "Записано %s из %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Код ошибки %d"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "Cancelled."
+msgstr "Отменено."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram загружен и готов к работе."
+
+msgid "zram is built into the kernel."
+msgstr "zram встроен в ядро."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram доступен как модуль ядра и загружается при необходимости."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Ядро этого ресивера (%s) собрано без zram. Лучшее решение здесь — файл "
+"подкачки на накопителе."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr "Ядро поддерживает zram как модуль, но модуль не установлен (ядро %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Поддержка zram в ядре не найдена (%s)."
+
+msgid "available"
+msgstr "доступно"
+
+msgid "module missing"
+msgstr "нет модуля"
+
+msgid "not supported"
+msgstr "не поддерживается"
+
+msgid "System information"
+msgstr "Информация о системе"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "ВВЕРХ/ВНИЗ  Подробно     EXIT  Назад"
+
+msgid "Receiver"
+msgstr "Ресивер"
+
+msgid "Image"
+msgstr "Образ"
+
+msgid "Kernel"
+msgstr "Ядро"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Ядро определяет, какие функции памяти доступны. Оно входит в образ и не "
+"может быть изменено плагином."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "ОЗУ"
+
+#, python-format
+msgid "%d times"
+msgstr "%d раз"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "последний: %s, %s"
+
+msgid "never"
+msgstr "никогда"
+
+msgid "Out of memory"
+msgstr "Нехватка памяти"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"Сколько раз RAM и подкачка были заполнены и ядру пришлось завершить "
+"программу (с момента установки плагина). Если такое бывает, поможет файл "
+"подкачки – или больший."
+
+msgid "Swap support"
+msgstr "Поддержка подкачки"
+
+msgid "yes"
+msgstr "да"
+
+msgid "no"
+msgstr "нет"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Нужна для файлов подкачки, разделов подкачки и zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram сжимает выгруженную память прямо в ОЗУ (примерно 2-3:1) — без "
+"накопителя."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (сжатая ОЗУ)"
+
+msgid "zram algorithms"
+msgstr "Алгоритмы zram"
+
+msgid "known after loading"
+msgstr "известны после загрузки"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Алгоритмы сжатия, которые предлагает ядро. lz4 — самый быстрый, zstd сжимает"
+" лучше всего."
+
+#, python-format
+msgid "active (%s)"
+msgstr "активно (%s)"
+
+msgid "available, inactive"
+msgstr "доступно, неактивно"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap — это сжатый кэш перед файлом подкачки. Здесь он показан только для "
+"информации."
+
+msgid "none (only internal flash)"
+msgstr "нет (только внутренняя флеш-память)"
+
+msgid "none"
+msgstr "нет"
+
+msgid "Drives for swap files"
+msgstr "Накопители для файлов подкачки"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Накопители с файловой системой Linux (ext2/3/4, xfs, ...), на которых можно "
+"разместить файл подкачки."
+
+msgid "Kernel configuration"
+msgstr "Конфигурация ядра"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz позволяет плагину точно видеть, с какими функциями собрано "
+"ядро."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Размер страницы"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d байт"
+
+msgid "Simple Swap Manager settings"
+msgstr "Настройки Simple Swap Manager"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Off"
+msgstr "Выкл."
+
+msgid "Swap file at startup"
+msgstr "Файл подкачки при запуске"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Этот файл подкачки автоматически включается при каждом запуске ресивера. "
+"Плагин ждёт до трёх минут, пока накопитель будет смонтирован."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Насколько активно ядро переносит память в подкачку (0-100). Низкие значения "
+"дольше держат данные в ОЗУ; 10-30 — хороший выбор для ресиверов. Текущее "
+"значение: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Низкие значения также означают меньше записи, что бережёт SD-карты и USB-"
+"флешки."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Автоматически (%s)"
+
+msgid "zram compression"
+msgstr "Сжатие zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Алгоритм сжатия для сжатой подкачки в ОЗУ. lz4 — самый быстрый, zstd сжимает"
+" лучше всего, но требует больше ресурсов ЦП. Изменение вступит в силу при "
+"следующей настройке zram."
+
+msgid "zram at startup"
+msgstr "zram при запуске"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "Настраивать сжатую подкачку в ОЗУ (%s) при каждом запуске ресивера."
+
+msgid "On"
+msgstr "Вкл."
+
+msgid "Show plugin in"
+msgstr "Показывать плагин в"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Где можно открыть Simple Swap Manager. Изменение вступит в силу после "
+"перезапуска GUI."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Показывает, что поддерживает этот ресивер: ядро, zram, zswap и накопители. "
+"Нажмите OK, чтобы открыть."
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "Uninstall plugin..."
+msgstr "Удалить плагин..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Удаляет Simple Swap Manager с этого ресивера. Можно выбрать, оставить "
+"область подкачки или удалить её."
+
+msgid "Uninstall"
+msgstr "Удалить"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Удаление Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager будет удалён с этого ресивера."
+
+msgid "Compressed RAM (zram)"
+msgstr "Сжатая ОЗУ (zram)"
+
+msgid "Keep swap space"
+msgstr "Оставить подкачку"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "Активна до следующей перезагрузки, затем не используется"
+
+msgid "Delete swap space"
+msgstr "Удалить подкачку"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Отключить сейчас и освободить место на диске"
+
+msgid "What should happen to the swap space?"
+msgstr "Что сделать с областью подкачки?"
+
+msgid "Not enough free memory"
+msgstr "Недостаточно свободной памяти"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"В этой области подкачки сейчас хранится %s, но свободной ОЗУ недостаточно, "
+"чтобы вернуть эти данные. Сначала закройте несколько плагинов или "
+"перезапустите GUI."
+
+msgid "Moving data back to RAM..."
+msgstr "Перенос данных обратно в ОЗУ..."
+
+msgid "Deleting swap file..."
+msgstr "Удаление файла подкачки..."
+
+msgid "Removing plugin..."
+msgstr "Удаление плагина..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager удалён."
+
+msgid "Swap"
+msgstr "Подкачка"
+
+msgid "Total"
+msgstr "Всего"
+
+msgid "CPU"
+msgstr "ЦП"
+
+msgid "Swap spaces"
+msgstr "Области подкачки"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Области подкачки не найдены.\n"
+"Нажмите ЖЁЛТУЮ, чтобы создать файл подкачки."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr "OK  Опции     MENU  Настройки     INFO  О системе     EXIT  Закрыть"
+
+msgid "Create"
+msgstr "Создать"
+
+msgid "Settings"
+msgstr "Настройки"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Нехватка памяти %d раз с запуска – подробности по INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "Занято %s из %s"
+
+msgid "not active"
+msgstr "не активна"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Запуск: %s"
+
+msgid "Startup: off"
+msgstr "Запуск: выкл."
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Подкачка: чтение %s/s, запись %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Записано с запуска: %s"
+
+msgid "Swap partition"
+msgstr "Раздел подкачки"
+
+msgid "Swap file"
+msgstr "Файл подкачки"
+
+#, python-format
+msgid "%s used"
+msgstr "занято %s"
+
+msgid "ACTIVE"
+msgstr "АКТИВНО"
+
+msgid "INACTIVE"
+msgstr "НЕАКТИВНО"
+
+msgid "STARTUP"
+msgstr "АВТОЗАПУСК"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Области подкачки не найдены.\n"
+"Нет внешнего накопителя с файловой системой Linux (ext4, ...) – ЖЁЛТАЯ: сжатая RAM (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Области подкачки не найдены.\n"
+"Не подключён внешний накопитель с файловой системой Linux (ext4, ...). Подключите USB-накопитель или жёсткий диск и смонтируйте его в настройках дисков образа."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s ОЗУ"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "сжатие %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "сжатая подкачка в ОЗУ"
+
+msgid "Deactivate"
+msgstr "Отключить"
+
+msgid "Activate"
+msgstr "Включить"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Remove"
+msgstr "Убрать"
+
+msgid "Stop using this swap space now"
+msgstr "Прекратить использовать эту область подкачки"
+
+msgid "Start using this swap space now"
+msgstr "Начать использовать эту область подкачки"
+
+msgid "Don't activate at startup"
+msgstr "Не включать при запуске"
+
+msgid "Remove automatic activation"
+msgstr "Убрать автоматическое включение"
+
+msgid "Activate at startup"
+msgstr "Включать при запуске"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Настраивать сжатую подкачку в ОЗУ при каждом запуске ресивера"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "Отключить zram и вернуть память"
+
+msgid "Change size"
+msgstr "Изменить размер"
+
+msgid "Set up zram again with a different size"
+msgstr "Настроить zram заново с другим размером"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Использовать этот файл подкачки при каждом запуске ресивера"
+
+msgid "Create the swap file again with a different size"
+msgstr "Создать файл подкачки заново с другим размером"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Удалить файл подкачки и освободить место на диске"
+
+msgid "Create new swap file"
+msgstr "Создать новый файл подкачки"
+
+msgid "What this receiver supports"
+msgstr "Что поддерживает этот ресивер"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Размер: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Хранится: %s, сжато до %s (%s ОЗУ занято)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Алгоритм: %s, приоритет %d"
+
+msgid "Status: inactive"
+msgstr "Состояние: неактивно"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Занято: %s, приоритет %d"
+
+msgid "Startup activation disabled"
+msgstr "Включение при запуске отключено"
+
+msgid "Activated at every startup"
+msgstr "Включается при каждом запуске"
+
+msgid "Activate swap"
+msgstr "Включить подкачку"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Настройка сжатой подкачки в ОЗУ..."
+
+msgid "Swap activated"
+msgstr "Подкачка включена"
+
+msgid "Deactivate swap"
+msgstr "Отключить подкачку"
+
+msgid "Swap deactivated"
+msgstr "Подкачка отключена"
+
+msgid "The file is not a valid swap file."
+msgstr "Файл не является допустимым файлом подкачки."
+
+msgid "Activating swap..."
+msgstr "Включение подкачки..."
+
+msgid "Delete swap file"
+msgstr "Удалить файл подкачки"
+
+msgid "Swap file deleted"
+msgstr "Файл подкачки удалён"
+
+msgid "Delete swap file?"
+msgstr "Удалить файл подкачки?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) будет отключён и удалён."
+
+msgid "Restart GUI?"
+msgstr "Перезапустить GUI?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Плагин полностью выгружается только после перезапуска GUI. Перезапустить "
+"сейчас?"
+
+msgid "Restart now"
+msgstr "Перезапустить сейчас"
+
+msgid "Later"
+msgstr "Позже"
+
+msgid "No suitable storage"
+msgstr "Нет подходящего накопителя"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Не найден накопитель с файловой системой Linux (ext2/3/4, xfs, ...).\n"
+"Файлы подкачки нельзя создавать на FAT, exFAT, NTFS и сетевых дисках."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Без накопителя  ·  быстрее всего  ·  немного нагружает ЦП"
+
+msgid "FASTEST"
+msgstr "БЫСТРЕЕ ВСЕГО"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Недоступно на этом ресивере — OK: подробности"
+
+msgid "NOT SUPPORTED"
+msgstr "НЕ ПОДДЕРЖ."
+
+#, python-format
+msgid "%s free"
+msgstr "свободно %s"
+
+msgid "NOT RECOMMENDED"
+msgstr "НЕ РЕКОМЕНДУЕТСЯ"
+
+msgid "NOT IDEAL"
+msgstr "НЕ ИДЕАЛЬНО"
+
+msgid "RECOMMENDED"
+msgstr "РЕКОМЕНДУЕТСЯ"
+
+msgid "FULL"
+msgstr "ЗАПОЛНЕН"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Где сохранить файл подкачки?\n"
+"Лучше всего жёсткий диск или USB-накопитель; внутренняя флеш-память изнашивается быстрее."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Где создать область подкачки?\n"
+"zram сжимает память внутри ОЗУ; его можно сочетать с файлом подкачки на накопителе."
+
+msgid "Create swap file  1/2"
+msgstr "Создание файла подкачки  1/2"
+
+msgid "zram not supported"
+msgstr "zram не поддерживается"
+
+msgid "Not enough space"
+msgstr "Недостаточно места"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "На %s недостаточно свободного места."
+
+msgid "Use internal flash?"
+msgstr "Использовать внутреннюю флеш-память?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Подкачка на внутреннюю флеш-память вызывает много циклов записи и может "
+"сократить срок её службы. Рекомендуется USB-накопитель или жёсткий диск."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Встроенная флеш-память впаяна и не заменяется, как SD-карта или USB-"
+"накопитель, – если она износится, пострадает сам ресивер."
+
+msgid "Use internal flash anyway"
+msgstr "Всё равно использовать флеш-память"
+
+msgid "Use SD card?"
+msgstr "Использовать SD-карту?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Подкачка снова и снова записывает данные на карту, поэтому SD-карты изнашиваются быстрее. Рекомендуется USB-накопитель или жёсткий диск.\n"
+"Если используете карту: низкое значение swappiness (10-20) сводит запись к минимуму."
+
+msgid "Use SD card anyway"
+msgstr "Всё равно использовать SD-карту"
+
+msgid "Custom size..."
+msgstr "Свой размер..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "Введите размер от %d до %d МБ"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "Новый размер для %s (сейчас %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  доступно: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Создание файла подкачки  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"Выберите размер файла подкачки на %s.\n"
+"ОЗУ: %s  ·  свободно: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "Размер файла подкачки в МБ (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Недопустимый размер"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Введите размер от %d до %d МБ."
+
+msgid "File exists"
+msgstr "Файл существует"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s уже существует и не является файлом подкачки. Сначала удалите его."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Существующий файл подкачки используется, и свободной ОЗУ недостаточно, чтобы"
+" заменить его."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s будет создан заново: %s вместо %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"Файл подкачки размером %s будет создан в\n"
+"%s\n"
+"и будет включаться при каждом запуске."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Существующий файл подкачки (%s) будет заменён."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Это займёт около %d секунд."
+
+msgid "Create swap file?"
+msgstr "Создать файл подкачки?"
+
+msgid "Create swap file"
+msgstr "Создать файл подкачки"
+
+msgid "Deactivating old swap file..."
+msgstr "Отключение старого файла подкачки..."
+
+msgid "Removing old swap file..."
+msgstr "Удаление старого файла подкачки..."
+
+msgid "Writing swap file..."
+msgstr "Запись файла подкачки..."
+
+msgid "Formatting swap file..."
+msgstr "Форматирование файла подкачки..."
+
+msgid "Size changed"
+msgstr "Размер изменён"
+
+msgid "Swap file created and activated"
+msgstr "Файл подкачки создан и включён"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness установлен на %d"
+
+msgid "Protect the SD card?"
+msgstr "Беречь SD-карту?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness равен %d. При 10 ресивер реже использует подкачку и меньше пишет "
+"на карту."
+
+msgid "Set swappiness to 10"
+msgstr "Установить swappiness 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "Оставить %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "при заполнении занимает не более примерно %s ОЗУ"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Сжатая ОЗУ (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Выберите размер сжатой подкачки (ОЗУ: %s).\n"
+"Память используется только тогда, когда данные действительно выгружаются; около половины ОЗУ — хорошее значение."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"Будет настроена сжатая подкачка в ОЗУ размером %s (алгоритм: %s), она будет "
+"включаться при каждом запуске."
+
+msgid "kernel default"
+msgstr "по умолчанию ядра"
+
+msgid "It is used before swap files on drives."
+msgstr "Используется раньше файлов подкачки на накопителях."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Текущая подкачка zram (%s) будет заменена."
+
+msgid "Set up zram?"
+msgstr "Настроить zram?"
+
+msgid "Set up zram"
+msgstr "Настроить zram"
+
+msgid "zram activated"
+msgstr "zram включён"
+
+msgid "Remove zram"
+msgstr "Убрать zram"
+
+msgid "zram removed"
+msgstr "zram убран"
+
+msgid "Remove zram?"
+msgstr "Убрать zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Сжатая подкачка в ОЗУ будет отключена и больше не будет настраиваться при "
+"запуске."

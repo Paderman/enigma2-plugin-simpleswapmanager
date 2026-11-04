@@ -1,0 +1,881 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: he\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "ברירת מחדל של המערכת"
+
+msgid "Plugins and storage menu"
+msgstr "תוספים ותפריט התקני אחסון"
+
+msgid "Plugin browser only"
+msgstr "דפדפן התוספים בלבד"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "יצירה וניהול של קובצי החלפה"
+
+msgid "Hard disk"
+msgstr "דיסק קשיח"
+
+msgid "USB storage"
+msgstr "אחסון USB"
+
+msgid "SD card"
+msgstr "כרטיס SD"
+
+msgid "Internal flash"
+msgstr "זיכרון פלאש פנימי"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  בחירה     EXIT  חזרה"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "ביטול"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr "לא ניתן ליצור את התקן zram. כנראה שהליבה הזו אינה תומכת ב-zram."
+
+msgid "Please wait..."
+msgstr "נא להמתין..."
+
+msgid "Could not start command."
+msgstr "לא ניתן להפעיל את הפקודה."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "נכתבו %s מתוך %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "קוד שגיאה %d"
+
+msgid "Error"
+msgstr "שגיאה"
+
+msgid "Close"
+msgstr "סגירה"
+
+msgid "Done"
+msgstr "הסתיים"
+
+msgid "Cancelled."
+msgstr "בוטל."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram נטען ומוכן לשימוש."
+
+msgid "zram is built into the kernel."
+msgstr "zram מובנה בליבה."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram זמין כמודול ליבה ונטען בעת הצורך."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"הליבה של מקלט זה (%s) נבנתה ללא zram. קובץ החלפה בכונן הוא הפתרון הטוב ביותר"
+" כאן."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr "הליבה תומכת ב-zram כמודול, אך המודול אינו מותקן (ליבה %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "לא נמצאה תמיכה ב-zram בליבה (%s)."
+
+msgid "available"
+msgstr "זמין"
+
+msgid "module missing"
+msgstr "חסר מודול"
+
+msgid "not supported"
+msgstr "לא נתמך"
+
+msgid "System information"
+msgstr "מידע מערכת"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "למעלה/למטה  פרטים     EXIT  חזרה"
+
+msgid "Receiver"
+msgstr "מקלט"
+
+msgid "Image"
+msgstr "אימג'"
+
+msgid "Kernel"
+msgstr "ליבה"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"הליבה קובעת אילו יכולות זיכרון זמינות. היא חלק מהאימג' ותוסף אינו יכול לשנות"
+" אותה."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d פעמים"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "אחרון: %s, %s"
+
+msgid "never"
+msgstr "אף פעם"
+
+msgid "Out of memory"
+msgstr "חוסר בזיכרון"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"כמה פעמים ה-RAM וההחלפה התמלאו והקרנל נאלץ לסגור תוכנה (מאז התקנת התוסף). אם"
+" זה קורה, קובץ החלפה - או גדול יותר - עוזר."
+
+msgid "Swap support"
+msgstr "תמיכה בהחלפה"
+
+msgid "yes"
+msgstr "כן"
+
+msgid "no"
+msgstr "לא"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "נדרשת לקובצי החלפה, מחיצות החלפה ו-zram."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr "zram דוחס זיכרון שהוחלף ישירות בתוך ה-RAM (בערך 2-3:1) - ללא כונן."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (RAM דחוס)"
+
+msgid "zram algorithms"
+msgstr "אלגוריתמים של zram"
+
+msgid "known after loading"
+msgstr "ידוע לאחר הטעינה"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr "אלגוריתמי הדחיסה שהליבה מציעה. lz4 המהיר ביותר, zstd דוחס הכי טוב."
+
+#, python-format
+msgid "active (%s)"
+msgstr "פעיל (%s)"
+
+msgid "available, inactive"
+msgstr "זמין, לא פעיל"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr "zswap הוא מטמון דחוס לפני קובץ ההחלפה. הוא מוצג כאן לידיעה בלבד."
+
+msgid "none (only internal flash)"
+msgstr "אין (רק זיכרון פלאש פנימי)"
+
+msgid "none"
+msgstr "אין"
+
+msgid "Drives for swap files"
+msgstr "כוננים לקובצי החלפה"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"כוננים עם מערכת קבצים של לינוקס (ext2/3/4, xfs, ...) שיכולים להכיל קובץ "
+"החלפה."
+
+msgid "Kernel configuration"
+msgstr "תצורת הליבה"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr "/proc/config.gz מאפשר לתוסף לראות בדיוק עם אילו יכולות נבנתה הליבה."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "גודל דף"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d בתים"
+
+msgid "Simple Swap Manager settings"
+msgstr "הגדרות Simple Swap Manager"
+
+msgid "Save"
+msgstr "שמירה"
+
+msgid "Off"
+msgstr "כבוי"
+
+msgid "Swap file at startup"
+msgstr "קובץ החלפה בהפעלה"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"קובץ החלפה זה מופעל אוטומטית בכל הפעלה של המקלט. התוסף ממתין עד שלוש דקות "
+"לחיבור התקן האחסון."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"עד כמה הליבה נוטה להעביר זיכרון להחלפה (0-100). ערכים נמוכים שומרים נתונים "
+"ב-RAM זמן רב יותר; 10-30 הוא בחירה טובה למקלטים. הערך הנוכחי: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"ערכים נמוכים גם מפחיתים כתיבות, וכך חוסכים בכרטיסי SD ובדיסקים און קי."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "אוטומטי (%s)"
+
+msgid "zram compression"
+msgstr "דחיסת zram"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"אלגוריתם הדחיסה להחלפה הדחוסה ב-RAM. lz4 המהיר ביותר, zstd דוחס הכי טוב אך "
+"צורך יותר מעבד. השינוי ייכנס לתוקף בהגדרת zram הבאה."
+
+msgid "zram at startup"
+msgstr "zram בהפעלה"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "הגדרת החלפה דחוסה ב-RAM (%s) בכל הפעלה של המקלט."
+
+msgid "On"
+msgstr "פועל"
+
+msgid "Show plugin in"
+msgstr "הצגת התוסף ב"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"מאיפה ניתן לפתוח את Simple Swap Manager. השינוי ייכנס לתוקף לאחר הפעלה מחדש "
+"של הממשק."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr "מציג במה המקלט הזה תומך: ליבה, zram, zswap וכוננים. לחצו OK לפתיחה."
+
+msgid "Open"
+msgstr "פתיחה"
+
+msgid "Uninstall plugin..."
+msgstr "הסרת התוסף..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"מסיר את Simple Swap Manager ממקלט זה. ניתן לבחור אם לשמור או למחוק את שטח "
+"ההחלפה."
+
+msgid "Uninstall"
+msgstr "הסרה"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "הסרת Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager יוסר ממקלט זה."
+
+msgid "Compressed RAM (zram)"
+msgstr "RAM דחוס (zram)"
+
+msgid "Keep swap space"
+msgstr "שמירת שטח ההחלפה"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "נשאר פעיל עד ההפעלה מחדש הבאה, ולאחר מכן אינו בשימוש"
+
+msgid "Delete swap space"
+msgstr "מחיקת שטח ההחלפה"
+
+msgid "Deactivate now and free the disk space"
+msgstr "כיבוי עכשיו ושחרור שטח הדיסק"
+
+msgid "What should happen to the swap space?"
+msgstr "מה לעשות עם שטח ההחלפה?"
+
+msgid "Not enough free memory"
+msgstr "אין מספיק זיכרון פנוי"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"בשטח החלפה זה מאוחסנים כעת %s, אך אין מספיק RAM פנוי כדי להחזיר אותם. סגרו "
+"קודם כמה תוספים או הפעילו מחדש את הממשק."
+
+msgid "Moving data back to RAM..."
+msgstr "מחזיר נתונים ל-RAM..."
+
+msgid "Deleting swap file..."
+msgstr "מוחק את קובץ ההחלפה..."
+
+msgid "Removing plugin..."
+msgstr "מסיר את התוסף..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager הוסר."
+
+msgid "Swap"
+msgstr "החלפה"
+
+msgid "Total"
+msgstr "סה\"כ"
+
+msgid "CPU"
+msgstr "מעבד"
+
+msgid "Swap spaces"
+msgstr "שטחי החלפה"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"לא נמצא שטח החלפה.\n"
+"לחצו על הצהוב כדי ליצור קובץ החלפה."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr "OK  אפשרויות     MENU  הגדרות     INFO  מידע מערכת     EXIT  סגירה"
+
+msgid "Create"
+msgstr "יצירה"
+
+msgid "Settings"
+msgstr "הגדרות"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "חוסר בזיכרון %d פעמים מאז ההפעלה - פרטים ב-INFO"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "בשימוש %s מתוך %s"
+
+msgid "not active"
+msgstr "לא פעיל"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "הפעלה: %s"
+
+msgid "Startup: off"
+msgstr "הפעלה: כבוי"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "החלפה: נכנס %s/s, יוצא %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "נכתב מאז ההפעלה: %s"
+
+msgid "Swap partition"
+msgstr "מחיצת החלפה"
+
+msgid "Swap file"
+msgstr "קובץ החלפה"
+
+#, python-format
+msgid "%s used"
+msgstr "בשימוש %s"
+
+msgid "ACTIVE"
+msgstr "פעיל"
+
+msgid "INACTIVE"
+msgstr "לא פעיל"
+
+msgid "STARTUP"
+msgstr "בהפעלה"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"לא נמצא שטח החלפה.\n"
+"לא מחובר כונן חיצוני עם מערכת קבצים של Linux ‏(ext4, ...) - לחצו על הצהוב ל-RAM דחוס (zram)."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"לא נמצא שטח החלפה.\n"
+"לא מחובר כונן חיצוני עם מערכת קבצים של Linux ‏(ext4, ...). חברו כונן USB או דיסק קשיח ועגנו אותו בהגדרות הכוננים של האימג'."
+
+#, python-format
+msgid "%s RAM"
+msgstr "RAM %s"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "יחס %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "החלפה דחוסה ב-RAM"
+
+msgid "Deactivate"
+msgstr "כיבוי"
+
+msgid "Activate"
+msgstr "הפעלה"
+
+msgid "Delete"
+msgstr "מחיקה"
+
+msgid "Remove"
+msgstr "הסרה"
+
+msgid "Stop using this swap space now"
+msgstr "הפסקת השימוש בשטח החלפה זה עכשיו"
+
+msgid "Start using this swap space now"
+msgstr "התחלת השימוש בשטח החלפה זה עכשיו"
+
+msgid "Don't activate at startup"
+msgstr "לא להפעיל בהפעלת המקלט"
+
+msgid "Remove automatic activation"
+msgstr "הסרת ההפעלה האוטומטית"
+
+msgid "Activate at startup"
+msgstr "הפעלה בהפעלת המקלט"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "הגדרת החלפה דחוסה ב-RAM בכל הפעלה של המקלט"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "כיבוי zram והחזרת הזיכרון"
+
+msgid "Change size"
+msgstr "שינוי גודל"
+
+msgid "Set up zram again with a different size"
+msgstr "הגדרת zram מחדש בגודל אחר"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "שימוש בקובץ החלפה זה בכל הפעלה של המקלט"
+
+msgid "Create the swap file again with a different size"
+msgstr "ליצור את קובץ ההחלפה מחדש בגודל אחר"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "הסרת קובץ ההחלפה ושחרור שטח הדיסק"
+
+msgid "Create new swap file"
+msgstr "יצירת קובץ החלפה חדש"
+
+msgid "What this receiver supports"
+msgstr "במה המקלט הזה תומך"
+
+#, python-format
+msgid "Size: %s"
+msgstr "גודל: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "מאוחסן: %s, נדחס ל-%s (%s RAM בשימוש)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "אלגוריתם: %s, עדיפות %d"
+
+msgid "Status: inactive"
+msgstr "מצב: לא פעיל"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "בשימוש: %s, עדיפות %d"
+
+msgid "Startup activation disabled"
+msgstr "ההפעלה בעת האתחול כבויה"
+
+msgid "Activated at every startup"
+msgstr "מופעל בכל הפעלה"
+
+msgid "Activate swap"
+msgstr "הפעלת החלפה"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "מגדיר החלפה דחוסה ב-RAM..."
+
+msgid "Swap activated"
+msgstr "ההחלפה הופעלה"
+
+msgid "Deactivate swap"
+msgstr "כיבוי ההחלפה"
+
+msgid "Swap deactivated"
+msgstr "ההחלפה כובתה"
+
+msgid "The file is not a valid swap file."
+msgstr "הקובץ אינו קובץ החלפה תקין."
+
+msgid "Activating swap..."
+msgstr "מפעיל החלפה..."
+
+msgid "Delete swap file"
+msgstr "מחיקת קובץ ההחלפה"
+
+msgid "Swap file deleted"
+msgstr "קובץ ההחלפה נמחק"
+
+msgid "Delete swap file?"
+msgstr "למחוק את קובץ ההחלפה?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) יכובה ותימחק."
+
+msgid "Restart GUI?"
+msgstr "להפעיל מחדש את הממשק?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr "התוסף נפרק לחלוטין רק לאחר הפעלה מחדש של הממשק. להפעיל מחדש עכשיו?"
+
+msgid "Restart now"
+msgstr "הפעלה מחדש עכשיו"
+
+msgid "Later"
+msgstr "מאוחר יותר"
+
+msgid "No suitable storage"
+msgstr "אין אחסון מתאים"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"לא נמצא התקן אחסון עם מערכת קבצים של לינוקס (ext2/3/4, xfs, ...).\n"
+"לא ניתן ליצור קובצי החלפה ב-FAT, exFAT, NTFS או בכונני רשת."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "ללא כונן  ·  הכי מהיר  ·  צורך מעט מעבד"
+
+msgid "FASTEST"
+msgstr "הכי מהיר"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "לא זמין במקלט זה - OK לפרטים"
+
+msgid "NOT SUPPORTED"
+msgstr "לא נתמך"
+
+#, python-format
+msgid "%s free"
+msgstr "%s פנויים"
+
+msgid "NOT RECOMMENDED"
+msgstr "לא מומלץ"
+
+msgid "NOT IDEAL"
+msgstr "לא אידיאלי"
+
+msgid "RECOMMENDED"
+msgstr "מומלץ"
+
+msgid "FULL"
+msgstr "מלא"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"היכן לשמור את קובץ ההחלפה?\n"
+"דיסק קשיח או כונן USB הם הטובים ביותר; פלאש פנימי נשחק מהר יותר."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"היכן ליצור את שטח ההחלפה?\n"
+"zram דוחס זיכרון בתוך ה-RAM; ניתן לשלב אותו עם קובץ החלפה בכונן."
+
+msgid "Create swap file  1/2"
+msgstr "יצירת קובץ החלפה  1/2"
+
+msgid "zram not supported"
+msgstr "zram אינו נתמך"
+
+msgid "Not enough space"
+msgstr "אין מספיק מקום"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "אין מספיק מקום פנוי ב-%s."
+
+msgid "Use internal flash?"
+msgstr "להשתמש בפלאש הפנימי?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"החלפה בזיכרון הפלאש הפנימי גורמת למחזורי כתיבה רבים ועלולה לקצר את חייו. "
+"מומלץ כונן USB או דיסק קשיח."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"הפלאש הפנימי מולחם ואי אפשר להחליף אותו כמו כרטיס SD או כונן USB - אם הוא "
+"נשחק, המקלט עצמו נפגע."
+
+msgid "Use internal flash anyway"
+msgstr "להשתמש בפלאש בכל זאת"
+
+msgid "Use SD card?"
+msgstr "להשתמש בכרטיס SD?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"החלפה כותבת לכרטיס שוב ושוב, ולכן כרטיסי SD נשחקים מהר יותר. מומלץ כונן USB או דיסק קשיח.\n"
+"אם משתמשים בכרטיס: ערך swappiness נמוך (10-20) מצמצם את הכתיבה למינימום."
+
+msgid "Use SD card anyway"
+msgstr "להשתמש בכרטיס SD בכל זאת"
+
+msgid "Custom size..."
+msgstr "גודל מותאם..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "הזינו גודל בין %d ל-%d MB"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "גודל חדש עבור %s (כעת %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  זמין: %s"
+
+msgid "Create swap file  2/2"
+msgstr "יצירת קובץ החלפה  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"בחרו את גודל קובץ ההחלפה ב-%s.\n"
+"RAM: %s  ·  שטח פנוי: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "גודל קובץ ההחלפה ב-MB (%d-%d)"
+
+msgid "Invalid size"
+msgstr "גודל לא תקין"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "נא להזין גודל בין %d ל-%d MB."
+
+msgid "File exists"
+msgstr "הקובץ קיים"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s כבר קיים ואינו קובץ החלפה. נא להסיר אותו קודם."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr "קובץ ההחלפה הקיים בשימוש ואין מספיק RAM פנוי כדי להחליף אותו."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s ייווצר מחדש בגודל %s במקום %s."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"קובץ החלפה בגודל %s ייווצר ב-\n"
+"%s\n"
+"ויופעל בכל הפעלה."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "קובץ ההחלפה הקיים (%s) יוחלף."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "זה ייקח בערך %d שניות."
+
+msgid "Create swap file?"
+msgstr "ליצור קובץ החלפה?"
+
+msgid "Create swap file"
+msgstr "יצירת קובץ החלפה"
+
+msgid "Deactivating old swap file..."
+msgstr "מכבה את קובץ ההחלפה הישן..."
+
+msgid "Removing old swap file..."
+msgstr "מסיר את קובץ ההחלפה הישן..."
+
+msgid "Writing swap file..."
+msgstr "כותב את קובץ ההחלפה..."
+
+msgid "Formatting swap file..."
+msgstr "מאתחל את קובץ ההחלפה..."
+
+msgid "Size changed"
+msgstr "הגודל שונה"
+
+msgid "Swap file created and activated"
+msgstr "קובץ ההחלפה נוצר והופעל"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "swappiness נקבע ל-%d"
+
+msgid "Protect the SD card?"
+msgstr "לשמור על כרטיס ה-SD?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr "ערך ה-swappiness הוא %d. עם 10 המקלט מחליף פחות וכותב פחות לכרטיס."
+
+msgid "Set swappiness to 10"
+msgstr "לקבוע swappiness ל-10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "להשאיר %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "כשהוא מלא צורך לכל היותר כ-%s RAM"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "RAM דחוס (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"בחרו את גודל ההחלפה הדחוסה (RAM: %s).\n"
+"הזיכרון מנוצל רק כאשר נתונים מוחלפים בפועל; כמחצית מה-RAM היא ערך טוב."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr "תוגדר החלפה דחוסה ב-RAM בגודל %s (אלגוריתם: %s) ותופעל בכל הפעלה."
+
+msgid "kernel default"
+msgstr "ברירת המחדל של הליבה"
+
+msgid "It is used before swap files on drives."
+msgstr "היא משמשת לפני קובצי החלפה בכוננים."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "החלפת ה-zram הנוכחית (%s) תוחלף."
+
+msgid "Set up zram?"
+msgstr "להגדיר zram?"
+
+msgid "Set up zram"
+msgstr "הגדרת zram"
+
+msgid "zram activated"
+msgstr "zram הופעל"
+
+msgid "Remove zram"
+msgstr "הסרת zram"
+
+msgid "zram removed"
+msgstr "zram הוסר"
+
+msgid "Remove zram?"
+msgstr "להסיר את zram?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr "ההחלפה הדחוסה ב-RAM תכובה ולא תוגדר עוד בהפעלה."

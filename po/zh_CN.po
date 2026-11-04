@@ -1,0 +1,856 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: zh_CN\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "系统默认"
+
+msgid "Plugins and storage menu"
+msgstr "插件和存储设备菜单"
+
+msgid "Plugin browser only"
+msgstr "仅插件浏览器"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "创建和管理交换文件"
+
+msgid "Hard disk"
+msgstr "硬盘"
+
+msgid "USB storage"
+msgstr "USB 存储"
+
+msgid "SD card"
+msgstr "SD 卡"
+
+msgid "Internal flash"
+msgstr "内部闪存"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  选择     EXIT  返回"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr "无法创建 zram 设备。此内核可能不支持 zram。"
+
+msgid "Please wait..."
+msgstr "请稍候..."
+
+msgid "Could not start command."
+msgstr "无法启动命令。"
+
+#, python-format
+msgid "%s of %s written"
+msgstr "已写入 %s / %s"
+
+#, python-format
+msgid "Error code %d"
+msgstr "错误代码 %d"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Cancelled."
+msgstr "已取消。"
+
+msgid "zram is loaded and ready to use."
+msgstr "zram 已加载，可以使用。"
+
+msgid "zram is built into the kernel."
+msgstr "zram 已内置在内核中。"
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram 以内核模块形式提供，需要时自动加载。"
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr "此接收机的内核 (%s) 编译时未包含 zram。这里最好的方案是在存储设备上使用交换文件。"
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr "内核支持 zram 模块，但该模块未安装（内核 %s）。"
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "内核中未找到 zram 支持 (%s)。"
+
+msgid "available"
+msgstr "可用"
+
+msgid "module missing"
+msgstr "缺少模块"
+
+msgid "not supported"
+msgstr "不支持"
+
+msgid "System information"
+msgstr "系统信息"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "上/下  详细信息     EXIT  返回"
+
+msgid "Receiver"
+msgstr "接收机"
+
+msgid "Image"
+msgstr "镜像"
+
+msgid "Kernel"
+msgstr "内核"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr "内核决定了哪些内存功能可用。它是镜像的一部分，插件无法更改。"
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "内存"
+
+#, python-format
+msgid "%d times"
+msgstr "%d 次"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "最近：%s，%s"
+
+msgid "never"
+msgstr "从未"
+
+msgid "Out of memory"
+msgstr "内存不足"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr "内存和交换空间都满、内核不得不结束程序的次数（自安装插件起计）。若发生这种情况，交换文件（或更大的交换文件）会有帮助。"
+
+msgid "Swap support"
+msgstr "交换支持"
+
+msgid "yes"
+msgstr "是"
+
+msgid "no"
+msgstr "否"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "交换文件、交换分区和 zram 都需要此支持。"
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr "zram 直接在内存中压缩换出的数据（约 2-3:1），无需存储设备。"
+
+msgid "zram (compressed RAM)"
+msgstr "zram（压缩内存）"
+
+msgid "zram algorithms"
+msgstr "zram 算法"
+
+msgid "known after loading"
+msgstr "加载后可知"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr "内核提供的压缩算法。lz4 最快，zstd 压缩率最高。"
+
+#, python-format
+msgid "active (%s)"
+msgstr "已启用 (%s)"
+
+msgid "available, inactive"
+msgstr "可用，未启用"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr "zswap 是交换文件前的压缩缓存。此处仅作信息显示。"
+
+msgid "none (only internal flash)"
+msgstr "无（仅内部闪存）"
+
+msgid "none"
+msgstr "无"
+
+msgid "Drives for swap files"
+msgstr "可用于交换文件的存储设备"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr "使用 Linux 文件系统（ext2/3/4、xfs ...）且可存放交换文件的存储设备。"
+
+msgid "Kernel configuration"
+msgstr "内核配置"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr "通过 /proc/config.gz，插件可以准确知道内核包含哪些功能。"
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "页面大小"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d 字节"
+
+msgid "Simple Swap Manager settings"
+msgstr "Simple Swap Manager 设置"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Off"
+msgstr "关"
+
+msgid "Swap file at startup"
+msgstr "启动时的交换文件"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr "每次接收机启动时自动启用此交换文件。插件最多等待三分钟，直到存储设备挂载完成。"
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr "内核将内存移入交换区的积极程度 (0-100)。数值越低，数据在内存中保留越久；接收机推荐 10-30。当前值：%d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr "较低的值也意味着更少的写入，可保护 SD 卡和 U 盘。"
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "自动 (%s)"
+
+msgid "zram compression"
+msgstr "zram 压缩"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr "压缩内存交换使用的算法。lz4 最快，zstd 压缩率最高但占用更多 CPU。更改将在下次设置 zram 时生效。"
+
+msgid "zram at startup"
+msgstr "启动时的 zram"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "每次接收机启动时设置压缩内存交换 (%s)。"
+
+msgid "On"
+msgstr "开"
+
+msgid "Show plugin in"
+msgstr "插件显示位置"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr "可以从哪里打开 Simple Swap Manager。更改在重启界面后生效。"
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr "显示此接收机支持的功能：内核、zram、zswap 和存储设备。按 OK 打开。"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Uninstall plugin..."
+msgstr "卸载插件..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr "从此接收机卸载 Simple Swap Manager。您可以选择保留或删除交换空间。"
+
+msgid "Uninstall"
+msgstr "卸载"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "卸载 Simple Swap Manager"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "将从此接收机卸载 Simple Swap Manager。"
+
+msgid "Compressed RAM (zram)"
+msgstr "压缩内存 (zram)"
+
+msgid "Keep swap space"
+msgstr "保留交换空间"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr "保持启用直到下次重启，之后不再使用"
+
+msgid "Delete swap space"
+msgstr "删除交换空间"
+
+msgid "Deactivate now and free the disk space"
+msgstr "立即停用并释放磁盘空间"
+
+msgid "What should happen to the swap space?"
+msgstr "如何处理交换空间？"
+
+msgid "Not enough free memory"
+msgstr "可用内存不足"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr "此交换空间当前存放了 %s 数据，但可用内存不足以将其取回。请先关闭一些插件或重启界面。"
+
+msgid "Moving data back to RAM..."
+msgstr "正在将数据移回内存..."
+
+msgid "Deleting swap file..."
+msgstr "正在删除交换文件..."
+
+msgid "Removing plugin..."
+msgstr "正在卸载插件..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager 已卸载。"
+
+msgid "Swap"
+msgstr "交换"
+
+msgid "Total"
+msgstr "总计"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "交换空间"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"未找到交换空间。\n"
+"按黄色键创建交换文件。"
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr "OK  选项     MENU  设置     INFO  系统信息     EXIT  关闭"
+
+msgid "Create"
+msgstr "创建"
+
+msgid "Settings"
+msgstr "设置"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "启动以来内存不足 %d 次 - 按 INFO 查看详情"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "已用 %s / %s"
+
+msgid "not active"
+msgstr "未启用"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness：%d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "启动：%s"
+
+msgid "Startup: off"
+msgstr "启动：关"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram：%s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "交换：换入 %s/s，换出 %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "启动以来写入：%s"
+
+msgid "Swap partition"
+msgstr "交换分区"
+
+msgid "Swap file"
+msgstr "交换文件"
+
+#, python-format
+msgid "%s used"
+msgstr "已用 %s"
+
+msgid "ACTIVE"
+msgstr "已启用"
+
+msgid "INACTIVE"
+msgstr "未启用"
+
+msgid "STARTUP"
+msgstr "开机启用"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"未找到交换空间。\n"
+"未挂载使用 Linux 文件系统（ext4 等）的外部驱动器 - 按黄色键使用压缩内存（zram）。"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"未找到交换空间。\n"
+"未挂载使用 Linux 文件系统（ext4 等）的外部驱动器。请连接 USB 驱动器或硬盘，并在镜像的磁盘设置中挂载。"
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s 内存"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "压缩比 %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "内存中的压缩交换"
+
+msgid "Deactivate"
+msgstr "停用"
+
+msgid "Activate"
+msgstr "启用"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Stop using this swap space now"
+msgstr "立即停止使用此交换空间"
+
+msgid "Start using this swap space now"
+msgstr "立即开始使用此交换空间"
+
+msgid "Don't activate at startup"
+msgstr "启动时不启用"
+
+msgid "Remove automatic activation"
+msgstr "取消自动启用"
+
+msgid "Activate at startup"
+msgstr "启动时启用"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "每次接收机启动时设置压缩内存交换"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "停用 zram 并释放内存"
+
+msgid "Change size"
+msgstr "更改大小"
+
+msgid "Set up zram again with a different size"
+msgstr "以其他大小重新设置 zram"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "每次接收机启动时使用此交换文件"
+
+msgid "Create the swap file again with a different size"
+msgstr "以不同大小重新创建交换文件"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "删除交换文件并释放磁盘空间"
+
+msgid "Create new swap file"
+msgstr "创建新的交换文件"
+
+msgid "What this receiver supports"
+msgstr "此接收机支持的功能"
+
+#, python-format
+msgid "Size: %s"
+msgstr "大小：%s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "已存储：%s，压缩为 %s（占用 %s 内存）"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "算法：%s，优先级 %d"
+
+msgid "Status: inactive"
+msgstr "状态：未启用"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "已用：%s，优先级 %d"
+
+msgid "Startup activation disabled"
+msgstr "启动时启用已关闭"
+
+msgid "Activated at every startup"
+msgstr "每次启动时启用"
+
+msgid "Activate swap"
+msgstr "启用交换"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "正在设置压缩内存交换..."
+
+msgid "Swap activated"
+msgstr "交换已启用"
+
+msgid "Deactivate swap"
+msgstr "停用交换"
+
+msgid "Swap deactivated"
+msgstr "交换已停用"
+
+msgid "The file is not a valid swap file."
+msgstr "该文件不是有效的交换文件。"
+
+msgid "Activating swap..."
+msgstr "正在启用交换..."
+
+msgid "Delete swap file"
+msgstr "删除交换文件"
+
+msgid "Swap file deleted"
+msgstr "交换文件已删除"
+
+msgid "Delete swap file?"
+msgstr "删除交换文件？"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) 将被停用并删除。"
+
+msgid "Restart GUI?"
+msgstr "重启界面？"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr "插件只有在重启界面后才会完全卸载。现在重启吗？"
+
+msgid "Restart now"
+msgstr "立即重启"
+
+msgid "Later"
+msgstr "稍后"
+
+msgid "No suitable storage"
+msgstr "没有合适的存储设备"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"未找到使用 Linux 文件系统（ext2/3/4、xfs ...）的存储设备。\n"
+"无法在 FAT、exFAT、NTFS 或网络驱动器上创建交换文件。"
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "无需存储设备  ·  最快  ·  占用少量 CPU"
+
+msgid "FASTEST"
+msgstr "最快"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "此接收机不可用 - 按 OK 查看详情"
+
+msgid "NOT SUPPORTED"
+msgstr "不支持"
+
+#, python-format
+msgid "%s free"
+msgstr "可用 %s"
+
+msgid "NOT RECOMMENDED"
+msgstr "不推荐"
+
+msgid "NOT IDEAL"
+msgstr "不理想"
+
+msgid "RECOMMENDED"
+msgstr "推荐"
+
+msgid "FULL"
+msgstr "已满"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"交换文件存放在哪里？\n"
+"最好使用硬盘或 USB 驱动器；内部闪存损耗更快。"
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"在哪里创建交换空间？\n"
+"zram 在内存中压缩数据；可以与存储设备上的交换文件同时使用。"
+
+msgid "Create swap file  1/2"
+msgstr "创建交换文件  1/2"
+
+msgid "zram not supported"
+msgstr "不支持 zram"
+
+msgid "Not enough space"
+msgstr "空间不足"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "%s 上的可用空间不足。"
+
+msgid "Use internal flash?"
+msgstr "使用内部闪存？"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr "在内部闪存上进行交换会产生大量写入，可能缩短其寿命。建议使用 USB 驱动器或硬盘。"
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr "内部闪存焊接在主板上，无法像 SD 卡或 U 盘那样更换——一旦磨损，受影响的是接收机本身。"
+
+msgid "Use internal flash anyway"
+msgstr "仍然使用内部闪存"
+
+msgid "Use SD card?"
+msgstr "使用 SD 卡？"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"交换会反复写入存储卡，因此 SD 卡磨损更快。建议使用 USB 驱动器或硬盘。\n"
+"如果使用存储卡：较低的 swappiness（10-20）可将写入降到最低。"
+
+msgid "Use SD card anyway"
+msgstr "仍然使用 SD 卡"
+
+msgid "Custom size..."
+msgstr "自定义大小..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "请输入 %d 到 %d MB 之间的大小"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "%s 的新大小（当前 %s）："
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "内存：%s  ·  可用：%s"
+
+msgid "Create swap file  2/2"
+msgstr "创建交换文件  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"选择 %s 上交换文件的大小。\n"
+"内存：%s  ·  可用空间：%s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "交换文件大小 (MB) (%d-%d)"
+
+msgid "Invalid size"
+msgstr "大小无效"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "请输入 %d 到 %d MB 之间的大小。"
+
+msgid "File exists"
+msgstr "文件已存在"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s 已存在且不是交换文件。请先将其删除。"
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr "现有交换文件正在使用中，且可用内存不足以替换它。"
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s 将以 %s 重新创建（原为 %s）。"
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"将创建大小为 %s 的交换文件，位置：\n"
+"%s\n"
+"并在每次启动时启用。"
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "现有交换文件 (%s) 将被替换。"
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "大约需要 %d 秒。"
+
+msgid "Create swap file?"
+msgstr "创建交换文件？"
+
+msgid "Create swap file"
+msgstr "创建交换文件"
+
+msgid "Deactivating old swap file..."
+msgstr "正在停用旧交换文件..."
+
+msgid "Removing old swap file..."
+msgstr "正在删除旧交换文件..."
+
+msgid "Writing swap file..."
+msgstr "正在写入交换文件..."
+
+msgid "Formatting swap file..."
+msgstr "正在格式化交换文件..."
+
+msgid "Size changed"
+msgstr "大小已更改"
+
+msgid "Swap file created and activated"
+msgstr "交换文件已创建并启用"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "swappiness 已设为 %d"
+
+msgid "Protect the SD card?"
+msgstr "保护 SD 卡？"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr "当前 swappiness 为 %d。设为 10 后，接收机交换更少，写入存储卡也更少。"
+
+msgid "Set swappiness to 10"
+msgstr "将 swappiness 设为 10"
+
+#, python-format
+msgid "Keep %d"
+msgstr "保持 %d"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "写满时最多约占用 %s 内存"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "压缩内存 (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"选择压缩交换的大小（内存：%s）。\n"
+"只有在数据真正换出时才占用内存；约为内存的一半比较合适。"
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr "将设置大小为 %s 的压缩内存交换（算法：%s），并在每次启动时启用。"
+
+msgid "kernel default"
+msgstr "内核默认"
+
+msgid "It is used before swap files on drives."
+msgstr "它会先于存储设备上的交换文件使用。"
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "当前的 zram 交换 (%s) 将被替换。"
+
+msgid "Set up zram?"
+msgstr "设置 zram？"
+
+msgid "Set up zram"
+msgstr "设置 zram"
+
+msgid "zram activated"
+msgstr "zram 已启用"
+
+msgid "Remove zram"
+msgstr "移除 zram"
+
+msgid "zram removed"
+msgstr "zram 已移除"
+
+msgid "Remove zram?"
+msgstr "移除 zram？"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr "压缩内存交换将被停用，启动时也不再设置。"

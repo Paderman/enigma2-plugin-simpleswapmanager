@@ -1,0 +1,909 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleSwapManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 01:43+0100\n"
+"PO-Revision-Date: 2026-11-03 00:00+0000\n"
+"Last-Translator: Claude (AI translation, corrections welcome)\n"
+"Language-Team: tr\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System default"
+msgstr "Sistem varsayılanı"
+
+msgid "Plugins and storage menu"
+msgstr "Eklentiler ve depolama menüsü"
+
+msgid "Plugin browser only"
+msgstr "Yalnızca eklenti tarayıcısı"
+
+msgid "Simple Swap Manager"
+msgstr "Simple Swap Manager"
+
+msgid "Create and manage swap files"
+msgstr "Takas dosyaları oluşturun ve yönetin"
+
+msgid "Hard disk"
+msgstr "Sabit disk"
+
+msgid "USB storage"
+msgstr "USB bellek"
+
+msgid "SD card"
+msgstr "SD kart"
+
+msgid "Internal flash"
+msgstr "Dahili flash"
+
+msgid "OK  Select     EXIT  Back"
+msgstr "OK  Seç     EXIT  Geri"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid ""
+"The zram device could not be created. This kernel probably does not support "
+"zram."
+msgstr ""
+"zram aygıtı oluşturulamadı. Bu çekirdek büyük olasılıkla zram desteklemiyor."
+
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+msgid "Could not start command."
+msgstr "Komut başlatılamadı."
+
+#, python-format
+msgid "%s of %s written"
+msgstr "%s / %s yazıldı"
+
+#, python-format
+msgid "Error code %d"
+msgstr "Hata kodu %d"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Done"
+msgstr "Bitti"
+
+msgid "Cancelled."
+msgstr "İptal edildi."
+
+msgid "zram is loaded and ready to use."
+msgstr "zram yüklendi ve kullanıma hazır."
+
+msgid "zram is built into the kernel."
+msgstr "zram çekirdeğe yerleşik."
+
+msgid "zram is available as a kernel module and is loaded when needed."
+msgstr "zram bir çekirdek modülü olarak mevcut ve gerektiğinde yüklenir."
+
+#, python-format
+msgid ""
+"The kernel of this receiver (%s) was built without zram. A swap file on a "
+"drive is the best solution here."
+msgstr ""
+"Bu alıcının çekirdeği (%s) zram olmadan derlenmiş. Burada en iyi çözüm bir "
+"sürücüdeki takas dosyasıdır."
+
+#, python-format
+msgid ""
+"The kernel supports zram as a module, but the module is not installed "
+"(kernel %s)."
+msgstr ""
+"Çekirdek zram'ı modül olarak destekliyor, ancak modül kurulu değil (çekirdek"
+" %s)."
+
+#, python-format
+msgid "No zram support was found in the kernel (%s)."
+msgstr "Çekirdekte zram desteği bulunamadı (%s)."
+
+msgid "available"
+msgstr "mevcut"
+
+msgid "module missing"
+msgstr "modül eksik"
+
+msgid "not supported"
+msgstr "desteklenmiyor"
+
+msgid "System information"
+msgstr "Sistem bilgisi"
+
+msgid "UP/DOWN  Details     EXIT  Back"
+msgstr "YUKARI/AŞAĞI  Ayrıntılar     EXIT  Geri"
+
+msgid "Receiver"
+msgstr "Alıcı"
+
+msgid "Image"
+msgstr "İmaj"
+
+msgid "Kernel"
+msgstr "Çekirdek"
+
+msgid ""
+"The kernel decides which memory features are available. It is part of the "
+"image and cannot be changed by a plugin."
+msgstr ""
+"Hangi bellek özelliklerinin kullanılabileceğine çekirdek karar verir. İmajın"
+" bir parçasıdır ve bir eklenti tarafından değiştirilemez."
+
+msgid "Python"
+msgstr "Python"
+
+msgid "RAM"
+msgstr "RAM"
+
+#, python-format
+msgid "%d times"
+msgstr "%d kez"
+
+#, python-format
+msgid "last: %s, %s"
+msgstr "son: %s, %s"
+
+msgid "never"
+msgstr "hiç"
+
+msgid "Out of memory"
+msgstr "Bellek yetersiz"
+
+msgid ""
+"How often RAM and swap were full and the kernel had to end a program "
+"(counted since the plugin was installed). If it happens, a swap file - or a "
+"bigger one - helps."
+msgstr ""
+"RAM ve takas alanının kaç kez dolduğu ve çekirdeğin bir programı kapatmak "
+"zorunda kaldığı (eklenti kurulduğundan beri). Bu oluyorsa bir takas dosyası "
+"– ya da daha büyüğü – yardımcı olur."
+
+msgid "Swap support"
+msgstr "Takas desteği"
+
+msgid "yes"
+msgstr "evet"
+
+msgid "no"
+msgstr "hayır"
+
+msgid "Required for swap files, swap partitions and zram."
+msgstr "Takas dosyaları, takas bölümleri ve zram için gereklidir."
+
+msgid ""
+"zram compresses swapped out memory inside the RAM (about 2-3:1) - no drive "
+"needed."
+msgstr ""
+"zram, takasa alınan belleği doğrudan RAM içinde sıkıştırır (yaklaşık 2-3:1) "
+"- sürücü gerekmez."
+
+msgid "zram (compressed RAM)"
+msgstr "zram (sıkıştırılmış RAM)"
+
+msgid "zram algorithms"
+msgstr "zram algoritmaları"
+
+msgid "known after loading"
+msgstr "yüklemeden sonra belli olur"
+
+msgid ""
+"Compression algorithms offered by the kernel. lz4 is fastest, zstd "
+"compresses best."
+msgstr ""
+"Çekirdeğin sunduğu sıkıştırma algoritmaları. lz4 en hızlısı, zstd en iyi "
+"sıkıştırandır."
+
+#, python-format
+msgid "active (%s)"
+msgstr "etkin (%s)"
+
+msgid "available, inactive"
+msgstr "mevcut, etkin değil"
+
+msgid "zswap"
+msgstr "zswap"
+
+msgid ""
+"zswap is a compressed cache in front of a swap file. It is only shown here "
+"for information."
+msgstr ""
+"zswap, bir takas dosyasının önündeki sıkıştırılmış bir önbellektir. Burada "
+"yalnızca bilgi amacıyla gösterilir."
+
+msgid "none (only internal flash)"
+msgstr "yok (yalnızca dahili flash)"
+
+msgid "none"
+msgstr "yok"
+
+msgid "Drives for swap files"
+msgstr "Takas dosyası için sürücüler"
+
+msgid ""
+"Drives with a Linux file system (ext2/3/4, xfs, ...) that can hold a swap "
+"file."
+msgstr ""
+"Takas dosyası barındırabilen Linux dosya sistemli (ext2/3/4, xfs, ...) "
+"sürücüler."
+
+msgid "Kernel configuration"
+msgstr "Çekirdek yapılandırması"
+
+msgid ""
+"/proc/config.gz lets the plugin see exactly which features the kernel was "
+"built with."
+msgstr ""
+"/proc/config.gz, eklentinin çekirdeğin hangi özelliklerle derlendiğini tam "
+"olarak görmesini sağlar."
+
+msgid "Swappiness"
+msgstr "Swappiness"
+
+msgid "Page size"
+msgstr "Sayfa boyutu"
+
+#, python-format
+msgid "%d bytes"
+msgstr "%d bayt"
+
+msgid "Simple Swap Manager settings"
+msgstr "Simple Swap Manager ayarları"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Off"
+msgstr "Kapalı"
+
+msgid "Swap file at startup"
+msgstr "Açılışta takas dosyası"
+
+msgid ""
+"This swap file is activated automatically every time the receiver starts. "
+"The plugin waits up to three minutes for the storage device to be mounted."
+msgstr ""
+"Bu takas dosyası alıcı her açıldığında otomatik olarak etkinleştirilir. "
+"Eklenti, depolama aygıtının bağlanması için üç dakikaya kadar bekler."
+
+#, python-format
+msgid ""
+"How eagerly the kernel moves memory to swap (0-100). Lower values keep data "
+"in RAM longer; 10-30 is a good choice for receivers. Current value: %d"
+msgstr ""
+"Çekirdeğin belleği ne kadar istekli takasa taşıdığı (0-100). Düşük değerler "
+"verileri RAM'de daha uzun tutar; alıcılar için 10-30 iyi bir seçimdir. "
+"Geçerli değer: %d"
+
+msgid ""
+"Lower values also mean fewer writes, which spares SD cards and USB sticks."
+msgstr ""
+"Düşük değerler daha az yazma anlamına da gelir; bu, SD kartları ve USB "
+"bellekleri korur."
+
+#, python-format
+msgid "Automatic (%s)"
+msgstr "Otomatik (%s)"
+
+msgid "zram compression"
+msgstr "zram sıkıştırma"
+
+msgid ""
+"Compression algorithm for the compressed RAM swap. lz4 is fastest, zstd "
+"compresses best but needs more CPU. A change takes effect the next time zram"
+" is set up."
+msgstr ""
+"Sıkıştırılmış RAM takası için sıkıştırma algoritması. lz4 en hızlısıdır, "
+"zstd en iyi sıkıştırır ama daha fazla CPU gerektirir. Değişiklik, zram bir "
+"sonraki kurulduğunda geçerli olur."
+
+msgid "zram at startup"
+msgstr "Açılışta zram"
+
+#, python-format
+msgid "Set up the compressed RAM swap (%s) every time the receiver starts."
+msgstr "Sıkıştırılmış RAM takasını (%s) alıcı her açıldığında kur."
+
+msgid "On"
+msgstr "Açık"
+
+msgid "Show plugin in"
+msgstr "Eklentiyi göster"
+
+msgid ""
+"Where Simple Swap Manager can be opened. A change takes effect after "
+"restarting the GUI."
+msgstr ""
+"Simple Swap Manager'ın nereden açılabileceği. Değişiklik GUI yeniden "
+"başlatıldıktan sonra geçerli olur."
+
+msgid ""
+"Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
+"to open."
+msgstr ""
+"Bu alıcının neleri desteklediğini gösterir: çekirdek, zram, zswap ve "
+"sürücüler. Açmak için OK'a basın."
+
+msgid "Open"
+msgstr "Aç"
+
+msgid "Uninstall plugin..."
+msgstr "Eklentiyi kaldır..."
+
+msgid ""
+"Removes Simple Swap Manager from this receiver. You can choose whether the "
+"swap space is kept or deleted."
+msgstr ""
+"Simple Swap Manager'ı bu alıcıdan kaldırır. Takas alanının korunmasını veya "
+"silinmesini seçebilirsiniz."
+
+msgid "Uninstall"
+msgstr "Kaldır"
+
+msgid "Uninstall Simple Swap Manager"
+msgstr "Simple Swap Manager'ı kaldır"
+
+msgid "Simple Swap Manager will be removed from this receiver."
+msgstr "Simple Swap Manager bu alıcıdan kaldırılacak."
+
+msgid "Compressed RAM (zram)"
+msgstr "Sıkıştırılmış RAM (zram)"
+
+msgid "Keep swap space"
+msgstr "Takas alanını koru"
+
+msgid "Stays active until the next restart, then it is no longer used"
+msgstr ""
+"Bir sonraki yeniden başlatmaya kadar etkin kalır, sonra artık kullanılmaz"
+
+msgid "Delete swap space"
+msgstr "Takas alanını sil"
+
+msgid "Deactivate now and free the disk space"
+msgstr "Şimdi devre dışı bırak ve disk alanını boşalt"
+
+msgid "What should happen to the swap space?"
+msgstr "Takas alanına ne olsun?"
+
+msgid "Not enough free memory"
+msgstr "Yeterli boş bellek yok"
+
+#, python-format
+msgid ""
+"%s are currently stored in this swap space, but there is not enough free RAM"
+" to take it back. Close some plugins or restart the GUI first."
+msgstr ""
+"Bu takas alanında şu anda %s saklanıyor, ancak bunu geri almak için yeterli "
+"boş RAM yok. Önce bazı eklentileri kapatın veya GUI'yi yeniden başlatın."
+
+msgid "Moving data back to RAM..."
+msgstr "Veriler RAM'e geri taşınıyor..."
+
+msgid "Deleting swap file..."
+msgstr "Takas dosyası siliniyor..."
+
+msgid "Removing plugin..."
+msgstr "Eklenti kaldırılıyor..."
+
+msgid "Simple Swap Manager has been removed."
+msgstr "Simple Swap Manager kaldırıldı."
+
+msgid "Swap"
+msgstr "Takas"
+
+msgid "Total"
+msgstr "Toplam"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Swap spaces"
+msgstr "Takas alanları"
+
+msgid ""
+"No swap space found.\n"
+"Press YELLOW to create a swap file."
+msgstr ""
+"Takas alanı bulunamadı.\n"
+"Takas dosyası oluşturmak için SARI tuşa basın."
+
+msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
+msgstr ""
+"OK  Seçenekler     MENU  Ayarlar     INFO  Sistem bilgisi     EXIT  Kapat"
+
+msgid "Create"
+msgstr "Oluştur"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+#, python-format
+msgid "Out of memory %d times since start - INFO for details"
+msgstr "Açılıştan beri %d kez bellek yetersiz – ayrıntılar INFO ile"
+
+#, python-format
+msgid "%s of %s used"
+msgstr "%s / %s kullanılıyor"
+
+msgid "not active"
+msgstr "etkin değil"
+
+#, python-format
+msgid "Swappiness: %d"
+msgstr "Swappiness: %d"
+
+#, python-format
+msgid "Startup: %s"
+msgstr "Açılış: %s"
+
+msgid "Startup: off"
+msgstr "Açılış: kapalı"
+
+#, python-format
+msgid "zram: %s"
+msgstr "zram: %s"
+
+#, python-format
+msgid "Swap in: %s/s, out: %s/s"
+msgstr "Takas: giriş %s/s, çıkış %s/s"
+
+#, python-format
+msgid "Written since boot: %s"
+msgstr "Açılıştan beri yazılan: %s"
+
+msgid "Swap partition"
+msgstr "Takas bölümü"
+
+msgid "Swap file"
+msgstr "Takas dosyası"
+
+#, python-format
+msgid "%s used"
+msgstr "%s kullanılıyor"
+
+msgid "ACTIVE"
+msgstr "ETKİN"
+
+msgid "INACTIVE"
+msgstr "ETKİN DEĞİL"
+
+msgid "STARTUP"
+msgstr "AÇILIŞ"
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
+msgstr ""
+"Takas alanı bulunamadı.\n"
+"Linux dosya sistemli (ext4, ...) harici sürücü bağlı değil – sıkıştırılmış RAM (zram) için SARI."
+
+msgid ""
+"No swap space found.\n"
+"No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
+msgstr ""
+"Takas alanı bulunamadı.\n"
+"Linux dosya sistemli (ext4, ...) harici sürücü bağlı değil. Bir USB sürücü veya sabit disk takın ve imajın disk ayarlarında bağlayın."
+
+#, python-format
+msgid "%s RAM"
+msgstr "%s RAM"
+
+#, python-format
+msgid "ratio %.1f:1"
+msgstr "oran %.1f:1"
+
+msgid "compressed swap in RAM"
+msgstr "RAM'de sıkıştırılmış takas"
+
+msgid "Deactivate"
+msgstr "Devre dışı bırak"
+
+msgid "Activate"
+msgstr "Etkinleştir"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Stop using this swap space now"
+msgstr "Bu takas alanını şimdi kullanmayı bırak"
+
+msgid "Start using this swap space now"
+msgstr "Bu takas alanını şimdi kullanmaya başla"
+
+msgid "Don't activate at startup"
+msgstr "Açılışta etkinleştirme"
+
+msgid "Remove automatic activation"
+msgstr "Otomatik etkinleştirmeyi kaldır"
+
+msgid "Activate at startup"
+msgstr "Açılışta etkinleştir"
+
+msgid "Set up the compressed RAM swap every time the receiver starts"
+msgstr "Sıkıştırılmış RAM takasını alıcı her açıldığında kur"
+
+msgid "Deactivate zram and give the memory back"
+msgstr "zram'ı kapat ve belleği geri ver"
+
+msgid "Change size"
+msgstr "Boyutu değiştir"
+
+msgid "Set up zram again with a different size"
+msgstr "zram'ı farklı bir boyutla yeniden kur"
+
+msgid "Use this swap file every time the receiver starts"
+msgstr "Bu takas dosyasını alıcı her açıldığında kullan"
+
+msgid "Create the swap file again with a different size"
+msgstr "Takas dosyasını farklı boyutta yeniden oluştur"
+
+msgid "Remove the swap file and free the disk space"
+msgstr "Takas dosyasını sil ve disk alanını boşalt"
+
+msgid "Create new swap file"
+msgstr "Yeni takas dosyası oluştur"
+
+msgid "What this receiver supports"
+msgstr "Bu alıcının destekledikleri"
+
+#, python-format
+msgid "Size: %s"
+msgstr "Boyut: %s"
+
+#, python-format
+msgid "Stored: %s, compressed to %s (%s RAM in use)"
+msgstr "Saklanan: %s, %s boyutuna sıkıştırıldı (%s RAM kullanımda)"
+
+#, python-format
+msgid "Algorithm: %s, priority %d"
+msgstr "Algoritma: %s, öncelik %d"
+
+msgid "Status: inactive"
+msgstr "Durum: etkin değil"
+
+#, python-format
+msgid "Used: %s, priority %d"
+msgstr "Kullanılan: %s, öncelik %d"
+
+msgid "Startup activation disabled"
+msgstr "Açılışta etkinleştirme kapatıldı"
+
+msgid "Activated at every startup"
+msgstr "Her açılışta etkinleştirilir"
+
+msgid "Activate swap"
+msgstr "Takası etkinleştir"
+
+msgid "Setting up compressed RAM swap..."
+msgstr "Sıkıştırılmış RAM takası kuruluyor..."
+
+msgid "Swap activated"
+msgstr "Takas etkinleştirildi"
+
+msgid "Deactivate swap"
+msgstr "Takası devre dışı bırak"
+
+msgid "Swap deactivated"
+msgstr "Takas devre dışı bırakıldı"
+
+msgid "The file is not a valid swap file."
+msgstr "Dosya geçerli bir takas dosyası değil."
+
+msgid "Activating swap..."
+msgstr "Takas etkinleştiriliyor..."
+
+msgid "Delete swap file"
+msgstr "Takas dosyasını sil"
+
+msgid "Swap file deleted"
+msgstr "Takas dosyası silindi"
+
+msgid "Delete swap file?"
+msgstr "Takas dosyası silinsin mi?"
+
+#, python-format
+msgid "%s (%s) will be deactivated and deleted."
+msgstr "%s (%s) devre dışı bırakılacak ve silinecek."
+
+msgid "Restart GUI?"
+msgstr "GUI yeniden başlatılsın mı?"
+
+msgid ""
+"The plugin is unloaded completely after restarting the GUI. Restart now?"
+msgstr ""
+"Eklenti ancak GUI yeniden başlatıldıktan sonra tamamen kaldırılır. Şimdi "
+"yeniden başlatılsın mı?"
+
+msgid "Restart now"
+msgstr "Şimdi yeniden başlat"
+
+msgid "Later"
+msgstr "Daha sonra"
+
+msgid "No suitable storage"
+msgstr "Uygun depolama yok"
+
+msgid ""
+"No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\n"
+"Swap files cannot be created on FAT, exFAT, NTFS or network drives."
+msgstr ""
+"Linux dosya sistemli (ext2/3/4, xfs, ...) bir depolama aygıtı bulunamadı.\n"
+"Takas dosyaları FAT, exFAT, NTFS veya ağ sürücülerinde oluşturulamaz."
+
+msgid "No drive needed  ·  fastest  ·  uses a little CPU"
+msgstr "Sürücü gerekmez  ·  en hızlı  ·  biraz CPU kullanır"
+
+msgid "FASTEST"
+msgstr "EN HIZLI"
+
+msgid "Not available on this receiver - press OK for details"
+msgstr "Bu alıcıda kullanılamıyor - ayrıntılar için OK"
+
+msgid "NOT SUPPORTED"
+msgstr "DESTEKLENMİYOR"
+
+#, python-format
+msgid "%s free"
+msgstr "%s boş"
+
+msgid "NOT RECOMMENDED"
+msgstr "ÖNERİLMEZ"
+
+msgid "NOT IDEAL"
+msgstr "İDEAL DEĞİL"
+
+msgid "RECOMMENDED"
+msgstr "ÖNERİLEN"
+
+msgid "FULL"
+msgstr "DOLU"
+
+msgid ""
+"Where should the swap file be stored?\n"
+"A hard disk or USB drive is best; internal flash wears out faster."
+msgstr ""
+"Takas dosyası nereye kaydedilsin?\n"
+"En iyisi sabit disk veya USB bellektir; dahili flash daha hızlı yıpranır."
+
+msgid ""
+"Where should the swap space be created?\n"
+"zram compresses memory inside the RAM; it can be combined with a swap file on a drive."
+msgstr ""
+"Takas alanı nerede oluşturulsun?\n"
+"zram belleği RAM içinde sıkıştırır; bir sürücüdeki takas dosyasıyla birlikte kullanılabilir."
+
+msgid "Create swap file  1/2"
+msgstr "Takas dosyası oluştur  1/2"
+
+msgid "zram not supported"
+msgstr "zram desteklenmiyor"
+
+msgid "Not enough space"
+msgstr "Yeterli alan yok"
+
+#, python-format
+msgid "There is not enough free space on %s."
+msgstr "%s üzerinde yeterli boş alan yok."
+
+msgid "Use internal flash?"
+msgstr "Dahili flash kullanılsın mı?"
+
+msgid ""
+"Swapping to the internal flash memory causes many write cycles and may "
+"shorten its life. A USB drive or hard disk is recommended."
+msgstr ""
+"Dahili flash belleğe takas yapmak çok sayıda yazma döngüsüne neden olur ve "
+"ömrünü kısaltabilir. USB bellek veya sabit disk önerilir."
+
+msgid ""
+"The internal flash is soldered in and cannot be replaced like an SD card or "
+"USB drive - if it wears out, the receiver itself is affected."
+msgstr ""
+"Dahili flash lehimlidir ve bir SD kart veya USB sürücü gibi değiştirilemez –"
+" yıpranırsa alıcının kendisi etkilenir."
+
+msgid "Use internal flash anyway"
+msgstr "Yine de dahili flash kullan"
+
+msgid "Use SD card?"
+msgstr "SD kart kullanılsın mı?"
+
+msgid ""
+"Swapping writes to the card again and again, so SD cards wear out faster. A USB drive or hard disk is recommended.\n"
+"If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
+msgstr ""
+"Takas, karta tekrar tekrar yazar; bu yüzden SD kartlar daha hızlı yıpranır. USB sürücü veya sabit disk önerilir.\n"
+"Kartı kullanırsanız: düşük swappiness (10-20) yazmaları en aza indirir."
+
+msgid "Use SD card anyway"
+msgstr "Yine de SD kartı kullan"
+
+msgid "Custom size..."
+msgstr "Özel boyut..."
+
+#, python-format
+msgid "Enter a size between %d and %d MB"
+msgstr "%d ile %d MB arasında bir boyut girin"
+
+#, python-format
+msgid "New size for %s (currently %s):"
+msgstr "%s için yeni boyut (şu an %s):"
+
+#, python-format
+msgid "RAM: %s  ·  available: %s"
+msgstr "RAM: %s  ·  kullanılabilir: %s"
+
+msgid "Create swap file  2/2"
+msgstr "Takas dosyası oluştur  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the swap file on %s.\n"
+"RAM: %s  ·  free space: %s"
+msgstr ""
+"%s üzerindeki takas dosyasının boyutunu seçin.\n"
+"RAM: %s  ·  boş alan: %s"
+
+#, python-format
+msgid "Swap file size in MB (%d-%d)"
+msgstr "MB cinsinden takas dosyası boyutu (%d-%d)"
+
+msgid "Invalid size"
+msgstr "Geçersiz boyut"
+
+#, python-format
+msgid "Please enter a size between %d and %d MB."
+msgstr "Lütfen %d ile %d MB arasında bir boyut girin."
+
+msgid "File exists"
+msgstr "Dosya mevcut"
+
+#, python-format
+msgid "%s already exists and is not a swap file. Please remove it first."
+msgstr "%s zaten mevcut ve bir takas dosyası değil. Lütfen önce kaldırın."
+
+msgid ""
+"The existing swap file is in use and there is not enough free RAM to replace"
+" it."
+msgstr ""
+"Mevcut takas dosyası kullanımda ve onu değiştirmek için yeterli boş RAM yok."
+
+#, python-format
+msgid "%s will be recreated with %s instead of %s."
+msgstr "%s yeniden oluşturulacak: %s (önceki: %s)."
+
+#, python-format
+msgid ""
+"A swap file of %s will be created at\n"
+"%s\n"
+"and activated at every startup."
+msgstr ""
+"%s boyutunda bir takas dosyası şuraya oluşturulacak:\n"
+"%s\n"
+"ve her açılışta etkinleştirilecek."
+
+#, python-format
+msgid "The existing swap file (%s) will be replaced."
+msgstr "Mevcut takas dosyası (%s) değiştirilecek."
+
+#, python-format
+msgid "This takes about %d seconds."
+msgstr "Bu yaklaşık %d saniye sürer."
+
+msgid "Create swap file?"
+msgstr "Takas dosyası oluşturulsun mu?"
+
+msgid "Create swap file"
+msgstr "Takas dosyası oluştur"
+
+msgid "Deactivating old swap file..."
+msgstr "Eski takas dosyası devre dışı bırakılıyor..."
+
+msgid "Removing old swap file..."
+msgstr "Eski takas dosyası kaldırılıyor..."
+
+msgid "Writing swap file..."
+msgstr "Takas dosyası yazılıyor..."
+
+msgid "Formatting swap file..."
+msgstr "Takas dosyası biçimlendiriliyor..."
+
+msgid "Size changed"
+msgstr "Boyut değiştirildi"
+
+msgid "Swap file created and activated"
+msgstr "Takas dosyası oluşturuldu ve etkinleştirildi"
+
+#, python-format
+msgid "Swappiness set to %d"
+msgstr "Swappiness %d olarak ayarlandı"
+
+msgid "Protect the SD card?"
+msgstr "SD kart korunsun mu?"
+
+#, python-format
+msgid ""
+"The swappiness is %d. With 10, the receiver swaps out less often and writes "
+"less to the card."
+msgstr ""
+"Swappiness değeri %d. 10 ile alıcı daha seyrek takas yapar ve karta daha az "
+"yazar."
+
+msgid "Set swappiness to 10"
+msgstr "Swappiness'i 10 yap"
+
+#, python-format
+msgid "Keep %d"
+msgstr "%d olarak bırak"
+
+#, python-format
+msgid "needs at most about %s RAM when full"
+msgstr "dolduğunda en fazla yaklaşık %s RAM kullanır"
+
+msgid "Compressed RAM (zram)  2/2"
+msgstr "Sıkıştırılmış RAM (zram)  2/2"
+
+#, python-format
+msgid ""
+"Select the size of the compressed swap (RAM: %s).\n"
+"The memory is only used when data is actually swapped out; about half the RAM is a good value."
+msgstr ""
+"Sıkıştırılmış takasın boyutunu seçin (RAM: %s).\n"
+"Bellek yalnızca veriler gerçekten takasa alındığında kullanılır; RAM'in yaklaşık yarısı iyi bir değerdir."
+
+#, python-format
+msgid ""
+"A compressed RAM swap of %s will be set up (algorithm: %s) and activated at "
+"every startup."
+msgstr ""
+"%s boyutunda sıkıştırılmış bir RAM takası kurulacak (algoritma: %s) ve her "
+"açılışta etkinleştirilecek."
+
+msgid "kernel default"
+msgstr "çekirdek varsayılanı"
+
+msgid "It is used before swap files on drives."
+msgstr "Sürücülerdeki takas dosyalarından önce kullanılır."
+
+#, python-format
+msgid "The current zram swap (%s) will be replaced."
+msgstr "Mevcut zram takası (%s) değiştirilecek."
+
+msgid "Set up zram?"
+msgstr "zram kurulsun mu?"
+
+msgid "Set up zram"
+msgstr "zram'ı kur"
+
+msgid "zram activated"
+msgstr "zram etkinleştirildi"
+
+msgid "Remove zram"
+msgstr "zram'ı kaldır"
+
+msgid "zram removed"
+msgstr "zram kaldırıldı"
+
+msgid "Remove zram?"
+msgstr "zram kaldırılsın mı?"
+
+msgid ""
+"The compressed RAM swap will be deactivated and will no longer be set up at "
+"startup."
+msgstr ""
+"Sıkıştırılmış RAM takası devre dışı bırakılacak ve açılışta artık "
+"kurulmayacak."
