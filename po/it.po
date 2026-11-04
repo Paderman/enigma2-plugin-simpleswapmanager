@@ -335,7 +335,7 @@ msgid ""
 "Shows what this receiver supports: kernel, zram, zswap and drives. Press OK "
 "to open."
 msgstr ""
-"Mostra cosa supporta questo ricevitore: kernel, zram, zswap e dischi. Premi "
+"Mostra cosa supporta questo ricevitore: kernel, zram, zswap e dischi. Premere "
 "OK per aprire."
 
 msgid "Open"
@@ -348,7 +348,7 @@ msgid ""
 "Removes Simple Swap Manager from this receiver. You can choose whether the "
 "swap space is kept or deleted."
 msgstr ""
-"Rimuove Simple Swap Manager da questo ricevitore. Puoi scegliere se "
+"Rimuove Simple Swap Manager da questo ricevitore. È possibile scegliere se "
 "mantenere o eliminare lo spazio di swap."
 
 msgid "Uninstall"
@@ -387,7 +387,7 @@ msgid ""
 " to take it back. Close some plugins or restart the GUI first."
 msgstr ""
 "In questo spazio di swap sono memorizzati %s, ma non c'è abbastanza RAM "
-"libera per riprenderli. Chiudi prima alcuni plugin o riavvia la GUI."
+"libera per riprenderli. Chiudere prima alcuni plugin o riavviare la GUI."
 
 msgid "Moving data back to RAM..."
 msgstr "Riporto dei dati nella RAM..."
@@ -418,7 +418,7 @@ msgid ""
 "Press YELLOW to create a swap file."
 msgstr ""
 "Nessuno spazio di swap trovato.\n"
-"Premi GIALLO per creare un file di swap."
+"Premere GIALLO per creare un file di swap."
 
 msgid "OK  Options     MENU  Settings     INFO  System info     EXIT  Close"
 msgstr ""
@@ -488,14 +488,14 @@ msgid ""
 "No external drive with a Linux file system (ext4, ...) is mounted - press YELLOW for compressed RAM (zram)."
 msgstr ""
 "Nessuno spazio di swap trovato.\n"
-"Nessuna unità esterna con file system Linux (ext4, ...) montata – premi GIALLO per la RAM compressa (zram)."
+"Nessuna unità esterna con file system Linux (ext4, ...) montata – premere GIALLO per la RAM compressa (zram)."
 
 msgid ""
 "No swap space found.\n"
 "No external drive with a Linux file system (ext4, ...) is mounted. Connect a USB drive or hard disk and mount it in the image's drive settings."
 msgstr ""
 "Nessuno spazio di swap trovato.\n"
-"Nessuna unità esterna con file system Linux (ext4, ...) montata. Collega un'unità USB o un disco rigido e montalo nelle impostazioni dischi dell'immagine."
+"Nessuna unità esterna con file system Linux (ext4, ...) montata. Collegare un'unità USB o un disco rigido e montarlo nelle impostazioni dischi dell'immagine."
 
 #, python-format
 msgid "%s RAM"
@@ -729,7 +729,7 @@ msgid ""
 "If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
 msgstr ""
 "Lo swap scrive continuamente sulla scheda, quindi le schede SD si usurano più in fretta. Si consiglia un'unità USB o un disco rigido.\n"
-"Se usi la scheda: uno swappiness basso (10-20) riduce le scritture al minimo."
+"Se si usa la scheda: uno swappiness basso (10-20) riduce le scritture al minimo."
 
 msgid "Use SD card anyway"
 msgstr "Usa comunque la scheda SD"
@@ -739,7 +739,7 @@ msgstr "Dimensione personalizzata..."
 
 #, python-format
 msgid "Enter a size between %d and %d MB"
-msgstr "Inserisci una dimensione tra %d e %d MB"
+msgstr "Inserire una dimensione tra %d e %d MB"
 
 #, python-format
 msgid "New size for %s (currently %s):"
@@ -757,7 +757,7 @@ msgid ""
 "Select the size of the swap file on %s.\n"
 "RAM: %s  ·  free space: %s"
 msgstr ""
-"Scegli la dimensione del file di swap su %s.\n"
+"Scegliere la dimensione del file di swap su %s.\n"
 "RAM: %s  ·  spazio libero: %s"
 
 #, python-format
@@ -769,7 +769,7 @@ msgstr "Dimensione non valida"
 
 #, python-format
 msgid "Please enter a size between %d and %d MB."
-msgstr "Inserisci una dimensione tra %d e %d MB."
+msgstr "Inserire una dimensione tra %d e %d MB."
 
 msgid "File exists"
 msgstr "Il file esiste"
@@ -865,7 +865,7 @@ msgid ""
 "Select the size of the compressed swap (RAM: %s).\n"
 "The memory is only used when data is actually swapped out; about half the RAM is a good value."
 msgstr ""
-"Scegli la dimensione dello swap compresso (RAM: %s).\n"
+"Scegliere la dimensione dello swap compresso (RAM: %s).\n"
 "La memoria viene usata solo quando i dati vengono davvero scambiati; circa metà della RAM è un buon valore."
 
 #, python-format

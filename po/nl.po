@@ -729,7 +729,7 @@ msgid ""
 "If you use the card: a low swappiness (10-20) keeps the writes to a minimum."
 msgstr ""
 "Swappen schrijft steeds opnieuw naar de kaart, daardoor slijten SD-kaarten sneller. Een USB-schijf of harde schijf wordt aanbevolen.\n"
-"Als je de kaart gebruikt: een lage swappiness (10-20) houdt het schrijven tot een minimum beperkt."
+"Bij gebruik van de kaart: een lage swappiness (10-20) houdt het schrijven tot een minimum beperkt."
 
 msgid "Use SD card anyway"
 msgstr "Toch SD-kaart gebruiken"

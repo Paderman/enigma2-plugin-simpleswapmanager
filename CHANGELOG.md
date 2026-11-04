@@ -18,6 +18,9 @@
 - Wizard: a drive that already has a swap file is marked "EXISTS" with its size; choosing it goes
   straight to "Change size" (startup and active state are kept, the free space includes the old
   file) instead of only saying at the very end that the file will be replaced
+- Neutral wording in the translations: German no longer uses "du"; Dutch, Italian, Polish,
+  Estonian and Finnish texts no longer address the user personally (Italian uses the infinitive
+  style)
 
 ## 1.0.0 – 2026-11-03
 
