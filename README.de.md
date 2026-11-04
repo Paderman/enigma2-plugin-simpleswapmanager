@@ -94,7 +94,7 @@ anderes Gehäuse oder ein USB-Stick / eine SSD.
 | BLAU / MENU | Einstellungen                    |
 | INFO   | Systeminformationen                   |
 
-Das Plugin findest du im Plugin-Browser und unter *Einstellungen → System → Datenträger*
+Das Plugin steht im Plugin-Browser und unter *Einstellungen → System → Datenträger*
 (openATV) bzw. im Systemmenü (andere Images). Es heißt **Simple Swap Manager**, damit es nicht
 mit dem eingebauten „Swap Manager“ von openATV und dem alten Plugin `swapmanager` verwechselt wird.
 
