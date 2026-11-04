@@ -935,3 +935,14 @@ msgstr "Nej"
 
 msgid "Can be switched on later in the settings"
 msgstr "Kan slås på senare i inställningarna"
+
+msgid "EXISTS"
+msgstr "FINNS"
+
+#, python-format
+msgid "swap file %s"
+msgstr "swapfil %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "En enhet märkt %s har redan en swapfil; väljs den ändras storleken."

@@ -935,3 +935,14 @@ msgstr "Ei"
 
 msgid "Can be switched on later in the settings"
 msgstr "Saab hiljem seadetes sisse lülitada"
+
+msgid "EXISTS"
+msgstr "OLEMAS"
+
+#, python-format
+msgid "swap file %s"
+msgstr "saalefail %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "Märgisega %s andmekandjal on juba saalefail; selle valimine muudab suurust."

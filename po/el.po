@@ -945,3 +945,14 @@ msgstr "Όχι"
 
 msgid "Can be switched on later in the settings"
 msgstr "Μπορεί να ενεργοποιηθεί αργότερα στις ρυθμίσεις"
+
+msgid "EXISTS"
+msgstr "ΥΠΑΡΧΕΙ"
+
+#, python-format
+msgid "swap file %s"
+msgstr "αρχείο swap %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "Ένας δίσκος με την ένδειξη %s έχει ήδη αρχείο swap· η επιλογή του αλλάζει το μέγεθος."

@@ -10,8 +10,11 @@
 - New plugin icon: "SWM" instead of "SW"
 - Better contrast: darker badge colours (green, orange, yellow) so the white label is readable,
   brighter red for "Uninstall" on the selection bar
-- Settings: larger, brighter help texts (30 instead of 26 px) with more room, also for long
-  translations
+- Larger, brighter explanation texts: settings help, wizard / dialog texts and system info help
+  30 px (was 25-27 px), grey description lines in lists 26 px (was 24 px)
+- Wizard: a drive that already has a swap file is marked "EXISTS" with its size; choosing it goes
+  straight to "Change size" (startup and active state are kept, the free space includes the old
+  file) instead of only saying at the very end that the file will be replaced
 
 ## 1.0.0 – 2026-11-03
 

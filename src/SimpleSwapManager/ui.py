@@ -126,6 +126,7 @@ class ModernList(MenuList):
 		self.l.setFont(0, gFont("Regular", S(32)))
 		self.l.setFont(1, gFont("Regular", S(24)))
 		self.l.setFont(2, gFont("Regular", S(20)))
+		self.l.setFont(3, gFont("Regular", S(26)))  # description lines under a title
 		self.l.setItemHeight(S(itemHeight))
 
 	def moveUp(self):
@@ -261,7 +262,7 @@ class SwapSelectScreen(Screen):
 		<eLabel position="0,0" size="1100,760" backgroundColor="$bg$" zPosition="-1" />
 		<eLabel position="0,0" size="1100,6" backgroundColor="$accent$" zPosition="1" />
 		<widget name="title" position="40,28" size="1020,56" font="Regular;40" foregroundColor="$text$" backgroundColor="$bg$" transparent="1" />
-		<widget name="message" position="40,100" size="1020,236" font="Regular;27" foregroundColor="$muted$" backgroundColor="$bg$" transparent="1" valign="top" />
+		<widget name="message" position="40,100" size="1020,236" font="Regular;30" foregroundColor="$help$" backgroundColor="$bg$" transparent="1" valign="top" />
 		<widget name="list" position="40,346" size="1020,336" scrollbarMode="showOnDemand" backgroundColor="$bg$" backgroundColorSelected="$sel$" foregroundColor="$text$" foregroundColorSelected="$text$" transparent="0" />
 		<eLabel position="40,690" size="1020,2" backgroundColor="$line$" />
 		<widget name="hint" position="40,700" size="1020,50" font="Regular;24" foregroundColor="$muted$" backgroundColor="$bg$" transparent="1" valign="center" />
@@ -297,7 +298,7 @@ class SwapSelectScreen(Screen):
 			row = [key]
 			if detail:
 				row.append(_text(24, 6, 720, 44, 0, title))
-				row.append(_text(24, 46, 710 if badge else 940, 34, 1, detail, color=C_MUTED))
+				row.append(_text(24, 46, 710 if badge else 940, 34, 3, detail, color=C_MUTED))
 			else:
 				row.append(_text(24, 0, 720, 84, 0, title))
 			if badge:
@@ -583,8 +584,8 @@ class SwapInfoScreen(Screen):
 		<eLabel position="0,0" size="1300,860" backgroundColor="$bg$" zPosition="-1" />
 		<eLabel position="0,0" size="1300,6" backgroundColor="$accent$" zPosition="1" />
 		<widget name="title" position="40,28" size="1220,56" font="Regular;40" foregroundColor="$text$" backgroundColor="$bg$" transparent="1" />
-		<widget name="list" position="40,104" size="1220,560" scrollbarMode="showOnDemand" backgroundColor="$bg$" backgroundColorSelected="$sel$" foregroundColor="$text$" foregroundColorSelected="$text$" />
-		<widget name="help" position="40,676" size="1220,110" font="Regular;25" foregroundColor="$muted$" backgroundColor="$bg$" transparent="1" valign="top" />
+		<widget name="list" position="40,104" size="1220,490" scrollbarMode="showOnDemand" backgroundColor="$bg$" backgroundColorSelected="$sel$" foregroundColor="$text$" foregroundColorSelected="$text$" />
+		<widget name="help" position="40,606" size="1220,180" font="Regular;30" foregroundColor="$help$" backgroundColor="$bg$" transparent="1" valign="top" />
 		<eLabel position="40,790" size="1220,2" backgroundColor="$line$" />
 		<widget name="hint" position="40,800" size="1220,50" font="Regular;24" foregroundColor="$muted$" backgroundColor="$bg$" transparent="1" valign="center" />
 	</screen>""")
@@ -1288,7 +1289,7 @@ class SwapManagerScreen(Screen):
 				detail += u"  ·  " + _("%s used") % swaputil.human_kb(s["used_kb"])
 			row = [s["path"],
 				_text(24, 8, 740, 48, 0, s["path"]),
-				_text(24, 56, 740, 40, 1, detail, color=C_MUTED),
+				_text(24, 56, 740, 40, 3, detail, color=C_MUTED),
 				_pill(990, 33, 200, _("ACTIVE") if s["active"] else _("INACTIVE"), C_GREEN if s["active"] else C_TRACK),
 			]
 			if s["path"] == bootfile:
@@ -1329,7 +1330,7 @@ class SwapManagerScreen(Screen):
 			parts.append(_("compressed swap in RAM"))
 		row = [s["path"],
 			_text(24, 8, 740, 48, 0, _("Compressed RAM (zram)")),
-			_text(24, 56, 740, 40, 1, u"  \u00B7  ".join(parts), color=C_MUTED),
+			_text(24, 56, 740, 40, 3, u"  \u00B7  ".join(parts), color=C_MUTED),
 			_pill(990, 33, 200, _("ACTIVE") if s["active"] else _("INACTIVE"), C_GREEN if s["active"] else C_TRACK),
 		]
 		if self.zramIsOurs(s) and self.cfg.zram_autostart.value:
@@ -1548,6 +1549,8 @@ class SwapManagerScreen(Screen):
 			openMessage(self.session, _("No suitable storage"),
 				_("No storage device with a Linux file system (ext2/3/4, xfs, ...) was found.\nSwap files cannot be created on FAT, exFAT, NTFS or network drives."))
 			return
+		bootfile = self.cfg.bootfile.value
+		existing = dict((s["path"], s) for s in swaputil.list_swaps((bootfile,) if bootfile else ()) if s["type"] == "file")
 		items = []
 		if zram:
 			items.append(("zram", _("Compressed RAM (zram)"), _("No drive needed  \u00B7  fastest  \u00B7  uses a little CPU"), _("FASTEST"), C_PURPLE))
@@ -1564,10 +1567,16 @@ class SwapManagerScreen(Screen):
 				badge, color = _("RECOMMENDED"), C_GREEN
 			if swaputil.max_size_mb(l["free"]) < swaputil.MIN_SIZE_MB:
 				badge, color = _("FULL"), C_RED
+			l["existing"] = existing.get(l["path"])
+			if l["existing"]:  # one swap file per drive: choosing it again means changing its size
+				detail = u"%s  ·  %s  ·  %s" % (kindName(l["kind"]), l["fstype"], _("swap file %s") % swaputil.human_kb(l["existing"]["size_kb"]))
+				badge, color = _("EXISTS"), C_BLUE
 			items.append((i, l["mount"], detail, badge, color))
 		msg = _("Where should the swap file be stored?\nA hard disk or USB drive is best; internal flash wears out faster.")
 		if zram:
 			msg = _("Where should the swap space be created?\nzram compresses memory inside the RAM; it can be combined with a swap file on a drive.")
+		if any(l.get("existing") for l in self.locations):
+			msg += "\n" + _("A drive marked %s already has a swap file; choosing it changes the size.") % _("EXISTS")
 		self.session.openWithCallback(self.locationChosen, SwapSelectScreen, _("Create swap file  1/2"), msg, items)
 
 	def locationChosen(self, idx):
@@ -1583,6 +1592,9 @@ class SwapManagerScreen(Screen):
 				callback=self.createSwap)
 			return
 		loc = self.locations[idx]
+		if loc.get("existing"):
+			self.resizeSwap(loc["existing"])
+			return
 		if swaputil.max_size_mb(loc["free"]) < swaputil.MIN_SIZE_MB:
 			openMessage(self.session, _("Not enough space"), _("There is not enough free space on %s.") % loc["mount"])
 			return
@@ -1605,9 +1617,10 @@ class SwapManagerScreen(Screen):
 			return
 		self.chooseSize(loc)
 
-	def resizeSwap(self):
+	def resizeSwap(self, s=None):
 		"""Recreate a swap file with another size; startup and active state stay as they are."""
-		s = self.current()
+		if s is None:
+			s = self.current()
 		if s is None or s["type"] != "file":
 			return
 		if s["active"] and not swaputil.can_swapoff(s):

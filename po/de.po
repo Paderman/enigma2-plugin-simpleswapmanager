@@ -948,3 +948,14 @@ msgstr "Nein"
 
 msgid "Can be switched on later in the settings"
 msgstr "Lässt sich später in den Einstellungen einschalten"
+
+msgid "EXISTS"
+msgstr "VORHANDEN"
+
+#, python-format
+msgid "swap file %s"
+msgstr "Swap-Datei %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "Ein mit %s markierter Datenträger hat schon eine Swap-Datei; bei Auswahl wird ihre Größe geändert."

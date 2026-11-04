@@ -944,3 +944,14 @@ msgstr "Не"
 
 msgid "Can be switched on later in the settings"
 msgstr "Може да се включи по-късно в настройките"
+
+msgid "EXISTS"
+msgstr "НАЛИЧЕН"
+
+#, python-format
+msgid "swap file %s"
+msgstr "суап файл %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "Носител, отбелязан с %s, вече има суап файл; изборът му променя размера."

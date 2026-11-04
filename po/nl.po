@@ -943,3 +943,14 @@ msgstr "Nee"
 
 msgid "Can be switched on later in the settings"
 msgstr "Kan later worden ingeschakeld in de instellingen"
+
+msgid "EXISTS"
+msgstr "BESTAAT"
+
+#, python-format
+msgid "swap file %s"
+msgstr "swapbestand %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "Een schijf met %s heeft al een swapbestand; kiezen wijzigt de grootte."

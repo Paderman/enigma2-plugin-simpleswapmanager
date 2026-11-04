@@ -936,3 +936,14 @@ msgstr "Ne"
 
 msgid "Can be switched on later in the settings"
 msgstr "Galima įjungti vėliau nustatymuose"
+
+msgid "EXISTS"
+msgstr "YRA"
+
+#, python-format
+msgid "swap file %s"
+msgstr "swap failas %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "Diske, pažymėtame %s, jau yra swap failas; jį pasirinkus keičiamas dydis."

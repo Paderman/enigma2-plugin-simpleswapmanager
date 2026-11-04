@@ -942,3 +942,14 @@ msgstr "Ні"
 
 msgid "Can be switched on later in the settings"
 msgstr "Можна увімкнути пізніше в налаштуваннях"
+
+msgid "EXISTS"
+msgstr "Є"
+
+#, python-format
+msgid "swap file %s"
+msgstr "файл підкачки %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "На носії з позначкою %s уже є файл підкачки; вибір змінює його розмір."

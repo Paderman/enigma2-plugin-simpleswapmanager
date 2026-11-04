@@ -941,3 +941,14 @@ msgstr "Nem"
 
 msgid "Can be switched on later in the settings"
 msgstr "Később bekapcsolható a beállításokban"
+
+msgid "EXISTS"
+msgstr "MEGVAN"
+
+#, python-format
+msgid "swap file %s"
+msgstr "swap fájl %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "A(z) %s jelölésű meghajtón már van swap fájl; kiválasztásával a méret módosul."

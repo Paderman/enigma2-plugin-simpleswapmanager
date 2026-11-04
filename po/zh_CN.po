@@ -887,3 +887,14 @@ msgstr "否"
 
 msgid "Can be switched on later in the settings"
 msgstr "以后可在设置中开启"
+
+msgid "EXISTS"
+msgstr "已存在"
+
+#, python-format
+msgid "swap file %s"
+msgstr "交换文件 %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "标有 %s 的驱动器已有交换文件；选择它将更改其大小。"

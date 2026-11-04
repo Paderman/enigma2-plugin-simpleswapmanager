@@ -939,3 +939,14 @@ msgstr "Ei"
 
 msgid "Can be switched on later in the settings"
 msgstr "Voidaan ottaa käyttöön myöhemmin asetuksissa"
+
+msgid "EXISTS"
+msgstr "OLEMASSA"
+
+#, python-format
+msgid "swap file %s"
+msgstr "swap-tiedosto %s"
+
+#, python-format
+msgid "A drive marked %s already has a swap file; choosing it changes the size."
+msgstr "Asemalla, jossa on merkintä %s, on jo swap-tiedosto; sen valitseminen muuttaa kokoa."
